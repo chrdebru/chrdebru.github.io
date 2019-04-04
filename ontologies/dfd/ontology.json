@@ -1,0 +1,145 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/dfd#DataFlow"
+    }, {
+      "@id" : "https://w3id.org/dfd#DataStore"
+    }, {
+      "@id" : "https://w3id.org/dfd#Interface"
+    }, {
+      "@id" : "https://w3id.org/dfd#Process"
+    } ]
+  } ]
+}, {
+  "@id" : "https://w3id.org/dfd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Christophe Debruyne"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "An ontology for Data Flow (Diagrams)."
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Data Flow Ontology"
+  } ],
+  "http://purl.org/dc/terms/abstract" : [ {
+    "@value" : "An ontology for Data Flow (Diagrams)."
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2018-11-01"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@type" : "https://w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/dfd/1.0.0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dfd#DataFlow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data flow can be best understood as data in motion, moving from one place in a system to another. A data flow is data that move together, so it can be composed of many individual pieces of data that are generated at the same time and that flow together to common destinations. (Source: J. A. Hoffer, J. F. George, and J. S. Valacich, “Modern Systems Analysis and Design,” Development, 2002) Examples of data include: data on a form or a report; results of a query to a database; or data entered in a computer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Flow"
+  }, {
+    "@value" : "Data Flow"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dfd#DataStore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data at rest, which may take the form of many different physical representations. A data store may represent one of many different physical locations for data; for example, a file folder, one or more computer-based file(s), or a notebook. (Source: J. A. Hoffer, J. F. George, and J. S. Valacich, “Modern Systems Analysis and Design,” Development, 2002)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Store"
+  }, {
+    "@value" : "Data Store"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dfd#Entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dfd#Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Entity"
+  }, {
+    "@value" : "Entities is an abstract concept for representing the targets and sources of data flows."
+  }, {
+    "@value" : "Entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dfd#Interface",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The origin and/or destination of data; sometimes referred to as external entities. (Source: J. A. Hoffer, J. F. George, and J. S. Valacich, “Modern Systems Analysis and Design,” Development, 2002)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Interface"
+  }, {
+    "@value" : "Interface"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dfd#Entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dfd#Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The work or actions performed on data so that they are transformed, stored, or distributed. (Source: J. A. Hoffer, J. F. George, and J. S. Valacich, “Modern Systems Analysis and Design,” Development, 2002)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Process"
+  }, {
+    "@value" : "Process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dfd#Entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dfd#from",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A property to link a data flow to its origin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/dfd#DataFlow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "from entity"
+  }, {
+    "@value" : "from entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/dfd#Entity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dfd#to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A property to link a data flow to its destination."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/dfd#DataFlow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "to entity"
+  }, {
+    "@value" : "to entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/dfd#Entity"
+  } ]
+} ]

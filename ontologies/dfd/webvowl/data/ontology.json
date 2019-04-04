@@ -1,0 +1,247 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.4), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/dfd", "https://w3.org/2001/XMLSchema" ],
+    "title" : {
+      "undefined" : "Data Flow Ontology"
+    },
+    "iri" : "https://w3id.org/dfd",
+    "author" : [ "Christophe Debruyne" ],
+    "description" : {
+      "undefined" : "An ontology for Data Flow (Diagrams)."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://creativecommons.org/licenses/by/4.0/",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Christophe Debruyne",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2018-11-01",
+        "type" : "label"
+      } ],
+      "abstract" : [ {
+        "identifier" : "abstract",
+        "language" : "undefined",
+        "value" : "An ontology for Data Flow (Diagrams).",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Data Flow Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 5,
+    "objectPropertyCount" : 2,
+    "datatypePropertyCount" : 0,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/dfd#Interface",
+    "baseIri" : "https://w3id.org/dfd",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interface",
+      "en" : "Interface",
+      "undefined" : "Interface"
+    },
+    "comment" : {
+      "undefined" : "The origin and/or destination of data; sometimes referred to as external entities. (Source: J. A. Hoffer, J. F. George, and J. S. Valacich, “Modern Systems Analysis and Design,” Development, 2002)"
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/dfd#DataStore",
+    "baseIri" : "https://w3id.org/dfd",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DataStore",
+      "en" : "Data Store",
+      "undefined" : "Data Store"
+    },
+    "comment" : {
+      "undefined" : "Data at rest, which may take the form of many different physical representations. A data store may represent one of many different physical locations for data; for example, a file folder, one or more computer-based file(s), or a notebook. (Source: J. A. Hoffer, J. F. George, and J. S. Valacich, “Modern Systems Analysis and Design,” Development, 2002)"
+    },
+    "id" : "5",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/dfd#Process",
+    "baseIri" : "https://w3id.org/dfd",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process",
+      "en" : "Process",
+      "undefined" : "Process"
+    },
+    "comment" : {
+      "undefined" : "The work or actions performed on data so that they are transformed, stored, or distributed. (Source: J. A. Hoffer, J. F. George, and J. S. Valacich, “Modern Systems Analysis and Design,” Development, 2002)"
+    },
+    "id" : "4",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/dfd#Entity",
+    "baseIri" : "https://w3id.org/dfd",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Entity",
+      "en" : "Entity",
+      "undefined" : "Entity"
+    },
+    "subClasses" : [ "0", "5", "4" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/dfd#DataFlow",
+    "baseIri" : "https://w3id.org/dfd",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DataFlow",
+      "en" : "Data Flow",
+      "undefined" : "Data Flow"
+    },
+    "comment" : {
+      "undefined" : "A data flow can be best understood as data in motion, moving from one place in a system to another. A data flow is data that move together, so it can be composed of many individual pieces of data that are generated at the same time and that flow together to common destinations. (Source: J. A. Hoffer, J. F. George, and J. S. Valacich, “Modern Systems Analysis and Design,” Development, 2002) Examples of data include: data on a form or a report; results of a query to a database; or data entered in a computer."
+    },
+    "id" : "3"
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "6",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "7",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "8",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "15",
+    "type" : "owl:disjointWith"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "2"
+  }, {
+    "range" : "0",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "range" : "4",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "7"
+  }, {
+    "range" : "4",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://w3id.org/dfd#from",
+    "baseIri" : "https://w3id.org/dfd",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "from",
+      "en" : "from entity",
+      "undefined" : "from entity"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "A property to link a data flow to its origin."
+    },
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://w3id.org/dfd#to",
+    "baseIri" : "https://w3id.org/dfd",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "to",
+      "en" : "to entity",
+      "undefined" : "to entity"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "A property to link a data flow to its destination."
+    },
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "range" : "1",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "1",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "5",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  } ]
+}
