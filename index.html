@@ -10,10 +10,12 @@
 
     <title>Homepage of Christophe Debruyne</title>
 
+	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
     <link href="./css/bootstrap.min.css" rel="stylesheet" />
     <link href="./css/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="./css/font-awesome.css" rel="stylesheet" />
     <link href="./css/bootstrap-social.css" rel="stylesheet" />
+	<script src="https://kit.fontawesome.com/a80051a911.js"></script>
     <link href="./css/theme.css" rel="stylesheet" />
 	
 	<style>
@@ -41,6 +43,10 @@
 		h3.page-header {
 			background-color: rgb(238, 238, 238);
 		}
+		
+		body {
+			font-size: 11pt;
+		}
 	</style>
 
   </head>
@@ -54,32 +60,22 @@
 
 					<h1 class="page-header">About me</h1>
 					
-					<p>Welcome to the homepage of <b>Christophe Debruyne</b>. I am currently a Research Fellow affiliated with the <a href="http://adaptcentre.ie/">ADAPT</a> centre at <a href="http://www.tcd.ie/">Trinity College Dublin</a> in the domain of Semantic Web and Linked Data. My research include ontology management, ontology engineering, Semanitc Web, Linked Data, declarative approaches to data integration, and information engagement. My base of operations is Brussels, Belgium. At present, I am also an Assistant Professor (0.1 FTE) affiliated with the <a href="http://wise.vub.ac.be/">WISE Lab</a> of the <a href="http://www.vub.ac.be">Vrije Universiteit Brussel (VUB)</a></p>
+					<figure class="figure float-right" style="padding-left: 10px;">
+						<img src="./yours-truly.jpg" class="figure-img img-fluid rounded-circle" alt="A picture of my face.">
+					</figure>
+					
+					<p>Welcome to the homepage of <b>Christophe Debruyne</b>. I am currently a Research Fellow affiliated with the <a href="http://adaptcentre.ie/">ADAPT</a> centre at <a href="http://www.tcd.ie/">Trinity College Dublin</a> in the domain of Semantic Web and Linked Data. My research include ontology management, ontology engineering, Semanitc Web, Linked Data, declarative approaches to data integration, and information engagement. My base of operations is Brussels, Belgium. At present, I am also an Assistant Professor affiliated with the <a href="http://wise.vub.ac.be/">WISE Lab</a> of the <a href="http://www.vub.ac.be">Vrije Universiteit Brussel</a>.</p>
     				
 					<p>In 2013, I obtained a PhD in computer science with a dissertation entitled "Grounding Ontologies with Social Processes and Natural Language". In my thesis, I investigated the role of the exchange of natural language definitions of concepts (called glosses) in the social interactions that take place when a community of stakeholders is collaboratively constructing ontologies. I obtained a Bachelor in Applied Computer Science at <a href="http://www.hogent.be/" title="Hogeschool Gent">Hogeschool Gent (University College Gent)</a> in 2005, a BSc in Computer Science and a Msc in Applied Sciences and Engineering: Computer Science at the VUB in 2007 and 2009 respectively. You can find more information about my education and work experience on my <a href="http://www.linkedin.com/in/christophedebruyne">LinkedIn page</a>.</p>
 			
 					<h2 class="page-header">Contact</h2>
-					
+
 					<div>
-						<span class="btn btn-social">
-					      <span class="glyphicon glyphicon-home"></span>
-						  Trinity College Dublin, College Green, Dublin 2, Ireland
-					    </span><br />
 						
-						<span class="btn btn-social">
-					      <span class="glyphicon glyphicon-home"></span>
-						  Vrije Universiteit Brussel, Pleinlaan 9, 1050 Brussels, Belgium (base of operations)
-					    </span><br />
-						
-					    <span class="btn btn-social">
-					      <span class="glyphicon glyphicon-phone-alt"></span>
-						  +32 2 629 37 13
-					    </span><br />
-						
-					    <a class="btn btn-social" href="mailto:christophe.debruyne-at-adaptcentre.ie">
-					      <span class="glyphicon glyphicon glyphicon-envelope"></span>
-						  christophe.debruyne-[at]-adaptcentre.ie
-					    </a><br /><br />
+						<span class="fas fa-home" aria-hidden="true"></span> | Trinity College Dublin, College Green, Dublin 2, Ireland<br />
+						<span class="fas fa-home" aria-hidden="true"></span> | Vrije Universiteit Brussel, Pleinlaan 9, 1050 Brussels, Belgium (base of operations)<br />
+						<span class="fas fa-phone" aria-hidden="true"></span> | +32 2 629 37 13<br />
+						<span class="fas fa-envelope" aria-hidden="true"></span> | christophe.debruyne-[at]-adaptcentre.ie
 					</div>
 
 					<h1 class="page-header">Publications</h1>
@@ -304,6 +300,11 @@
 					
 					<h2 class="page-header">Public Engagement and Outreach (Selected)</h2>
 					
+					<figure class="figure float-right" style="padding-left: 10px;">
+					  <img src="./2017-05-10-OSi-seminar.png" class="figure-img img-fluid rounded" alt="Presenting at the OSi Seminars.">
+					  <figcaption class="figure-caption">Presenting at the OSi Seminars in 2017.</figcaption>
+					</figure>
+										
 					<ol>
 						<li>Uplift -- Generating RDF datasets from non-RDF data with R2RML. Organization of, and responsible for the presentations and tutorials, of a seminar on R2RML partially funded by the Open Data Engagement Fund (10 May 2017, Dublin, Ireland)</li>
 						<li>Co-organization of, and presenter at, a Linked Data Seminar at the Ordnance Survey Ireland partially funded by the Open Data Engagement Fund (4 May 2017, Dublin, Ireland)</li>
@@ -435,34 +436,34 @@
 			
 				<div class="container-fluid text-center">
 				    <a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/christophedebruyne/">
-				      <span class="fa fa-linkedin"></span>
+				      <span class="fab fa-linkedin"></span>
 					  LinkedIn Profile
 				    </a>
 			
 				    <a class="btn btn-social btn-linkedin" href="https://www.slideshare.net/christophedebruyne">
-				      <span class="fa fa-linkedin"></span>
+				      <span class="fab fa-linkedin"></span>
 					  SlideShare
 				    </a>
 			
 				    <a class="btn btn-social btn-google" href="https://scholar.google.com/citations?user=nx2KW_IAAAAJ">
-				      <span class="fa fa-google"></span>
+				      <span class="fab fa-google"></span>
 					  Google Scholar
 				    </a>
 			
 				    <a class="btn btn-social btn-github" href="https://github.com/chrdebru">
-				      <span class="fa fa-github"></span>
+				      <span class="fab fa-github"></span>
 					  GitHub
 				    </a>
 			
 				    <a class="btn btn-social btn-twitter" href="https://twitter.com/chrdebru">
-				      <span class="fa fa-twitter"></span>
+				      <span class="fab fa-twitter"></span>
 					  Twitter
 				    </a>
 				</div>
 			
 			    <!--Copyright-->
 			    <div class="footer-copyright py-3 text-center">
-			        © 2009-2018 Copyright: Christophe Debruyne
+			        © 2009-2018 Copyright: Christophe Debruyne</a>
 			    </div>
 			    <!--/.Copyright-->
 
