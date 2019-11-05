@@ -1,14 +1,31 @@
 body {
-  padding-top: 70px;
+  padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 11pt; 
+  font-family: arial;
 }
 
-.theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
+.jumbotron {
+	background-image: url('../logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
-.navbar {
-  margin-bottom: 20px;
+.page-header{
+	border-radius: 6px;
+	padding: 5px 15px;
+	margin: 10px 0px;
+}
+
+h1.page-header {
+	background-color: rgb(75, 125, 190);
+	color: white;
+}
+
+h2.page-header {
+	background-color: rgb(218, 229, 241);
+}
+
+h3.page-header {
+	background-color: rgb(238, 238, 238);
 }
