@@ -116,7 +116,7 @@
     "label" : {
       "IRI-based" : "Entity",
       "en" : "Entity",
-      "undefined" : "Entities is an abstract concept for representing the targets and sources of data flows."
+      "undefined" : "Entity"
     },
     "subClasses" : [ "0", "5", "4" ],
     "id" : "1"
