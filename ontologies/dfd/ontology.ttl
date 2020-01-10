@@ -30,6 +30,8 @@
 
 ###  https://w3id.org/dfd#subProcessOf
 :subProcessOf rdf:type owl:ObjectProperty ;
+              rdfs:domain :Process ;
+              rdfs:range :Process ;
               rdfs:label "subprocess of"@en ,
                          "A property to indicate that a process is part of another process. This predicate is used when functionality decomposing a process into smaller processes." ,
                          "subprocess of" .

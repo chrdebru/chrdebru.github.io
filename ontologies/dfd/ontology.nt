@@ -25,6 +25,8 @@
 # 
 # https://w3id.org/dfd#subProcessOf
 <https://w3id.org/dfd#subProcessOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/dfd#subProcessOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dfd#Process> .
+<https://w3id.org/dfd#subProcessOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/dfd#Process> .
 <https://w3id.org/dfd#subProcessOf> <http://www.w3.org/2000/01/rdf-schema#label> "subprocess of"@en .
 <https://w3id.org/dfd#subProcessOf> <http://www.w3.org/2000/01/rdf-schema#label> "A property to indicate that a process is part of another process. This predicate is used when functionality decomposing a process into smaller processes." .
 <https://w3id.org/dfd#subProcessOf> <http://www.w3.org/2000/01/rdf-schema#label> "subprocess of" .
