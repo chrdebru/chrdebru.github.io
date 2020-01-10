@@ -32,8 +32,8 @@
 :subProcessOf rdf:type owl:ObjectProperty ;
               rdfs:domain :Process ;
               rdfs:range :Process ;
+              rdfs:comment "A property to indicate that a process is part of another process. This predicate is used when functionality decomposing a process into smaller processes." ;
               rdfs:label "subprocess of"@en ,
-                         "A property to indicate that a process is part of another process. This predicate is used when functionality decomposing a process into smaller processes." ,
                          "subprocess of" .
 
 
@@ -67,8 +67,8 @@
 
 ###  https://w3id.org/dfd#Entity
 :Entity rdf:type owl:Class ;
+        rdfs:comment "Entities is an abstract concept for representing the targets and sources of data flows." ;
         rdfs:label "Entity"@en ,
-                   "Entities is an abstract concept for representing the targets and sources of data flows." ,
                    "Entity" .
 
 

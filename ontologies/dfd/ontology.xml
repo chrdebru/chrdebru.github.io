@@ -51,8 +51,8 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/dfd#subProcessOf">
         <rdfs:domain rdf:resource="https://w3id.org/dfd#Process"/>
         <rdfs:range rdf:resource="https://w3id.org/dfd#Process"/>
+        <rdfs:comment>A property to indicate that a process is part of another process. This predicate is used when functionality decomposing a process into smaller processes.</rdfs:comment>
         <rdfs:label xml:lang="en">subprocess of</rdfs:label>
-        <rdfs:label>A property to indicate that a process is part of another process. This predicate is used when functionality decomposing a process into smaller processes.</rdfs:label>
         <rdfs:label>subprocess of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -110,8 +110,8 @@
 
 
     <owl:Class rdf:about="https://w3id.org/dfd#Entity">
+        <rdfs:comment>Entities is an abstract concept for representing the targets and sources of data flows.</rdfs:comment>
         <rdfs:label xml:lang="en">Entity</rdfs:label>
-        <rdfs:label>Entities is an abstract concept for representing the targets and sources of data flows.</rdfs:label>
         <rdfs:label>Entity</rdfs:label>
     </owl:Class>
     

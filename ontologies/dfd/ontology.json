@@ -68,11 +68,12 @@
 }, {
   "@id" : "https://w3id.org/dfd#Entity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Entities is an abstract concept for representing the targets and sources of data flows."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Entity"
-  }, {
-    "@value" : "Entities is an abstract concept for representing the targets and sources of data flows."
   }, {
     "@value" : "Entity"
   } ]
@@ -127,14 +128,15 @@
 }, {
   "@id" : "https://w3id.org/dfd#subProcessOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A property to indicate that a process is part of another process. This predicate is used when functionality decomposing a process into smaller processes."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/dfd#Process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "subprocess of"
-  }, {
-    "@value" : "A property to indicate that a process is part of another process. This predicate is used when functionality decomposing a process into smaller processes."
   }, {
     "@value" : "subprocess of"
   } ],

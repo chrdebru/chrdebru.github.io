@@ -119,6 +119,9 @@
       "undefined" : "Entity"
     },
     "subClasses" : [ "0", "5", "4" ],
+    "comment" : {
+      "undefined" : "Entities is an abstract concept for representing the targets and sources of data flows."
+    },
     "id" : "1"
   }, {
     "iri" : "https://w3id.org/dfd#DataFlow",
@@ -174,22 +177,22 @@
   "propertyAttribute" : [ {
     "range" : "4",
     "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "2"
   }, {
     "range" : "0",
     "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "6"
   }, {
     "range" : "4",
     "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "7"
   }, {
     "range" : "4",
     "domain" : "0",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "8"
   }, {
     "iri" : "https://w3id.org/dfd#from",
@@ -209,7 +212,7 @@
   }, {
     "range" : "1",
     "domain" : "0",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "10"
   }, {
     "iri" : "https://w3id.org/dfd#to",
@@ -229,22 +232,22 @@
   }, {
     "range" : "1",
     "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "12"
   }, {
     "range" : "1",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "13"
   }, {
     "range" : "5",
     "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "14"
   }, {
     "range" : "0",
     "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "15"
   }, {
     "iri" : "https://w3id.org/dfd#subProcessOf",
@@ -256,6 +259,9 @@
       "undefined" : "subprocess of"
     },
     "domain" : "4",
+    "comment" : {
+      "undefined" : "A property to indicate that a process is part of another process. This predicate is used when functionality decomposing a process into smaller processes."
+    },
     "attributes" : [ "object" ],
     "id" : "16"
   } ]
