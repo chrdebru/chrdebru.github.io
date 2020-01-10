@@ -47,7 +47,7 @@
   "namespace" : [ ],
   "metrics" : {
     "classCount" : 5,
-    "objectPropertyCount" : 2,
+    "objectPropertyCount" : 3,
     "datatypePropertyCount" : 0,
     "individualCount" : 0
   },
@@ -60,6 +60,9 @@
   }, {
     "id" : "4",
     "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Thing"
   }, {
     "id" : "1",
     "type" : "owl:Class"
@@ -110,6 +113,13 @@
     "id" : "4",
     "superClasses" : [ "1" ]
   }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "10",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
     "iri" : "https://w3id.org/dfd#Entity",
     "baseIri" : "https://w3id.org/dfd",
     "instances" : 0,
@@ -150,9 +160,6 @@
     "id" : "9",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "10",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "11",
     "type" : "owl:objectProperty"
   }, {
@@ -163,30 +170,36 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "14",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "15",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "16",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
     "range" : "4",
     "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "2"
   }, {
     "range" : "0",
     "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "6"
   }, {
     "range" : "4",
     "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "7"
   }, {
     "range" : "4",
     "domain" : "0",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "8"
   }, {
     "iri" : "https://w3id.org/dfd#from",
@@ -204,11 +217,6 @@
     "attributes" : [ "object" ],
     "id" : "9"
   }, {
-    "range" : "1",
-    "domain" : "0",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "10"
-  }, {
     "iri" : "https://w3id.org/dfd#to",
     "baseIri" : "https://w3id.org/dfd",
     "range" : "1",
@@ -225,23 +233,40 @@
     "id" : "11"
   }, {
     "range" : "1",
-    "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "12"
   }, {
     "range" : "1",
-    "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "13"
+  }, {
+    "range" : "1",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "14"
   }, {
     "range" : "5",
     "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "14"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
   }, {
     "range" : "0",
     "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "15"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/dfd#subProcessOf",
+    "baseIri" : "https://w3id.org/dfd",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "subProcessOf",
+      "en" : "subprocess of",
+      "undefined" : "subprocess of"
+    },
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "17"
   } ]
 }
