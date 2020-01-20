@@ -1,0 +1,212 @@
+@base <http://data.example.com/> .
+
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+@prefix ont: <https://w3id.org/consent-mapping-jit#> .
+@prefix dpv: <http://www.w3.org/ns/dpv#> . 
+@prefix time: <http://www.w3.org/2006/time#> .
+
+
+<#DPVCPurposeTM>
+	# In my previous work, purposes were more finegrained. This have to be changed for DPVC
+	rr:logicalTable [ rr:sqlQuery """
+		SELECT 	i.*, 
+				p2.description,
+				p.system,
+				p.version,
+				DATE_FORMAT(p.dateGenerated, '%Y-%m-%dT%H:%i:%s') AS dateGenerated
+		FROM 
+			Inclusion i 
+			INNER JOIN Policy p ON i.policy_id = p.id 
+			INNER JOIN Purpose p2 ON i.purpose_id = p2.id 
+		WHERE p.isPublished	
+	""" ] ;
+	rr:subjectMap [
+		rr:template "http://data.example.com/purpose/{id}" ;
+		rr:class dpv:Purpose ;
+		rr:class prov:Entity ;
+	] ; 
+	 	rr:predicateObjectMap [
+		rr:predicate dcterms:created ;
+		rr:objectMap [ rr:column "dateGenerated" ; rr:datatype xsd:dateTime ; ] ;
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label ;
+		rr:objectMap [ rr:template "{system} (v{version}) - description" ; rr:termType rr:Literal ; ] ;
+	] ;
+.
+	
+<DataSubjectTM>
+	rr:logicalTable [ rr:tableName "User" ] ;
+	rr:subjectMap [
+		rr:template "http://data.example.com/user/{id}" ;
+		rr:class dpv:DataSubject ;
+		rr:class prov:Agent ;
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate foaf:mbox ;
+		rr:objectMap [ rr:template "mailto:{email}" ; rr:termType rr:IRI ; ] ;
+	]
+.
+
+<#ConsentACCEPT-TTM>
+	rr:logicalTable [ rr:sqlQuery """
+		SELECT a.* 
+		FROM Consent a 
+		WHERE a.status = 0
+	""" ] ;
+	rr:subjectMap [
+		rr:template "http://data.example.com/consentinformation/{id}" ;
+		rr:class dpv:Consent ;
+		rr:class prov:Entity ;
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dpv:hasDataSubject ;
+		rr:objectMap [ rr:template "http://data.example.com/user/{user_id}" ; rr:termType rr:IRI ; ] ;
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dpv:hasPurpose ;
+		rr:objectMap [ rr:template "http://data.example.com/purpose/{inclusion_id}" ; rr:termType rr:IRI ; ] ;
+	] ;
+	
+	rr:predicateObjectMap [
+		rr:predicate dpv:expiryTime ;
+		rr:objectMap [ 
+			rr:template "validuntil-{id}" ;
+			rr:termType rr:BlankNode ;
+		] ;
+	] ;
+	
+	rr:predicateObjectMap [
+		rr:predicate dpv:provisionTime ;
+		rr:objectMap [ 
+			rr:template "provision-{id}" ;
+			rr:termType rr:BlankNode ;
+		] ;
+	] ;
+.
+
+# PREVIOUS CONSENT TWO STEPS BACK
+<#ConsentACCEPT-WITHDRAW-ACCEPT-TTM>
+	rr:logicalTable [ rr:sqlQuery """
+		SELECT a.*, 
+			b.id as withdrawnconsent,
+			c.id as previousconsent
+		FROM Consent a 
+	    	LEFT OUTER JOIN Consent b ON a.oldVersion_id = b.id
+	    	LEFT OUTER JOIN Consent c ON b.oldVersion_id = c.id
+		WHERE a.status = 0 AND b.status <> 0 AND c.status = 0
+	""" ] ;
+	rr:subjectMap [
+		rr:template "http://data.example.com/consentinformation/{id}" ;
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate prov:wasRevisionOf ;
+		rr:objectMap [ rr:template "http://data.example.com/consentinformation/{previousconsent}" ; rr:termType rr:IRI ; ] ;
+	] ;
+.
+
+# PREVIOUS CONSENT ONE STEP BACK
+<#ConsentACCEPT-ACCEPT-TTM>
+	rr:logicalTable [ rr:sqlQuery """
+		SELECT a.*, 
+			c.id as previousconsent
+		FROM Consent a 
+	    	LEFT OUTER JOIN Consent c ON a.oldVersion_id = c.id
+		WHERE a.status = 0 AND c.status = 0
+	""" ] ;
+	rr:subjectMap [
+		rr:template "http://data.example.com/consentinformation/{id}" ;
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate prov:wasRevisionOf ;
+		rr:objectMap [ rr:template "http://data.example.com/consentinformation/{previousconsent}" ; rr:termType rr:IRI ; ] ;
+	] ;
+.
+
+<#Consent2TM>
+	rr:logicalTable [ rr:sqlQuery """
+		SELECT a.* 
+		FROM Consent a 
+		WHERE a.status <> 0
+	""" ] ;
+	
+	rr:subjectMap [
+	    # USE OLD VERSION ID, AS WITHDRAWAL "OVERRIDES" THE CONCENT INFORMATION
+		rr:template "http://data.example.com/consentinformation/{oldVersion_id}" ;
+	] ;
+	
+	rr:predicateObjectMap [
+		rr:predicate dpv:withdrawalBy;
+		rr:objectMap [ rr:template "http://data.example.com/user/{user_id}" ; rr:termType rr:IRI ; ] ;
+	] ;
+	
+	rr:predicateObjectMap [
+		rr:predicate dpv:withdrawalTime ;
+		rr:objectMap [ 
+			rr:template "withdrawal-{id}" ;
+			rr:termType rr:BlankNode ;
+		] ;
+	] ;
+.
+
+<#ExpiryTimeTM>
+	rr:logicalTable [ rr:sqlQuery """
+		SELECT 	*, 
+				DATE_FORMAT(validUntil, '%Y-%m-%dT%H:%i:%s') AS validUntil
+		FROM Consent 
+		WHERE validUntil IS NOT NULL
+	""" ] ;
+	rr:subjectMap [
+		rr:template "validuntil-{id}" ;
+		rr:termType rr:BlankNode ;
+		rr:class time:Instant ;
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate time:inXSDDateTime ;
+		rr:objectMap [ rr:column "validUntil" ; rr:datatype xsd:dateTime ; ] ;
+	] ;
+.
+
+<#ProvisionTimeTM>
+	rr:logicalTable [ rr:sqlQuery """
+		SELECT 	*, 
+				DATE_FORMAT(registeredOn, '%Y-%m-%dT%H:%i:%s') AS registeredOn
+		FROM Consent 
+		WHERE status = 0
+	""" ] ;
+	rr:subjectMap [
+		rr:template "provision-{id}" ;
+		rr:termType rr:BlankNode ;
+		rr:class time:Instant ;
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate time:inXSDDateTime ;
+		rr:objectMap [ rr:column "registeredOn" ; rr:datatype xsd:dateTime ; ] ;
+	] ;
+.
+
+<#WithdrawalTimeTM>
+	rr:logicalTable [ rr:sqlQuery """
+		SELECT 	*, 
+				DATE_FORMAT(registeredOn, '%Y-%m-%dT%H:%i:%s') AS withdrawal
+		FROM Consent 
+		WHERE status <> 0
+	""" ] ;
+	rr:subjectMap [
+		rr:template "withdrawal-{id}" ;
+		rr:termType rr:BlankNode ;
+		rr:class time:Instant ;
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate time:inXSDDateTime ;
+		rr:objectMap [ rr:column "withdrawal" ; rr:datatype xsd:dateTime ; ] ;
+	] ;
+.
