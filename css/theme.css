@@ -5,6 +5,10 @@ body {
   font-family: arial;
 }
 
+strong {
+	color: orange;
+}
+
 .jumbotron {
 	background-image: url('../logo.png');
 	background-repeat: no-repeat;
