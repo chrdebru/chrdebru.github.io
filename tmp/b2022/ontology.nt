@@ -1,0 +1,1137 @@
+<https://ont.beyond2022.ie/ontology#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://ont.beyond2022.ie/ontology#> <http://www.w3.org/2002/07/owl#imports> <http://erlangen-crm.org/current/> .
+<https://ont.beyond2022.ie/ontology#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2004/02/skos/core> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://erlangen-crm.org/current/P89_falls_within
+<http://erlangen-crm.org/current/P89_falls_within> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#broader
+<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#exactMatch
+<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://ont.beyond2022.ie/ontology#composed_of
+<https://ont.beyond2022.ie/ontology#composed_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#composed_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Property created to provide information about the composition (part) of a aggregation." .
+# 
+# https://ont.beyond2022.ie/ontology#counsellee
+<https://ont.beyond2022.ie/ontology#counsellee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#counsellee> <http://www.w3.org/2000/01/rdf-schema#comment> "Property created to provide information about the councellee in a hierarchical relationship." .
+# 
+# https://ont.beyond2022.ie/ontology#counselor
+<https://ont.beyond2022.ie/ontology#counselor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#counselor> <http://www.w3.org/2000/01/rdf-schema#comment> "Property created to provide information about the councellor in a hierarchical relationship." .
+# 
+# https://ont.beyond2022.ie/ontology#object
+<https://ont.beyond2022.ie/ontology#object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#object> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic property to indicate the object in a reified relationship" .
+# 
+# https://ont.beyond2022.ie/ontology#of_husband
+<https://ont.beyond2022.ie/ontology#of_husband> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#of_husband> <http://www.w3.org/2000/01/rdf-schema#comment> "Property created to provide information about the husband in a marriage joining." .
+# 
+# https://ont.beyond2022.ie/ontology#of_wife
+<https://ont.beyond2022.ie/ontology#of_wife> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#of_wife> <http://www.w3.org/2000/01/rdf-schema#comment> "Property created to provide information about the wife in a marriage joining." .
+# 
+# https://ont.beyond2022.ie/ontology#part_of
+<https://ont.beyond2022.ie/ontology#part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#part_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Property created to provide information about the composition (whole) of a aggregation." .
+# 
+# https://ont.beyond2022.ie/ontology#reports_to
+<https://ont.beyond2022.ie/ontology#reports_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#reports_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Property created to provide information about the superior in a hierarchical relationship." .
+# 
+# https://ont.beyond2022.ie/ontology#represented_by
+<https://ont.beyond2022.ie/ontology#represented_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://ont.beyond2022.ie/ontology#splits
+<https://ont.beyond2022.ie/ontology#splits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#splits> <http://www.w3.org/2000/01/rdf-schema#comment> "Property indicating which places were split in temporal-spatial evolution." .
+# 
+# https://ont.beyond2022.ie/ontology#splittedInto
+<https://ont.beyond2022.ie/ontology#splittedInto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#splittedInto> <http://www.w3.org/2000/01/rdf-schema#comment> "Property indicating which places were the result of a split in temporal-spatial evolution." .
+# 
+# https://ont.beyond2022.ie/ontology#subject
+<https://ont.beyond2022.ie/ontology#subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#subject> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic property to indicate the subject in a reified relationship" .
+# 
+# https://ont.beyond2022.ie/ontology#subjects
+<https://ont.beyond2022.ie/ontology#subjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ont.beyond2022.ie/ontology#subjects> <http://www.w3.org/2000/01/rdf-schema#comment> "Property created to provide information about the subject in a hierarchical relationship." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://erlangen-crm.org/current/E55_Type
+<http://erlangen-crm.org/current/E55_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://ont.beyond2022.ie/ontology#Accountability
+<https://ont.beyond2022.ie/ontology#Accountability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Accountability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Accountability> <http://www.w3.org/2000/01/rdf-schema#comment> "The concept of being accountable; liability to account for and answer for one's conduct, performance of duties, etc., to a superior or external authority; liability to provide or present an account of transactions, money given or received, etc. "@en .
+<https://ont.beyond2022.ie/ontology#Accountability> <http://www.w3.org/2000/01/rdf-schema#comment> "The concept of being accountable; liability to account for and answer for one's conduct, performance of duties, etc., to a superior or external authority; liability to provide or present an account of transactions, money given or received, etc. " .
+<https://ont.beyond2022.ie/ontology#Accountability> <http://www.w3.org/2000/01/rdf-schema#label> "Accountability"@en .
+<https://ont.beyond2022.ie/ontology#Accountability> <http://www.w3.org/2000/01/rdf-schema#label> "Accountability" .
+# 
+# https://ont.beyond2022.ie/ontology#AppellationAssignment
+<https://ont.beyond2022.ie/ontology#AppellationAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#AppellationAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#AppellationAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "Appellation assignment"@en .
+<https://ont.beyond2022.ie/ontology#AppellationAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "Appellation assignment" .
+# 
+# https://ont.beyond2022.ie/ontology#Archdeaconry
+<https://ont.beyond2022.ie/ontology#Archdeaconry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Archdeaconry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Archdeaconry> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#Diocese> .
+<https://ont.beyond2022.ie/ontology#Archdeaconry> <http://www.w3.org/2000/01/rdf-schema#comment> "The jurisdiction or district under the ecclesiastical control of an archdeacon;the rank or office of an archdeacon. Source: \"archdeaconry, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/10312."@en .
+<https://ont.beyond2022.ie/ontology#Archdeaconry> <http://www.w3.org/2000/01/rdf-schema#comment> "The jurisdiction or district under the ecclesiastical control of an archdeacon;the rank or office of an archdeacon. Source: \"archdeaconry, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/10312." .
+<https://ont.beyond2022.ie/ontology#Archdeaconry> <http://www.w3.org/2000/01/rdf-schema#label> "Archdeaconry"@en .
+<https://ont.beyond2022.ie/ontology#Archdeaconry> <http://www.w3.org/2000/01/rdf-schema#label> "Archdeaconry" .
+# 
+# https://ont.beyond2022.ie/ontology#Archdiocese
+<https://ont.beyond2022.ie/ontology#Archdiocese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Archdiocese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Archdiocese> <http://www.w3.org/2000/01/rdf-schema#comment> "The term for the province over which an archbishop holds jurisdiction, comprised of several dioceses. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 18. "@en .
+<https://ont.beyond2022.ie/ontology#Archdiocese> <http://www.w3.org/2000/01/rdf-schema#comment> "The term for the province over which an archbishop holds jurisdiction, comprised of several dioceses. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 18. " .
+<https://ont.beyond2022.ie/ontology#Archdiocese> <http://www.w3.org/2000/01/rdf-schema#label> "Archdiocese"@en .
+<https://ont.beyond2022.ie/ontology#Archdiocese> <http://www.w3.org/2000/01/rdf-schema#label> "Archdiocese" .
+<https://ont.beyond2022.ie/ontology#Archdiocese> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Diocese> .
+# 
+# https://ont.beyond2022.ie/ontology#AssemblyHouse
+<https://ont.beyond2022.ie/ontology#AssemblyHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#AssemblyHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#AssemblyHouse> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#UrbanSettlement> .
+<https://ont.beyond2022.ie/ontology#AssemblyHouse> <http://www.w3.org/2000/01/rdf-schema#comment> "A house in which assemblies, or gatherings of persons for the purpose of deliberation and decision, were held. Source: \"assembly, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/11795. "@en .
+<https://ont.beyond2022.ie/ontology#AssemblyHouse> <http://www.w3.org/2000/01/rdf-schema#comment> "A house in which assemblies, or gatherings of persons for the purpose of deliberation and decision, were held. Source: \"assembly, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/11795. " .
+<https://ont.beyond2022.ie/ontology#AssemblyHouse> <http://www.w3.org/2000/01/rdf-schema#label> "Assembly house"@en .
+<https://ont.beyond2022.ie/ontology#AssemblyHouse> <http://www.w3.org/2000/01/rdf-schema#label> "Assembly house" .
+<https://ont.beyond2022.ie/ontology#AssemblyHouse> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CivilMonument> .
+# 
+# https://ont.beyond2022.ie/ontology#AugustinianFriars
+<https://ont.beyond2022.ie/ontology#AugustinianFriars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#AugustinianFriars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#AugustinianFriars> <http://www.w3.org/2000/01/rdf-schema#comment> "Full name: Order of the Hermit Friars of St Augustine (OSA). Members of a monastic order named after St Augustine (of Hippo), one of the Fathers of the Church; the order followed the rule of St Augustine and had two branches, Augustinian canons and Augustinian friars. The hermits or friars were separate from the canons until unified by the pope in 1256, after which the friars worked in the world and were active in the universities. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 25."@en .
+<https://ont.beyond2022.ie/ontology#AugustinianFriars> <http://www.w3.org/2000/01/rdf-schema#comment> "Full name: Order of the Hermit Friars of St Augustine (OSA). Members of a monastic order named after St Augustine (of Hippo), one of the Fathers of the Church; the order followed the rule of St Augustine and had two branches, Augustinian canons and Augustinian friars. The hermits or friars were separate from the canons until unified by the pope in 1256, after which the friars worked in the world and were active in the universities. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 25." .
+<https://ont.beyond2022.ie/ontology#AugustinianFriars> <http://www.w3.org/2000/01/rdf-schema#label> "Augustinian Friars"@en .
+<https://ont.beyond2022.ie/ontology#AugustinianFriars> <http://www.w3.org/2000/01/rdf-schema#label> "Augustinian Friars" .
+<https://ont.beyond2022.ie/ontology#AugustinianFriars> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Mendicants> .
+# 
+# https://ont.beyond2022.ie/ontology#Authority
+<https://ont.beyond2022.ie/ontology#Authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Authority> <http://www.w3.org/2000/01/rdf-schema#comment> "Power derived from or conferred by another; the right to act in a specified way, delegated from one person or organisation to another; official permission, authorization; an instance of this; power or right to give orders, make decisions, and enforce obedience; moral, legal, or political supremacy. Source: \"authority, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/13349. "@en .
+<https://ont.beyond2022.ie/ontology#Authority> <http://www.w3.org/2000/01/rdf-schema#comment> "Power derived from or conferred by another; the right to act in a specified way, delegated from one person or organisation to another; official permission, authorization; an instance of this; power or right to give orders, make decisions, and enforce obedience; moral, legal, or political supremacy. Source: \"authority, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/13349. " .
+<https://ont.beyond2022.ie/ontology#Authority> <http://www.w3.org/2000/01/rdf-schema#label> "Authority"@en .
+<https://ont.beyond2022.ie/ontology#Authority> <http://www.w3.org/2000/01/rdf-schema#label> "Authority" .
+# 
+# https://ont.beyond2022.ie/ontology#Ballyboe
+<https://ont.beyond2022.ie/ontology#Ballyboe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Ballyboe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Ballyboe> <http://www.w3.org/2000/01/rdf-schema#comment> "A measure of land in Ireland, which varied in size according to the quality and situtation of the land; typical values were between 60 and 120 Irish acres. Source: \"ballyboe, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/269953."@en .
+<https://ont.beyond2022.ie/ontology#Ballyboe> <http://www.w3.org/2000/01/rdf-schema#comment> "A measure of land in Ireland, which varied in size according to the quality and situtation of the land; typical values were between 60 and 120 Irish acres. Source: \"ballyboe, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/269953." .
+<https://ont.beyond2022.ie/ontology#Ballyboe> <http://www.w3.org/2000/01/rdf-schema#label> "Ballyboe"@en .
+<https://ont.beyond2022.ie/ontology#Ballyboe> <http://www.w3.org/2000/01/rdf-schema#label> "Ballyboe" .
+<https://ont.beyond2022.ie/ontology#Ballyboe> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://ont.beyond2022.ie/ontology#Townland> .
+# 
+# https://ont.beyond2022.ie/ontology#BaronsOfTheExchequer
+<https://ont.beyond2022.ie/ontology#BaronsOfTheExchequer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#BaronsOfTheExchequer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#BaronsOfTheExchequer> <http://www.w3.org/2000/01/rdf-schema#comment> "Assessors; officers of the exchequer. "@en .
+<https://ont.beyond2022.ie/ontology#BaronsOfTheExchequer> <http://www.w3.org/2000/01/rdf-schema#comment> "Assessors; officers of the exchequer. " .
+<https://ont.beyond2022.ie/ontology#BaronsOfTheExchequer> <http://www.w3.org/2000/01/rdf-schema#label> "Barons of the exchequer"@en .
+<https://ont.beyond2022.ie/ontology#BaronsOfTheExchequer> <http://www.w3.org/2000/01/rdf-schema#label> "Barons of the exchequer" .
+# 
+# https://ont.beyond2022.ie/ontology#Barony
+<https://ont.beyond2022.ie/ontology#Barony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Barony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Barony> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#County> .
+<https://ont.beyond2022.ie/ontology#Barony> <http://www.w3.org/2000/01/rdf-schema#comment> "A sub-county administrative unit. Before the end of the Middle Ages the term \"barony\" was coming to be used in place of \"cantred\" to describe these units. They were significant units for the purposes of taxation, law enforcement and general administration. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. "@en .
+<https://ont.beyond2022.ie/ontology#Barony> <http://www.w3.org/2000/01/rdf-schema#comment> "A sub-county administrative unit. Before the end of the Middle Ages the term \"barony\" was coming to be used in place of \"cantred\" to describe these units. They were significant units for the purposes of taxation, law enforcement and general administration. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. " .
+<https://ont.beyond2022.ie/ontology#Barony> <http://www.w3.org/2000/01/rdf-schema#label> "Barony"@en .
+<https://ont.beyond2022.ie/ontology#Barony> <http://www.w3.org/2000/01/rdf-schema#label> "Barony" .
+<https://ont.beyond2022.ie/ontology#Barony> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#BenedictineMonks
+<https://ont.beyond2022.ie/ontology#BenedictineMonks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#BenedictineMonks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#BenedictineMonks> <http://www.w3.org/2000/01/rdf-schema#comment> "The monks belonging to the Order of St Benedict."@en .
+<https://ont.beyond2022.ie/ontology#BenedictineMonks> <http://www.w3.org/2000/01/rdf-schema#comment> "The monks belonging to the Order of St Benedict." .
+<https://ont.beyond2022.ie/ontology#BenedictineMonks> <http://www.w3.org/2000/01/rdf-schema#label> "Benedictine Monks"@en .
+<https://ont.beyond2022.ie/ontology#BenedictineMonks> <http://www.w3.org/2000/01/rdf-schema#label> "Benedictine Monks" .
+<https://ont.beyond2022.ie/ontology#BenedictineMonks> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#Borough
+<https://ont.beyond2022.ie/ontology#Borough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Borough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Borough> <http://www.w3.org/2000/01/rdf-schema#comment> "A town possessing a municipal corporation and special privileges conferred by royal charter. Also a town which sends representatives to parliament. Source: \"borough, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/21687."@en .
+<https://ont.beyond2022.ie/ontology#Borough> <http://www.w3.org/2000/01/rdf-schema#comment> "A town possessing a municipal corporation and special privileges conferred by royal charter. Also a town which sends representatives to parliament. Source: \"borough, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/21687." .
+<https://ont.beyond2022.ie/ontology#Borough> <http://www.w3.org/2000/01/rdf-schema#label> "Borough"@en .
+<https://ont.beyond2022.ie/ontology#Borough> <http://www.w3.org/2000/01/rdf-schema#label> "Borough" .
+<https://ont.beyond2022.ie/ontology#Borough> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#BoroughCorporation
+<https://ont.beyond2022.ie/ontology#BoroughCorporation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#BoroughCorporation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#BoroughCorporation> <http://www.w3.org/2000/01/rdf-schema#comment> "The civic authorities of a borough; the mayor aldermen and councillors. Source: \"corporation, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/41833. "@en .
+<https://ont.beyond2022.ie/ontology#BoroughCorporation> <http://www.w3.org/2000/01/rdf-schema#comment> "The civic authorities of a borough; the mayor aldermen and councillors. Source: \"corporation, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/41833. " .
+<https://ont.beyond2022.ie/ontology#BoroughCorporation> <http://www.w3.org/2000/01/rdf-schema#label> "Borough corporation"@en .
+<https://ont.beyond2022.ie/ontology#BoroughCorporation> <http://www.w3.org/2000/01/rdf-schema#label> "Borough corporation" .
+<https://ont.beyond2022.ie/ontology#BoroughCorporation> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#Cantred
+<https://ont.beyond2022.ie/ontology#Cantred> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Cantred> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Cantred> <http://www.w3.org/2000/01/rdf-schema#comment> "The main administrative unit below the level of county. The term cantred is related to one used in Wales and is etymologically equivalent to the English term \"hundred\", the term used for a similar sub-county administrative unit. Cantreds were often based upon preexisting areas, and generally coincided with the basic area of ecclesiastical administration above the parish and below the archdeaconry, the rural denery. They were significant units for the purposes of taxation, law enforcement and general administration. Before the end of the Middle AGes the term \"barony\" was coming to be used in place of cantred for these units. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. "@en .
+<https://ont.beyond2022.ie/ontology#Cantred> <http://www.w3.org/2000/01/rdf-schema#comment> "The main administrative unit below the level of county. The term cantred is related to one used in Wales and is etymologically equivalent to the English term \"hundred\", the term used for a similar sub-county administrative unit. Cantreds were often based upon preexisting areas, and generally coincided with the basic area of ecclesiastical administration above the parish and below the archdeaconry, the rural denery. They were significant units for the purposes of taxation, law enforcement and general administration. Before the end of the Middle AGes the term \"barony\" was coming to be used in place of cantred for these units. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. " .
+<https://ont.beyond2022.ie/ontology#Cantred> <http://www.w3.org/2000/01/rdf-schema#label> "Cantred"@en .
+<https://ont.beyond2022.ie/ontology#Cantred> <http://www.w3.org/2000/01/rdf-schema#label> "Cantred" .
+<https://ont.beyond2022.ie/ontology#Cantred> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#MedievalBarony> .
+# 
+# https://ont.beyond2022.ie/ontology#Career
+<https://ont.beyond2022.ie/ontology#Career> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Career> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Career> <http://www.w3.org/2000/01/rdf-schema#comment> "A course of professional life or employment. "@en .
+<https://ont.beyond2022.ie/ontology#Career> <http://www.w3.org/2000/01/rdf-schema#comment> "A course of professional life or employment. " .
+<https://ont.beyond2022.ie/ontology#Career> <http://www.w3.org/2000/01/rdf-schema#label> "Career"@en .
+<https://ont.beyond2022.ie/ontology#Career> <http://www.w3.org/2000/01/rdf-schema#label> "Career" .
+# 
+# https://ont.beyond2022.ie/ontology#CarmeliteFriars
+<https://ont.beyond2022.ie/ontology#CarmeliteFriars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CarmeliteFriars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CarmeliteFriars> <http://www.w3.org/2000/01/rdf-schema#comment> "Members of the order founded at Mount Carmel in Palestine in the early thirteenth century and approved by the pope in 1226. A mendicant order which was known as the White Friars; its first members, however, were mostly hermits. There was also an order of nuns modelled on the White Friars. Although formally instituted in 1452. the sisters had first appeared in the thirteenth century. In 1452, the Carmelite Second Order was organised and adopted the same rule as the Carmelite brothers. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 59."@en .
+<https://ont.beyond2022.ie/ontology#CarmeliteFriars> <http://www.w3.org/2000/01/rdf-schema#comment> "Members of the order founded at Mount Carmel in Palestine in the early thirteenth century and approved by the pope in 1226. A mendicant order which was known as the White Friars; its first members, however, were mostly hermits. There was also an order of nuns modelled on the White Friars. Although formally instituted in 1452. the sisters had first appeared in the thirteenth century. In 1452, the Carmelite Second Order was organised and adopted the same rule as the Carmelite brothers. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 59." .
+<https://ont.beyond2022.ie/ontology#CarmeliteFriars> <http://www.w3.org/2000/01/rdf-schema#label> "Carmelite Friars"@en .
+<https://ont.beyond2022.ie/ontology#CarmeliteFriars> <http://www.w3.org/2000/01/rdf-schema#label> "Carmelite Friars" .
+<https://ont.beyond2022.ie/ontology#CarmeliteFriars> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Mendicants> .
+# 
+# https://ont.beyond2022.ie/ontology#Castle
+<https://ont.beyond2022.ie/ontology#Castle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Castle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Castle> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#UrbanSettlement> .
+<https://ont.beyond2022.ie/ontology#Castle> <http://www.w3.org/2000/01/rdf-schema#comment> "A large building or set of buildings fortified for defence against an enemy; a fortress, stronghold. Source: \"castle, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/28581."@en .
+<https://ont.beyond2022.ie/ontology#Castle> <http://www.w3.org/2000/01/rdf-schema#comment> "A large building or set of buildings fortified for defence against an enemy; a fortress, stronghold. Source: \"castle, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/28581." .
+<https://ont.beyond2022.ie/ontology#Castle> <http://www.w3.org/2000/01/rdf-schema#label> "Castle"@en .
+<https://ont.beyond2022.ie/ontology#Castle> <http://www.w3.org/2000/01/rdf-schema#label> "Castle" .
+<https://ont.beyond2022.ie/ontology#Castle> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CivilMonument> .
+# 
+# https://ont.beyond2022.ie/ontology#Cathedral
+<https://ont.beyond2022.ie/ontology#Cathedral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Cathedral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Cathedral> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#City> .
+<https://ont.beyond2022.ie/ontology#Cathedral> <http://www.w3.org/2000/01/rdf-schema#comment> "The principal church of a diocese. The crucial distinction of a cathedral church is neither its size nor its splendour but that it has a cathedra, i.e. the bishop's throne or chair of office. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 62."@en .
+<https://ont.beyond2022.ie/ontology#Cathedral> <http://www.w3.org/2000/01/rdf-schema#comment> "The principal church of a diocese. The crucial distinction of a cathedral church is neither its size nor its splendour but that it has a cathedra, i.e. the bishop's throne or chair of office. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 62." .
+<https://ont.beyond2022.ie/ontology#Cathedral> <http://www.w3.org/2000/01/rdf-schema#label> "Cathedral"@en .
+<https://ont.beyond2022.ie/ontology#Cathedral> <http://www.w3.org/2000/01/rdf-schema#label> "Cathedral" .
+<https://ont.beyond2022.ie/ontology#Cathedral> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalMonument> .
+# 
+# https://ont.beyond2022.ie/ontology#CathedralChapter
+<https://ont.beyond2022.ie/ontology#CathedralChapter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CathedralChapter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CathedralChapter> <http://www.w3.org/2000/01/rdf-schema#comment> "A duly constituted general meeting or assembly or the canons of a cathedral church, for consultation and transaction of the affairs of their chapter. Source: \"chapter, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/30613."@en .
+<https://ont.beyond2022.ie/ontology#CathedralChapter> <http://www.w3.org/2000/01/rdf-schema#comment> "A duly constituted general meeting or assembly or the canons of a cathedral church, for consultation and transaction of the affairs of their chapter. Source: \"chapter, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/30613." .
+<https://ont.beyond2022.ie/ontology#CathedralChapter> <http://www.w3.org/2000/01/rdf-schema#label> "Cathedral Chapter"@en .
+<https://ont.beyond2022.ie/ontology#CathedralChapter> <http://www.w3.org/2000/01/rdf-schema#label> "Cathedral Chapter" .
+<https://ont.beyond2022.ie/ontology#CathedralChapter> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation> .
+# 
+# https://ont.beyond2022.ie/ontology#CatholicParish
+<https://ont.beyond2022.ie/ontology#CatholicParish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CatholicParish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CatholicParish> <http://www.w3.org/2000/01/rdf-schema#comment> "Originally: a relatively large area (resembling a modern diocese) incorporating a township or cluster of townships under the control of a minster (chiefly historical). Subsequently: an area or district having its own priest, parson, or other incumbent under the jurisdiction of a bishop (to whom tithes and ecclesiastical dues were formally paid); a territorial subdivision of a diocese. \"parish, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/137918. "@en .
+<https://ont.beyond2022.ie/ontology#CatholicParish> <http://www.w3.org/2000/01/rdf-schema#comment> "Originally: a relatively large area (resembling a modern diocese) incorporating a township or cluster of townships under the control of a minster (chiefly historical). Subsequently: an area or district having its own priest, parson, or other incumbent under the jurisdiction of a bishop (to whom tithes and ecclesiastical dues were formally paid); a territorial subdivision of a diocese. \"parish, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/137918. " .
+<https://ont.beyond2022.ie/ontology#CatholicParish> <http://www.w3.org/2000/01/rdf-schema#label> "Parish (Catholic)"@en .
+<https://ont.beyond2022.ie/ontology#CatholicParish> <http://www.w3.org/2000/01/rdf-schema#label> "Parish (Catholic)" .
+<https://ont.beyond2022.ie/ontology#CatholicParish> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Parish> .
+# 
+# https://ont.beyond2022.ie/ontology#CentralCivilAdministration
+<https://ont.beyond2022.ie/ontology#CentralCivilAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CentralCivilAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CentralCivilAdministration> <http://www.w3.org/2000/01/rdf-schema#label> "Central civil administration"@en .
+<https://ont.beyond2022.ie/ontology#CentralCivilAdministration> <http://www.w3.org/2000/01/rdf-schema#label> "Central civil administration" .
+<https://ont.beyond2022.ie/ontology#CentralCivilAdministration> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CivilOrganisation> .
+# 
+# https://ont.beyond2022.ie/ontology#CentralCivilOrganisation
+<https://ont.beyond2022.ie/ontology#CentralCivilOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CentralCivilOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CentralCivilOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Central civil organisation"@en .
+<https://ont.beyond2022.ie/ontology#CentralCivilOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Central civil organisation" .
+<https://ont.beyond2022.ie/ontology#CentralCivilOrganisation> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CivilOrganisation> .
+# 
+# https://ont.beyond2022.ie/ontology#ChamberlainsOfTheExchequer
+<https://ont.beyond2022.ie/ontology#ChamberlainsOfTheExchequer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#ChamberlainsOfTheExchequer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#ChamberlainsOfTheExchequer> <http://www.w3.org/2000/01/rdf-schema#label> "Chamberlains of the exchequer"@en .
+<https://ont.beyond2022.ie/ontology#ChamberlainsOfTheExchequer> <http://www.w3.org/2000/01/rdf-schema#label> "Chamberlains of the exchequer" .
+# 
+# https://ont.beyond2022.ie/ontology#ChanceryOffices
+<https://ont.beyond2022.ie/ontology#ChanceryOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#ChanceryOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#ChanceryOffices> <http://www.w3.org/2000/01/rdf-schema#label> "Chancery offices"@en .
+<https://ont.beyond2022.ie/ontology#ChanceryOffices> <http://www.w3.org/2000/01/rdf-schema#label> "Chancery offices" .
+# 
+# https://ont.beyond2022.ie/ontology#Chapel
+<https://ont.beyond2022.ie/ontology#Chapel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Chapel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Chapel> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#Castle> .
+<https://ont.beyond2022.ie/ontology#Chapel> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#Cathedral> .
+<https://ont.beyond2022.ie/ontology#Chapel> <http://www.w3.org/2000/01/rdf-schema#comment> "Originally the shrine with the cape (chapele) of St Martin of Tours kept by the kings of France. It was in the charge of a cappellani, or chaplain, offering sanctuary. Thus a place for private worship; also the equipment of a portable chapel. Such places were found in private houses or as side chapels in cathedrals. After the thirteenth century such chapels were included in a cathedral's eastern walls during constructions. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 67."@en .
+<https://ont.beyond2022.ie/ontology#Chapel> <http://www.w3.org/2000/01/rdf-schema#comment> "Originally the shrine with the cape (chapele) of St Martin of Tours kept by the kings of France. It was in the charge of a cappellani, or chaplain, offering sanctuary. Thus a place for private worship; also the equipment of a portable chapel. Such places were found in private houses or as side chapels in cathedrals. After the thirteenth century such chapels were included in a cathedral's eastern walls during constructions. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 67." .
+<https://ont.beyond2022.ie/ontology#Chapel> <http://www.w3.org/2000/01/rdf-schema#label> "Chapel"@en .
+<https://ont.beyond2022.ie/ontology#Chapel> <http://www.w3.org/2000/01/rdf-schema#label> "Chapel" .
+<https://ont.beyond2022.ie/ontology#Chapel> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalMonument> .
+# 
+# https://ont.beyond2022.ie/ontology#ChiefGovernorsOfIreland
+<https://ont.beyond2022.ie/ontology#ChiefGovernorsOfIreland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#ChiefGovernorsOfIreland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#ChiefGovernorsOfIreland> <http://www.w3.org/2000/01/rdf-schema#comment> "Chief Governor of Ireland is a general term used to describe the office of the chief representative of the king of England in Ireland. The king of England rarely spent time in Ireland in person, so royal authority was delegated to the chief governor, who was appointed by the king. Persons who served as chief governor held the office under a number of different titles, for example 'justiciar', 'lieutenant', 'lord deputy' and 'viceroy'."@en .
+<https://ont.beyond2022.ie/ontology#ChiefGovernorsOfIreland> <http://www.w3.org/2000/01/rdf-schema#comment> "Chief Governor of Ireland is a general term used to describe the office of the chief representative of the king of England in Ireland. The king of England rarely spent time in Ireland in person, so royal authority was delegated to the chief governor, who was appointed by the king. Persons who served as chief governor held the office under a number of different titles, for example 'justiciar', 'lieutenant', 'lord deputy' and 'viceroy'." .
+<https://ont.beyond2022.ie/ontology#ChiefGovernorsOfIreland> <http://www.w3.org/2000/01/rdf-schema#label> "ChiefGovernors of Ireland"@en .
+<https://ont.beyond2022.ie/ontology#ChiefGovernorsOfIreland> <http://www.w3.org/2000/01/rdf-schema#label> "ChiefGovernors of Ireland" .
+# 
+# https://ont.beyond2022.ie/ontology#Church
+<https://ont.beyond2022.ie/ontology#Church> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Church> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Church> <http://www.w3.org/2000/01/rdf-schema#label> "Church"@en .
+<https://ont.beyond2022.ie/ontology#Church> <http://www.w3.org/2000/01/rdf-schema#label> "Church" .
+<https://ont.beyond2022.ie/ontology#Church> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalMonument> .
+# 
+# https://ont.beyond2022.ie/ontology#CistercianMonks
+<https://ont.beyond2022.ie/ontology#CistercianMonks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CistercianMonks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CistercianMonks> <http://www.w3.org/2000/01/rdf-schema#comment> "Members of the Cistercian order. The monastic order was founded in 1098 at Citeaux by Robert of Molesme (d. 1110); a Benedictine reform. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 74.  "@en .
+<https://ont.beyond2022.ie/ontology#CistercianMonks> <http://www.w3.org/2000/01/rdf-schema#comment> "Members of the Cistercian order. The monastic order was founded in 1098 at Citeaux by Robert of Molesme (d. 1110); a Benedictine reform. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 74.  " .
+<https://ont.beyond2022.ie/ontology#CistercianMonks> <http://www.w3.org/2000/01/rdf-schema#label> "Cistercian Monks"@en .
+<https://ont.beyond2022.ie/ontology#CistercianMonks> <http://www.w3.org/2000/01/rdf-schema#label> "Cistercian Monks" .
+<https://ont.beyond2022.ie/ontology#CistercianMonks> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#City
+<https://ont.beyond2022.ie/ontology#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#City> <http://www.w3.org/2000/01/rdf-schema#label> "City"@en .
+<https://ont.beyond2022.ie/ontology#City> <http://www.w3.org/2000/01/rdf-schema#label> "City" .
+<https://ont.beyond2022.ie/ontology#City> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit> .
+<https://ont.beyond2022.ie/ontology#City> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#UrbanSettlement> .
+# 
+# https://ont.beyond2022.ie/ontology#CivilAdministration
+<https://ont.beyond2022.ie/ontology#CivilAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CivilAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CivilAdministration> <http://www.w3.org/2000/01/rdf-schema#comment> "Civil Administration is an organization or bureaucratic apparatus responsible for running the day-to-day affairs of 'civil' (i.e., secular or temporal) government, as opposed to 'ecclesiastical administration' which is responsible for the affairs of the institutional Church. Civil Administration is typically divided into distinct branches of administration, the most important distinction being between Central and Local administration. Different administrative functions are performed by separate departments within the Civil Administration, for instance financial, secretarial and judicial departments, each of which develops its own internal hierarchies. The Civil Administration is ultimately responsible to the highest secular authority, for instance the king or Prime Minister."@en .
+<https://ont.beyond2022.ie/ontology#CivilAdministration> <http://www.w3.org/2000/01/rdf-schema#comment> "Civil Administration is an organization or bureaucratic apparatus responsible for running the day-to-day affairs of 'civil' (i.e., secular or temporal) government, as opposed to 'ecclesiastical administration' which is responsible for the affairs of the institutional Church. Civil Administration is typically divided into distinct branches of administration, the most important distinction being between Central and Local administration. Different administrative functions are performed by separate departments within the Civil Administration, for instance financial, secretarial and judicial departments, each of which develops its own internal hierarchies. The Civil Administration is ultimately responsible to the highest secular authority, for instance the king or Prime Minister." .
+<https://ont.beyond2022.ie/ontology#CivilAdministration> <http://www.w3.org/2000/01/rdf-schema#label> "Civil administration"@en .
+<https://ont.beyond2022.ie/ontology#CivilAdministration> <http://www.w3.org/2000/01/rdf-schema#label> "Civil administration" .
+# 
+# https://ont.beyond2022.ie/ontology#CivilAdministrativeDivision
+<https://ont.beyond2022.ie/ontology#CivilAdministrativeDivision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CivilAdministrativeDivision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CivilAdministrativeDivision> <http://www.w3.org/2000/01/rdf-schema#label> "Civil administrative division"@en .
+<https://ont.beyond2022.ie/ontology#CivilAdministrativeDivision> <http://www.w3.org/2000/01/rdf-schema#label> "Civil administrative division" .
+<https://ont.beyond2022.ie/ontology#CivilAdministrativeDivision> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#JudicialCounty> .
+# 
+# https://ont.beyond2022.ie/ontology#CivilAdministrativeUnit
+<https://ont.beyond2022.ie/ontology#CivilAdministrativeUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CivilAdministrativeUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CivilAdministrativeUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Civil administrative unit"@en .
+<https://ont.beyond2022.ie/ontology#CivilAdministrativeUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Civil administrative unit" .
+# 
+# https://ont.beyond2022.ie/ontology#CivilMonument
+<https://ont.beyond2022.ie/ontology#CivilMonument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CivilMonument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CivilMonument> <http://www.w3.org/2000/01/rdf-schema#label> "Civil monument"@en .
+<https://ont.beyond2022.ie/ontology#CivilMonument> <http://www.w3.org/2000/01/rdf-schema#label> "Civil monument" .
+<https://ont.beyond2022.ie/ontology#CivilMonument> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Monument> .
+# 
+# https://ont.beyond2022.ie/ontology#CivilOrganisation
+<https://ont.beyond2022.ie/ontology#CivilOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CivilOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CivilOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Civil organisation"@en .
+<https://ont.beyond2022.ie/ontology#CivilOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Civil organisation" .
+<https://ont.beyond2022.ie/ontology#CivilOrganisation> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Organisation> .
+# 
+# https://ont.beyond2022.ie/ontology#CivilParish
+<https://ont.beyond2022.ie/ontology#CivilParish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CivilParish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CivilParish> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#Barony> .
+<https://ont.beyond2022.ie/ontology#CivilParish> <http://www.w3.org/2000/01/rdf-schema#label> "Parish (Civil)"@en .
+<https://ont.beyond2022.ie/ontology#CivilParish> <http://www.w3.org/2000/01/rdf-schema#label> "Parish (Civil)" .
+<https://ont.beyond2022.ie/ontology#CivilParish> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> .
+<https://ont.beyond2022.ie/ontology#CivilParish> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Parish> .
+# 
+# https://ont.beyond2022.ie/ontology#CommonBench
+<https://ont.beyond2022.ie/ontology#CommonBench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CommonBench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CommonBench> <http://www.w3.org/2000/01/rdf-schema#label> "Common bench"@en .
+<https://ont.beyond2022.ie/ontology#CommonBench> <http://www.w3.org/2000/01/rdf-schema#label> "Common bench" .
+# 
+# https://ont.beyond2022.ie/ontology#Composition
+<https://ont.beyond2022.ie/ontology#Composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Composition> <http://www.w3.org/2000/01/rdf-schema#label> "Composition"@en .
+<https://ont.beyond2022.ie/ontology#Composition> <http://www.w3.org/2000/01/rdf-schema#label> "Composition" .
+# 
+# https://ont.beyond2022.ie/ontology#ConventsOfNuns
+<https://ont.beyond2022.ie/ontology#ConventsOfNuns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#ConventsOfNuns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#ConventsOfNuns> <http://www.w3.org/2000/01/rdf-schema#label> "Convents of Nuns"@en .
+<https://ont.beyond2022.ie/ontology#ConventsOfNuns> <http://www.w3.org/2000/01/rdf-schema#label> "Convents of Nuns" .
+<https://ont.beyond2022.ie/ontology#ConventsOfNuns> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#Council
+<https://ont.beyond2022.ie/ontology#Council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Council> <http://www.w3.org/2000/01/rdf-schema#comment> "An advisory or deliberative assembly; a body of persons chosen or designated as advisors on matters of state, especially to advise and assist a sovereign or ruler in the administration of government;the local administrative body of a corporate town, city, county or district; an assembly of ecclesiastics convened for the regulation of doctrine or discipline in the church."@en .
+<https://ont.beyond2022.ie/ontology#Council> <http://www.w3.org/2000/01/rdf-schema#comment> "An advisory or deliberative assembly; a body of persons chosen or designated as advisors on matters of state, especially to advise and assist a sovereign or ruler in the administration of government;the local administrative body of a corporate town, city, county or district; an assembly of ecclesiastics convened for the regulation of doctrine or discipline in the church." .
+<https://ont.beyond2022.ie/ontology#Council> <http://www.w3.org/2000/01/rdf-schema#label> "Council"@en .
+<https://ont.beyond2022.ie/ontology#Council> <http://www.w3.org/2000/01/rdf-schema#label> "Council" .
+# 
+# https://ont.beyond2022.ie/ontology#County
+<https://ont.beyond2022.ie/ontology#County> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#County> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#County> <http://www.w3.org/2000/01/rdf-schema#comment> "A territorial division of Ireland; the chief unit for administrative, justicial and political purposes. "@en .
+<https://ont.beyond2022.ie/ontology#County> <http://www.w3.org/2000/01/rdf-schema#comment> "A territorial division of Ireland; the chief unit for administrative, justicial and political purposes. " .
+<https://ont.beyond2022.ie/ontology#County> <http://www.w3.org/2000/01/rdf-schema#label> "County"@en .
+<https://ont.beyond2022.ie/ontology#County> <http://www.w3.org/2000/01/rdf-schema#label> "County" .
+<https://ont.beyond2022.ie/ontology#County> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CountyCorporate> .
+<https://ont.beyond2022.ie/ontology#County> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> .
+<https://ont.beyond2022.ie/ontology#County> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://ont.beyond2022.ie/ontology#Shire> .
+# 
+# https://ont.beyond2022.ie/ontology#CountyCorporate
+<https://ont.beyond2022.ie/ontology#CountyCorporate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CountyCorporate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CountyCorporate> <http://www.w3.org/2000/01/rdf-schema#comment> "A city or town given the status and powers of a county. Source: \"county, n.1 and adj.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/43102."@en .
+<https://ont.beyond2022.ie/ontology#CountyCorporate> <http://www.w3.org/2000/01/rdf-schema#comment> "A city or town given the status and powers of a county. Source: \"county, n.1 and adj.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/43102." .
+<https://ont.beyond2022.ie/ontology#CountyCorporate> <http://www.w3.org/2000/01/rdf-schema#label> "County corporate"@en .
+<https://ont.beyond2022.ie/ontology#CountyCorporate> <http://www.w3.org/2000/01/rdf-schema#label> "County corporate" .
+<https://ont.beyond2022.ie/ontology#CountyCorporate> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Borough> .
+# 
+# https://ont.beyond2022.ie/ontology#CountyPalatine
+<https://ont.beyond2022.ie/ontology#CountyPalatine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CountyPalatine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CountyPalatine> <http://www.w3.org/2000/01/rdf-schema#comment> "Originally: designating a county of which the earl or lord originally had royal privileges, with the right of exclusive civil and criminal jurisdiction within that territory. Later: designating a modern administrative area corresponding to this. Source: \"palatine, adj.1 and n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/136245."@en .
+<https://ont.beyond2022.ie/ontology#CountyPalatine> <http://www.w3.org/2000/01/rdf-schema#comment> "Originally: designating a county of which the earl or lord originally had royal privileges, with the right of exclusive civil and criminal jurisdiction within that territory. Later: designating a modern administrative area corresponding to this. Source: \"palatine, adj.1 and n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/136245." .
+<https://ont.beyond2022.ie/ontology#CountyPalatine> <http://www.w3.org/2000/01/rdf-schema#label> "County Palatine"@en .
+<https://ont.beyond2022.ie/ontology#CountyPalatine> <http://www.w3.org/2000/01/rdf-schema#label> "County Palatine" .
+<https://ont.beyond2022.ie/ontology#CountyPalatine> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#County> .
+# 
+# https://ont.beyond2022.ie/ontology#CromwellianDistrict
+<https://ont.beyond2022.ie/ontology#CromwellianDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#CromwellianDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#CromwellianDistrict> <http://www.w3.org/2000/01/rdf-schema#label> "District (Cromwellian)"@en .
+<https://ont.beyond2022.ie/ontology#CromwellianDistrict> <http://www.w3.org/2000/01/rdf-schema#label> "District (Cromwellian)" .
+<https://ont.beyond2022.ie/ontology#CromwellianDistrict> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#Crossland
+<https://ont.beyond2022.ie/ontology#Crossland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Crossland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Crossland> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#County> .
+<https://ont.beyond2022.ie/ontology#Crossland> <http://www.w3.org/2000/01/rdf-schema#comment> "Land in Ireland in the possession of monasteries and churches, or of prelates. This land was subject to intervention by the county sheriff in guarding the crown's rights, even if within a franchise or liberty. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 92."@en .
+<https://ont.beyond2022.ie/ontology#Crossland> <http://www.w3.org/2000/01/rdf-schema#comment> "Land in Ireland in the possession of monasteries and churches, or of prelates. This land was subject to intervention by the county sheriff in guarding the crown's rights, even if within a franchise or liberty. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 92." .
+<https://ont.beyond2022.ie/ontology#Crossland> <http://www.w3.org/2000/01/rdf-schema#label> "Crossland"@en .
+<https://ont.beyond2022.ie/ontology#Crossland> <http://www.w3.org/2000/01/rdf-schema#label> "Crossland" .
+<https://ont.beyond2022.ie/ontology#Crossland> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#DIB
+<https://ont.beyond2022.ie/ontology#DIB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#DIB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#DIB> <http://www.w3.org/2000/01/rdf-schema#comment> "The Dictionary of Irish Biography. A biographical dictionary of notable Irish people and people who had notable careers in Ireland, containing approximately 9000 entries. It is published by Cambridge University Press in collaboration with the Royal Irish Academy, and is available both in print and online. "@en .
+<https://ont.beyond2022.ie/ontology#DIB> <http://www.w3.org/2000/01/rdf-schema#comment> "The Dictionary of Irish Biography. A biographical dictionary of notable Irish people and people who had notable careers in Ireland, containing approximately 9000 entries. It is published by Cambridge University Press in collaboration with the Royal Irish Academy, and is available both in print and online. " .
+<https://ont.beyond2022.ie/ontology#DIB> <http://www.w3.org/2000/01/rdf-schema#label> "DIB"@en .
+<https://ont.beyond2022.ie/ontology#DIB> <http://www.w3.org/2000/01/rdf-schema#label> "DIB" .
+# 
+# https://ont.beyond2022.ie/ontology#Demense
+<https://ont.beyond2022.ie/ontology#Demense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Demense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Demense> <http://www.w3.org/2000/01/rdf-schema#comment> "Property owned freely; land held for the lord's own use rather than let or leased; land held by the lord of a manor, which could be passed on to descendants. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 100."@en .
+<https://ont.beyond2022.ie/ontology#Demense> <http://www.w3.org/2000/01/rdf-schema#comment> "Property owned freely; land held for the lord's own use rather than let or leased; land held by the lord of a manor, which could be passed on to descendants. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 100." .
+<https://ont.beyond2022.ie/ontology#Demense> <http://www.w3.org/2000/01/rdf-schema#label> "Demense"@en .
+<https://ont.beyond2022.ie/ontology#Demense> <http://www.w3.org/2000/01/rdf-schema#label> "Demense" .
+<https://ont.beyond2022.ie/ontology#Demense> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#RuralSettlement> .
+# 
+# https://ont.beyond2022.ie/ontology#Diocese
+<https://ont.beyond2022.ie/ontology#Diocese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Diocese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Diocese> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#EcclesiasticalProvince> .
+<https://ont.beyond2022.ie/ontology#Diocese> <http://www.w3.org/2000/01/rdf-schema#comment> "The district over which a bishop has jurisdiction and for which he is responsible to an archbishop. This term is taken from its use during Diocletian’s reign (284–305), when the Roman Empire was divided into 12 dioceses. [< L dioecesis = a governor’s jurisdiction]. \n\n\t\t\t Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 102.  "@en .
+<https://ont.beyond2022.ie/ontology#Diocese> <http://www.w3.org/2000/01/rdf-schema#comment> "The district over which a bishop has jurisdiction and for which he is responsible to an archbishop. This term is taken from its use during Diocletian’s reign (284–305), when the Roman Empire was divided into 12 dioceses. [< L dioecesis = a governor’s jurisdiction]. \n\n\t\t\t Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 102.  " .
+<https://ont.beyond2022.ie/ontology#Diocese> <http://www.w3.org/2000/01/rdf-schema#label> "Diocese"@en .
+<https://ont.beyond2022.ie/ontology#Diocese> <http://www.w3.org/2000/01/rdf-schema#label> "Diocese" .
+<https://ont.beyond2022.ie/ontology#Diocese> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit> .
+<https://ont.beyond2022.ie/ontology#Diocese> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation> .
+# 
+# https://ont.beyond2022.ie/ontology#DistrictElectoralDivision
+<https://ont.beyond2022.ie/ontology#DistrictElectoralDivision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#DistrictElectoralDivision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#DistrictElectoralDivision> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#Barony> .
+<https://ont.beyond2022.ie/ontology#DistrictElectoralDivision> <http://www.w3.org/2000/01/rdf-schema#label> "District Electoral Division"@en .
+<https://ont.beyond2022.ie/ontology#DistrictElectoralDivision> <http://www.w3.org/2000/01/rdf-schema#label> "District Electoral Division" .
+<https://ont.beyond2022.ie/ontology#DistrictElectoralDivision> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#DominicanFriars
+<https://ont.beyond2022.ie/ontology#DominicanFriars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#DominicanFriars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#DominicanFriars> <http://www.w3.org/2000/01/rdf-schema#comment> "Members of the order founded by St Dominic (1170-1221) in 1215, named the Order of Friars Preachers. They were known as the Black Friars or the preaching friars. Some Dominicans were mendicants, dedicated to evangelical preaching. They were very active in combating heresy. They also placed emphasis upon learning, which they considered necessary to preach intelligently and for rational theological debate, always preferring to convert by persuasion. Their emphasis on education meant the Dominicans were deeply involved in the growth of universities. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105. "@en .
+<https://ont.beyond2022.ie/ontology#DominicanFriars> <http://www.w3.org/2000/01/rdf-schema#comment> "Members of the order founded by St Dominic (1170-1221) in 1215, named the Order of Friars Preachers. They were known as the Black Friars or the preaching friars. Some Dominicans were mendicants, dedicated to evangelical preaching. They were very active in combating heresy. They also placed emphasis upon learning, which they considered necessary to preach intelligently and for rational theological debate, always preferring to convert by persuasion. Their emphasis on education meant the Dominicans were deeply involved in the growth of universities. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105. " .
+<https://ont.beyond2022.ie/ontology#DominicanFriars> <http://www.w3.org/2000/01/rdf-schema#label> "Dominican Friars"@en .
+<https://ont.beyond2022.ie/ontology#DominicanFriars> <http://www.w3.org/2000/01/rdf-schema#label> "Dominican Friars" .
+<https://ont.beyond2022.ie/ontology#DominicanFriars> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Mendicants> .
+# 
+# https://ont.beyond2022.ie/ontology#Donjon
+<https://ont.beyond2022.ie/ontology#Donjon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Donjon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Donjon> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#Castle> .
+<https://ont.beyond2022.ie/ontology#Donjon> <http://www.w3.org/2000/01/rdf-schema#comment> "A well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence; the keep of a castle, from which comes dungeon. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105."@en .
+<https://ont.beyond2022.ie/ontology#Donjon> <http://www.w3.org/2000/01/rdf-schema#comment> "A well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence; the keep of a castle, from which comes dungeon. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105." .
+<https://ont.beyond2022.ie/ontology#Donjon> <http://www.w3.org/2000/01/rdf-schema#label> "Donjon"@en .
+<https://ont.beyond2022.ie/ontology#Donjon> <http://www.w3.org/2000/01/rdf-schema#label> "Donjon" .
+# 
+# https://ont.beyond2022.ie/ontology#DublinBench
+<https://ont.beyond2022.ie/ontology#DublinBench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#DublinBench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#DublinBench> <http://www.w3.org/2000/01/rdf-schema#label> "Dublin bench"@en .
+<https://ont.beyond2022.ie/ontology#DublinBench> <http://www.w3.org/2000/01/rdf-schema#label> "Dublin bench" .
+# 
+# https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit
+<https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Ecclesiastical administrative unit"@en .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Ecclesiastical administrative unit" .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#TerritorialDivision> .
+# 
+# https://ont.beyond2022.ie/ontology#EcclesiasticalMonument
+<https://ont.beyond2022.ie/ontology#EcclesiasticalMonument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalMonument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalMonument> <http://www.w3.org/2000/01/rdf-schema#label> "Ecclesiastical monument"@en .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalMonument> <http://www.w3.org/2000/01/rdf-schema#label> "Ecclesiastical monument" .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalMonument> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Monument> .
+# 
+# https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation
+<https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Ecclesiastical organisation"@en .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Ecclesiastical organisation" .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Organisation> .
+# 
+# https://ont.beyond2022.ie/ontology#EcclesiasticalProvince
+<https://ont.beyond2022.ie/ontology#EcclesiasticalProvince> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalProvince> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalProvince> <http://www.w3.org/2000/01/rdf-schema#comment> "An area falling under the jurisdiction of an archbishop or metropolitan, usually consisting of a number of neighbouring dioceses. Source: \"province, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/153460. "@en .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalProvince> <http://www.w3.org/2000/01/rdf-schema#comment> "An area falling under the jurisdiction of an archbishop or metropolitan, usually consisting of a number of neighbouring dioceses. Source: \"province, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/153460. " .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalProvince> <http://www.w3.org/2000/01/rdf-schema#label> "Province (Ecclesiastical)"@en .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalProvince> <http://www.w3.org/2000/01/rdf-schema#label> "Province (Ecclesiastical)" .
+<https://ont.beyond2022.ie/ontology#EcclesiasticalProvince> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#Engrossers
+<https://ont.beyond2022.ie/ontology#Engrossers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Engrossers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Engrossers> <http://www.w3.org/2000/01/rdf-schema#label> "Engrossers"@en .
+<https://ont.beyond2022.ie/ontology#Engrossers> <http://www.w3.org/2000/01/rdf-schema#label> "Engrossers" .
+# 
+# https://ont.beyond2022.ie/ontology#EscheateryOffices
+<https://ont.beyond2022.ie/ontology#EscheateryOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#EscheateryOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#EscheateryOffices> <http://www.w3.org/2000/01/rdf-schema#label> "Escheatery offices"@en .
+<https://ont.beyond2022.ie/ontology#EscheateryOffices> <http://www.w3.org/2000/01/rdf-schema#label> "Escheatery offices" .
+# 
+# https://ont.beyond2022.ie/ontology#EstablishedChurchParish
+<https://ont.beyond2022.ie/ontology#EstablishedChurchParish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#EstablishedChurchParish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#EstablishedChurchParish> <http://www.w3.org/2000/01/rdf-schema#label> "Parish (Established Church)"@en .
+<https://ont.beyond2022.ie/ontology#EstablishedChurchParish> <http://www.w3.org/2000/01/rdf-schema#label> "Parish (Established Church)" .
+<https://ont.beyond2022.ie/ontology#EstablishedChurchParish> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Parish> .
+# 
+# https://ont.beyond2022.ie/ontology#ExchequerOffices
+<https://ont.beyond2022.ie/ontology#ExchequerOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#ExchequerOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#ExchequerOffices> <http://www.w3.org/2000/01/rdf-schema#label> "Exchequer offices"@en .
+<https://ont.beyond2022.ie/ontology#ExchequerOffices> <http://www.w3.org/2000/01/rdf-schema#label> "Exchequer offices" .
+# 
+# https://ont.beyond2022.ie/ontology#EyreCourts
+<https://ont.beyond2022.ie/ontology#EyreCourts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#EyreCourts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#EyreCourts> <http://www.w3.org/2000/01/rdf-schema#label> "Eyre courts"@en .
+<https://ont.beyond2022.ie/ontology#EyreCourts> <http://www.w3.org/2000/01/rdf-schema#label> "Eyre courts" .
+# 
+# https://ont.beyond2022.ie/ontology#Female
+<https://ont.beyond2022.ie/ontology#Female> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Female> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Female> <http://www.w3.org/2000/01/rdf-schema#comment> "Of or relating to a woman or girl. "@en .
+<https://ont.beyond2022.ie/ontology#Female> <http://www.w3.org/2000/01/rdf-schema#comment> "Of or relating to a woman or girl. " .
+<https://ont.beyond2022.ie/ontology#Female> <http://www.w3.org/2000/01/rdf-schema#label> "Female"@en .
+<https://ont.beyond2022.ie/ontology#Female> <http://www.w3.org/2000/01/rdf-schema#label> "Female" .
+# 
+# https://ont.beyond2022.ie/ontology#Floruit
+<https://ont.beyond2022.ie/ontology#Floruit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Floruit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Floruit> <http://www.w3.org/2000/01/rdf-schema#comment> "Term used to denote the period during which a person 'flourished'; the floruit is used where their dates or birth or death are unknown. "@en .
+<https://ont.beyond2022.ie/ontology#Floruit> <http://www.w3.org/2000/01/rdf-schema#comment> "Term used to denote the period during which a person 'flourished'; the floruit is used where their dates or birth or death are unknown. " .
+<https://ont.beyond2022.ie/ontology#Floruit> <http://www.w3.org/2000/01/rdf-schema#label> "Floruit"@en .
+<https://ont.beyond2022.ie/ontology#Floruit> <http://www.w3.org/2000/01/rdf-schema#label> "Floruit" .
+# 
+# https://ont.beyond2022.ie/ontology#Forename
+<https://ont.beyond2022.ie/ontology#Forename> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Forename> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Forename> <http://www.w3.org/2000/01/rdf-schema#label> "Forename"@en .
+<https://ont.beyond2022.ie/ontology#Forename> <http://www.w3.org/2000/01/rdf-schema#label> "Forename" .
+# 
+# https://ont.beyond2022.ie/ontology#FranciscanFriars
+<https://ont.beyond2022.ie/ontology#FranciscanFriars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#FranciscanFriars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#FranciscanFriars> <http://www.w3.org/2000/01/rdf-schema#comment> "A friar of the order founded by St Francis (d.1226) in 1209; also known as the Grey Friars or Friars Minor. It was the least intellectual of the monastic orders, with members taking vows of poverty and preaching in emotional ways on the sufferings of Christ. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 132."@en .
+<https://ont.beyond2022.ie/ontology#FranciscanFriars> <http://www.w3.org/2000/01/rdf-schema#comment> "A friar of the order founded by St Francis (d.1226) in 1209; also known as the Grey Friars or Friars Minor. It was the least intellectual of the monastic orders, with members taking vows of poverty and preaching in emotional ways on the sufferings of Christ. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 132." .
+<https://ont.beyond2022.ie/ontology#FranciscanFriars> <http://www.w3.org/2000/01/rdf-schema#label> "Franciscan Friars"@en .
+<https://ont.beyond2022.ie/ontology#FranciscanFriars> <http://www.w3.org/2000/01/rdf-schema#label> "Franciscan Friars" .
+<https://ont.beyond2022.ie/ontology#FranciscanFriars> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Mendicants> .
+# 
+# https://ont.beyond2022.ie/ontology#FranciscanThirdOrderRegular
+<https://ont.beyond2022.ie/ontology#FranciscanThirdOrderRegular> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#FranciscanThirdOrderRegular> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#FranciscanThirdOrderRegular> <http://www.w3.org/2000/01/rdf-schema#label> "Franciscan Third Order Regular"@en .
+<https://ont.beyond2022.ie/ontology#FranciscanThirdOrderRegular> <http://www.w3.org/2000/01/rdf-schema#label> "Franciscan Third Order Regular" .
+<https://ont.beyond2022.ie/ontology#FranciscanThirdOrderRegular> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Mendicants> .
+# 
+# https://ont.beyond2022.ie/ontology#FratresCruciferi
+<https://ont.beyond2022.ie/ontology#FratresCruciferi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#FratresCruciferi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#FratresCruciferi> <http://www.w3.org/2000/01/rdf-schema#comment> "Canons regular of the Order of the Holy Cross, a military-religious order founded in 1211.Members of this order might carry a cross in their hands, or have a cross sewn on the chest of their habit. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 93."@en .
+<https://ont.beyond2022.ie/ontology#FratresCruciferi> <http://www.w3.org/2000/01/rdf-schema#comment> "Canons regular of the Order of the Holy Cross, a military-religious order founded in 1211.Members of this order might carry a cross in their hands, or have a cross sewn on the chest of their habit. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 93." .
+<https://ont.beyond2022.ie/ontology#FratresCruciferi> <http://www.w3.org/2000/01/rdf-schema#label> "Fratres Cruciferi"@en .
+<https://ont.beyond2022.ie/ontology#FratresCruciferi> <http://www.w3.org/2000/01/rdf-schema#label> "Fratres Cruciferi" .
+<https://ont.beyond2022.ie/ontology#FratresCruciferi> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#FriarsOfTheSack
+<https://ont.beyond2022.ie/ontology#FriarsOfTheSack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#FriarsOfTheSack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#FriarsOfTheSack> <http://www.w3.org/2000/01/rdf-schema#comment> "Colloquial name for the Friars of the Penance of Jesus Christ, the largest of the lesser groups of English friars. Their houses were all abandoned by 1314, the members being obliged to join one of the mendicant orders.  Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 244."@en .
+<https://ont.beyond2022.ie/ontology#FriarsOfTheSack> <http://www.w3.org/2000/01/rdf-schema#comment> "Colloquial name for the Friars of the Penance of Jesus Christ, the largest of the lesser groups of English friars. Their houses were all abandoned by 1314, the members being obliged to join one of the mendicant orders.  Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 244." .
+<https://ont.beyond2022.ie/ontology#FriarsOfTheSack> <http://www.w3.org/2000/01/rdf-schema#label> "Friars of the Sack"@en .
+<https://ont.beyond2022.ie/ontology#FriarsOfTheSack> <http://www.w3.org/2000/01/rdf-schema#label> "Friars of the Sack" .
+<https://ont.beyond2022.ie/ontology#FriarsOfTheSack> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#Friary
+<https://ont.beyond2022.ie/ontology#Friary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Friary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Friary> <http://www.w3.org/2000/01/rdf-schema#comment> "A convent of friars;a fraternity or brotherhood of friars; the insitution or practices of friars. \"friary, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/74610"@en .
+<https://ont.beyond2022.ie/ontology#Friary> <http://www.w3.org/2000/01/rdf-schema#comment> "A convent of friars;a fraternity or brotherhood of friars; the insitution or practices of friars. \"friary, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/74610" .
+<https://ont.beyond2022.ie/ontology#Friary> <http://www.w3.org/2000/01/rdf-schema#label> "Friary"@en .
+<https://ont.beyond2022.ie/ontology#Friary> <http://www.w3.org/2000/01/rdf-schema#label> "Friary" .
+<https://ont.beyond2022.ie/ontology#Friary> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#Gate
+<https://ont.beyond2022.ie/ontology#Gate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Gate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Gate> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#UrbanSettlement> .
+<https://ont.beyond2022.ie/ontology#Gate> <http://www.w3.org/2000/01/rdf-schema#comment> "An opening in a wall, made for the purpose of entrance and exit, and capable of being closed by a movable barrier, the existence of which is usually implied; said with reference to a city or other enclosure, or the enclosure-wall of a large building, formerly also to the bulding itself, where door or doors is now commonly employed. Source: \"gate, n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/77050."@en .
+<https://ont.beyond2022.ie/ontology#Gate> <http://www.w3.org/2000/01/rdf-schema#comment> "An opening in a wall, made for the purpose of entrance and exit, and capable of being closed by a movable barrier, the existence of which is usually implied; said with reference to a city or other enclosure, or the enclosure-wall of a large building, formerly also to the bulding itself, where door or doors is now commonly employed. Source: \"gate, n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/77050." .
+<https://ont.beyond2022.ie/ontology#Gate> <http://www.w3.org/2000/01/rdf-schema#label> "Gate"@en .
+<https://ont.beyond2022.ie/ontology#Gate> <http://www.w3.org/2000/01/rdf-schema#label> "Gate" .
+<https://ont.beyond2022.ie/ontology#Gate> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CivilMonument> .
+# 
+# https://ont.beyond2022.ie/ontology#HalfBarony
+<https://ont.beyond2022.ie/ontology#HalfBarony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#HalfBarony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#HalfBarony> <http://www.w3.org/2000/01/rdf-schema#comment> "A subdivision of a barony, which held the same status as a fully barony. "@en .
+<https://ont.beyond2022.ie/ontology#HalfBarony> <http://www.w3.org/2000/01/rdf-schema#comment> "A subdivision of a barony, which held the same status as a fully barony. " .
+<https://ont.beyond2022.ie/ontology#HalfBarony> <http://www.w3.org/2000/01/rdf-schema#label> "Half-Barony"@en .
+<https://ont.beyond2022.ie/ontology#HalfBarony> <http://www.w3.org/2000/01/rdf-schema#label> "Half-Barony" .
+<https://ont.beyond2022.ie/ontology#HalfBarony> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Barony> .
+# 
+# https://ont.beyond2022.ie/ontology#Harbour
+<https://ont.beyond2022.ie/ontology#Harbour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Harbour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Harbour> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#UrbanSettlement> .
+<https://ont.beyond2022.ie/ontology#Harbour> <http://www.w3.org/2000/01/rdf-schema#comment> "A place of shelter for ships; spec. where they may lie close to and sheltered by the shore or by works extended from it; a haven, a port. Source: \"harbour | harbor, n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/84111."@en .
+<https://ont.beyond2022.ie/ontology#Harbour> <http://www.w3.org/2000/01/rdf-schema#comment> "A place of shelter for ships; spec. where they may lie close to and sheltered by the shore or by works extended from it; a haven, a port. Source: \"harbour | harbor, n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/84111." .
+<https://ont.beyond2022.ie/ontology#Harbour> <http://www.w3.org/2000/01/rdf-schema#label> "Harbour"@en .
+<https://ont.beyond2022.ie/ontology#Harbour> <http://www.w3.org/2000/01/rdf-schema#label> "Harbour" .
+<https://ont.beyond2022.ie/ontology#Harbour> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CivilMonument> .
+# 
+# https://ont.beyond2022.ie/ontology#ItinerantCourts
+<https://ont.beyond2022.ie/ontology#ItinerantCourts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#ItinerantCourts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#ItinerantCourts> <http://www.w3.org/2000/01/rdf-schema#comment> "Term used to describe collectively the justices in eyre, justices of assize and forest and their courts as they travelled on circuit. "@en .
+<https://ont.beyond2022.ie/ontology#ItinerantCourts> <http://www.w3.org/2000/01/rdf-schema#comment> "Term used to describe collectively the justices in eyre, justices of assize and forest and their courts as they travelled on circuit. " .
+<https://ont.beyond2022.ie/ontology#ItinerantCourts> <http://www.w3.org/2000/01/rdf-schema#label> "Itinerant courts"@en .
+<https://ont.beyond2022.ie/ontology#ItinerantCourts> <http://www.w3.org/2000/01/rdf-schema#label> "Itinerant courts" .
+# 
+# https://ont.beyond2022.ie/ontology#JudicialCounty
+<https://ont.beyond2022.ie/ontology#JudicialCounty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#JudicialCounty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#JudicialCounty> <http://www.w3.org/2000/01/rdf-schema#label> "Judicial county"@en .
+<https://ont.beyond2022.ie/ontology#JudicialCounty> <http://www.w3.org/2000/01/rdf-schema#label> "Judicial county" .
+<https://ont.beyond2022.ie/ontology#JudicialCounty> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#County> .
+# 
+# https://ont.beyond2022.ie/ontology#JudiciaryOffices
+<https://ont.beyond2022.ie/ontology#JudiciaryOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#JudiciaryOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#JudiciaryOffices> <http://www.w3.org/2000/01/rdf-schema#label> "Judiciary offices"@en .
+<https://ont.beyond2022.ie/ontology#JudiciaryOffices> <http://www.w3.org/2000/01/rdf-schema#label> "Judiciary offices" .
+# 
+# https://ont.beyond2022.ie/ontology#JusticiarsBench
+<https://ont.beyond2022.ie/ontology#JusticiarsBench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#JusticiarsBench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#JusticiarsBench> <http://www.w3.org/2000/01/rdf-schema#label> "Justiciars bench"@en .
+<https://ont.beyond2022.ie/ontology#JusticiarsBench> <http://www.w3.org/2000/01/rdf-schema#label> "Justiciars bench" .
+# 
+# https://ont.beyond2022.ie/ontology#Keep
+<https://ont.beyond2022.ie/ontology#Keep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Keep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Keep> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#Castle> .
+<https://ont.beyond2022.ie/ontology#Keep> <http://www.w3.org/2000/01/rdf-schema#comment> "The central part of a castle; the donjon, a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105, 168."@en .
+<https://ont.beyond2022.ie/ontology#Keep> <http://www.w3.org/2000/01/rdf-schema#comment> "The central part of a castle; the donjon, a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105, 168." .
+<https://ont.beyond2022.ie/ontology#Keep> <http://www.w3.org/2000/01/rdf-schema#label> "Keep"@en .
+<https://ont.beyond2022.ie/ontology#Keep> <http://www.w3.org/2000/01/rdf-schema#label> "Keep" .
+# 
+# https://ont.beyond2022.ie/ontology#Kingdom
+<https://ont.beyond2022.ie/ontology#Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Kingdom> <http://www.w3.org/2000/01/rdf-schema#comment> "The territory ruled over by a king or queen;the area over which a monarch's rule extends; a realm; the people or inhabitants of such a territory. Source: \"kingdom, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/103519."@en .
+<https://ont.beyond2022.ie/ontology#Kingdom> <http://www.w3.org/2000/01/rdf-schema#comment> "The territory ruled over by a king or queen;the area over which a monarch's rule extends; a realm; the people or inhabitants of such a territory. Source: \"kingdom, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/103519." .
+<https://ont.beyond2022.ie/ontology#Kingdom> <http://www.w3.org/2000/01/rdf-schema#label> "Medieval kingdom"@en .
+<https://ont.beyond2022.ie/ontology#Kingdom> <http://www.w3.org/2000/01/rdf-schema#label> "Medieval kingdom" .
+# 
+# https://ont.beyond2022.ie/ontology#KingsBench
+<https://ont.beyond2022.ie/ontology#KingsBench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#KingsBench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#KingsBench> <http://www.w3.org/2000/01/rdf-schema#label> "Kings bench"@en .
+<https://ont.beyond2022.ie/ontology#KingsBench> <http://www.w3.org/2000/01/rdf-schema#label> "Kings bench" .
+# 
+# https://ont.beyond2022.ie/ontology#KnightsHospitallers
+<https://ont.beyond2022.ie/ontology#KnightsHospitallers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#KnightsHospitallers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#KnightsHospitallers> <http://www.w3.org/2000/01/rdf-schema#comment> "Members of the Knights Hospitaller, a military order originally founded to tend the sick and injured of the Crusades; their chief house was the Hospital of St John at Jerusalem, prior to their expulsion and move first to Rhodes and then to Malta. Also known as the Knights of Malta. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170."@en .
+<https://ont.beyond2022.ie/ontology#KnightsHospitallers> <http://www.w3.org/2000/01/rdf-schema#comment> "Members of the Knights Hospitaller, a military order originally founded to tend the sick and injured of the Crusades; their chief house was the Hospital of St John at Jerusalem, prior to their expulsion and move first to Rhodes and then to Malta. Also known as the Knights of Malta. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170." .
+<https://ont.beyond2022.ie/ontology#KnightsHospitallers> <http://www.w3.org/2000/01/rdf-schema#label> "Knights Hospitallers"@en .
+<https://ont.beyond2022.ie/ontology#KnightsHospitallers> <http://www.w3.org/2000/01/rdf-schema#label> "Knights Hospitallers" .
+<https://ont.beyond2022.ie/ontology#KnightsHospitallers> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#KnightsTemplars
+<https://ont.beyond2022.ie/ontology#KnightsTemplars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#KnightsTemplars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#KnightsTemplars> <http://www.w3.org/2000/01/rdf-schema#comment> "Members of the Knights Templar, a military and religious order, whose purpose was to protect pilgrims to the Holy Land. The Knights Templar derived their name from having been occupants of part of the place where Solomon's Temple used to be; they were known first as the Poor Knights of the Temple of Solomon. The order was founded by Hugues de Payns in 1118 after the taking of Jerusalem. Their rule was written by St Bernard. The church recognised the order in 1128;it was supressed in 1312. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170-2. "@en .
+<https://ont.beyond2022.ie/ontology#KnightsTemplars> <http://www.w3.org/2000/01/rdf-schema#comment> "Members of the Knights Templar, a military and religious order, whose purpose was to protect pilgrims to the Holy Land. The Knights Templar derived their name from having been occupants of part of the place where Solomon's Temple used to be; they were known first as the Poor Knights of the Temple of Solomon. The order was founded by Hugues de Payns in 1118 after the taking of Jerusalem. Their rule was written by St Bernard. The church recognised the order in 1128;it was supressed in 1312. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170-2. " .
+<https://ont.beyond2022.ie/ontology#KnightsTemplars> <http://www.w3.org/2000/01/rdf-schema#label> "Knights Templars"@en .
+<https://ont.beyond2022.ie/ontology#KnightsTemplars> <http://www.w3.org/2000/01/rdf-schema#label> "Knights Templars" .
+<https://ont.beyond2022.ie/ontology#KnightsTemplars> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#Liberty
+<https://ont.beyond2022.ie/ontology#Liberty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Liberty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Liberty> <http://www.w3.org/2000/01/rdf-schema#label> "Liberty"@en .
+<https://ont.beyond2022.ie/ontology#Liberty> <http://www.w3.org/2000/01/rdf-schema#label> "Liberty" .
+<https://ont.beyond2022.ie/ontology#Liberty> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#County> .
+# 
+# https://ont.beyond2022.ie/ontology#LocalCivilAdministration
+<https://ont.beyond2022.ie/ontology#LocalCivilAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#LocalCivilAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#LocalCivilAdministration> <http://www.w3.org/2000/01/rdf-schema#label> "Local civil administration"@en .
+<https://ont.beyond2022.ie/ontology#LocalCivilAdministration> <http://www.w3.org/2000/01/rdf-schema#label> "Local civil administration" .
+<https://ont.beyond2022.ie/ontology#LocalCivilAdministration> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CivilOrganisation> .
+<https://ont.beyond2022.ie/ontology#LocalCivilAdministration> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit
+<https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Local civil administration unit"@en .
+<https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Local civil administration unit" .
+<https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#TerritorialDivision> .
+# 
+# https://ont.beyond2022.ie/ontology#LocalCivilOrganisation
+<https://ont.beyond2022.ie/ontology#LocalCivilOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#LocalCivilOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#LocalCivilOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Local civil organisation"@en .
+<https://ont.beyond2022.ie/ontology#LocalCivilOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Local civil organisation" .
+# 
+# https://ont.beyond2022.ie/ontology#Male
+<https://ont.beyond2022.ie/ontology#Male> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Male> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Male> <http://www.w3.org/2000/01/rdf-schema#comment> "Of or relating to a man or boy. "@en .
+<https://ont.beyond2022.ie/ontology#Male> <http://www.w3.org/2000/01/rdf-schema#comment> "Of or relating to a man or boy. " .
+<https://ont.beyond2022.ie/ontology#Male> <http://www.w3.org/2000/01/rdf-schema#label> "Male"@en .
+<https://ont.beyond2022.ie/ontology#Male> <http://www.w3.org/2000/01/rdf-schema#label> "Male" .
+# 
+# https://ont.beyond2022.ie/ontology#Manor
+<https://ont.beyond2022.ie/ontology#Manor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Manor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Manor> <http://www.w3.org/2000/01/rdf-schema#comment> "An estate compromising the lord's demesne (including the land of his dependant peasantry) and other tenements let out for rents and services."@en .
+<https://ont.beyond2022.ie/ontology#Manor> <http://www.w3.org/2000/01/rdf-schema#comment> "An estate compromising the lord's demesne (including the land of his dependant peasantry) and other tenements let out for rents and services." .
+<https://ont.beyond2022.ie/ontology#Manor> <http://www.w3.org/2000/01/rdf-schema#label> "Manor"@en .
+<https://ont.beyond2022.ie/ontology#Manor> <http://www.w3.org/2000/01/rdf-schema#label> "Manor" .
+<https://ont.beyond2022.ie/ontology#Manor> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#RuralSettlement> .
+# 
+# https://ont.beyond2022.ie/ontology#Marriage
+<https://ont.beyond2022.ie/ontology#Marriage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Marriage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Marriage> <http://www.w3.org/2000/01/rdf-schema#comment> "The legally or formally recognized union of two people as partners in a personal relationship; the condition of being married; the relation between two people married to each other, matrimony. Source: \"marriage, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/114320."@en .
+<https://ont.beyond2022.ie/ontology#Marriage> <http://www.w3.org/2000/01/rdf-schema#comment> "The legally or formally recognized union of two people as partners in a personal relationship; the condition of being married; the relation between two people married to each other, matrimony. Source: \"marriage, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/114320." .
+<https://ont.beyond2022.ie/ontology#Marriage> <http://www.w3.org/2000/01/rdf-schema#label> "Marriage"@en .
+<https://ont.beyond2022.ie/ontology#Marriage> <http://www.w3.org/2000/01/rdf-schema#label> "Marriage" .
+# 
+# https://ont.beyond2022.ie/ontology#MedievalBarony
+<https://ont.beyond2022.ie/ontology#MedievalBarony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#MedievalBarony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#MedievalBarony> <http://www.w3.org/2000/01/rdf-schema#label> "Medieval barony"@en .
+<https://ont.beyond2022.ie/ontology#MedievalBarony> <http://www.w3.org/2000/01/rdf-schema#label> "Medieval barony" .
+<https://ont.beyond2022.ie/ontology#MedievalBarony> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Barony> .
+# 
+# https://ont.beyond2022.ie/ontology#MedievalCounty
+<https://ont.beyond2022.ie/ontology#MedievalCounty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#MedievalCounty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#MedievalCounty> <http://www.w3.org/2000/01/rdf-schema#comment> "The main unit of local government in the later medieval lordship of Ireland, one imported from England and with a longer prior history there. The county's main administrative official was a the sheriff, who was chosen by the local county court. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 280-1. "@en .
+<https://ont.beyond2022.ie/ontology#MedievalCounty> <http://www.w3.org/2000/01/rdf-schema#comment> "The main unit of local government in the later medieval lordship of Ireland, one imported from England and with a longer prior history there. The county's main administrative official was a the sheriff, who was chosen by the local county court. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 280-1. " .
+<https://ont.beyond2022.ie/ontology#MedievalCounty> <http://www.w3.org/2000/01/rdf-schema#label> "Medieval county"@en .
+<https://ont.beyond2022.ie/ontology#MedievalCounty> <http://www.w3.org/2000/01/rdf-schema#label> "Medieval county" .
+<https://ont.beyond2022.ie/ontology#MedievalCounty> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#County> .
+# 
+# https://ont.beyond2022.ie/ontology#MedievalKingdom
+<https://ont.beyond2022.ie/ontology#MedievalKingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#MedievalKingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#MedievalKingdom> <http://www.w3.org/2000/01/rdf-schema#label> "MedievalKingdom"@en .
+<https://ont.beyond2022.ie/ontology#MedievalKingdom> <http://www.w3.org/2000/01/rdf-schema#label> "Medieval Kingdom" .
+# 
+# https://ont.beyond2022.ie/ontology#Mendicants
+<https://ont.beyond2022.ie/ontology#Mendicants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Mendicants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Mendicants> <http://www.w3.org/2000/01/rdf-schema#comment> "Those who lived on alms; a mendicant friar belonging to one of three orders, Franciscian, Dominican, Carmelite. Their members lived on alms while travelling in the world beyond their monastery on the look out for and preaching against heresy. a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 189."@en .
+<https://ont.beyond2022.ie/ontology#Mendicants> <http://www.w3.org/2000/01/rdf-schema#comment> "Those who lived on alms; a mendicant friar belonging to one of three orders, Franciscian, Dominican, Carmelite. Their members lived on alms while travelling in the world beyond their monastery on the look out for and preaching against heresy. a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 189." .
+<https://ont.beyond2022.ie/ontology#Mendicants> <http://www.w3.org/2000/01/rdf-schema#label> "Mendicants"@en .
+<https://ont.beyond2022.ie/ontology#Mendicants> <http://www.w3.org/2000/01/rdf-schema#label> "Mendicants" .
+<https://ont.beyond2022.ie/ontology#Mendicants> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#Moat
+<https://ont.beyond2022.ie/ontology#Moat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Moat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Moat> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#Castle> .
+<https://ont.beyond2022.ie/ontology#Moat> <http://www.w3.org/2000/01/rdf-schema#comment> "One of the most familiar features of a castle's defences: a ditch filled with water which surrounded the building. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 195."@en .
+<https://ont.beyond2022.ie/ontology#Moat> <http://www.w3.org/2000/01/rdf-schema#comment> "One of the most familiar features of a castle's defences: a ditch filled with water which surrounded the building. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 195." .
+<https://ont.beyond2022.ie/ontology#Moat> <http://www.w3.org/2000/01/rdf-schema#label> "Moat"@en .
+<https://ont.beyond2022.ie/ontology#Moat> <http://www.w3.org/2000/01/rdf-schema#label> "Moat" .
+# 
+# https://ont.beyond2022.ie/ontology#ModernCounty
+<https://ont.beyond2022.ie/ontology#ModernCounty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#ModernCounty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#ModernCounty> <http://www.w3.org/2000/01/rdf-schema#label> "Modern county"@en .
+<https://ont.beyond2022.ie/ontology#ModernCounty> <http://www.w3.org/2000/01/rdf-schema#label> "Modern county" .
+<https://ont.beyond2022.ie/ontology#ModernCounty> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#County> .
+# 
+# https://ont.beyond2022.ie/ontology#Monument
+<https://ont.beyond2022.ie/ontology#Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Monument"@en .
+<https://ont.beyond2022.ie/ontology#Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Monument" .
+# 
+# https://ont.beyond2022.ie/ontology#MunicipalCivilAdministration
+<https://ont.beyond2022.ie/ontology#MunicipalCivilAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#MunicipalCivilAdministration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#MunicipalCivilAdministration> <http://www.w3.org/2000/01/rdf-schema#label> "Municipal civil administration"@en .
+<https://ont.beyond2022.ie/ontology#MunicipalCivilAdministration> <http://www.w3.org/2000/01/rdf-schema#label> "Municipal civil administration" .
+<https://ont.beyond2022.ie/ontology#MunicipalCivilAdministration> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#LocalCivilAdministration> .
+# 
+# https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit
+<https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Municipal civil administration unit"@en .
+<https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Municipal civil administration unit" .
+# 
+# https://ont.beyond2022.ie/ontology#MunicipalCorporation
+<https://ont.beyond2022.ie/ontology#MunicipalCorporation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#MunicipalCorporation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#MunicipalCorporation> <http://www.w3.org/2000/01/rdf-schema#label> "Municipal corporation"@en .
+<https://ont.beyond2022.ie/ontology#MunicipalCorporation> <http://www.w3.org/2000/01/rdf-schema#label> "Municipal corporation" .
+<https://ont.beyond2022.ie/ontology#MunicipalCorporation> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#Name
+<https://ont.beyond2022.ie/ontology#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Name> <http://www.w3.org/2000/01/rdf-schema#label> "Name"@en .
+<https://ont.beyond2022.ie/ontology#Name> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
+# 
+# https://ont.beyond2022.ie/ontology#NameVariant
+<https://ont.beyond2022.ie/ontology#NameVariant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#NameVariant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#NameVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Name variant"@en .
+<https://ont.beyond2022.ie/ontology#NameVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Name variant" .
+# 
+# https://ont.beyond2022.ie/ontology#ODNB
+<https://ont.beyond2022.ie/ontology#ODNB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#ODNB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#ODNB> <http://www.w3.org/2000/01/rdf-schema#label> "ODNB"@en .
+<https://ont.beyond2022.ie/ontology#ODNB> <http://www.w3.org/2000/01/rdf-schema#label> "ODNB" .
+# 
+# https://ont.beyond2022.ie/ontology#Occupation
+<https://ont.beyond2022.ie/ontology#Occupation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Occupation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Occupation> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular action or course of action in which a person is engaged, esp. habitually; a particular job or profession; a particular pursuit or activity. Source: \"occupation, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/130181. "@en .
+<https://ont.beyond2022.ie/ontology#Occupation> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular action or course of action in which a person is engaged, esp. habitually; a particular job or profession; a particular pursuit or activity. Source: \"occupation, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/130181. " .
+<https://ont.beyond2022.ie/ontology#Occupation> <http://www.w3.org/2000/01/rdf-schema#label> "Occupation"@en .
+<https://ont.beyond2022.ie/ontology#Occupation> <http://www.w3.org/2000/01/rdf-schema#label> "Occupation" .
+# 
+# https://ont.beyond2022.ie/ontology#Office
+<https://ont.beyond2022.ie/ontology#Office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Office> <http://www.w3.org/2000/01/rdf-schema#label> "Office"@en .
+<https://ont.beyond2022.ie/ontology#Office> <http://www.w3.org/2000/01/rdf-schema#label> "Office" .
+# 
+# https://ont.beyond2022.ie/ontology#Organisation
+<https://ont.beyond2022.ie/ontology#Organisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Organisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Organisation> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation"@en .
+<https://ont.beyond2022.ie/ontology#Organisation> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation" .
+# 
+# https://ont.beyond2022.ie/ontology#Parish
+<https://ont.beyond2022.ie/ontology#Parish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Parish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Parish> <http://www.w3.org/2000/01/rdf-schema#label> "Parish"@en .
+<https://ont.beyond2022.ie/ontology#Parish> <http://www.w3.org/2000/01/rdf-schema#label> "Parish" .
+<https://ont.beyond2022.ie/ontology#Parish> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#Place
+<https://ont.beyond2022.ie/ontology#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
+<https://ont.beyond2022.ie/ontology#Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place" .
+# 
+# https://ont.beyond2022.ie/ontology#PoorLawUnion
+<https://ont.beyond2022.ie/ontology#PoorLawUnion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#PoorLawUnion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#PoorLawUnion> <http://www.w3.org/2000/01/rdf-schema#label> "Poor Law Union"@en .
+<https://ont.beyond2022.ie/ontology#PoorLawUnion> <http://www.w3.org/2000/01/rdf-schema#label> "Poor Law Union" .
+<https://ont.beyond2022.ie/ontology#PoorLawUnion> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#Port
+<https://ont.beyond2022.ie/ontology#Port> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Port> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Port> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#UrbanSettlement> .
+<https://ont.beyond2022.ie/ontology#Port> <http://www.w3.org/2000/01/rdf-schema#label> "Port"@en .
+<https://ont.beyond2022.ie/ontology#Port> <http://www.w3.org/2000/01/rdf-schema#label> "Port" .
+<https://ont.beyond2022.ie/ontology#Port> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CivilMonument> .
+# 
+# https://ont.beyond2022.ie/ontology#Post1836Barony
+<https://ont.beyond2022.ie/ontology#Post1836Barony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Post1836Barony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Post1836Barony> <http://www.w3.org/2000/01/rdf-schema#label> "Barony (post-1836)"@en .
+<https://ont.beyond2022.ie/ontology#Post1836Barony> <http://www.w3.org/2000/01/rdf-schema#label> "Barony (post-1836)" .
+<https://ont.beyond2022.ie/ontology#Post1836Barony> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Barony> .
+# 
+# https://ont.beyond2022.ie/ontology#PostReformationDioceseCatholic
+<https://ont.beyond2022.ie/ontology#PostReformationDioceseCatholic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#PostReformationDioceseCatholic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#PostReformationDioceseCatholic> <http://www.w3.org/2000/01/rdf-schema#label> "Post-reformation Diocese (Catholic)"@en .
+<https://ont.beyond2022.ie/ontology#PostReformationDioceseCatholic> <http://www.w3.org/2000/01/rdf-schema#label> "Post-reformation Diocese (Catholic)" .
+<https://ont.beyond2022.ie/ontology#PostReformationDioceseCatholic> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Diocese> .
+# 
+# https://ont.beyond2022.ie/ontology#PostReformationDioceseEstablishedChurch
+<https://ont.beyond2022.ie/ontology#PostReformationDioceseEstablishedChurch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#PostReformationDioceseEstablishedChurch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#PostReformationDioceseEstablishedChurch> <http://www.w3.org/2000/01/rdf-schema#label> "Post-reformation Diocese (Established Church)"@en .
+<https://ont.beyond2022.ie/ontology#PostReformationDioceseEstablishedChurch> <http://www.w3.org/2000/01/rdf-schema#label> "Post-reformation Diocese (Established Church)" .
+<https://ont.beyond2022.ie/ontology#PostReformationDioceseEstablishedChurch> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Diocese> .
+# 
+# https://ont.beyond2022.ie/ontology#Pre1836Barony
+<https://ont.beyond2022.ie/ontology#Pre1836Barony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Pre1836Barony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Pre1836Barony> <http://www.w3.org/2000/01/rdf-schema#label> "Barony (pre-1836)"@en .
+<https://ont.beyond2022.ie/ontology#Pre1836Barony> <http://www.w3.org/2000/01/rdf-schema#label> "Barony (pre-1836)" .
+<https://ont.beyond2022.ie/ontology#Pre1836Barony> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Barony> .
+# 
+# https://ont.beyond2022.ie/ontology#PreReformationDiocese
+<https://ont.beyond2022.ie/ontology#PreReformationDiocese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#PreReformationDiocese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#PreReformationDiocese> <http://www.w3.org/2000/01/rdf-schema#label> "Pre-reformation Diocese"@en .
+<https://ont.beyond2022.ie/ontology#PreReformationDiocese> <http://www.w3.org/2000/01/rdf-schema#label> "Pre-reformation Diocese" .
+<https://ont.beyond2022.ie/ontology#PreReformationDiocese> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Diocese> .
+# 
+# https://ont.beyond2022.ie/ontology#PremonstratensianCanons
+<https://ont.beyond2022.ie/ontology#PremonstratensianCanons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#PremonstratensianCanons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#PremonstratensianCanons> <http://www.w3.org/2000/01/rdf-schema#label> "Premonstratensian Canons"@en .
+<https://ont.beyond2022.ie/ontology#PremonstratensianCanons> <http://www.w3.org/2000/01/rdf-schema#label> "Premonstratensian Canons" .
+<https://ont.beyond2022.ie/ontology#PremonstratensianCanons> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#Prison
+<https://ont.beyond2022.ie/ontology#Prison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Prison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Prison> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#Castle> .
+<https://ont.beyond2022.ie/ontology#Prison> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#UrbanSettlement> .
+<https://ont.beyond2022.ie/ontology#Prison> <http://www.w3.org/2000/01/rdf-schema#label> "Prison"@en .
+<https://ont.beyond2022.ie/ontology#Prison> <http://www.w3.org/2000/01/rdf-schema#label> "Prison" .
+<https://ont.beyond2022.ie/ontology#Prison> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CivilMonument> .
+# 
+# https://ont.beyond2022.ie/ontology#Quarter
+<https://ont.beyond2022.ie/ontology#Quarter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Quarter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Quarter> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#Townland> .
+<https://ont.beyond2022.ie/ontology#Quarter> <http://www.w3.org/2000/01/rdf-schema#label> "Quarter"@en .
+<https://ont.beyond2022.ie/ontology#Quarter> <http://www.w3.org/2000/01/rdf-schema#label> "Quarter" .
+# 
+# https://ont.beyond2022.ie/ontology#Rank
+<https://ont.beyond2022.ie/ontology#Rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Rank> <http://www.w3.org/2000/01/rdf-schema#label> "Rank"@en .
+<https://ont.beyond2022.ie/ontology#Rank> <http://www.w3.org/2000/01/rdf-schema#label> "Rank" .
+# 
+# https://ont.beyond2022.ie/ontology#RegionAssignment
+<https://ont.beyond2022.ie/ontology#RegionAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#RegionAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#RegionAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "Region assignment"@en .
+<https://ont.beyond2022.ie/ontology#RegionAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "Region assignment" .
+# 
+# https://ont.beyond2022.ie/ontology#RegnalYear
+<https://ont.beyond2022.ie/ontology#RegnalYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#RegnalYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#RegnalYear> <http://www.w3.org/2000/01/rdf-schema#label> "Regnal year"@en .
+<https://ont.beyond2022.ie/ontology#RegnalYear> <http://www.w3.org/2000/01/rdf-schema#label> "Regnal year" .
+# 
+# https://ont.beyond2022.ie/ontology#ReligiousHouse
+<https://ont.beyond2022.ie/ontology#ReligiousHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#ReligiousHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#ReligiousHouse> <http://www.w3.org/2000/01/rdf-schema#label> "Religious house"@en .
+<https://ont.beyond2022.ie/ontology#ReligiousHouse> <http://www.w3.org/2000/01/rdf-schema#label> "Religious house" .
+<https://ont.beyond2022.ie/ontology#ReligiousHouse> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#ReligiousOrder
+<https://ont.beyond2022.ie/ontology#ReligiousOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#ReligiousOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#ReligiousOrder> <http://www.w3.org/2000/01/rdf-schema#label> "Religious order"@en .
+<https://ont.beyond2022.ie/ontology#ReligiousOrder> <http://www.w3.org/2000/01/rdf-schema#label> "Religious order" .
+<https://ont.beyond2022.ie/ontology#ReligiousOrder> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation> .
+# 
+# https://ont.beyond2022.ie/ontology#RuralDeanery
+<https://ont.beyond2022.ie/ontology#RuralDeanery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#RuralDeanery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#RuralDeanery> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#Diocese> .
+<https://ont.beyond2022.ie/ontology#RuralDeanery> <http://www.w3.org/2000/01/rdf-schema#label> "Rural Deanery"@en .
+<https://ont.beyond2022.ie/ontology#RuralDeanery> <http://www.w3.org/2000/01/rdf-schema#label> "Rural Deanery" .
+# 
+# https://ont.beyond2022.ie/ontology#RuralSettlement
+<https://ont.beyond2022.ie/ontology#RuralSettlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#RuralSettlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#RuralSettlement> <http://www.w3.org/2000/01/rdf-schema#label> "Settlement (Rural)"@en .
+<https://ont.beyond2022.ie/ontology#RuralSettlement> <http://www.w3.org/2000/01/rdf-schema#label> "Settlement (Rural)" .
+# 
+# https://ont.beyond2022.ie/ontology#SecularClergy
+<https://ont.beyond2022.ie/ontology#SecularClergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#SecularClergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#SecularClergy> <http://www.w3.org/2000/01/rdf-schema#label> "Secular clergy"@en .
+<https://ont.beyond2022.ie/ontology#SecularClergy> <http://www.w3.org/2000/01/rdf-schema#label> "Secular clergy" .
+<https://ont.beyond2022.ie/ontology#SecularClergy> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit> .
+<https://ont.beyond2022.ie/ontology#SecularClergy> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation> .
+# 
+# https://ont.beyond2022.ie/ontology#SecularColleges
+<https://ont.beyond2022.ie/ontology#SecularColleges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#SecularColleges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#SecularColleges> <http://www.w3.org/2000/01/rdf-schema#label> "Secular colleges"@en .
+<https://ont.beyond2022.ie/ontology#SecularColleges> <http://www.w3.org/2000/01/rdf-schema#label> "Secular colleges" .
+<https://ont.beyond2022.ie/ontology#SecularColleges> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#ReligiousOrder> .
+# 
+# https://ont.beyond2022.ie/ontology#Shire
+<https://ont.beyond2022.ie/ontology#Shire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Shire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Shire> <http://www.w3.org/2000/01/rdf-schema#comment> "Originally a sphere of jurisdiction or command; thus the area of which such authority was exercised. The earliest shires were commanded by ealdormen; by the late tenth century, when the ealdorman's powers were more extensive, they were administered by sheriffs. By the same period, the shires were divided into hundreds. From the twelfth century, they were also called 'counties'. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 258. "@en .
+<https://ont.beyond2022.ie/ontology#Shire> <http://www.w3.org/2000/01/rdf-schema#comment> "Originally a sphere of jurisdiction or command; thus the area of which such authority was exercised. The earliest shires were commanded by ealdormen; by the late tenth century, when the ealdorman's powers were more extensive, they were administered by sheriffs. By the same period, the shires were divided into hundreds. From the twelfth century, they were also called 'counties'. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 258. " .
+<https://ont.beyond2022.ie/ontology#Shire> <http://www.w3.org/2000/01/rdf-schema#label> "Shire"@en .
+<https://ont.beyond2022.ie/ontology#Shire> <http://www.w3.org/2000/01/rdf-schema#label> "Shire" .
+# 
+# https://ont.beyond2022.ie/ontology#Surname
+<https://ont.beyond2022.ie/ontology#Surname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Surname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Surname> <http://www.w3.org/2000/01/rdf-schema#label> "Surname"@en .
+<https://ont.beyond2022.ie/ontology#Surname> <http://www.w3.org/2000/01/rdf-schema#label> "Surname" .
+# 
+# https://ont.beyond2022.ie/ontology#TerritorialDivision
+<https://ont.beyond2022.ie/ontology#TerritorialDivision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#TerritorialDivision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#TerritorialDivision> <http://www.w3.org/2000/01/rdf-schema#label> "Territorial division"@en .
+<https://ont.beyond2022.ie/ontology#TerritorialDivision> <http://www.w3.org/2000/01/rdf-schema#label> "Territorial division" .
+# 
+# https://ont.beyond2022.ie/ontology#Town
+<https://ont.beyond2022.ie/ontology#Town> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Town> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Town> <http://www.w3.org/2000/01/rdf-schema#label> "Town"@en .
+<https://ont.beyond2022.ie/ontology#Town> <http://www.w3.org/2000/01/rdf-schema#label> "Town" .
+<https://ont.beyond2022.ie/ontology#Town> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#UrbanSettlement> .
+# 
+# https://ont.beyond2022.ie/ontology#Townland
+<https://ont.beyond2022.ie/ontology#Townland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Townland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Townland> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#CivilParish> .
+<https://ont.beyond2022.ie/ontology#Townland> <http://www.w3.org/2000/01/rdf-schema#label> "Townland"@en .
+<https://ont.beyond2022.ie/ontology#Townland> <http://www.w3.org/2000/01/rdf-schema#label> "Townland" .
+<https://ont.beyond2022.ie/ontology#Townland> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit> .
+# 
+# https://ont.beyond2022.ie/ontology#Trinitarians
+<https://ont.beyond2022.ie/ontology#Trinitarians> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Trinitarians> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Trinitarians> <http://www.w3.org/2000/01/rdf-schema#label> "Trinitarians"@en .
+<https://ont.beyond2022.ie/ontology#Trinitarians> <http://www.w3.org/2000/01/rdf-schema#label> "Trinitarians" .
+<https://ont.beyond2022.ie/ontology#Trinitarians> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Mendicants> .
+# 
+# https://ont.beyond2022.ie/ontology#UnitedDioceses
+<https://ont.beyond2022.ie/ontology#UnitedDioceses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#UnitedDioceses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#UnitedDioceses> <http://www.w3.org/2000/01/rdf-schema#label> "United Dioceses"@en .
+<https://ont.beyond2022.ie/ontology#UnitedDioceses> <http://www.w3.org/2000/01/rdf-schema#label> "United Dioceses" .
+<https://ont.beyond2022.ie/ontology#UnitedDioceses> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Diocese> .
+# 
+# https://ont.beyond2022.ie/ontology#UrbanOrganisation
+<https://ont.beyond2022.ie/ontology#UrbanOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#UrbanOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#UrbanOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Urban organisation"@en .
+<https://ont.beyond2022.ie/ontology#UrbanOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Urban organisation" .
+<https://ont.beyond2022.ie/ontology#UrbanOrganisation> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#Organisation> .
+# 
+# https://ont.beyond2022.ie/ontology#UrbanSettlement
+<https://ont.beyond2022.ie/ontology#UrbanSettlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#UrbanSettlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#UrbanSettlement> <http://www.w3.org/2000/01/rdf-schema#label> "Settlement (Urban)"@en .
+<https://ont.beyond2022.ie/ontology#UrbanSettlement> <http://www.w3.org/2000/01/rdf-schema#label> "Settlement (Urban)" .
+# 
+# https://ont.beyond2022.ie/ontology#Wall
+<https://ont.beyond2022.ie/ontology#Wall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#Wall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#Wall> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#UrbanSettlement> .
+<https://ont.beyond2022.ie/ontology#Wall> <http://www.w3.org/2000/01/rdf-schema#label> "Wall"@en .
+<https://ont.beyond2022.ie/ontology#Wall> <http://www.w3.org/2000/01/rdf-schema#label> "Wall" .
+<https://ont.beyond2022.ie/ontology#Wall> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CivilMonument> .
+# 
+# https://ont.beyond2022.ie/ontology#WaterConduit
+<https://ont.beyond2022.ie/ontology#WaterConduit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#WaterConduit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#WaterConduit> <http://erlangen-crm.org/current/P89_falls_within> <https://ont.beyond2022.ie/ontology#UrbanSettlement> .
+<https://ont.beyond2022.ie/ontology#WaterConduit> <http://www.w3.org/2000/01/rdf-schema#label> "Water conduit"@en .
+<https://ont.beyond2022.ie/ontology#WaterConduit> <http://www.w3.org/2000/01/rdf-schema#label> "Water conduit" .
+<https://ont.beyond2022.ie/ontology#WaterConduit> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#CivilMonument> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

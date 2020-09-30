@@ -1,0 +1,1975 @@
+[ {
+  "@id" : "http://erlangen-crm.org/current/E55_Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://erlangen-crm.org/current/P89_falls_within",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://erlangen-crm.org/current/"
+  }, {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Accountability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The concept of being accountable; liability to account for and answer for one's conduct, performance of duties, etc., to a superior or external authority; liability to provide or present an account of transactions, money given or received, etc. "
+  }, {
+    "@value" : "The concept of being accountable; liability to account for and answer for one's conduct, performance of duties, etc., to a superior or external authority; liability to provide or present an account of transactions, money given or received, etc. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accountability"
+  }, {
+    "@value" : "Accountability"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#AppellationAssignment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Appellation assignment"
+  }, {
+    "@value" : "Appellation assignment"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Archdeaconry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The jurisdiction or district under the ecclesiastical control of an archdeacon;the rank or office of an archdeacon. Source: \"archdeaconry, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/10312."
+  }, {
+    "@value" : "The jurisdiction or district under the ecclesiastical control of an archdeacon;the rank or office of an archdeacon. Source: \"archdeaconry, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/10312."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Archdeaconry"
+  }, {
+    "@value" : "Archdeaconry"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Archdiocese",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The term for the province over which an archbishop holds jurisdiction, comprised of several dioceses. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 18. "
+  }, {
+    "@value" : "The term for the province over which an archbishop holds jurisdiction, comprised of several dioceses. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 18. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Archdiocese"
+  }, {
+    "@value" : "Archdiocese"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#AssemblyHouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A house in which assemblies, or gatherings of persons for the purpose of deliberation and decision, were held. Source: \"assembly, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/11795. "
+  }, {
+    "@value" : "A house in which assemblies, or gatherings of persons for the purpose of deliberation and decision, were held. Source: \"assembly, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/11795. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Assembly house"
+  }, {
+    "@value" : "Assembly house"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#AugustinianFriars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Full name: Order of the Hermit Friars of St Augustine (OSA). Members of a monastic order named after St Augustine (of Hippo), one of the Fathers of the Church; the order followed the rule of St Augustine and had two branches, Augustinian canons and Augustinian friars. The hermits or friars were separate from the canons until unified by the pope in 1256, after which the friars worked in the world and were active in the universities. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 25."
+  }, {
+    "@value" : "Full name: Order of the Hermit Friars of St Augustine (OSA). Members of a monastic order named after St Augustine (of Hippo), one of the Fathers of the Church; the order followed the rule of St Augustine and had two branches, Augustinian canons and Augustinian friars. The hermits or friars were separate from the canons until unified by the pope in 1256, after which the friars worked in the world and were active in the universities. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 25."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Augustinian Friars"
+  }, {
+    "@value" : "Augustinian Friars"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Authority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Power derived from or conferred by another; the right to act in a specified way, delegated from one person or organisation to another; official permission, authorization; an instance of this; power or right to give orders, make decisions, and enforce obedience; moral, legal, or political supremacy. Source: \"authority, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/13349. "
+  }, {
+    "@value" : "Power derived from or conferred by another; the right to act in a specified way, delegated from one person or organisation to another; official permission, authorization; an instance of this; power or right to give orders, make decisions, and enforce obedience; moral, legal, or political supremacy. Source: \"authority, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/13349. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Authority"
+  }, {
+    "@value" : "Authority"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Ballyboe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A measure of land in Ireland, which varied in size according to the quality and situtation of the land; typical values were between 60 and 120 Irish acres. Source: \"ballyboe, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/269953."
+  }, {
+    "@value" : "A measure of land in Ireland, which varied in size according to the quality and situtation of the land; typical values were between 60 and 120 Irish acres. Source: \"ballyboe, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/269953."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ballyboe"
+  }, {
+    "@value" : "Ballyboe"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Townland"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#BaronsOfTheExchequer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Assessors; officers of the exchequer. "
+  }, {
+    "@value" : "Assessors; officers of the exchequer. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Barons of the exchequer"
+  }, {
+    "@value" : "Barons of the exchequer"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Barony",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#County"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A sub-county administrative unit. Before the end of the Middle Ages the term \"barony\" was coming to be used in place of \"cantred\" to describe these units. They were significant units for the purposes of taxation, law enforcement and general administration. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. "
+  }, {
+    "@value" : "A sub-county administrative unit. Before the end of the Middle Ages the term \"barony\" was coming to be used in place of \"cantred\" to describe these units. They were significant units for the purposes of taxation, law enforcement and general administration. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Barony"
+  }, {
+    "@value" : "Barony"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#BenedictineMonks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The monks belonging to the Order of St Benedict."
+  }, {
+    "@value" : "The monks belonging to the Order of St Benedict."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Benedictine Monks"
+  }, {
+    "@value" : "Benedictine Monks"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Borough",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A town possessing a municipal corporation and special privileges conferred by royal charter. Also a town which sends representatives to parliament. Source: \"borough, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/21687."
+  }, {
+    "@value" : "A town possessing a municipal corporation and special privileges conferred by royal charter. Also a town which sends representatives to parliament. Source: \"borough, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/21687."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Borough"
+  }, {
+    "@value" : "Borough"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#BoroughCorporation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The civic authorities of a borough; the mayor aldermen and councillors. Source: \"corporation, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/41833. "
+  }, {
+    "@value" : "The civic authorities of a borough; the mayor aldermen and councillors. Source: \"corporation, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/41833. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Borough corporation"
+  }, {
+    "@value" : "Borough corporation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Cantred",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The main administrative unit below the level of county. The term cantred is related to one used in Wales and is etymologically equivalent to the English term \"hundred\", the term used for a similar sub-county administrative unit. Cantreds were often based upon preexisting areas, and generally coincided with the basic area of ecclesiastical administration above the parish and below the archdeaconry, the rural denery. They were significant units for the purposes of taxation, law enforcement and general administration. Before the end of the Middle AGes the term \"barony\" was coming to be used in place of cantred for these units. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. "
+  }, {
+    "@value" : "The main administrative unit below the level of county. The term cantred is related to one used in Wales and is etymologically equivalent to the English term \"hundred\", the term used for a similar sub-county administrative unit. Cantreds were often based upon preexisting areas, and generally coincided with the basic area of ecclesiastical administration above the parish and below the archdeaconry, the rural denery. They were significant units for the purposes of taxation, law enforcement and general administration. Before the end of the Middle AGes the term \"barony\" was coming to be used in place of cantred for these units. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cantred"
+  }, {
+    "@value" : "Cantred"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#MedievalBarony"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Career",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A course of professional life or employment. "
+  }, {
+    "@value" : "A course of professional life or employment. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Career"
+  }, {
+    "@value" : "Career"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CarmeliteFriars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Members of the order founded at Mount Carmel in Palestine in the early thirteenth century and approved by the pope in 1226. A mendicant order which was known as the White Friars; its first members, however, were mostly hermits. There was also an order of nuns modelled on the White Friars. Although formally instituted in 1452. the sisters had first appeared in the thirteenth century. In 1452, the Carmelite Second Order was organised and adopted the same rule as the Carmelite brothers. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 59."
+  }, {
+    "@value" : "Members of the order founded at Mount Carmel in Palestine in the early thirteenth century and approved by the pope in 1226. A mendicant order which was known as the White Friars; its first members, however, were mostly hermits. There was also an order of nuns modelled on the White Friars. Although formally instituted in 1452. the sisters had first appeared in the thirteenth century. In 1452, the Carmelite Second Order was organised and adopted the same rule as the Carmelite brothers. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 59."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Carmelite Friars"
+  }, {
+    "@value" : "Carmelite Friars"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Castle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A large building or set of buildings fortified for defence against an enemy; a fortress, stronghold. Source: \"castle, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/28581."
+  }, {
+    "@value" : "A large building or set of buildings fortified for defence against an enemy; a fortress, stronghold. Source: \"castle, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/28581."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Castle"
+  }, {
+    "@value" : "Castle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Cathedral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The principal church of a diocese. The crucial distinction of a cathedral church is neither its size nor its splendour but that it has a cathedra, i.e. the bishop's throne or chair of office. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 62."
+  }, {
+    "@value" : "The principal church of a diocese. The crucial distinction of a cathedral church is neither its size nor its splendour but that it has a cathedra, i.e. the bishop's throne or chair of office. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 62."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cathedral"
+  }, {
+    "@value" : "Cathedral"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalMonument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CathedralChapter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A duly constituted general meeting or assembly or the canons of a cathedral church, for consultation and transaction of the affairs of their chapter. Source: \"chapter, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/30613."
+  }, {
+    "@value" : "A duly constituted general meeting or assembly or the canons of a cathedral church, for consultation and transaction of the affairs of their chapter. Source: \"chapter, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/30613."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cathedral Chapter"
+  }, {
+    "@value" : "Cathedral Chapter"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CatholicParish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Originally: a relatively large area (resembling a modern diocese) incorporating a township or cluster of townships under the control of a minster (chiefly historical). Subsequently: an area or district having its own priest, parson, or other incumbent under the jurisdiction of a bishop (to whom tithes and ecclesiastical dues were formally paid); a territorial subdivision of a diocese. \"parish, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/137918. "
+  }, {
+    "@value" : "Originally: a relatively large area (resembling a modern diocese) incorporating a township or cluster of townships under the control of a minster (chiefly historical). Subsequently: an area or district having its own priest, parson, or other incumbent under the jurisdiction of a bishop (to whom tithes and ecclesiastical dues were formally paid); a territorial subdivision of a diocese. \"parish, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/137918. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parish (Catholic)"
+  }, {
+    "@value" : "Parish (Catholic)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Parish"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CentralCivilAdministration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Central civil administration"
+  }, {
+    "@value" : "Central civil administration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilOrganisation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CentralCivilOrganisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Central civil organisation"
+  }, {
+    "@value" : "Central civil organisation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilOrganisation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#ChamberlainsOfTheExchequer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Chamberlains of the exchequer"
+  }, {
+    "@value" : "Chamberlains of the exchequer"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#ChanceryOffices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Chancery offices"
+  }, {
+    "@value" : "Chancery offices"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Chapel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Castle"
+  }, {
+    "@id" : "https://ont.beyond2022.ie/ontology#Cathedral"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Originally the shrine with the cape (chapele) of St Martin of Tours kept by the kings of France. It was in the charge of a cappellani, or chaplain, offering sanctuary. Thus a place for private worship; also the equipment of a portable chapel. Such places were found in private houses or as side chapels in cathedrals. After the thirteenth century such chapels were included in a cathedral's eastern walls during constructions. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 67."
+  }, {
+    "@value" : "Originally the shrine with the cape (chapele) of St Martin of Tours kept by the kings of France. It was in the charge of a cappellani, or chaplain, offering sanctuary. Thus a place for private worship; also the equipment of a portable chapel. Such places were found in private houses or as side chapels in cathedrals. After the thirteenth century such chapels were included in a cathedral's eastern walls during constructions. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 67."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Chapel"
+  }, {
+    "@value" : "Chapel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalMonument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#ChiefGovernorsOfIreland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Chief Governor of Ireland is a general term used to describe the office of the chief representative of the king of England in Ireland. The king of England rarely spent time in Ireland in person, so royal authority was delegated to the chief governor, who was appointed by the king. Persons who served as chief governor held the office under a number of different titles, for example 'justiciar', 'lieutenant', 'lord deputy' and 'viceroy'."
+  }, {
+    "@value" : "Chief Governor of Ireland is a general term used to describe the office of the chief representative of the king of England in Ireland. The king of England rarely spent time in Ireland in person, so royal authority was delegated to the chief governor, who was appointed by the king. Persons who served as chief governor held the office under a number of different titles, for example 'justiciar', 'lieutenant', 'lord deputy' and 'viceroy'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ChiefGovernors of Ireland"
+  }, {
+    "@value" : "ChiefGovernors of Ireland"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Church",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Church"
+  }, {
+    "@value" : "Church"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalMonument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CistercianMonks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Members of the Cistercian order. The monastic order was founded in 1098 at Citeaux by Robert of Molesme (d. 1110); a Benedictine reform. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 74.  "
+  }, {
+    "@value" : "Members of the Cistercian order. The monastic order was founded in 1098 at Citeaux by Robert of Molesme (d. 1110); a Benedictine reform. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 74.  "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cistercian Monks"
+  }, {
+    "@value" : "Cistercian Monks"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "City"
+  }, {
+    "@value" : "City"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"
+  }, {
+    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CivilAdministration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Civil Administration is an organization or bureaucratic apparatus responsible for running the day-to-day affairs of 'civil' (i.e., secular or temporal) government, as opposed to 'ecclesiastical administration' which is responsible for the affairs of the institutional Church. Civil Administration is typically divided into distinct branches of administration, the most important distinction being between Central and Local administration. Different administrative functions are performed by separate departments within the Civil Administration, for instance financial, secretarial and judicial departments, each of which develops its own internal hierarchies. The Civil Administration is ultimately responsible to the highest secular authority, for instance the king or Prime Minister."
+  }, {
+    "@value" : "Civil Administration is an organization or bureaucratic apparatus responsible for running the day-to-day affairs of 'civil' (i.e., secular or temporal) government, as opposed to 'ecclesiastical administration' which is responsible for the affairs of the institutional Church. Civil Administration is typically divided into distinct branches of administration, the most important distinction being between Central and Local administration. Different administrative functions are performed by separate departments within the Civil Administration, for instance financial, secretarial and judicial departments, each of which develops its own internal hierarchies. The Civil Administration is ultimately responsible to the highest secular authority, for instance the king or Prime Minister."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Civil administration"
+  }, {
+    "@value" : "Civil administration"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CivilAdministrativeDivision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Civil administrative division"
+  }, {
+    "@value" : "Civil administrative division"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#JudicialCounty"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CivilAdministrativeUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Civil administrative unit"
+  }, {
+    "@value" : "Civil administrative unit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Civil monument"
+  }, {
+    "@value" : "Civil monument"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Monument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CivilOrganisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Civil organisation"
+  }, {
+    "@value" : "Civil organisation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Organisation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CivilParish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parish (Civil)"
+  }, {
+    "@value" : "Parish (Civil)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+  }, {
+    "@id" : "https://ont.beyond2022.ie/ontology#Parish"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CommonBench",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Common bench"
+  }, {
+    "@value" : "Common bench"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Composition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Composition"
+  }, {
+    "@value" : "Composition"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#ConventsOfNuns",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Convents of Nuns"
+  }, {
+    "@value" : "Convents of Nuns"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Council",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An advisory or deliberative assembly; a body of persons chosen or designated as advisors on matters of state, especially to advise and assist a sovereign or ruler in the administration of government;the local administrative body of a corporate town, city, county or district; an assembly of ecclesiastics convened for the regulation of doctrine or discipline in the church."
+  }, {
+    "@value" : "An advisory or deliberative assembly; a body of persons chosen or designated as advisors on matters of state, especially to advise and assist a sovereign or ruler in the administration of government;the local administrative body of a corporate town, city, county or district; an assembly of ecclesiastics convened for the regulation of doctrine or discipline in the church."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Council"
+  }, {
+    "@value" : "Council"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#County",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A territorial division of Ireland; the chief unit for administrative, justicial and political purposes. "
+  }, {
+    "@value" : "A territorial division of Ireland; the chief unit for administrative, justicial and political purposes. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "County"
+  }, {
+    "@value" : "County"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CountyCorporate"
+  }, {
+    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Shire"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CountyCorporate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A city or town given the status and powers of a county. Source: \"county, n.1 and adj.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/43102."
+  }, {
+    "@value" : "A city or town given the status and powers of a county. Source: \"county, n.1 and adj.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/43102."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "County corporate"
+  }, {
+    "@value" : "County corporate"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Borough"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CountyPalatine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Originally: designating a county of which the earl or lord originally had royal privileges, with the right of exclusive civil and criminal jurisdiction within that territory. Later: designating a modern administrative area corresponding to this. Source: \"palatine, adj.1 and n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/136245."
+  }, {
+    "@value" : "Originally: designating a county of which the earl or lord originally had royal privileges, with the right of exclusive civil and criminal jurisdiction within that territory. Later: designating a modern administrative area corresponding to this. Source: \"palatine, adj.1 and n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/136245."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "County Palatine"
+  }, {
+    "@value" : "County Palatine"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#County"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#CromwellianDistrict",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "District (Cromwellian)"
+  }, {
+    "@value" : "District (Cromwellian)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Crossland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#County"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Land in Ireland in the possession of monasteries and churches, or of prelates. This land was subject to intervention by the county sheriff in guarding the crown's rights, even if within a franchise or liberty. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 92."
+  }, {
+    "@value" : "Land in Ireland in the possession of monasteries and churches, or of prelates. This land was subject to intervention by the county sheriff in guarding the crown's rights, even if within a franchise or liberty. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 92."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Crossland"
+  }, {
+    "@value" : "Crossland"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#DIB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Dictionary of Irish Biography. A biographical dictionary of notable Irish people and people who had notable careers in Ireland, containing approximately 9000 entries. It is published by Cambridge University Press in collaboration with the Royal Irish Academy, and is available both in print and online. "
+  }, {
+    "@value" : "The Dictionary of Irish Biography. A biographical dictionary of notable Irish people and people who had notable careers in Ireland, containing approximately 9000 entries. It is published by Cambridge University Press in collaboration with the Royal Irish Academy, and is available both in print and online. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DIB"
+  }, {
+    "@value" : "DIB"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Demense",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property owned freely; land held for the lord's own use rather than let or leased; land held by the lord of a manor, which could be passed on to descendants. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 100."
+  }, {
+    "@value" : "Property owned freely; land held for the lord's own use rather than let or leased; land held by the lord of a manor, which could be passed on to descendants. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 100."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Demense"
+  }, {
+    "@value" : "Demense"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#RuralSettlement"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Diocese",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalProvince"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The district over which a bishop has jurisdiction and for which he is responsible to an archbishop. This term is taken from its use during Diocletian’s reign (284–305), when the Roman Empire was divided into 12 dioceses. [< L dioecesis = a governor’s jurisdiction]. \n\n\t\t\t Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 102.  "
+  }, {
+    "@value" : "The district over which a bishop has jurisdiction and for which he is responsible to an archbishop. This term is taken from its use during Diocletian’s reign (284–305), when the Roman Empire was divided into 12 dioceses. [< L dioecesis = a governor’s jurisdiction]. \n\n\t\t\t Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 102.  "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Diocese"
+  }, {
+    "@value" : "Diocese"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"
+  }, {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#DistrictElectoralDivision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "District Electoral Division"
+  }, {
+    "@value" : "District Electoral Division"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#DominicanFriars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Members of the order founded by St Dominic (1170-1221) in 1215, named the Order of Friars Preachers. They were known as the Black Friars or the preaching friars. Some Dominicans were mendicants, dedicated to evangelical preaching. They were very active in combating heresy. They also placed emphasis upon learning, which they considered necessary to preach intelligently and for rational theological debate, always preferring to convert by persuasion. Their emphasis on education meant the Dominicans were deeply involved in the growth of universities. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105. "
+  }, {
+    "@value" : "Members of the order founded by St Dominic (1170-1221) in 1215, named the Order of Friars Preachers. They were known as the Black Friars or the preaching friars. Some Dominicans were mendicants, dedicated to evangelical preaching. They were very active in combating heresy. They also placed emphasis upon learning, which they considered necessary to preach intelligently and for rational theological debate, always preferring to convert by persuasion. Their emphasis on education meant the Dominicans were deeply involved in the growth of universities. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dominican Friars"
+  }, {
+    "@value" : "Dominican Friars"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Donjon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Castle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence; the keep of a castle, from which comes dungeon. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105."
+  }, {
+    "@value" : "A well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence; the keep of a castle, from which comes dungeon. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Donjon"
+  }, {
+    "@value" : "Donjon"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#DublinBench",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dublin bench"
+  }, {
+    "@value" : "Dublin bench"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ecclesiastical administrative unit"
+  }, {
+    "@value" : "Ecclesiastical administrative unit"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#TerritorialDivision"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalMonument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ecclesiastical monument"
+  }, {
+    "@value" : "Ecclesiastical monument"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Monument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ecclesiastical organisation"
+  }, {
+    "@value" : "Ecclesiastical organisation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Organisation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalProvince",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An area falling under the jurisdiction of an archbishop or metropolitan, usually consisting of a number of neighbouring dioceses. Source: \"province, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/153460. "
+  }, {
+    "@value" : "An area falling under the jurisdiction of an archbishop or metropolitan, usually consisting of a number of neighbouring dioceses. Source: \"province, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/153460. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Province (Ecclesiastical)"
+  }, {
+    "@value" : "Province (Ecclesiastical)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Engrossers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Engrossers"
+  }, {
+    "@value" : "Engrossers"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#EscheateryOffices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Escheatery offices"
+  }, {
+    "@value" : "Escheatery offices"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#EstablishedChurchParish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parish (Established Church)"
+  }, {
+    "@value" : "Parish (Established Church)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Parish"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#ExchequerOffices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Exchequer offices"
+  }, {
+    "@value" : "Exchequer offices"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#EyreCourts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Eyre courts"
+  }, {
+    "@value" : "Eyre courts"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Female",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Of or relating to a woman or girl. "
+  }, {
+    "@value" : "Of or relating to a woman or girl. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Female"
+  }, {
+    "@value" : "Female"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Floruit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Term used to denote the period during which a person 'flourished'; the floruit is used where their dates or birth or death are unknown. "
+  }, {
+    "@value" : "Term used to denote the period during which a person 'flourished'; the floruit is used where their dates or birth or death are unknown. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Floruit"
+  }, {
+    "@value" : "Floruit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Forename",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Forename"
+  }, {
+    "@value" : "Forename"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#FranciscanFriars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A friar of the order founded by St Francis (d.1226) in 1209; also known as the Grey Friars or Friars Minor. It was the least intellectual of the monastic orders, with members taking vows of poverty and preaching in emotional ways on the sufferings of Christ. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 132."
+  }, {
+    "@value" : "A friar of the order founded by St Francis (d.1226) in 1209; also known as the Grey Friars or Friars Minor. It was the least intellectual of the monastic orders, with members taking vows of poverty and preaching in emotional ways on the sufferings of Christ. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 132."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Franciscan Friars"
+  }, {
+    "@value" : "Franciscan Friars"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#FranciscanThirdOrderRegular",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Franciscan Third Order Regular"
+  }, {
+    "@value" : "Franciscan Third Order Regular"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#FratresCruciferi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Canons regular of the Order of the Holy Cross, a military-religious order founded in 1211.Members of this order might carry a cross in their hands, or have a cross sewn on the chest of their habit. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 93."
+  }, {
+    "@value" : "Canons regular of the Order of the Holy Cross, a military-religious order founded in 1211.Members of this order might carry a cross in their hands, or have a cross sewn on the chest of their habit. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 93."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fratres Cruciferi"
+  }, {
+    "@value" : "Fratres Cruciferi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#FriarsOfTheSack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Colloquial name for the Friars of the Penance of Jesus Christ, the largest of the lesser groups of English friars. Their houses were all abandoned by 1314, the members being obliged to join one of the mendicant orders.  Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 244."
+  }, {
+    "@value" : "Colloquial name for the Friars of the Penance of Jesus Christ, the largest of the lesser groups of English friars. Their houses were all abandoned by 1314, the members being obliged to join one of the mendicant orders.  Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 244."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Friars of the Sack"
+  }, {
+    "@value" : "Friars of the Sack"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Friary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A convent of friars;a fraternity or brotherhood of friars; the insitution or practices of friars. \"friary, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/74610"
+  }, {
+    "@value" : "A convent of friars;a fraternity or brotherhood of friars; the insitution or practices of friars. \"friary, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/74610"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Friary"
+  }, {
+    "@value" : "Friary"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Gate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An opening in a wall, made for the purpose of entrance and exit, and capable of being closed by a movable barrier, the existence of which is usually implied; said with reference to a city or other enclosure, or the enclosure-wall of a large building, formerly also to the bulding itself, where door or doors is now commonly employed. Source: \"gate, n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/77050."
+  }, {
+    "@value" : "An opening in a wall, made for the purpose of entrance and exit, and capable of being closed by a movable barrier, the existence of which is usually implied; said with reference to a city or other enclosure, or the enclosure-wall of a large building, formerly also to the bulding itself, where door or doors is now commonly employed. Source: \"gate, n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/77050."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gate"
+  }, {
+    "@value" : "Gate"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#HalfBarony",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subdivision of a barony, which held the same status as a fully barony. "
+  }, {
+    "@value" : "A subdivision of a barony, which held the same status as a fully barony. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Half-Barony"
+  }, {
+    "@value" : "Half-Barony"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Harbour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place of shelter for ships; spec. where they may lie close to and sheltered by the shore or by works extended from it; a haven, a port. Source: \"harbour | harbor, n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/84111."
+  }, {
+    "@value" : "A place of shelter for ships; spec. where they may lie close to and sheltered by the shore or by works extended from it; a haven, a port. Source: \"harbour | harbor, n.1.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/84111."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Harbour"
+  }, {
+    "@value" : "Harbour"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#ItinerantCourts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Term used to describe collectively the justices in eyre, justices of assize and forest and their courts as they travelled on circuit. "
+  }, {
+    "@value" : "Term used to describe collectively the justices in eyre, justices of assize and forest and their courts as they travelled on circuit. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Itinerant courts"
+  }, {
+    "@value" : "Itinerant courts"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#JudicialCounty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Judicial county"
+  }, {
+    "@value" : "Judicial county"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#County"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#JudiciaryOffices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Judiciary offices"
+  }, {
+    "@value" : "Judiciary offices"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#JusticiarsBench",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Justiciars bench"
+  }, {
+    "@value" : "Justiciars bench"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Keep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Castle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The central part of a castle; the donjon, a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105, 168."
+  }, {
+    "@value" : "The central part of a castle; the donjon, a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105, 168."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Keep"
+  }, {
+    "@value" : "Keep"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Kingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The territory ruled over by a king or queen;the area over which a monarch's rule extends; a realm; the people or inhabitants of such a territory. Source: \"kingdom, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/103519."
+  }, {
+    "@value" : "The territory ruled over by a king or queen;the area over which a monarch's rule extends; a realm; the people or inhabitants of such a territory. Source: \"kingdom, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/103519."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medieval kingdom"
+  }, {
+    "@value" : "Medieval kingdom"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#KingsBench",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Kings bench"
+  }, {
+    "@value" : "Kings bench"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#KnightsHospitallers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Members of the Knights Hospitaller, a military order originally founded to tend the sick and injured of the Crusades; their chief house was the Hospital of St John at Jerusalem, prior to their expulsion and move first to Rhodes and then to Malta. Also known as the Knights of Malta. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170."
+  }, {
+    "@value" : "Members of the Knights Hospitaller, a military order originally founded to tend the sick and injured of the Crusades; their chief house was the Hospital of St John at Jerusalem, prior to their expulsion and move first to Rhodes and then to Malta. Also known as the Knights of Malta. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Knights Hospitallers"
+  }, {
+    "@value" : "Knights Hospitallers"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#KnightsTemplars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Members of the Knights Templar, a military and religious order, whose purpose was to protect pilgrims to the Holy Land. The Knights Templar derived their name from having been occupants of part of the place where Solomon's Temple used to be; they were known first as the Poor Knights of the Temple of Solomon. The order was founded by Hugues de Payns in 1118 after the taking of Jerusalem. Their rule was written by St Bernard. The church recognised the order in 1128;it was supressed in 1312. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170-2. "
+  }, {
+    "@value" : "Members of the Knights Templar, a military and religious order, whose purpose was to protect pilgrims to the Holy Land. The Knights Templar derived their name from having been occupants of part of the place where Solomon's Temple used to be; they were known first as the Poor Knights of the Temple of Solomon. The order was founded by Hugues de Payns in 1118 after the taking of Jerusalem. Their rule was written by St Bernard. The church recognised the order in 1128;it was supressed in 1312. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170-2. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Knights Templars"
+  }, {
+    "@value" : "Knights Templars"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Liberty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Liberty"
+  }, {
+    "@value" : "Liberty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#County"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Local civil administration"
+  }, {
+    "@value" : "Local civil administration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilOrganisation"
+  }, {
+    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Local civil administration unit"
+  }, {
+    "@value" : "Local civil administration unit"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#TerritorialDivision"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilOrganisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Local civil organisation"
+  }, {
+    "@value" : "Local civil organisation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Male",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Of or relating to a man or boy. "
+  }, {
+    "@value" : "Of or relating to a man or boy. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Male"
+  }, {
+    "@value" : "Male"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Manor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An estate compromising the lord's demesne (including the land of his dependant peasantry) and other tenements let out for rents and services."
+  }, {
+    "@value" : "An estate compromising the lord's demesne (including the land of his dependant peasantry) and other tenements let out for rents and services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manor"
+  }, {
+    "@value" : "Manor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#RuralSettlement"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Marriage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The legally or formally recognized union of two people as partners in a personal relationship; the condition of being married; the relation between two people married to each other, matrimony. Source: \"marriage, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/114320."
+  }, {
+    "@value" : "The legally or formally recognized union of two people as partners in a personal relationship; the condition of being married; the relation between two people married to each other, matrimony. Source: \"marriage, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/114320."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Marriage"
+  }, {
+    "@value" : "Marriage"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#MedievalBarony",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medieval barony"
+  }, {
+    "@value" : "Medieval barony"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#MedievalCounty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The main unit of local government in the later medieval lordship of Ireland, one imported from England and with a longer prior history there. The county's main administrative official was a the sheriff, who was chosen by the local county court. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 280-1. "
+  }, {
+    "@value" : "The main unit of local government in the later medieval lordship of Ireland, one imported from England and with a longer prior history there. The county's main administrative official was a the sheriff, who was chosen by the local county court. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 280-1. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medieval county"
+  }, {
+    "@value" : "Medieval county"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#County"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#MedievalKingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MedievalKingdom"
+  }, {
+    "@value" : "Medieval Kingdom"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Mendicants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Those who lived on alms; a mendicant friar belonging to one of three orders, Franciscian, Dominican, Carmelite. Their members lived on alms while travelling in the world beyond their monastery on the look out for and preaching against heresy. a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 189."
+  }, {
+    "@value" : "Those who lived on alms; a mendicant friar belonging to one of three orders, Franciscian, Dominican, Carmelite. Their members lived on alms while travelling in the world beyond their monastery on the look out for and preaching against heresy. a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 189."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mendicants"
+  }, {
+    "@value" : "Mendicants"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Moat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Castle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "One of the most familiar features of a castle's defences: a ditch filled with water which surrounded the building. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 195."
+  }, {
+    "@value" : "One of the most familiar features of a castle's defences: a ditch filled with water which surrounded the building. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 195."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Moat"
+  }, {
+    "@value" : "Moat"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#ModernCounty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Modern county"
+  }, {
+    "@value" : "Modern county"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#County"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Monument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Monument"
+  }, {
+    "@value" : "Monument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Municipal civil administration"
+  }, {
+    "@value" : "Municipal civil administration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministration"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Municipal civil administration unit"
+  }, {
+    "@value" : "Municipal civil administration unit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCorporation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Municipal corporation"
+  }, {
+    "@value" : "Municipal corporation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Name"
+  }, {
+    "@value" : "Name"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#NameVariant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Name variant"
+  }, {
+    "@value" : "Name variant"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#ODNB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ODNB"
+  }, {
+    "@value" : "ODNB"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Occupation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A particular action or course of action in which a person is engaged, esp. habitually; a particular job or profession; a particular pursuit or activity. Source: \"occupation, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/130181. "
+  }, {
+    "@value" : "A particular action or course of action in which a person is engaged, esp. habitually; a particular job or profession; a particular pursuit or activity. Source: \"occupation, n.\" OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/130181. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Occupation"
+  }, {
+    "@value" : "Occupation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Office",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Office"
+  }, {
+    "@value" : "Office"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Organisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Organisation"
+  }, {
+    "@value" : "Organisation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Parish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parish"
+  }, {
+    "@value" : "Parish"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Place"
+  }, {
+    "@value" : "Place"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#PoorLawUnion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Poor Law Union"
+  }, {
+    "@value" : "Poor Law Union"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Port",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Port"
+  }, {
+    "@value" : "Port"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Post1836Barony",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Barony (post-1836)"
+  }, {
+    "@value" : "Barony (post-1836)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#PostReformationDioceseCatholic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Post-reformation Diocese (Catholic)"
+  }, {
+    "@value" : "Post-reformation Diocese (Catholic)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#PostReformationDioceseEstablishedChurch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Post-reformation Diocese (Established Church)"
+  }, {
+    "@value" : "Post-reformation Diocese (Established Church)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Pre1836Barony",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Barony (pre-1836)"
+  }, {
+    "@value" : "Barony (pre-1836)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#PreReformationDiocese",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pre-reformation Diocese"
+  }, {
+    "@value" : "Pre-reformation Diocese"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#PremonstratensianCanons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Premonstratensian Canons"
+  }, {
+    "@value" : "Premonstratensian Canons"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Prison",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Castle"
+  }, {
+    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Prison"
+  }, {
+    "@value" : "Prison"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Quarter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Townland"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Quarter"
+  }, {
+    "@value" : "Quarter"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Rank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rank"
+  }, {
+    "@value" : "Rank"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#RegionAssignment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Region assignment"
+  }, {
+    "@value" : "Region assignment"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#RegnalYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Regnal year"
+  }, {
+    "@value" : "Regnal year"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#ReligiousHouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Religious house"
+  }, {
+    "@value" : "Religious house"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Religious order"
+  }, {
+    "@value" : "Religious order"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#RuralDeanery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rural Deanery"
+  }, {
+    "@value" : "Rural Deanery"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#RuralSettlement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Settlement (Rural)"
+  }, {
+    "@value" : "Settlement (Rural)"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#SecularClergy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Secular clergy"
+  }, {
+    "@value" : "Secular clergy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"
+  }, {
+    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#SecularColleges",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Secular colleges"
+  }, {
+    "@value" : "Secular colleges"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Shire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Originally a sphere of jurisdiction or command; thus the area of which such authority was exercised. The earliest shires were commanded by ealdormen; by the late tenth century, when the ealdorman's powers were more extensive, they were administered by sheriffs. By the same period, the shires were divided into hundreds. From the twelfth century, they were also called 'counties'. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 258. "
+  }, {
+    "@value" : "Originally a sphere of jurisdiction or command; thus the area of which such authority was exercised. The earliest shires were commanded by ealdormen; by the late tenth century, when the ealdorman's powers were more extensive, they were administered by sheriffs. By the same period, the shires were divided into hundreds. From the twelfth century, they were also called 'counties'. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 258. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Shire"
+  }, {
+    "@value" : "Shire"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Surname",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Surname"
+  }, {
+    "@value" : "Surname"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#TerritorialDivision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Territorial division"
+  }, {
+    "@value" : "Territorial division"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Town",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Town"
+  }, {
+    "@value" : "Town"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Townland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilParish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Townland"
+  }, {
+    "@value" : "Townland"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Trinitarians",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Trinitarians"
+  }, {
+    "@value" : "Trinitarians"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#UnitedDioceses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "United Dioceses"
+  }, {
+    "@value" : "United Dioceses"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#UrbanOrganisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Urban organisation"
+  }, {
+    "@value" : "Urban organisation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#Organisation"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Settlement (Urban)"
+  }, {
+    "@value" : "Settlement (Urban)"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#Wall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wall"
+  }, {
+    "@value" : "Wall"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#WaterConduit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://erlangen-crm.org/current/P89_falls_within" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Water conduit"
+  }, {
+    "@value" : "Water conduit"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#composed_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Property created to provide information about the composition (part) of a aggregation."
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#counsellee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Property created to provide information about the councellee in a hierarchical relationship."
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#counselor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Property created to provide information about the councellor in a hierarchical relationship."
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Generic property to indicate the object in a reified relationship"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#of_husband",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Property created to provide information about the husband in a marriage joining."
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#of_wife",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Property created to provide information about the wife in a marriage joining."
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#part_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Property created to provide information about the composition (whole) of a aggregation."
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#reports_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Property created to provide information about the superior in a hierarchical relationship."
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#represented_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#splits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Property indicating which places were split in temporal-spatial evolution."
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#splittedInto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Property indicating which places were the result of a split in temporal-spatial evolution."
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#subject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Generic property to indicate the subject in a reified relationship"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Property created to provide information about the subject in a hierarchical relationship."
+  } ]
+} ]
