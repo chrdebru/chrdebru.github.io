@@ -917,6 +917,12 @@
 <https://ont.beyond2022.ie/ontology#Parish> <http://www.w3.org/2000/01/rdf-schema#label> "Parish" .
 <https://ont.beyond2022.ie/ontology#Parish> <http://www.w3.org/2004/02/skos/core#broader> <https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit> .
 # 
+# https://ont.beyond2022.ie/ontology#PatronymicsMatronymics
+<https://ont.beyond2022.ie/ontology#PatronymicsMatronymics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#PatronymicsMatronymics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#PatronymicsMatronymics> <http://www.w3.org/2000/01/rdf-schema#label> "Patronymics-Matronymics"@en .
+<https://ont.beyond2022.ie/ontology#PatronymicsMatronymics> <http://www.w3.org/2000/01/rdf-schema#label> "Patronymics-Matronymics" .
+# 
 # https://ont.beyond2022.ie/ontology#Place
 <https://ont.beyond2022.ie/ontology#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://ont.beyond2022.ie/ontology#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
@@ -1063,6 +1069,12 @@
 <https://ont.beyond2022.ie/ontology#Shire> <http://www.w3.org/2000/01/rdf-schema#comment> "Originally a sphere of jurisdiction or command; thus the area of which such authority was exercised. The earliest shires were commanded by ealdormen; by the late tenth century, when the ealdorman's powers were more extensive, they were administered by sheriffs. By the same period, the shires were divided into hundreds. From the twelfth century, they were also called 'counties'. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 258. " .
 <https://ont.beyond2022.ie/ontology#Shire> <http://www.w3.org/2000/01/rdf-schema#label> "Shire"@en .
 <https://ont.beyond2022.ie/ontology#Shire> <http://www.w3.org/2000/01/rdf-schema#label> "Shire" .
+# 
+# https://ont.beyond2022.ie/ontology#SoubriquetAlias
+<https://ont.beyond2022.ie/ontology#SoubriquetAlias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://ont.beyond2022.ie/ontology#SoubriquetAlias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/current/E55_Type> .
+<https://ont.beyond2022.ie/ontology#SoubriquetAlias> <http://www.w3.org/2000/01/rdf-schema#label> "Soubriquet alias"@en .
+<https://ont.beyond2022.ie/ontology#SoubriquetAlias> <http://www.w3.org/2000/01/rdf-schema#label> "Soubriquet alias" .
 # 
 # https://ont.beyond2022.ie/ontology#Surname
 <https://ont.beyond2022.ie/ontology#Surname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

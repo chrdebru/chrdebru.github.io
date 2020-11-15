@@ -1528,6 +1528,15 @@
     "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"
   } ]
 }, {
+  "@id" : "https://ont.beyond2022.ie/ontology#PatronymicsMatronymics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Patronymics-Matronymics"
+  }, {
+    "@value" : "Patronymics-Matronymics"
+  } ]
+}, {
   "@id" : "https://ont.beyond2022.ie/ontology#Place",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -1776,6 +1785,15 @@
     "@value" : "Shire"
   }, {
     "@value" : "Shire"
+  } ]
+}, {
+  "@id" : "https://ont.beyond2022.ie/ontology#SoubriquetAlias",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Soubriquet alias"
+  }, {
+    "@value" : "Soubriquet alias"
   } ]
 }, {
   "@id" : "https://ont.beyond2022.ie/ontology#Surname",

@@ -1031,6 +1031,13 @@
         <http://www.w3.org/2004/02/skos/core#broader> :EcclesiasticalAdministrativeUnit .
 
 
+###  https://ont.beyond2022.ie/ontology#PatronymicsMatronymics
+:PatronymicsMatronymics rdf:type owl:NamedIndividual ,
+                                 <http://erlangen-crm.org/current/E55_Type> ;
+                        rdfs:label "Patronymics-Matronymics"@en ,
+                                   "Patronymics-Matronymics" .
+
+
 ###  https://ont.beyond2022.ie/ontology#Place
 :Place rdf:type owl:NamedIndividual ,
                 <http://erlangen-crm.org/current/E55_Type> ;
@@ -1197,6 +1204,13 @@
                     "Originally a sphere of jurisdiction or command; thus the area of which such authority was exercised. The earliest shires were commanded by ealdormen; by the late tenth century, when the ealdorman's powers were more extensive, they were administered by sheriffs. By the same period, the shires were divided into hundreds. From the twelfth century, they were also called 'counties'. Source: Christopher Corèdon & Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 258. " ;
        rdfs:label "Shire"@en ,
                   "Shire" .
+
+
+###  https://ont.beyond2022.ie/ontology#SoubriquetAlias
+:SoubriquetAlias rdf:type owl:NamedIndividual ,
+                          <http://erlangen-crm.org/current/E55_Type> ;
+                 rdfs:label "Soubriquet alias"@en ,
+                            "Soubriquet alias" .
 
 
 ###  https://ont.beyond2022.ie/ontology#Surname
