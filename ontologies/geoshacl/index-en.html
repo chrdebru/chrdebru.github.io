@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>GeoSHACL</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/geoshacl","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/geoshacl","name":"GeoSHACL", "headline":"Reusable SHACL constraint components for geospatial data based on GeoSPARQL.", "datePublished":"2021-03-04", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Christophe Debruyne"}], "contributor":[{"@type":"Person","name":"Kris McGlinn"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+ $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>GeoSHACL</h1>
+<h2>Release  2021-03-04</h2>
+
+
+<dl>
+<dt>Latest version:</dt>
+<dd><a href="https://w3id.org/geoshacl">https://w3id.org/geoshacl</a></dd>
+<dt>Authors:</dt>
+<dd>Christophe Debruyne, Smals Research</dd>
+
+<dt>Contributors:</dt>
+<dd>Kris McGlinn, (<a href="https://www.adaptcentre.ie/">ADAPT Centre</a>)</dd>
+
+<dt>Publisher:</dt>
+<dd>ADAPT Centre, Trinity College</dd>
+<dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by/4.0/-blue.svg" alt="https://creativecommons.org/licenses/by/4.0/" /></a>
+</dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
+<!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/OOPSeval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>Christophe Debruyne. GeoSHACL.</dd>
+</dl>
+
+<hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div><div id="toc"></div>   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross reference for GeoSHACL classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by GeoSHACL.
+<div id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://foo.bar/geoshacl#containsConstraint" title="http://foo.bar/geoshacl#containsConstraint">
+            <span>contains constraint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://foo.bar/geoshacl#crossesConstraint" title="http://foo.bar/geoshacl#crossesConstraint">
+            <span>crosses constraint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://foo.bar/geoshacl#disjointConstraint" title="http://foo.bar/geoshacl#disjointConstraint">
+            <span>disjoint constraint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://foo.bar/geoshacl#equalsConstraint" title="http://foo.bar/geoshacl#equalsConstraint">
+            <span>equals constraint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://foo.bar/geoshacl#intersectsConstraint" title="http://foo.bar/geoshacl#intersectsConstraint">
+            <span>intersects constraint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://foo.bar/geoshacl#intuitiveEqualsConstraint"
+            title="http://foo.bar/geoshacl#intuitiveEqualsConstraint">
+            <span>intuitive equals constraint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://foo.bar/geoshacl#overlapsConstraint" title="http://foo.bar/geoshacl#overlapsConstraint">
+            <span>overlaps constraint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://foo.bar/geoshacl#touchesConstraint" title="http://foo.bar/geoshacl#touchesConstraint">
+            <span>touches constraint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://foo.bar/geoshacl#withinConstraint" title="http://foo.bar/geoshacl#withinConstraint">
+            <span>within constraint</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://foo.bar/geoshacl#containsConstraint">
+      <h3>contains constraint<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://foo.bar/geoshacl#containsConstraint</p>
+      <div class="comment">
+         <span class="markdown">An implementation of the "contains" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfContains filter function.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/shacl#ConstraintComponent">constraint component</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://foo.bar/geoshacl#crossesConstraint">
+      <h3>crosses constraint<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://foo.bar/geoshacl#crossesConstraint</p>
+      <div class="comment">
+         <span class="markdown">An implementation of the "crosses" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfCrosses filter function.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/shacl#ConstraintComponent">constraint component</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://foo.bar/geoshacl#disjointConstraint">
+      <h3>disjoint constraint<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://foo.bar/geoshacl#disjointConstraint</p>
+      <div class="comment">
+         <span class="markdown">An implementation of the "disjoint" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfDisjoint filter function.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/shacl#ConstraintComponent">constraint component</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://foo.bar/geoshacl#equalsConstraint">
+      <h3>equals constraint<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://foo.bar/geoshacl#equalsConstraint</p>
+      <div class="comment">
+         <span class="markdown">An implementation of the "equals" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfEquals filter function.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/shacl#ConstraintComponent">constraint component</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://foo.bar/geoshacl#intersectsConstraint">
+      <h3>intersects constraint<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://foo.bar/geoshacl#intersectsConstraint</p>
+      <div class="comment">
+         <span class="markdown">An implementation of the "intersects" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfIntersects filter function.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/shacl#ConstraintComponent">constraint component</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://foo.bar/geoshacl#intuitiveEqualsConstraint">
+      <h3>intuitive equals constraint<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://foo.bar/geoshacl#intuitiveEqualsConstraint</p>
+      <div class="comment">
+         <span class="markdown">An alternative implementation of the "equals" relationship between two geometries. The Simple Features Access and GeoSPARQL assume that two points can never be equivalent as their boundaries are empty and geometries must share the same non-empty boundary. This can be counter-intuitive. This implementation of "equals" is based on GeoSPARQL's sf:within and sf:contains filter functions.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/shacl#ConstraintComponent">constraint component</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://foo.bar/geoshacl#overlapsConstraint">
+      <h3>overlaps constraint<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://foo.bar/geoshacl#overlapsConstraint</p>
+      <div class="comment">
+         <span class="markdown">An implementation of the "overlaps" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfOverlaps filter function.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/shacl#ConstraintComponent">constraint component</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://foo.bar/geoshacl#touchesConstraint">
+      <h3>touches constraint<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://foo.bar/geoshacl#touchesConstraint</p>
+      <div class="comment">
+         <span class="markdown">An implementation of the "touches" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfTouches filter function.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/shacl#ConstraintComponent">constraint component</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://foo.bar/geoshacl#withinConstraint">
+      <h3>within constraint<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://foo.bar/geoshacl#withinConstraint</p>
+      <div class="comment">
+         <span class="markdown">An implementation of the "within" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfWithin filter function.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/shacl#ConstraintComponent">constraint component</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</div>
+<div id="acknowledgements">
+<h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>

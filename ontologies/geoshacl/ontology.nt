@@ -1,0 +1,193 @@
+<https://w3id.org/geoshacl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/geoshacl> <http://purl.org/dc/terms/abstract> "Reusable SHACL constraint components for geospatial data based on GeoSPARQL." .
+<https://w3id.org/geoshacl> <http://purl.org/dc/terms/contributor> "Kris McGlinn" .
+<https://w3id.org/geoshacl> <http://purl.org/dc/terms/created> "2021-03-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/geoshacl> <http://purl.org/dc/terms/creator> "Christophe Debruyne" .
+<https://w3id.org/geoshacl> <http://purl.org/dc/terms/description> "Reusable SHACL constraint components for geospatial data based on GeoSPARQL." .
+<https://w3id.org/geoshacl> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/geoshacl> <http://purl.org/dc/terms/publisher> "ADAPT Centre, Trinity College" .
+<https://w3id.org/geoshacl> <http://purl.org/dc/terms/title> "GeoSHACL" .
+<https://w3id.org/geoshacl> <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/draft> .
+<https://w3id.org/geoshacl> <http://purl.org/vocab/vann/preferredNamespacePrefix> "geosh" .
+<https://w3id.org/geoshacl> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/geoshacl"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#ask
+<http://www.w3.org/ns/shacl#ask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#message
+<http://www.w3.org/ns/shacl#message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#parameter
+<http://www.w3.org/ns/shacl#parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#path
+<http://www.w3.org/ns/shacl#path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#validator
+<http://www.w3.org/ns/shacl#validator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/shacl#ConstraintComponent
+<http://www.w3.org/ns/shacl#ConstraintComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/shacl#SPARQLAskValidator
+<http://www.w3.org/ns/shacl#SPARQLAskValidator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://foo.bar/geoshacl#containsConstraint
+<http://foo.bar/geoshacl#containsConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://foo.bar/geoshacl#containsConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ConstraintComponent> .
+<http://foo.bar/geoshacl#containsConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "An implementation of the \"contains\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfContains filter function." .
+<http://foo.bar/geoshacl#containsConstraint> <http://www.w3.org/ns/shacl#parameter> _:genid1 .
+_:genid1 <http://www.w3.org/ns/shacl#path> <http://foo.bar/geoshacl#contains> .
+<http://foo.bar/geoshacl#containsConstraint> <http://www.w3.org/ns/shacl#validator> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#SPARQLAskValidator> .
+_:genid2 <http://www.w3.org/ns/shacl#ask> "\n            PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n            PREFIX geof: <http://www.opengis.net/def/function/geosparql/>\n            ASK {\n\t\t\t\t{\n    \t        \tFILTER( geof:sfContains($value, $contains) )\n        \t    }\n        \t    UNION\n        \t    {\n        \t    \tFILTER( isIRI($contains) )\n        \t    \t$this $contains ?otherValue .\n        \t    \tFILTER( geof:sfContains($value, ?otherValue) )\n        \t    }\n            }\n        " .
+_:genid2 <http://www.w3.org/ns/shacl#message> "Value does not contain {$contains}." .
+# 
+# http://foo.bar/geoshacl#crossesConstraint
+<http://foo.bar/geoshacl#crossesConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://foo.bar/geoshacl#crossesConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ConstraintComponent> .
+<http://foo.bar/geoshacl#crossesConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "An implementation of the \"crosses\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfCrosses filter function." .
+<http://foo.bar/geoshacl#crossesConstraint> <http://www.w3.org/ns/shacl#parameter> _:genid3 .
+_:genid3 <http://www.w3.org/ns/shacl#path> <http://foo.bar/geoshacl#crosses> .
+<http://foo.bar/geoshacl#crossesConstraint> <http://www.w3.org/ns/shacl#validator> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#SPARQLAskValidator> .
+_:genid4 <http://www.w3.org/ns/shacl#ask> "\n            PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n            PREFIX geof: <http://www.opengis.net/def/function/geosparql/>\n            ASK {\n\t\t\t\t{\n    \t        \tFILTER( geof:sfCrosses($value, $crosses) )\n        \t    }\n        \t    UNION\n        \t    {\n        \t    \tFILTER( isIRI($crosses) )\n        \t    \t$this $crosses ?otherValue .\n        \t    \tFILTER( geof:sfCrosses($value, ?otherValue) )\n        \t    }\n            }\n        " .
+_:genid4 <http://www.w3.org/ns/shacl#message> "Value does not cross {$crosses}." .
+# 
+# http://foo.bar/geoshacl#disjointConstraint
+<http://foo.bar/geoshacl#disjointConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://foo.bar/geoshacl#disjointConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ConstraintComponent> .
+<http://foo.bar/geoshacl#disjointConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "An implementation of the \"disjoint\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfDisjoint filter function." .
+<http://foo.bar/geoshacl#disjointConstraint> <http://www.w3.org/ns/shacl#parameter> _:genid5 .
+_:genid5 <http://www.w3.org/ns/shacl#path> <http://foo.bar/geoshacl#disjoint> .
+<http://foo.bar/geoshacl#disjointConstraint> <http://www.w3.org/ns/shacl#validator> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#SPARQLAskValidator> .
+_:genid6 <http://www.w3.org/ns/shacl#ask> "\n            PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n            PREFIX geof: <http://www.opengis.net/def/function/geosparql/>\n            ASK {\n\t\t\t\t{\n    \t        \tFILTER( geof:sfDisjoint($value, $disjoint) )\n        \t    }\n        \t    UNION\n        \t    {\n        \t    \tFILTER( isIRI($disjoint) )\n        \t    \t$this $disjoint ?otherValue .\n        \t    \tFILTER( geof:sfDisjoint($value, ?otherValue) )\n        \t    }\n            }\n        " .
+_:genid6 <http://www.w3.org/ns/shacl#message> "Value is not disjoint with {$disjoint}." .
+# 
+# http://foo.bar/geoshacl#equalsConstraint
+<http://foo.bar/geoshacl#equalsConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://foo.bar/geoshacl#equalsConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ConstraintComponent> .
+<http://foo.bar/geoshacl#equalsConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "An implementation of the \"equals\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfEquals filter function." .
+<http://foo.bar/geoshacl#equalsConstraint> <http://www.w3.org/ns/shacl#parameter> _:genid7 .
+_:genid7 <http://www.w3.org/ns/shacl#path> <http://foo.bar/geoshacl#equals> .
+<http://foo.bar/geoshacl#equalsConstraint> <http://www.w3.org/ns/shacl#validator> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#SPARQLAskValidator> .
+_:genid8 <http://www.w3.org/ns/shacl#ask> "\n            PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n            PREFIX geof: <http://www.opengis.net/def/function/geosparql/>\n            ASK {\n\t\t\t\t{\n    \t        \tFILTER( geof:sfEquals($value, $equals) )\n        \t    }\n        \t    UNION\n        \t    {\n        \t    \tFILTER( isIRI($equals) )\n        \t    \t$this $equals ?otherValue .\n        \t    \tFILTER( geof:sfEquals($value, ?otherValue) )\n        \t    }\n            }\n        " .
+_:genid8 <http://www.w3.org/ns/shacl#message> "Value is not equal to {$equals} (note: points cannot be equal as per GeoSPARQL)" .
+# 
+# http://foo.bar/geoshacl#intersectsConstraint
+<http://foo.bar/geoshacl#intersectsConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://foo.bar/geoshacl#intersectsConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ConstraintComponent> .
+<http://foo.bar/geoshacl#intersectsConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "An implementation of the \"intersects\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfIntersects filter function." .
+<http://foo.bar/geoshacl#intersectsConstraint> <http://www.w3.org/ns/shacl#parameter> _:genid9 .
+_:genid9 <http://www.w3.org/ns/shacl#path> <http://foo.bar/geoshacl#intersects> .
+<http://foo.bar/geoshacl#intersectsConstraint> <http://www.w3.org/ns/shacl#validator> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#SPARQLAskValidator> .
+_:genid10 <http://www.w3.org/ns/shacl#ask> "\n            PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n            PREFIX geof: <http://www.opengis.net/def/function/geosparql/>\n            ASK {\n\t\t\t\t{\n    \t        \tFILTER( geof:sfIntersects($value, $intersects) )\n        \t    }\n        \t    UNION\n        \t    {\n        \t    \tFILTER( isIRI($intersects) )\n        \t    \t$this $intersects ?otherValue .\n        \t    \tFILTER( geof:sfIntersects($value, ?otherValue) )\n        \t    }\n            }\n        " .
+_:genid10 <http://www.w3.org/ns/shacl#message> "Value does not intersect with {$intersects}." .
+# 
+# http://foo.bar/geoshacl#intuitiveEqualsConstraint
+<http://foo.bar/geoshacl#intuitiveEqualsConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://foo.bar/geoshacl#intuitiveEqualsConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ConstraintComponent> .
+<http://foo.bar/geoshacl#intuitiveEqualsConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "An alternative implementation of the \"equals\" relationship between two geometries. The Simple Features Access and GeoSPARQL assume that two points can never be equivalent as their boundaries are empty and geometries must share the same non-empty boundary. This can be counter-intuitive. This implementation of \"equals\" is based on GeoSPARQL's sf:within and sf:contains filter functions." .
+<http://foo.bar/geoshacl#intuitiveEqualsConstraint> <http://www.w3.org/ns/shacl#parameter> _:genid11 .
+_:genid11 <http://www.w3.org/ns/shacl#path> <http://foo.bar/geoshacl#intuitiveEquals> .
+<http://foo.bar/geoshacl#intuitiveEqualsConstraint> <http://www.w3.org/ns/shacl#validator> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#SPARQLAskValidator> .
+_:genid12 <http://www.w3.org/ns/shacl#ask> "\n            PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n            PREFIX geof: <http://www.opengis.net/def/function/geosparql/>\n            ASK {            \n\t\t\t\t{\n    \t        \tFILTER( geof:sfWithin($value, $intuitiveEquals) )\n    \t        \tFILTER( geof:sfContains($value, $intuitiveEquals) )\n        \t    }\n        \t    UNION\n        \t    {\n        \t    \tFILTER( isIRI($intuitiveEquals) )\n        \t    \t$this $intuitiveEquals ?otherValue .\n        \t    \tFILTER( geof:sfWithin($value, ?otherValue) )\n    \t        \tFILTER( geof:sfContains($value, ?otherValue) )\n        \t    }\n            }\n        " .
+_:genid12 <http://www.w3.org/ns/shacl#message> "Value is not intuitively equal to {$intuitiveEquals}" .
+# 
+# http://foo.bar/geoshacl#overlapsConstraint
+<http://foo.bar/geoshacl#overlapsConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://foo.bar/geoshacl#overlapsConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ConstraintComponent> .
+<http://foo.bar/geoshacl#overlapsConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "An implementation of the \"overlaps\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfOverlaps filter function." .
+<http://foo.bar/geoshacl#overlapsConstraint> <http://www.w3.org/ns/shacl#parameter> _:genid13 .
+_:genid13 <http://www.w3.org/ns/shacl#path> <http://foo.bar/geoshacl#overlaps> .
+<http://foo.bar/geoshacl#overlapsConstraint> <http://www.w3.org/ns/shacl#validator> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#SPARQLAskValidator> .
+_:genid14 <http://www.w3.org/ns/shacl#ask> "\n            PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n            PREFIX geof: <http://www.opengis.net/def/function/geosparql/>\n            ASK {\n\t\t\t\t{\n    \t        \tFILTER( geof:sfOverlaps($value, $overlaps) )\n        \t    }\n        \t    UNION\n        \t    {\n        \t    \tFILTER( isIRI($overlaps) )\n        \t    \t$this $overlaps ?otherValue .\n        \t    \tFILTER( geof:sfOverlaps($value, ?otherValue) )\n        \t    }\n            }\n        " .
+_:genid14 <http://www.w3.org/ns/shacl#message> "Value does not overlap with {$overlaps}." .
+# 
+# http://foo.bar/geoshacl#touchesConstraint
+<http://foo.bar/geoshacl#touchesConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://foo.bar/geoshacl#touchesConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ConstraintComponent> .
+<http://foo.bar/geoshacl#touchesConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "An implementation of the \"touches\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfTouches filter function." .
+<http://foo.bar/geoshacl#touchesConstraint> <http://www.w3.org/ns/shacl#parameter> _:genid15 .
+_:genid15 <http://www.w3.org/ns/shacl#path> <http://foo.bar/geoshacl#touches> .
+<http://foo.bar/geoshacl#touchesConstraint> <http://www.w3.org/ns/shacl#validator> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#SPARQLAskValidator> .
+_:genid16 <http://www.w3.org/ns/shacl#ask> "\n            PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n            PREFIX geof: <http://www.opengis.net/def/function/geosparql/>\n            ASK {\n\t\t\t\t{\n    \t        \tFILTER( geof:sfTouches($value, $touches) )\n        \t    }\n        \t    UNION\n        \t    {\n        \t    \tFILTER( isIRI($touches) )\n        \t    \t$this $touches ?otherValue .\n        \t    \tFILTER( geof:sfTouches($value, ?otherValue) )\n        \t    }\n            }\n        " .
+_:genid16 <http://www.w3.org/ns/shacl#message> "Value does not touch {$touches}." .
+# 
+# http://foo.bar/geoshacl#withinConstraint
+<http://foo.bar/geoshacl#withinConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://foo.bar/geoshacl#withinConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ConstraintComponent> .
+<http://foo.bar/geoshacl#withinConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "An implementation of the \"within\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfWithin filter function." .
+<http://foo.bar/geoshacl#withinConstraint> <http://www.w3.org/ns/shacl#parameter> _:genid17 .
+_:genid17 <http://www.w3.org/ns/shacl#path> <http://foo.bar/geoshacl#within> .
+<http://foo.bar/geoshacl#withinConstraint> <http://www.w3.org/ns/shacl#validator> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#SPARQLAskValidator> .
+_:genid18 <http://www.w3.org/ns/shacl#ask> "\n            PREFIX geo: <http://www.opengis.net/ont/geosparql#>\n            PREFIX geof: <http://www.opengis.net/def/function/geosparql/>\n            ASK {\n\t\t\t\t{\n    \t        \tFILTER( geof:sfWithin($value, $within) )\n        \t    }\n        \t    UNION\n        \t    {\n        \t    \tFILTER( isIRI($within) )\n        \t    \t$this $within ?otherValue .\n        \t    \tFILTER( geof:sfWithin($value, ?otherValue) )\n        \t    }\n            }\n        " .
+_:genid18 <http://www.w3.org/ns/shacl#message> "Value is not within {$within}." .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
