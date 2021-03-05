@@ -188,15 +188,15 @@
     
 
 
-    <!-- http://foo.bar/geoshacl#containsConstraint -->
+    <!-- https://w3id.org/geoshacl#containsConstraint -->
 
 
-    <owl:NamedIndividual rdf:about="http://foo.bar/geoshacl#containsConstraint">
+    <owl:NamedIndividual rdf:about="https://w3id.org/geoshacl#containsConstraint">
         <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ConstraintComponent"/>
         <rdfs:comment>An implementation of the &quot;contains&quot; relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL&apos;s geof:sfContains filter function.</rdfs:comment>
         <shacl:parameter>
             <rdf:Description>
-                <shacl:path rdf:resource="http://foo.bar/geoshacl#contains"/>
+                <shacl:path rdf:resource="https://w3id.org/geoshacl#contains"/>
             </rdf:Description>
         </shacl:parameter>
         <shacl:validator rdf:nodeID="genid2"/>
@@ -223,15 +223,15 @@
     
 
 
-    <!-- http://foo.bar/geoshacl#crossesConstraint -->
+    <!-- https://w3id.org/geoshacl#crossesConstraint -->
 
 
-    <owl:NamedIndividual rdf:about="http://foo.bar/geoshacl#crossesConstraint">
+    <owl:NamedIndividual rdf:about="https://w3id.org/geoshacl#crossesConstraint">
         <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ConstraintComponent"/>
         <rdfs:comment>An implementation of the &quot;crosses&quot; relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL&apos;s geof:sfCrosses filter function.</rdfs:comment>
         <shacl:parameter>
             <rdf:Description>
-                <shacl:path rdf:resource="http://foo.bar/geoshacl#crosses"/>
+                <shacl:path rdf:resource="https://w3id.org/geoshacl#crosses"/>
             </rdf:Description>
         </shacl:parameter>
         <shacl:validator rdf:nodeID="genid4"/>
@@ -258,15 +258,15 @@
     
 
 
-    <!-- http://foo.bar/geoshacl#disjointConstraint -->
+    <!-- https://w3id.org/geoshacl#disjointConstraint -->
 
 
-    <owl:NamedIndividual rdf:about="http://foo.bar/geoshacl#disjointConstraint">
+    <owl:NamedIndividual rdf:about="https://w3id.org/geoshacl#disjointConstraint">
         <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ConstraintComponent"/>
         <rdfs:comment>An implementation of the &quot;disjoint&quot; relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL&apos;s geof:sfDisjoint filter function.</rdfs:comment>
         <shacl:parameter>
             <rdf:Description>
-                <shacl:path rdf:resource="http://foo.bar/geoshacl#disjoint"/>
+                <shacl:path rdf:resource="https://w3id.org/geoshacl#disjoint"/>
             </rdf:Description>
         </shacl:parameter>
         <shacl:validator rdf:nodeID="genid6"/>
@@ -293,15 +293,15 @@
     
 
 
-    <!-- http://foo.bar/geoshacl#equalsConstraint -->
+    <!-- https://w3id.org/geoshacl#equalsConstraint -->
 
 
-    <owl:NamedIndividual rdf:about="http://foo.bar/geoshacl#equalsConstraint">
+    <owl:NamedIndividual rdf:about="https://w3id.org/geoshacl#equalsConstraint">
         <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ConstraintComponent"/>
         <rdfs:comment>An implementation of the &quot;equals&quot; relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL&apos;s geof:sfEquals filter function.</rdfs:comment>
         <shacl:parameter>
             <rdf:Description>
-                <shacl:path rdf:resource="http://foo.bar/geoshacl#equals"/>
+                <shacl:path rdf:resource="https://w3id.org/geoshacl#equals"/>
             </rdf:Description>
         </shacl:parameter>
         <shacl:validator rdf:nodeID="genid8"/>
@@ -328,15 +328,15 @@
     
 
 
-    <!-- http://foo.bar/geoshacl#intersectsConstraint -->
+    <!-- https://w3id.org/geoshacl#intersectsConstraint -->
 
 
-    <owl:NamedIndividual rdf:about="http://foo.bar/geoshacl#intersectsConstraint">
+    <owl:NamedIndividual rdf:about="https://w3id.org/geoshacl#intersectsConstraint">
         <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ConstraintComponent"/>
         <rdfs:comment>An implementation of the &quot;intersects&quot; relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL&apos;s geof:sfIntersects filter function.</rdfs:comment>
         <shacl:parameter>
             <rdf:Description>
-                <shacl:path rdf:resource="http://foo.bar/geoshacl#intersects"/>
+                <shacl:path rdf:resource="https://w3id.org/geoshacl#intersects"/>
             </rdf:Description>
         </shacl:parameter>
         <shacl:validator rdf:nodeID="genid10"/>
@@ -363,15 +363,15 @@
     
 
 
-    <!-- http://foo.bar/geoshacl#intuitiveEqualsConstraint -->
+    <!-- https://w3id.org/geoshacl#intuitiveEqualsConstraint -->
 
 
-    <owl:NamedIndividual rdf:about="http://foo.bar/geoshacl#intuitiveEqualsConstraint">
+    <owl:NamedIndividual rdf:about="https://w3id.org/geoshacl#intuitiveEqualsConstraint">
         <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ConstraintComponent"/>
         <rdfs:comment>An alternative implementation of the &quot;equals&quot; relationship between two geometries. The Simple Features Access and GeoSPARQL assume that two points can never be equivalent as their boundaries are empty and geometries must share the same non-empty boundary. This can be counter-intuitive. This implementation of &quot;equals&quot; is based on GeoSPARQL&apos;s sf:within and sf:contains filter functions.</rdfs:comment>
         <shacl:parameter>
             <rdf:Description>
-                <shacl:path rdf:resource="http://foo.bar/geoshacl#intuitiveEquals"/>
+                <shacl:path rdf:resource="https://w3id.org/geoshacl#intuitiveEquals"/>
             </rdf:Description>
         </shacl:parameter>
         <shacl:validator rdf:nodeID="genid12"/>
@@ -400,15 +400,15 @@
     
 
 
-    <!-- http://foo.bar/geoshacl#overlapsConstraint -->
+    <!-- https://w3id.org/geoshacl#overlapsConstraint -->
 
 
-    <owl:NamedIndividual rdf:about="http://foo.bar/geoshacl#overlapsConstraint">
+    <owl:NamedIndividual rdf:about="https://w3id.org/geoshacl#overlapsConstraint">
         <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ConstraintComponent"/>
         <rdfs:comment>An implementation of the &quot;overlaps&quot; relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL&apos;s geof:sfOverlaps filter function.</rdfs:comment>
         <shacl:parameter>
             <rdf:Description>
-                <shacl:path rdf:resource="http://foo.bar/geoshacl#overlaps"/>
+                <shacl:path rdf:resource="https://w3id.org/geoshacl#overlaps"/>
             </rdf:Description>
         </shacl:parameter>
         <shacl:validator rdf:nodeID="genid14"/>
@@ -435,15 +435,15 @@
     
 
 
-    <!-- http://foo.bar/geoshacl#touchesConstraint -->
+    <!-- https://w3id.org/geoshacl#touchesConstraint -->
 
 
-    <owl:NamedIndividual rdf:about="http://foo.bar/geoshacl#touchesConstraint">
+    <owl:NamedIndividual rdf:about="https://w3id.org/geoshacl#touchesConstraint">
         <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ConstraintComponent"/>
         <rdfs:comment>An implementation of the &quot;touches&quot; relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL&apos;s geof:sfTouches filter function.</rdfs:comment>
         <shacl:parameter>
             <rdf:Description>
-                <shacl:path rdf:resource="http://foo.bar/geoshacl#touches"/>
+                <shacl:path rdf:resource="https://w3id.org/geoshacl#touches"/>
             </rdf:Description>
         </shacl:parameter>
         <shacl:validator rdf:nodeID="genid16"/>
@@ -470,15 +470,15 @@
     
 
 
-    <!-- http://foo.bar/geoshacl#withinConstraint -->
+    <!-- https://w3id.org/geoshacl#withinConstraint -->
 
 
-    <owl:NamedIndividual rdf:about="http://foo.bar/geoshacl#withinConstraint">
+    <owl:NamedIndividual rdf:about="https://w3id.org/geoshacl#withinConstraint">
         <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ConstraintComponent"/>
         <rdfs:comment>An implementation of the &quot;within&quot; relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL&apos;s geof:sfWithin filter function.</rdfs:comment>
         <shacl:parameter>
             <rdf:Description>
-                <shacl:path rdf:resource="http://foo.bar/geoshacl#within"/>
+                <shacl:path rdf:resource="https://w3id.org/geoshacl#within"/>
             </rdf:Description>
         </shacl:parameter>
         <shacl:validator rdf:nodeID="genid18"/>

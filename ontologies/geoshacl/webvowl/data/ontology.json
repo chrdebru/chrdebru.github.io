@@ -48,16 +48,16 @@
         "value" : "ADAPT Centre, Trinity College",
         "type" : "label"
       } ],
-      "abstract" : [ {
-        "identifier" : "abstract",
-        "language" : "undefined",
-        "value" : "Reusable SHACL constraint components for geospatial data based on GeoSPARQL.",
-        "type" : "label"
-      } ],
       "preferredNamespaceUri" : [ {
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
         "value" : "https://w3id.org/geoshacl",
+        "type" : "label"
+      } ],
+      "abstract" : [ {
+        "identifier" : "abstract",
+        "language" : "undefined",
+        "value" : "Reusable SHACL constraint components for geospatial data based on GeoSPARQL.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -99,36 +99,13 @@
       "IRI-based" : "ConstraintComponent"
     },
     "individuals" : [ {
-      "iri" : "http://foo.bar/geoshacl#containsConstraint",
-      "baseIri" : "http://foo.bar/geoshacl",
+      "iri" : "https://w3id.org/geoshacl#touchesConstraint",
+      "baseIri" : "https://w3id.org/geoshacl",
       "annotations" : {
         "parameter" : [ {
           "identifier" : "parameter",
           "language" : "undefined",
-          "value" : "_:genid2147483658",
-          "type" : "label"
-        } ],
-        "validator" : [ {
-          "identifier" : "validator",
-          "language" : "undefined",
-          "value" : "_:genid2147483648",
-          "type" : "label"
-        } ]
-      },
-      "comment" : {
-        "undefined" : "An implementation of the \"contains\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfContains filter function."
-      },
-      "labels" : {
-        "IRI-based" : "containsConstraint"
-      }
-    }, {
-      "iri" : "http://foo.bar/geoshacl#touchesConstraint",
-      "baseIri" : "http://foo.bar/geoshacl",
-      "annotations" : {
-        "parameter" : [ {
-          "identifier" : "parameter",
-          "language" : "undefined",
-          "value" : "_:genid2147483659",
+          "value" : "_:genid2147483662",
           "type" : "label"
         } ],
         "validator" : [ {
@@ -145,105 +122,13 @@
         "IRI-based" : "touchesConstraint"
       }
     }, {
-      "iri" : "http://foo.bar/geoshacl#withinConstraint",
-      "baseIri" : "http://foo.bar/geoshacl",
+      "iri" : "https://w3id.org/geoshacl#equalsConstraint",
+      "baseIri" : "https://w3id.org/geoshacl",
       "annotations" : {
         "parameter" : [ {
           "identifier" : "parameter",
           "language" : "undefined",
-          "value" : "_:genid2147483663",
-          "type" : "label"
-        } ],
-        "validator" : [ {
-          "identifier" : "validator",
-          "language" : "undefined",
-          "value" : "_:genid2147483656",
-          "type" : "label"
-        } ]
-      },
-      "comment" : {
-        "undefined" : "An implementation of the \"within\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfWithin filter function."
-      },
-      "labels" : {
-        "IRI-based" : "withinConstraint"
-      }
-    }, {
-      "iri" : "http://foo.bar/geoshacl#overlapsConstraint",
-      "baseIri" : "http://foo.bar/geoshacl",
-      "annotations" : {
-        "parameter" : [ {
-          "identifier" : "parameter",
-          "language" : "undefined",
-          "value" : "_:genid2147483660",
-          "type" : "label"
-        } ],
-        "validator" : [ {
-          "identifier" : "validator",
-          "language" : "undefined",
-          "value" : "_:genid2147483654",
-          "type" : "label"
-        } ]
-      },
-      "comment" : {
-        "undefined" : "An implementation of the \"overlaps\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfOverlaps filter function."
-      },
-      "labels" : {
-        "IRI-based" : "overlapsConstraint"
-      }
-    }, {
-      "iri" : "http://foo.bar/geoshacl#disjointConstraint",
-      "baseIri" : "http://foo.bar/geoshacl",
-      "annotations" : {
-        "parameter" : [ {
-          "identifier" : "parameter",
-          "language" : "undefined",
-          "value" : "_:genid2147483661",
-          "type" : "label"
-        } ],
-        "validator" : [ {
-          "identifier" : "validator",
-          "language" : "undefined",
-          "value" : "_:genid2147483650",
-          "type" : "label"
-        } ]
-      },
-      "comment" : {
-        "undefined" : "An implementation of the \"disjoint\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfDisjoint filter function."
-      },
-      "labels" : {
-        "IRI-based" : "disjointConstraint"
-      }
-    }, {
-      "iri" : "http://foo.bar/geoshacl#intuitiveEqualsConstraint",
-      "baseIri" : "http://foo.bar/geoshacl",
-      "annotations" : {
-        "parameter" : [ {
-          "identifier" : "parameter",
-          "language" : "undefined",
-          "value" : "_:genid2147483657",
-          "type" : "label"
-        } ],
-        "validator" : [ {
-          "identifier" : "validator",
-          "language" : "undefined",
-          "value" : "_:genid2147483653",
-          "type" : "label"
-        } ]
-      },
-      "comment" : {
-        "undefined" : "An alternative implementation of the \"equals\" relationship between two geometries. The Simple Features Access and GeoSPARQL assume that two points can never be equivalent as their boundaries are empty and geometries must share the same non-empty boundary. This can be counter-intuitive. This implementation of \"equals\" is based on GeoSPARQL's sf:within and sf:contains filter functions."
-      },
-      "labels" : {
-        "IRI-based" : "intuitiveEqualsConstraint"
-      }
-    }, {
-      "iri" : "http://foo.bar/geoshacl#equalsConstraint",
-      "baseIri" : "http://foo.bar/geoshacl",
-      "annotations" : {
-        "parameter" : [ {
-          "identifier" : "parameter",
-          "language" : "undefined",
-          "value" : "_:genid2147483664",
+          "value" : "_:genid2147483658",
           "type" : "label"
         } ],
         "validator" : [ {
@@ -260,13 +145,59 @@
         "IRI-based" : "equalsConstraint"
       }
     }, {
-      "iri" : "http://foo.bar/geoshacl#crossesConstraint",
-      "baseIri" : "http://foo.bar/geoshacl",
+      "iri" : "https://w3id.org/geoshacl#intuitiveEqualsConstraint",
+      "baseIri" : "https://w3id.org/geoshacl",
       "annotations" : {
         "parameter" : [ {
           "identifier" : "parameter",
           "language" : "undefined",
-          "value" : "_:genid2147483662",
+          "value" : "_:genid2147483664",
+          "type" : "label"
+        } ],
+        "validator" : [ {
+          "identifier" : "validator",
+          "language" : "undefined",
+          "value" : "_:genid2147483653",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "An alternative implementation of the \"equals\" relationship between two geometries. The Simple Features Access and GeoSPARQL assume that two points can never be equivalent as their boundaries are empty and geometries must share the same non-empty boundary. This can be counter-intuitive. This implementation of \"equals\" is based on GeoSPARQL's sf:within and sf:contains filter functions."
+      },
+      "labels" : {
+        "IRI-based" : "intuitiveEqualsConstraint"
+      }
+    }, {
+      "iri" : "https://w3id.org/geoshacl#withinConstraint",
+      "baseIri" : "https://w3id.org/geoshacl",
+      "annotations" : {
+        "parameter" : [ {
+          "identifier" : "parameter",
+          "language" : "undefined",
+          "value" : "_:genid2147483661",
+          "type" : "label"
+        } ],
+        "validator" : [ {
+          "identifier" : "validator",
+          "language" : "undefined",
+          "value" : "_:genid2147483656",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "An implementation of the \"within\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfWithin filter function."
+      },
+      "labels" : {
+        "IRI-based" : "withinConstraint"
+      }
+    }, {
+      "iri" : "https://w3id.org/geoshacl#crossesConstraint",
+      "baseIri" : "https://w3id.org/geoshacl",
+      "annotations" : {
+        "parameter" : [ {
+          "identifier" : "parameter",
+          "language" : "undefined",
+          "value" : "_:genid2147483657",
           "type" : "label"
         } ],
         "validator" : [ {
@@ -283,13 +214,13 @@
         "IRI-based" : "crossesConstraint"
       }
     }, {
-      "iri" : "http://foo.bar/geoshacl#intersectsConstraint",
-      "baseIri" : "http://foo.bar/geoshacl",
+      "iri" : "https://w3id.org/geoshacl#intersectsConstraint",
+      "baseIri" : "https://w3id.org/geoshacl",
       "annotations" : {
         "parameter" : [ {
           "identifier" : "parameter",
           "language" : "undefined",
-          "value" : "_:genid2147483665",
+          "value" : "_:genid2147483660",
           "type" : "label"
         } ],
         "validator" : [ {
@@ -304,6 +235,75 @@
       },
       "labels" : {
         "IRI-based" : "intersectsConstraint"
+      }
+    }, {
+      "iri" : "https://w3id.org/geoshacl#overlapsConstraint",
+      "baseIri" : "https://w3id.org/geoshacl",
+      "annotations" : {
+        "parameter" : [ {
+          "identifier" : "parameter",
+          "language" : "undefined",
+          "value" : "_:genid2147483663",
+          "type" : "label"
+        } ],
+        "validator" : [ {
+          "identifier" : "validator",
+          "language" : "undefined",
+          "value" : "_:genid2147483654",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "An implementation of the \"overlaps\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfOverlaps filter function."
+      },
+      "labels" : {
+        "IRI-based" : "overlapsConstraint"
+      }
+    }, {
+      "iri" : "https://w3id.org/geoshacl#disjointConstraint",
+      "baseIri" : "https://w3id.org/geoshacl",
+      "annotations" : {
+        "parameter" : [ {
+          "identifier" : "parameter",
+          "language" : "undefined",
+          "value" : "_:genid2147483659",
+          "type" : "label"
+        } ],
+        "validator" : [ {
+          "identifier" : "validator",
+          "language" : "undefined",
+          "value" : "_:genid2147483650",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "An implementation of the \"disjoint\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfDisjoint filter function."
+      },
+      "labels" : {
+        "IRI-based" : "disjointConstraint"
+      }
+    }, {
+      "iri" : "https://w3id.org/geoshacl#containsConstraint",
+      "baseIri" : "https://w3id.org/geoshacl",
+      "annotations" : {
+        "parameter" : [ {
+          "identifier" : "parameter",
+          "language" : "undefined",
+          "value" : "_:genid2147483665",
+          "type" : "label"
+        } ],
+        "validator" : [ {
+          "identifier" : "validator",
+          "language" : "undefined",
+          "value" : "_:genid2147483648",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "An implementation of the \"contains\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfContains filter function."
+      },
+      "labels" : {
+        "IRI-based" : "containsConstraint"
       }
     } ],
     "attributes" : [ "external" ],

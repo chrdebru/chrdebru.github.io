@@ -1,7 +1,7 @@
 [ {
   "@id" : "_:genid1",
   "http://www.w3.org/ns/shacl#path" : [ {
-    "@id" : "http://foo.bar/geoshacl#contains"
+    "@id" : "https://w3id.org/geoshacl#contains"
   } ]
 }, {
   "@id" : "_:genid10",
@@ -15,7 +15,7 @@
 }, {
   "@id" : "_:genid11",
   "http://www.w3.org/ns/shacl#path" : [ {
-    "@id" : "http://foo.bar/geoshacl#intuitiveEquals"
+    "@id" : "https://w3id.org/geoshacl#intuitiveEquals"
   } ]
 }, {
   "@id" : "_:genid12",
@@ -29,7 +29,7 @@
 }, {
   "@id" : "_:genid13",
   "http://www.w3.org/ns/shacl#path" : [ {
-    "@id" : "http://foo.bar/geoshacl#overlaps"
+    "@id" : "https://w3id.org/geoshacl#overlaps"
   } ]
 }, {
   "@id" : "_:genid14",
@@ -43,7 +43,7 @@
 }, {
   "@id" : "_:genid15",
   "http://www.w3.org/ns/shacl#path" : [ {
-    "@id" : "http://foo.bar/geoshacl#touches"
+    "@id" : "https://w3id.org/geoshacl#touches"
   } ]
 }, {
   "@id" : "_:genid16",
@@ -57,7 +57,7 @@
 }, {
   "@id" : "_:genid17",
   "http://www.w3.org/ns/shacl#path" : [ {
-    "@id" : "http://foo.bar/geoshacl#within"
+    "@id" : "https://w3id.org/geoshacl#within"
   } ]
 }, {
   "@id" : "_:genid18",
@@ -80,7 +80,7 @@
 }, {
   "@id" : "_:genid3",
   "http://www.w3.org/ns/shacl#path" : [ {
-    "@id" : "http://foo.bar/geoshacl#crosses"
+    "@id" : "https://w3id.org/geoshacl#crosses"
   } ]
 }, {
   "@id" : "_:genid4",
@@ -94,7 +94,7 @@
 }, {
   "@id" : "_:genid5",
   "http://www.w3.org/ns/shacl#path" : [ {
-    "@id" : "http://foo.bar/geoshacl#disjoint"
+    "@id" : "https://w3id.org/geoshacl#disjoint"
   } ]
 }, {
   "@id" : "_:genid6",
@@ -108,7 +108,7 @@
 }, {
   "@id" : "_:genid7",
   "http://www.w3.org/ns/shacl#path" : [ {
-    "@id" : "http://foo.bar/geoshacl#equals"
+    "@id" : "https://w3id.org/geoshacl#equals"
   } ]
 }, {
   "@id" : "_:genid8",
@@ -122,115 +122,7 @@
 }, {
   "@id" : "_:genid9",
   "http://www.w3.org/ns/shacl#path" : [ {
-    "@id" : "http://foo.bar/geoshacl#intersects"
-  } ]
-}, {
-  "@id" : "http://foo.bar/geoshacl#containsConstraint",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "An implementation of the \"contains\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfContains filter function."
-  } ],
-  "http://www.w3.org/ns/shacl#parameter" : [ {
-    "@id" : "_:genid1"
-  } ],
-  "http://www.w3.org/ns/shacl#validator" : [ {
-    "@id" : "_:genid2"
-  } ]
-}, {
-  "@id" : "http://foo.bar/geoshacl#crossesConstraint",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "An implementation of the \"crosses\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfCrosses filter function."
-  } ],
-  "http://www.w3.org/ns/shacl#parameter" : [ {
-    "@id" : "_:genid3"
-  } ],
-  "http://www.w3.org/ns/shacl#validator" : [ {
-    "@id" : "_:genid4"
-  } ]
-}, {
-  "@id" : "http://foo.bar/geoshacl#disjointConstraint",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "An implementation of the \"disjoint\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfDisjoint filter function."
-  } ],
-  "http://www.w3.org/ns/shacl#parameter" : [ {
-    "@id" : "_:genid5"
-  } ],
-  "http://www.w3.org/ns/shacl#validator" : [ {
-    "@id" : "_:genid6"
-  } ]
-}, {
-  "@id" : "http://foo.bar/geoshacl#equalsConstraint",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "An implementation of the \"equals\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfEquals filter function."
-  } ],
-  "http://www.w3.org/ns/shacl#parameter" : [ {
-    "@id" : "_:genid7"
-  } ],
-  "http://www.w3.org/ns/shacl#validator" : [ {
-    "@id" : "_:genid8"
-  } ]
-}, {
-  "@id" : "http://foo.bar/geoshacl#intersectsConstraint",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "An implementation of the \"intersects\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfIntersects filter function."
-  } ],
-  "http://www.w3.org/ns/shacl#parameter" : [ {
-    "@id" : "_:genid9"
-  } ],
-  "http://www.w3.org/ns/shacl#validator" : [ {
-    "@id" : "_:genid10"
-  } ]
-}, {
-  "@id" : "http://foo.bar/geoshacl#intuitiveEqualsConstraint",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "An alternative implementation of the \"equals\" relationship between two geometries. The Simple Features Access and GeoSPARQL assume that two points can never be equivalent as their boundaries are empty and geometries must share the same non-empty boundary. This can be counter-intuitive. This implementation of \"equals\" is based on GeoSPARQL's sf:within and sf:contains filter functions."
-  } ],
-  "http://www.w3.org/ns/shacl#parameter" : [ {
-    "@id" : "_:genid11"
-  } ],
-  "http://www.w3.org/ns/shacl#validator" : [ {
-    "@id" : "_:genid12"
-  } ]
-}, {
-  "@id" : "http://foo.bar/geoshacl#overlapsConstraint",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "An implementation of the \"overlaps\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfOverlaps filter function."
-  } ],
-  "http://www.w3.org/ns/shacl#parameter" : [ {
-    "@id" : "_:genid13"
-  } ],
-  "http://www.w3.org/ns/shacl#validator" : [ {
-    "@id" : "_:genid14"
-  } ]
-}, {
-  "@id" : "http://foo.bar/geoshacl#touchesConstraint",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "An implementation of the \"touches\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfTouches filter function."
-  } ],
-  "http://www.w3.org/ns/shacl#parameter" : [ {
-    "@id" : "_:genid15"
-  } ],
-  "http://www.w3.org/ns/shacl#validator" : [ {
-    "@id" : "_:genid16"
-  } ]
-}, {
-  "@id" : "http://foo.bar/geoshacl#withinConstraint",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "An implementation of the \"within\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfWithin filter function."
-  } ],
-  "http://www.w3.org/ns/shacl#parameter" : [ {
-    "@id" : "_:genid17"
-  } ],
-  "http://www.w3.org/ns/shacl#validator" : [ {
-    "@id" : "_:genid18"
+    "@id" : "https://w3id.org/geoshacl#intersects"
   } ]
 }, {
   "@id" : "http://purl.org/dc/terms/abstract",
@@ -323,5 +215,113 @@
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "@value" : "https://w3id.org/geoshacl"
+  } ]
+}, {
+  "@id" : "https://w3id.org/geoshacl#containsConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An implementation of the \"contains\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfContains filter function."
+  } ],
+  "http://www.w3.org/ns/shacl#parameter" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/ns/shacl#validator" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/geoshacl#crossesConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An implementation of the \"crosses\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfCrosses filter function."
+  } ],
+  "http://www.w3.org/ns/shacl#parameter" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://www.w3.org/ns/shacl#validator" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/geoshacl#disjointConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An implementation of the \"disjoint\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfDisjoint filter function."
+  } ],
+  "http://www.w3.org/ns/shacl#parameter" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/ns/shacl#validator" : [ {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "https://w3id.org/geoshacl#equalsConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An implementation of the \"equals\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfEquals filter function."
+  } ],
+  "http://www.w3.org/ns/shacl#parameter" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/ns/shacl#validator" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "https://w3id.org/geoshacl#intersectsConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An implementation of the \"intersects\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfIntersects filter function."
+  } ],
+  "http://www.w3.org/ns/shacl#parameter" : [ {
+    "@id" : "_:genid9"
+  } ],
+  "http://www.w3.org/ns/shacl#validator" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "https://w3id.org/geoshacl#intuitiveEqualsConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An alternative implementation of the \"equals\" relationship between two geometries. The Simple Features Access and GeoSPARQL assume that two points can never be equivalent as their boundaries are empty and geometries must share the same non-empty boundary. This can be counter-intuitive. This implementation of \"equals\" is based on GeoSPARQL's sf:within and sf:contains filter functions."
+  } ],
+  "http://www.w3.org/ns/shacl#parameter" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/ns/shacl#validator" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "https://w3id.org/geoshacl#overlapsConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An implementation of the \"overlaps\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfOverlaps filter function."
+  } ],
+  "http://www.w3.org/ns/shacl#parameter" : [ {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/ns/shacl#validator" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "https://w3id.org/geoshacl#touchesConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An implementation of the \"touches\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfTouches filter function."
+  } ],
+  "http://www.w3.org/ns/shacl#parameter" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/ns/shacl#validator" : [ {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "https://w3id.org/geoshacl#withinConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#ConstraintComponent" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An implementation of the \"within\" relationship between two geometries as per the Simple Feature Access standard. It is implemented using GeoSPARQL's geof:sfWithin filter function."
+  } ],
+  "http://www.w3.org/ns/shacl#parameter" : [ {
+    "@id" : "_:genid17"
+  } ],
+  "http://www.w3.org/ns/shacl#validator" : [ {
+    "@id" : "_:genid18"
   } ]
 } ]
