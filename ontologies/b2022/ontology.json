@@ -11,7 +11,7 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://erlangen-crm.org/current/"
@@ -19,7 +19,7 @@
     "@id" : "http://www.w3.org/2004/02/skos/core"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Accountability",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Accountability",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -34,7 +34,7 @@
     "@value" : "Accountability"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#AppellationAssignment",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#AppellationAssignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -43,10 +43,10 @@
     "@value" : "Appellation assignment"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Archdeaconry",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Archdeaconry",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Diocese"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -61,7 +61,7 @@
     "@value" : "Archdeaconry"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Archdiocese",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Archdiocese",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -76,13 +76,13 @@
     "@value" : "Archdiocese"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Diocese"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#AssemblyHouse",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#AssemblyHouse",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanSettlement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -97,10 +97,10 @@
     "@value" : "Assembly house"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilMonument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#AugustinianFriars",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#AugustinianFriars",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -115,10 +115,10 @@
     "@value" : "Augustinian Friars"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Mendicants"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Authority",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Authority",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -133,7 +133,7 @@
     "@value" : "Authority"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Ballyboe",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Ballyboe",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -148,10 +148,10 @@
     "@value" : "Ballyboe"
   } ],
   "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Townland"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Townland"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#BaronsOfTheExchequer",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#BaronsOfTheExchequer",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -166,10 +166,10 @@
     "@value" : "Barons of the exchequer"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Barony",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Barony",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#County"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#County"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -184,10 +184,10 @@
     "@value" : "Barony"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#BenedictineMonks",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#BenedictineMonks",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -202,10 +202,10 @@
     "@value" : "Benedictine Monks"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Borough",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Borough",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -220,10 +220,10 @@
     "@value" : "Borough"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#BoroughCorporation",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#BoroughCorporation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -238,10 +238,10 @@
     "@value" : "Borough corporation"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Cantred",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Cantred",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -256,10 +256,10 @@
     "@value" : "Cantred"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#MedievalBarony"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#MedievalBarony"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Career",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Career",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -274,7 +274,7 @@
     "@value" : "Career"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CarmeliteFriars",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CarmeliteFriars",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -289,13 +289,13 @@
     "@value" : "Carmelite Friars"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Mendicants"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Castle",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Castle",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanSettlement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -310,13 +310,13 @@
     "@value" : "Castle"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilMonument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Cathedral",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Cathedral",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#City"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#City"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -331,10 +331,10 @@
     "@value" : "Cathedral"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalMonument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CathedralChapter",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CathedralChapter",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -349,10 +349,10 @@
     "@value" : "Cathedral Chapter"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CatholicParish",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CatholicParish",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -367,10 +367,10 @@
     "@value" : "Parish (Catholic)"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Parish"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Parish"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CentralCivilAdministration",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CentralCivilAdministration",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -379,10 +379,10 @@
     "@value" : "Central civil administration"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilOrganisation"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilOrganisation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CentralCivilOrganisation",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CentralCivilOrganisation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -391,10 +391,10 @@
     "@value" : "Central civil organisation"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilOrganisation"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilOrganisation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#ChamberlainsOfTheExchequer",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#ChamberlainsOfTheExchequer",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -403,7 +403,7 @@
     "@value" : "Chamberlains of the exchequer"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#ChanceryOffices",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#ChanceryOffices",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -412,12 +412,12 @@
     "@value" : "Chancery offices"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Chapel",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Chapel",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Castle"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Castle"
   }, {
-    "@id" : "https://ont.beyond2022.ie/ontology#Cathedral"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Cathedral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -432,10 +432,10 @@
     "@value" : "Chapel"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalMonument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#ChiefGovernorsOfIreland",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#ChiefGovernorsOfIreland",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -450,7 +450,7 @@
     "@value" : "ChiefGovernors of Ireland"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Church",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Church",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -459,10 +459,10 @@
     "@value" : "Church"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalMonument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CistercianMonks",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CistercianMonks",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -477,10 +477,10 @@
     "@value" : "Cistercian Monks"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#City",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#City",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -489,12 +489,12 @@
     "@value" : "City"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit"
   }, {
-    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanSettlement"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CivilAdministration",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CivilAdministration",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -509,7 +509,7 @@
     "@value" : "Civil administration"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CivilAdministrativeDivision",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CivilAdministrativeDivision",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -518,10 +518,10 @@
     "@value" : "Civil administrative division"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#JudicialCounty"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#JudicialCounty"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CivilAdministrativeUnit",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CivilAdministrativeUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -530,7 +530,7 @@
     "@value" : "Civil administrative unit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CivilMonument",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -539,10 +539,10 @@
     "@value" : "Civil monument"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Monument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Monument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CivilOrganisation",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CivilOrganisation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -551,13 +551,13 @@
     "@value" : "Civil organisation"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Organisation"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Organisation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CivilParish",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CivilParish",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Barony"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -566,12 +566,12 @@
     "@value" : "Parish (Civil)"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"
   }, {
-    "@id" : "https://ont.beyond2022.ie/ontology#Parish"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Parish"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CommonBench",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CommonBench",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -580,7 +580,7 @@
     "@value" : "Common bench"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Composition",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Composition",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -589,7 +589,7 @@
     "@value" : "Composition"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#ConventsOfNuns",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#ConventsOfNuns",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -598,10 +598,10 @@
     "@value" : "Convents of Nuns"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Council",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Council",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -616,7 +616,7 @@
     "@value" : "Council"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#County",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#County",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -631,15 +631,15 @@
     "@value" : "County"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CountyCorporate"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CountyCorporate"
   }, {
-    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"
   } ],
   "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Shire"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Shire"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CountyCorporate",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CountyCorporate",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -654,10 +654,10 @@
     "@value" : "County corporate"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Borough"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Borough"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CountyPalatine",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CountyPalatine",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -672,10 +672,10 @@
     "@value" : "County Palatine"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#County"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#County"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#CromwellianDistrict",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#CromwellianDistrict",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -684,13 +684,13 @@
     "@value" : "District (Cromwellian)"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Crossland",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Crossland",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#County"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#County"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -705,10 +705,10 @@
     "@value" : "Crossland"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#DIB",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#DIB",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -723,7 +723,7 @@
     "@value" : "DIB"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Demense",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Demense",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -738,13 +738,13 @@
     "@value" : "Demense"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#RuralSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#RuralSettlement"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Diocese",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Diocese",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalProvince"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalProvince"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -759,15 +759,15 @@
     "@value" : "Diocese"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit"
   }, {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#DistrictElectoralDivision",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#DistrictElectoralDivision",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Barony"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -776,10 +776,10 @@
     "@value" : "District Electoral Division"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#DominicanFriars",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#DominicanFriars",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -794,13 +794,13 @@
     "@value" : "Dominican Friars"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Mendicants"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Donjon",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Donjon",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Castle"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Castle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -815,7 +815,7 @@
     "@value" : "Donjon"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#DublinBench",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#DublinBench",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -824,7 +824,7 @@
     "@value" : "Dublin bench"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -833,10 +833,10 @@
     "@value" : "Ecclesiastical administrative unit"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#TerritorialDivision"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#TerritorialDivision"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalMonument",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -845,10 +845,10 @@
     "@value" : "Ecclesiastical monument"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Monument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Monument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -857,10 +857,10 @@
     "@value" : "Ecclesiastical organisation"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Organisation"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Organisation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalProvince",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalProvince",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -875,10 +875,10 @@
     "@value" : "Province (Ecclesiastical)"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Engrossers",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Engrossers",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -887,7 +887,7 @@
     "@value" : "Engrossers"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#EscheateryOffices",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#EscheateryOffices",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -896,7 +896,7 @@
     "@value" : "Escheatery offices"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#EstablishedChurchParish",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#EstablishedChurchParish",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -905,10 +905,10 @@
     "@value" : "Parish (Established Church)"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Parish"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Parish"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#ExchequerOffices",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#ExchequerOffices",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -917,7 +917,7 @@
     "@value" : "Exchequer offices"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#EyreCourts",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#EyreCourts",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -926,7 +926,7 @@
     "@value" : "Eyre courts"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Female",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Female",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -941,7 +941,7 @@
     "@value" : "Female"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Floruit",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Floruit",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -956,7 +956,7 @@
     "@value" : "Floruit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Forename",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Forename",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -965,7 +965,7 @@
     "@value" : "Forename"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#FranciscanFriars",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#FranciscanFriars",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -980,10 +980,10 @@
     "@value" : "Franciscan Friars"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Mendicants"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#FranciscanThirdOrderRegular",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#FranciscanThirdOrderRegular",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -992,10 +992,10 @@
     "@value" : "Franciscan Third Order Regular"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Mendicants"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#FratresCruciferi",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#FratresCruciferi",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1010,10 +1010,10 @@
     "@value" : "Fratres Cruciferi"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#FriarsOfTheSack",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#FriarsOfTheSack",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1028,10 +1028,10 @@
     "@value" : "Friars of the Sack"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Friary",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Friary",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1046,13 +1046,13 @@
     "@value" : "Friary"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Gate",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Gate",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanSettlement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1067,10 +1067,10 @@
     "@value" : "Gate"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilMonument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#HalfBarony",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#HalfBarony",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1085,13 +1085,13 @@
     "@value" : "Half-Barony"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Barony"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Harbour",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Harbour",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanSettlement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1106,10 +1106,10 @@
     "@value" : "Harbour"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilMonument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#ItinerantCourts",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#ItinerantCourts",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1124,7 +1124,7 @@
     "@value" : "Itinerant courts"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#JudicialCounty",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#JudicialCounty",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1133,10 +1133,10 @@
     "@value" : "Judicial county"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#County"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#County"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#JudiciaryOffices",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#JudiciaryOffices",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1145,7 +1145,7 @@
     "@value" : "Judiciary offices"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#JusticiarsBench",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#JusticiarsBench",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1154,10 +1154,10 @@
     "@value" : "Justiciars bench"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Keep",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Keep",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Castle"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Castle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1172,7 +1172,7 @@
     "@value" : "Keep"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Kingdom",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Kingdom",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1187,7 +1187,7 @@
     "@value" : "Medieval kingdom"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#KingsBench",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#KingsBench",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1196,7 +1196,7 @@
     "@value" : "Kings bench"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#KnightsHospitallers",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#KnightsHospitallers",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1211,10 +1211,10 @@
     "@value" : "Knights Hospitallers"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#KnightsTemplars",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#KnightsTemplars",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1229,10 +1229,10 @@
     "@value" : "Knights Templars"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Liberty",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Liberty",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1241,10 +1241,10 @@
     "@value" : "Liberty"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#County"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#County"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministration",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilAdministration",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1253,12 +1253,12 @@
     "@value" : "Local civil administration"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilOrganisation"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilOrganisation"
   }, {
-    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1267,10 +1267,10 @@
     "@value" : "Local civil administration unit"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#TerritorialDivision"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#TerritorialDivision"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilOrganisation",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilOrganisation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1279,7 +1279,7 @@
     "@value" : "Local civil organisation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Male",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Male",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1294,7 +1294,7 @@
     "@value" : "Male"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Manor",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Manor",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1309,10 +1309,10 @@
     "@value" : "Manor"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#RuralSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#RuralSettlement"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Marriage",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Marriage",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1327,7 +1327,7 @@
     "@value" : "Marriage"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#MedievalBarony",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#MedievalBarony",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1336,10 +1336,10 @@
     "@value" : "Medieval barony"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Barony"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#MedievalCounty",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#MedievalCounty",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1354,10 +1354,10 @@
     "@value" : "Medieval county"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#County"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#County"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#MedievalKingdom",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#MedievalKingdom",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1366,7 +1366,7 @@
     "@value" : "Medieval Kingdom"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Mendicants",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Mendicants",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1381,13 +1381,13 @@
     "@value" : "Mendicants"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Moat",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Moat",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Castle"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Castle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1402,7 +1402,7 @@
     "@value" : "Moat"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#ModernCounty",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#ModernCounty",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1411,10 +1411,10 @@
     "@value" : "Modern county"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#County"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#County"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Monument",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Monument",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1423,7 +1423,7 @@
     "@value" : "Monument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministration",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministration",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1432,10 +1432,10 @@
     "@value" : "Municipal civil administration"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministration"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilAdministration"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1444,7 +1444,7 @@
     "@value" : "Municipal civil administration unit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCorporation",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#MunicipalCorporation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1453,10 +1453,10 @@
     "@value" : "Municipal corporation"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Name",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Name",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1465,7 +1465,7 @@
     "@value" : "Name"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#NameVariant",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#NameVariant",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1474,7 +1474,7 @@
     "@value" : "Name variant"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#ODNB",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#ODNB",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1483,7 +1483,7 @@
     "@value" : "ODNB"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Occupation",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Occupation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1498,7 +1498,7 @@
     "@value" : "Occupation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Office",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Office",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1507,7 +1507,7 @@
     "@value" : "Office"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Organisation",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Organisation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1516,7 +1516,7 @@
     "@value" : "Organisation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Parish",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Parish",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1525,10 +1525,10 @@
     "@value" : "Parish"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#PatronymicsMatronymics",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#PatronymicsMatronymics",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1537,7 +1537,7 @@
     "@value" : "Patronymics-Matronymics"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Place",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Place",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1546,7 +1546,7 @@
     "@value" : "Place"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#PoorLawUnion",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#PoorLawUnion",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1555,13 +1555,13 @@
     "@value" : "Poor Law Union"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Port",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Port",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanSettlement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1570,10 +1570,10 @@
     "@value" : "Port"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilMonument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Post1836Barony",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Post1836Barony",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1582,10 +1582,10 @@
     "@value" : "Barony (post-1836)"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Barony"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#PostReformationDioceseCatholic",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#PostReformationDioceseCatholic",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1594,10 +1594,10 @@
     "@value" : "Post-reformation Diocese (Catholic)"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Diocese"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#PostReformationDioceseEstablishedChurch",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#PostReformationDioceseEstablishedChurch",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1606,10 +1606,10 @@
     "@value" : "Post-reformation Diocese (Established Church)"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Diocese"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Pre1836Barony",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Pre1836Barony",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1618,10 +1618,10 @@
     "@value" : "Barony (pre-1836)"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Barony"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Barony"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#PreReformationDiocese",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#PreReformationDiocese",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1630,10 +1630,10 @@
     "@value" : "Pre-reformation Diocese"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Diocese"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#PremonstratensianCanons",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#PremonstratensianCanons",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1642,15 +1642,15 @@
     "@value" : "Premonstratensian Canons"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Prison",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Prison",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Castle"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Castle"
   }, {
-    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanSettlement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1659,13 +1659,13 @@
     "@value" : "Prison"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilMonument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Quarter",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Quarter",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Townland"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Townland"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1674,7 +1674,7 @@
     "@value" : "Quarter"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Rank",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Rank",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1683,7 +1683,7 @@
     "@value" : "Rank"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#RegionAssignment",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#RegionAssignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1692,7 +1692,7 @@
     "@value" : "Region assignment"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#RegnalYear",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#RegnalYear",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1701,7 +1701,7 @@
     "@value" : "Regnal year"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#ReligiousHouse",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousHouse",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1710,10 +1710,10 @@
     "@value" : "Religious house"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1722,13 +1722,13 @@
     "@value" : "Religious order"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#RuralDeanery",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#RuralDeanery",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Diocese"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1737,7 +1737,7 @@
     "@value" : "Rural Deanery"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#RuralSettlement",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#RuralSettlement",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1746,7 +1746,7 @@
     "@value" : "Settlement (Rural)"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#SecularClergy",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#SecularClergy",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1755,12 +1755,12 @@
     "@value" : "Secular clergy"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit"
   }, {
-    "@id" : "https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#SecularColleges",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#SecularColleges",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1769,10 +1769,10 @@
     "@value" : "Secular colleges"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#ReligiousOrder"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Shire",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Shire",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1787,7 +1787,7 @@
     "@value" : "Shire"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#SoubriquetAlias",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#SoubriquetAlias",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1796,7 +1796,7 @@
     "@value" : "Soubriquet alias"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Surname",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Surname",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1805,7 +1805,7 @@
     "@value" : "Surname"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#TerritorialDivision",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#TerritorialDivision",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1814,7 +1814,7 @@
     "@value" : "Territorial division"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Town",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Town",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1823,13 +1823,13 @@
     "@value" : "Town"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanSettlement"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Townland",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Townland",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilParish"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilParish"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1838,10 +1838,10 @@
     "@value" : "Townland"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Trinitarians",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Trinitarians",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1850,10 +1850,10 @@
     "@value" : "Trinitarians"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Mendicants"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Mendicants"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#UnitedDioceses",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#UnitedDioceses",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1862,10 +1862,10 @@
     "@value" : "United Dioceses"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Diocese"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Diocese"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#UrbanOrganisation",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanOrganisation",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1874,10 +1874,10 @@
     "@value" : "Urban organisation"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#Organisation"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#Organisation"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanSettlement",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1886,10 +1886,10 @@
     "@value" : "Settlement (Urban)"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#Wall",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#Wall",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanSettlement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1898,13 +1898,13 @@
     "@value" : "Wall"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilMonument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#WaterConduit",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#WaterConduit",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://erlangen-crm.org/current/E55_Type" ],
   "http://erlangen-crm.org/current/P89_falls_within" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#UrbanSettlement"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#UrbanSettlement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1913,79 +1913,79 @@
     "@value" : "Water conduit"
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
-    "@id" : "https://ont.beyond2022.ie/ontology#CivilMonument"
+    "@id" : "https://ont.virtualtreasury.ie/ontology#CivilMonument"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#composed_of",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#composed_of",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Property created to provide information about the composition (part) of a aggregation."
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#counsellee",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#counsellee",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Property created to provide information about the councellee in a hierarchical relationship."
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#counselor",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#counselor",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Property created to provide information about the councellor in a hierarchical relationship."
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#object",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#object",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Generic property to indicate the object in a reified relationship"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#of_husband",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#of_husband",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Property created to provide information about the husband in a marriage joining."
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#of_wife",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#of_wife",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Property created to provide information about the wife in a marriage joining."
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#part_of",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#part_of",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Property created to provide information about the composition (whole) of a aggregation."
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#reports_to",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#reports_to",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Property created to provide information about the superior in a hierarchical relationship."
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#represented_by",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#represented_by",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#splits",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#splits",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Property indicating which places were split in temporal-spatial evolution."
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#splittedInto",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#splittedInto",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Property indicating which places were the result of a split in temporal-spatial evolution."
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#subject",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#subject",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Generic property to indicate the subject in a reified relationship"
   } ]
 }, {
-  "@id" : "https://ont.beyond2022.ie/ontology#subjects",
+  "@id" : "https://ont.virtualtreasury.ie/ontology#subjects",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Property created to provide information about the subject in a hierarchical relationship."

@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://ont.beyond2022.ie/ontology#","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://ont.beyond2022.ie/ontology#","name":"Beyond 2022 Ontology", "headline":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "datePublished":"Mon Oct 12 13:39:49 CEST 2020", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Christophe Debruyne"},{"@type":"Person","name":"Lynn Kilgallon"},{"@type":"Person","name":"Peter Crooks"},{"@type":"Person","name":"Gary Munnelly"},{"@type":"Person","name":"Declan O'Sullivan"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://ont.virtualtreasury.ie/ontology#","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://ont.virtualtreasury.ie/ontology#","name":"Beyond 2022 Ontology", "headline":"The Beyond 2022 Ontology", "datePublished":"Tue Jun 01 21:46:33 CEST 2021", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Christophe Debruyne"},{"@type":"Person","name":"Lynn Kilgallon"},{"@type":"Person","name":"Fabrizio Orlandi"},{"@type":"Person","name":"Peter Crooks"},{"@type":"Person","name":"Gary Munnelly"},{"@type":"Person","name":"Declan O'Sullivan"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -28,7 +28,7 @@ function loadTOC(){
 				t+='</ul>';
 				j=0;
 			}
-			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).text()+'</a></li>';
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
 			i++;
 		}
 		if(jQuery(this).is('h3')){
@@ -36,22 +36,16 @@ function loadTOC(){
 				t+='<ul>';
 			}
 			j++;
-			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).text()+'</a></li>';
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
 		}
-		t = t.replace(' back to ToC','');
 	  });
 	  t+='</ul>';
 	  $("#toc").html(t); 
 }
-    $(function(){
-      $("#abstract").load("sections/abstract-en.html"); 
-      $("#introduction").load("sections/introduction-en.html"); 
-      $("#overview").load("sections/overview-en.html"); 
-      $("#description").load("sections/description-en.html"); 
-      $("#references").load("sections/references-en.html"); 
-      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
-    });
-    </script> 
+ $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
   </head> 
 
 <body>
@@ -63,18 +57,15 @@ function loadTOC(){
 
 <dl>
 <dt>This version:</dt>
-<dd><a href="null">null</a></dd>
+<dd><a href="1.1">1.1</a></dd>
+<dt>Latest version:</dt>
+<dd><a href="http://ont.virtualtreasury.ie/ontology#">http://ont.virtualtreasury.ie/ontology#</a></dd>
 <dt>Authors:</dt>
-<dd>Christophe Debruyne, (<a href="Trinity College Dublin">Trinity College Dublin</a>)</dd><dd>Lynn Kilgallon, Trinity College Dublin</dd><dd>Peter Crooks, Trinity College Dublin</dd><dd>Gary Munnelly, Trinity College Dublin</dd><dd>Declan O'Sullivan</dd>
+<dd>Christophe Debruyne, (<a href="https://www.tcd.ie/">Trinity College Dublin</a>)</dd><dd>Lynn Kilgallon, (<a href="https://www.tcd.ie/">Trinity College Dublin</a>)</dd><dd>Fabrizio Orlandi, (<a href="https://www.tcd.ie/">Trinity College Dublin</a>)</dd><dd>Peter Crooks, (<a href="https://www.tcd.ie/">Trinity College Dublin</a>)</dd><dd>Gary Munnelly, (<a href="https://www.tcd.ie/">Trinity College Dublin</a>)</dd><dd>Declan O'Sullivan, (<a href="https://www.tcd.ie/">Trinity College Dublin</a>)</dd>
 
-<dt>Publisher:</dt>
-<dd><a href="null">null</a>, (<a href="null">null</a>)</dd>
 <dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg" alt="https://creativecommons.org/licenses/by/4.0/" /></a>
-<a href="https://creativecommons.org/licenses/by/4.0/" rel="license" target="_blank">
-<img src="null" style="border-width:0" alt="License" />
-</a>
-<br/></dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
-</dl>
+</dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
+<!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/OOPSeval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --></dl>
 
 <hr/>
 </div>
@@ -82,17 +73,2966 @@ function loadTOC(){
 <div>
 <span>Ontology Specification Draft</span>
 </div>
-</div>     <div id="abstract"></div>
-<div id="toc"></div>     <div id="introduction"></div>
-     <div id="overview"></div>
-     <div id="description"></div>
-     <div id="crossref"></div>
-     <div id="references"></div>
+</div><div id="toc"></div>   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross reference for Beyond 2022 classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Beyond 2022.
+<div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#composed_of"
+            title="https://ont.virtualtreasury.ie/ontology#composed_of">
+            <span>composed of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#counsellee"
+            title="https://ont.virtualtreasury.ie/ontology#counsellee">
+            <span>counsellee</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#counselor" title="https://ont.virtualtreasury.ie/ontology#counselor">
+            <span>counselor</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#object" title="https://ont.virtualtreasury.ie/ontology#object">
+            <span>object</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#of_husband"
+            title="https://ont.virtualtreasury.ie/ontology#of_husband">
+            <span>of husband</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#of_wife" title="https://ont.virtualtreasury.ie/ontology#of_wife">
+            <span>of wife</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#part_of" title="https://ont.virtualtreasury.ie/ontology#part_of">
+            <span>part of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#reports_to"
+            title="https://ont.virtualtreasury.ie/ontology#reports_to">
+            <span>reports to</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#splits" title="https://ont.virtualtreasury.ie/ontology#splits">
+            <span>splits</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#splittedInto"
+            title="https://ont.virtualtreasury.ie/ontology#splittedInto">
+            <span>splitted into</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#subject" title="https://ont.virtualtreasury.ie/ontology#subject">
+            <span>subject</span>
+         </a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#subjects" title="https://ont.virtualtreasury.ie/ontology#subjects">
+            <span>subjects</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#composed_of">
+      <h3>composed of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#composed_of</p>
+      <div class="comment">
+         <span class="markdown">Property created to provide information about the composition (part) of a aggregation.</span>
+      </div>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#counsellee">
+      <h3>counsellee<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#counsellee</p>
+      <div class="comment">
+         <span class="markdown">Property created to provide information about the councellee in a hierarchical relationship.</span>
+      </div>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#counselor">
+      <h3>counselor<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#counselor</p>
+      <div class="comment">
+         <span class="markdown">Property created to provide information about the councellor in a hierarchical relationship.</span>
+      </div>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#object">
+      <h3>object<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#object</p>
+      <div class="comment">
+         <span class="markdown">Generic property to indicate the object in a reified relationship</span>
+      </div>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#of_husband">
+      <h3>of husband<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#of_husband</p>
+      <div class="comment">
+         <span class="markdown">Property created to provide information about the husband in a marriage joining.</span>
+      </div>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#of_wife">
+      <h3>of wife<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#of_wife</p>
+      <div class="comment">
+         <span class="markdown">Property created to provide information about the wife in a marriage joining.</span>
+      </div>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#part_of">
+      <h3>part of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#part_of</p>
+      <div class="comment">
+         <span class="markdown">Property created to provide information about the composition (whole) of a aggregation.</span>
+      </div>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#reports_to">
+      <h3>reports to<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#reports_to</p>
+      <div class="comment">
+         <span class="markdown">Property created to provide information about the superior in a hierarchical relationship.</span>
+      </div>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#splits">
+      <h3>splits<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#splits</p>
+      <div class="comment">
+         <span class="markdown">Property indicating which places were split in temporal-spatial evolution.</span>
+      </div>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#splittedInto">
+      <h3>splitted into<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#splittedInto</p>
+      <div class="comment">
+         <span class="markdown">Property indicating which places were the result of a split in temporal-spatial evolution.</span>
+      </div>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#subject">
+      <h3>subject<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#subject</p>
+      <div class="comment">
+         <span class="markdown">Generic property to indicate the subject in a reified relationship</span>
+      </div>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#subjects">
+      <h3>subjects<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#subjects</p>
+      <div class="comment">
+         <span class="markdown">Property created to provide information about the subject in a hierarchical relationship.</span>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Accountability"
+            title="https://ont.virtualtreasury.ie/ontology#Accountability">Accountability</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#AppellationAssignment"
+            title="https://ont.virtualtreasury.ie/ontology#AppellationAssignment">Appellation assignment</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Archdeaconry"
+            title="https://ont.virtualtreasury.ie/ontology#Archdeaconry">Archdeaconry</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Archdiocese"
+            title="https://ont.virtualtreasury.ie/ontology#Archdiocese">Archdiocese</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#AssemblyHouse"
+            title="https://ont.virtualtreasury.ie/ontology#AssemblyHouse">Assembly house</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#AugustinianFriars"
+            title="https://ont.virtualtreasury.ie/ontology#AugustinianFriars">Augustinian Friars</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Authority"
+            title="https://ont.virtualtreasury.ie/ontology#Authority">Authority</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Ballyboe" title="https://ont.virtualtreasury.ie/ontology#Ballyboe">Ballyboe</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#BaronsOfTheExchequer"
+            title="https://ont.virtualtreasury.ie/ontology#BaronsOfTheExchequer">Barons of the exchequer</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Barony" title="https://ont.virtualtreasury.ie/ontology#Barony">Barony</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Post1836Barony"
+            title="https://ont.virtualtreasury.ie/ontology#Post1836Barony">Barony (post-1836)</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Pre1836Barony"
+            title="https://ont.virtualtreasury.ie/ontology#Pre1836Barony">Barony (pre-1836)</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#BenedictineMonks"
+            title="https://ont.virtualtreasury.ie/ontology#BenedictineMonks">Benedictine Monks</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Borough" title="https://ont.virtualtreasury.ie/ontology#Borough">Borough</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#BoroughCorporation"
+            title="https://ont.virtualtreasury.ie/ontology#BoroughCorporation">Borough corporation</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Cantred" title="https://ont.virtualtreasury.ie/ontology#Cantred">Cantred</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Career" title="https://ont.virtualtreasury.ie/ontology#Career">Career</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CarmeliteFriars"
+            title="https://ont.virtualtreasury.ie/ontology#CarmeliteFriars">Carmelite Friars</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Castle" title="https://ont.virtualtreasury.ie/ontology#Castle">Castle</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Cathedral"
+            title="https://ont.virtualtreasury.ie/ontology#Cathedral">Cathedral</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CathedralChapter"
+            title="https://ont.virtualtreasury.ie/ontology#CathedralChapter">Cathedral Chapter</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CentralCivilAdministration"
+            title="https://ont.virtualtreasury.ie/ontology#CentralCivilAdministration">Central civil administration</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CentralCivilOrganisation"
+            title="https://ont.virtualtreasury.ie/ontology#CentralCivilOrganisation">Central civil organisation</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#ChamberlainsOfTheExchequer"
+            title="https://ont.virtualtreasury.ie/ontology#ChamberlainsOfTheExchequer">Chamberlains of the exchequer</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#ChanceryOffices"
+            title="https://ont.virtualtreasury.ie/ontology#ChanceryOffices">Chancery offices</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Chapel" title="https://ont.virtualtreasury.ie/ontology#Chapel">Chapel</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#ChiefGovernorsOfIreland"
+            title="https://ont.virtualtreasury.ie/ontology#ChiefGovernorsOfIreland">ChiefGovernors of Ireland</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Church" title="https://ont.virtualtreasury.ie/ontology#Church">Church</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CistercianMonks"
+            title="https://ont.virtualtreasury.ie/ontology#CistercianMonks">Cistercian Monks</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#City" title="https://ont.virtualtreasury.ie/ontology#City">City</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CivilAdministration"
+            title="https://ont.virtualtreasury.ie/ontology#CivilAdministration">Civil administration</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CivilAdministrativeDivision"
+            title="https://ont.virtualtreasury.ie/ontology#CivilAdministrativeDivision">Civil administrative division</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CivilAdministrativeUnit"
+            title="https://ont.virtualtreasury.ie/ontology#CivilAdministrativeUnit">Civil administrative unit</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CivilMonument"
+            title="https://ont.virtualtreasury.ie/ontology#CivilMonument">Civil monument</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CivilOrganisation"
+            title="https://ont.virtualtreasury.ie/ontology#CivilOrganisation">Civil organisation</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CommonBench"
+            title="https://ont.virtualtreasury.ie/ontology#CommonBench">Common bench</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Composition"
+            title="https://ont.virtualtreasury.ie/ontology#Composition">Composition</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#ConventsOfNuns"
+            title="https://ont.virtualtreasury.ie/ontology#ConventsOfNuns">Convents of Nuns</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Council" title="https://ont.virtualtreasury.ie/ontology#Council">Council</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#County" title="https://ont.virtualtreasury.ie/ontology#County">County</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CountyCorporate"
+            title="https://ont.virtualtreasury.ie/ontology#CountyCorporate">County corporate</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CountyPalatine"
+            title="https://ont.virtualtreasury.ie/ontology#CountyPalatine">County Palatine</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Crossland"
+            title="https://ont.virtualtreasury.ie/ontology#Crossland">Crossland</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Demense" title="https://ont.virtualtreasury.ie/ontology#Demense">Demense</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#DIB" title="https://ont.virtualtreasury.ie/ontology#DIB">DIB</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Diocese" title="https://ont.virtualtreasury.ie/ontology#Diocese">Diocese</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CromwellianDistrict"
+            title="https://ont.virtualtreasury.ie/ontology#CromwellianDistrict">District (Cromwellian)</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#DistrictElectoralDivision"
+            title="https://ont.virtualtreasury.ie/ontology#DistrictElectoralDivision">District Electoral Division</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#DominicanFriars"
+            title="https://ont.virtualtreasury.ie/ontology#DominicanFriars">Dominican Friars</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Donjon" title="https://ont.virtualtreasury.ie/ontology#Donjon">Donjon</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#DublinBench"
+            title="https://ont.virtualtreasury.ie/ontology#DublinBench">Dublin bench</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit"
+            title="https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit">Ecclesiastical administrative unit</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument"
+            title="https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument">Ecclesiastical monument</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation"
+            title="https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation">Ecclesiastical organisation</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Engrossers"
+            title="https://ont.virtualtreasury.ie/ontology#Engrossers">Engrossers</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#EscheateryOffices"
+            title="https://ont.virtualtreasury.ie/ontology#EscheateryOffices">Escheatery offices</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#ExchequerOffices"
+            title="https://ont.virtualtreasury.ie/ontology#ExchequerOffices">Exchequer offices</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#EyreCourts"
+            title="https://ont.virtualtreasury.ie/ontology#EyreCourts">Eyre courts</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Female" title="https://ont.virtualtreasury.ie/ontology#Female">Female</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Floruit" title="https://ont.virtualtreasury.ie/ontology#Floruit">Floruit</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Forename"
+            title="https://ont.virtualtreasury.ie/ontology#Forename">Forename</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#FranciscanFriars"
+            title="https://ont.virtualtreasury.ie/ontology#FranciscanFriars">Franciscan Friars</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#FranciscanThirdOrderRegular"
+            title="https://ont.virtualtreasury.ie/ontology#FranciscanThirdOrderRegular">Franciscan Third Order Regular</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#FratresCruciferi"
+            title="https://ont.virtualtreasury.ie/ontology#FratresCruciferi">Fratres Cruciferi</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#FriarsOfTheSack"
+            title="https://ont.virtualtreasury.ie/ontology#FriarsOfTheSack">Friars of the Sack</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Friary" title="https://ont.virtualtreasury.ie/ontology#Friary">Friary</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Gate" title="https://ont.virtualtreasury.ie/ontology#Gate">Gate</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#HalfBarony"
+            title="https://ont.virtualtreasury.ie/ontology#HalfBarony">Half-Barony</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Harbour" title="https://ont.virtualtreasury.ie/ontology#Harbour">Harbour</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#ItinerantCourts"
+            title="https://ont.virtualtreasury.ie/ontology#ItinerantCourts">Itinerant courts</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#JudicialCounty"
+            title="https://ont.virtualtreasury.ie/ontology#JudicialCounty">Judicial county</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#JudiciaryOffices"
+            title="https://ont.virtualtreasury.ie/ontology#JudiciaryOffices">Judiciary offices</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#JusticiarsBench"
+            title="https://ont.virtualtreasury.ie/ontology#JusticiarsBench">Justiciars bench</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Keep" title="https://ont.virtualtreasury.ie/ontology#Keep">Keep</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#KingsBench"
+            title="https://ont.virtualtreasury.ie/ontology#KingsBench">Kings bench</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#KnightsHospitallers"
+            title="https://ont.virtualtreasury.ie/ontology#KnightsHospitallers">Knights Hospitallers</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#KnightsTemplars"
+            title="https://ont.virtualtreasury.ie/ontology#KnightsTemplars">Knights Templars</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Liberty" title="https://ont.virtualtreasury.ie/ontology#Liberty">Liberty</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#LocalCivilAdministration"
+            title="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministration">Local civil administration</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"
+            title="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit">Local civil administration unit</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#LocalCivilOrganisation"
+            title="https://ont.virtualtreasury.ie/ontology#LocalCivilOrganisation">Local civil organisation</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Male" title="https://ont.virtualtreasury.ie/ontology#Male">Male</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Manor" title="https://ont.virtualtreasury.ie/ontology#Manor">Manor</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Marriage"
+            title="https://ont.virtualtreasury.ie/ontology#Marriage">Marriage</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#MedievalBarony"
+            title="https://ont.virtualtreasury.ie/ontology#MedievalBarony">Medieval barony</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#MedievalCounty"
+            title="https://ont.virtualtreasury.ie/ontology#MedievalCounty">Medieval county</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Kingdom" title="https://ont.virtualtreasury.ie/ontology#Kingdom">Medieval kingdom</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#MedievalKingdom"
+            title="https://ont.virtualtreasury.ie/ontology#MedievalKingdom">MedievalKingdom</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Mendicants"
+            title="https://ont.virtualtreasury.ie/ontology#Mendicants">Mendicants</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Moat" title="https://ont.virtualtreasury.ie/ontology#Moat">Moat</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#ModernCounty"
+            title="https://ont.virtualtreasury.ie/ontology#ModernCounty">Modern county</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Monument"
+            title="https://ont.virtualtreasury.ie/ontology#Monument">Monument</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministration"
+            title="https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministration">Municipal civil administration</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit"
+            title="https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit">Municipal civil administration unit</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#MunicipalCorporation"
+            title="https://ont.virtualtreasury.ie/ontology#MunicipalCorporation">Municipal corporation</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Name" title="https://ont.virtualtreasury.ie/ontology#Name">Name</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#NameVariant"
+            title="https://ont.virtualtreasury.ie/ontology#NameVariant">Name variant</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Occupation"
+            title="https://ont.virtualtreasury.ie/ontology#Occupation">Occupation</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#ODNB" title="https://ont.virtualtreasury.ie/ontology#ODNB">ODNB</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Office" title="https://ont.virtualtreasury.ie/ontology#Office">Office</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Organisation"
+            title="https://ont.virtualtreasury.ie/ontology#Organisation">Organisation</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Parish" title="https://ont.virtualtreasury.ie/ontology#Parish">Parish</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CatholicParish"
+            title="https://ont.virtualtreasury.ie/ontology#CatholicParish">Parish (Catholic)</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#CivilParish"
+            title="https://ont.virtualtreasury.ie/ontology#CivilParish">Parish (Civil)</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#EstablishedChurchParish"
+            title="https://ont.virtualtreasury.ie/ontology#EstablishedChurchParish">Parish (Established Church)</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#PatronymicsMatronymics"
+            title="https://ont.virtualtreasury.ie/ontology#PatronymicsMatronymics">Patronymics-Matronymics</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Place" title="https://ont.virtualtreasury.ie/ontology#Place">Place</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#PoorLawUnion"
+            title="https://ont.virtualtreasury.ie/ontology#PoorLawUnion">Poor Law Union</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Port" title="https://ont.virtualtreasury.ie/ontology#Port">Port</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#PostReformationDioceseCatholic"
+            title="https://ont.virtualtreasury.ie/ontology#PostReformationDioceseCatholic">Post-reformation Diocese (Catholic)</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#PostReformationDioceseEstablishedChurch"
+            title="https://ont.virtualtreasury.ie/ontology#PostReformationDioceseEstablishedChurch">Post-reformation Diocese (Established Church)</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#PreReformationDiocese"
+            title="https://ont.virtualtreasury.ie/ontology#PreReformationDiocese">Pre-reformation Diocese</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#PremonstratensianCanons"
+            title="https://ont.virtualtreasury.ie/ontology#PremonstratensianCanons">Premonstratensian Canons</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Prison" title="https://ont.virtualtreasury.ie/ontology#Prison">Prison</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#EcclesiasticalProvince"
+            title="https://ont.virtualtreasury.ie/ontology#EcclesiasticalProvince">Province (Ecclesiastical)</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Quarter" title="https://ont.virtualtreasury.ie/ontology#Quarter">Quarter</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Rank" title="https://ont.virtualtreasury.ie/ontology#Rank">Rank</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#RegionAssignment"
+            title="https://ont.virtualtreasury.ie/ontology#RegionAssignment">Region assignment</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#RegnalYear"
+            title="https://ont.virtualtreasury.ie/ontology#RegnalYear">Regnal year</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#ReligiousHouse"
+            title="https://ont.virtualtreasury.ie/ontology#ReligiousHouse">Religious house</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#ReligiousOrder"
+            title="https://ont.virtualtreasury.ie/ontology#ReligiousOrder">Religious order</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#RuralDeanery"
+            title="https://ont.virtualtreasury.ie/ontology#RuralDeanery">Rural Deanery</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#SecularClergy"
+            title="https://ont.virtualtreasury.ie/ontology#SecularClergy">Secular clergy</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#SecularColleges"
+            title="https://ont.virtualtreasury.ie/ontology#SecularColleges">Secular colleges</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#RuralSettlement"
+            title="https://ont.virtualtreasury.ie/ontology#RuralSettlement">Settlement (Rural)</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#UrbanSettlement"
+            title="https://ont.virtualtreasury.ie/ontology#UrbanSettlement">Settlement (Urban)</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Shire" title="https://ont.virtualtreasury.ie/ontology#Shire">Shire</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#SoubriquetAlias"
+            title="https://ont.virtualtreasury.ie/ontology#SoubriquetAlias">Soubriquet alias</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Surname" title="https://ont.virtualtreasury.ie/ontology#Surname">Surname</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#TerritorialDivision"
+            title="https://ont.virtualtreasury.ie/ontology#TerritorialDivision">Territorial division</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Town" title="https://ont.virtualtreasury.ie/ontology#Town">Town</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Townland"
+            title="https://ont.virtualtreasury.ie/ontology#Townland">Townland</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Trinitarians"
+            title="https://ont.virtualtreasury.ie/ontology#Trinitarians">Trinitarians</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#UnitedDioceses"
+            title="https://ont.virtualtreasury.ie/ontology#UnitedDioceses">United Dioceses</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#UrbanOrganisation"
+            title="https://ont.virtualtreasury.ie/ontology#UrbanOrganisation">Urban organisation</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#Wall" title="https://ont.virtualtreasury.ie/ontology#Wall">Wall</a>
+      </li>
+      <li>
+         <a href="#https://ont.virtualtreasury.ie/ontology#WaterConduit"
+            title="https://ont.virtualtreasury.ie/ontology#WaterConduit">Water conduit</a>
+      </li>
+   </ul>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Accountability">
+      <h3>Accountability<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Accountability</p>
+      <div class="comment">
+         <span class="markdown">The concept of being accountable; liability to account for and answer for one's conduct, performance of duties, etc., to a superior or external authority; liability to provide or present an account of transactions, money given or received, etc. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#AppellationAssignment">
+      <h3>Appellation assignment<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#AppellationAssignment</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Archdeaconry">
+      <h3>Archdeaconry<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Archdeaconry</p>
+      <div class="comment">
+         <span class="markdown">The jurisdiction or district under the ecclesiastical control of an archdeacon;the rank or office of an archdeacon. Source: "archdeaconry, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/10312.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Archdiocese">
+      <h3>Archdiocese<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Archdiocese</p>
+      <div class="comment">
+         <span class="markdown">The term for the province over which an archbishop holds jurisdiction, comprised of several dioceses. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 18. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#AssemblyHouse">
+      <h3>Assembly house<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#AssemblyHouse</p>
+      <div class="comment">
+         <span class="markdown">A house in which assemblies, or gatherings of persons for the purpose of deliberation and decision, were held. Source: "assembly, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/11795. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#AugustinianFriars">
+      <h3>Augustinian Friars<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#AugustinianFriars</p>
+      <div class="comment">
+         <span class="markdown">Full name: Order of the Hermit Friars of St Augustine (OSA). Members of a monastic order named after St Augustine (of Hippo), one of the Fathers of the Church; the order followed the rule of St Augustine and had two branches, Augustinian canons and Augustinian friars. The hermits or friars were separate from the canons until unified by the pope in 1256, after which the friars worked in the world and were active in the universities. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 25.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Authority">
+      <h3>Authority<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Authority</p>
+      <div class="comment">
+         <span class="markdown">Power derived from or conferred by another; the right to act in a specified way, delegated from one person or organisation to another; official permission, authorization; an instance of this; power or right to give orders, make decisions, and enforce obedience; moral, legal, or political supremacy. Source: "authority, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/13349. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Ballyboe">
+      <h3>Ballyboe<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Ballyboe</p>
+      <div class="comment">
+         <span class="markdown">A measure of land in Ireland, which varied in size according to the quality and situtation of the land; typical values were between 60 and 120 Irish acres. Source: "ballyboe, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/269953.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#BaronsOfTheExchequer">
+      <h3>Barons of the exchequer<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#BaronsOfTheExchequer</p>
+      <div class="comment">
+         <span class="markdown">Assessors; officers of the exchequer. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Barony">
+      <h3>Barony<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Barony</p>
+      <div class="comment">
+         <span class="markdown">A sub-county administrative unit. Before the end of the Middle Ages the term "barony" was coming to be used in place of "cantred" to describe these units. They were significant units for the purposes of taxation, law enforcement and general administration. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Post1836Barony">
+      <h3>Barony (post-1836)<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Post1836Barony</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Pre1836Barony">
+      <h3>Barony (pre-1836)<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Pre1836Barony</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#BenedictineMonks">
+      <h3>Benedictine Monks<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#BenedictineMonks</p>
+      <div class="comment">
+         <span class="markdown">The monks belonging to the Order of St Benedict.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Borough">
+      <h3>Borough<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Borough</p>
+      <div class="comment">
+         <span class="markdown">A town possessing a municipal corporation and special privileges conferred by royal charter. Also a town which sends representatives to parliament. Source: "borough, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/21687.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#BoroughCorporation">
+      <h3>Borough corporation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#BoroughCorporation</p>
+      <div class="comment">
+         <span class="markdown">The civic authorities of a borough; the mayor aldermen and councillors. Source: "corporation, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/41833. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Cantred">
+      <h3>Cantred<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Cantred</p>
+      <div class="comment">
+         <span class="markdown">The main administrative unit below the level of county. The term cantred is related to one used in Wales and is etymologically equivalent to the English term "hundred", the term used for a similar sub-county administrative unit. Cantreds were often based upon preexisting areas, and generally coincided with the basic area of ecclesiastical administration above the parish and below the archdeaconry, the rural denery. They were significant units for the purposes of taxation, law enforcement and general administration. Before the end of the Middle AGes the term "barony" was coming to be used in place of cantred for these units. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Career">
+      <h3>Career<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Career</p>
+      <div class="comment">
+         <span class="markdown">A course of professional life or employment. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CarmeliteFriars">
+      <h3>Carmelite Friars<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CarmeliteFriars</p>
+      <div class="comment">
+         <span class="markdown">Members of the order founded at Mount Carmel in Palestine in the early thirteenth century and approved by the pope in 1226. A mendicant order which was known as the White Friars; its first members, however, were mostly hermits. There was also an order of nuns modelled on the White Friars. Although formally instituted in 1452. the sisters had first appeared in the thirteenth century. In 1452, the Carmelite Second Order was organised and adopted the same rule as the Carmelite brothers. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 59.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Castle">
+      <h3>Castle<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Castle</p>
+      <div class="comment">
+         <span class="markdown">A large building or set of buildings fortified for defence against an enemy; a fortress, stronghold. Source: "castle, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/28581.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Cathedral">
+      <h3>Cathedral<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Cathedral</p>
+      <div class="comment">
+         <span class="markdown">The principal church of a diocese. The crucial distinction of a cathedral church is neither its size nor its splendour but that it has a cathedra, i.e. the bishop's throne or chair of office. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 62.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CathedralChapter">
+      <h3>Cathedral Chapter<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CathedralChapter</p>
+      <div class="comment">
+         <span class="markdown">A duly constituted general meeting or assembly or the canons of a cathedral church, for consultation and transaction of the affairs of their chapter. Source: "chapter, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/30613.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CentralCivilAdministration">
+      <h3>Central civil administration<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CentralCivilAdministration</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CentralCivilOrganisation">
+      <h3>Central civil organisation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CentralCivilOrganisation</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#ChamberlainsOfTheExchequer">
+      <h3>Chamberlains of the exchequer<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#ChamberlainsOfTheExchequer</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#ChanceryOffices">
+      <h3>Chancery offices<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#ChanceryOffices</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Chapel">
+      <h3>Chapel<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Chapel</p>
+      <div class="comment">
+         <span class="markdown">Originally the shrine with the cape (chapele) of St Martin of Tours kept by the kings of France. It was in the charge of a cappellani, or chaplain, offering sanctuary. Thus a place for private worship; also the equipment of a portable chapel. Such places were found in private houses or as side chapels in cathedrals. After the thirteenth century such chapels were included in a cathedral's eastern walls during constructions. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 67.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#ChiefGovernorsOfIreland">
+      <h3>ChiefGovernors of Ireland<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#ChiefGovernorsOfIreland</p>
+      <div class="comment">
+         <span class="markdown">Chief Governor of Ireland is a general term used to describe the office of the chief representative of the king of England in Ireland. The king of England rarely spent time in Ireland in person, so royal authority was delegated to the chief governor, who was appointed by the king. Persons who served as chief governor held the office under a number of different titles, for example 'justiciar', 'lieutenant', 'lord deputy' and 'viceroy'.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Church">
+      <h3>Church<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Church</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CistercianMonks">
+      <h3>Cistercian Monks<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CistercianMonks</p>
+      <div class="comment">
+         <span class="markdown">Members of the Cistercian order. The monastic order was founded in 1098 at Citeaux by Robert of Molesme (d. 1110); a Benedictine reform. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 74.  </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#City">
+      <h3>City<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#City</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CivilAdministration">
+      <h3>Civil administration<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CivilAdministration</p>
+      <div class="comment">
+         <span class="markdown">Civil Administration is an organization or bureaucratic apparatus responsible for running the day-to-day affairs of 'civil' (i.e., secular or temporal) government, as opposed to 'ecclesiastical administration' which is responsible for the affairs of the institutional Church. Civil Administration is typically divided into distinct branches of administration, the most important distinction being between Central and Local administration. Different administrative functions are performed by separate departments within the Civil Administration, for instance financial, secretarial and judicial departments, each of which develops its own internal hierarchies. The Civil Administration is ultimately responsible to the highest secular authority, for instance the king or Prime Minister.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CivilAdministrativeDivision">
+      <h3>Civil administrative division<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CivilAdministrativeDivision</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CivilAdministrativeUnit">
+      <h3>Civil administrative unit<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CivilAdministrativeUnit</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CivilMonument">
+      <h3>Civil monument<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CivilMonument</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CivilOrganisation">
+      <h3>Civil organisation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CivilOrganisation</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CommonBench">
+      <h3>Common bench<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CommonBench</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Composition">
+      <h3>Composition<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Composition</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#ConventsOfNuns">
+      <h3>Convents of Nuns<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#ConventsOfNuns</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Council">
+      <h3>Council<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Council</p>
+      <div class="comment">
+         <span class="markdown">An advisory or deliberative assembly; a body of persons chosen or designated as advisors on matters of state, especially to advise and assist a sovereign or ruler in the administration of government;the local administrative body of a corporate town, city, county or district; an assembly of ecclesiastics convened for the regulation of doctrine or discipline in the church.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#County">
+      <h3>County<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#County</p>
+      <div class="comment">
+         <span class="markdown">A territorial division of Ireland; the chief unit for administrative, justicial and political purposes. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CountyCorporate">
+      <h3>County corporate<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CountyCorporate</p>
+      <div class="comment">
+         <span class="markdown">A city or town given the status and powers of a county. Source: "county, n.1 and adj." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/43102.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CountyPalatine">
+      <h3>County Palatine<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CountyPalatine</p>
+      <div class="comment">
+         <span class="markdown">Originally: designating a county of which the earl or lord originally had royal privileges, with the right of exclusive civil and criminal jurisdiction within that territory. Later: designating a modern administrative area corresponding to this. Source: "palatine, adj.1 and n.1." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/136245.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Crossland">
+      <h3>Crossland<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Crossland</p>
+      <div class="comment">
+         <span class="markdown">Land in Ireland in the possession of monasteries and churches, or of prelates. This land was subject to intervention by the county sheriff in guarding the crown's rights, even if within a franchise or liberty. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 92.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Demense">
+      <h3>Demense<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Demense</p>
+      <div class="comment">
+         <span class="markdown">Property owned freely; land held for the lord's own use rather than let or leased; land held by the lord of a manor, which could be passed on to descendants. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 100.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#DIB">
+      <h3>DIB<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#DIB</p>
+      <div class="comment">
+         <span class="markdown">The Dictionary of Irish Biography. A biographical dictionary of notable Irish people and people who had notable careers in Ireland, containing approximately 9000 entries. It is published by Cambridge University Press in collaboration with the Royal Irish Academy, and is available both in print and online. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Diocese">
+      <h3>Diocese<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Diocese</p>
+      <div class="comment">
+         <span class="markdown">The district over which a bishop has jurisdiction and for which he is responsible to an archbishop. This term is taken from its use during Diocletian’s reign (284–305), when the Roman Empire was divided into 12 dioceses. [&lt; L dioecesis = a governor’s jurisdiction]. 
+
+			 Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 102.  </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CromwellianDistrict">
+      <h3>District (Cromwellian)<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CromwellianDistrict</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#DistrictElectoralDivision">
+      <h3>District Electoral Division<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#DistrictElectoralDivision</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#DominicanFriars">
+      <h3>Dominican Friars<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#DominicanFriars</p>
+      <div class="comment">
+         <span class="markdown">Members of the order founded by St Dominic (1170-1221) in 1215, named the Order of Friars Preachers. They were known as the Black Friars or the preaching friars. Some Dominicans were mendicants, dedicated to evangelical preaching. They were very active in combating heresy. They also placed emphasis upon learning, which they considered necessary to preach intelligently and for rational theological debate, always preferring to convert by persuasion. Their emphasis on education meant the Dominicans were deeply involved in the growth of universities. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Donjon">
+      <h3>Donjon<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Donjon</p>
+      <div class="comment">
+         <span class="markdown">A well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence; the keep of a castle, from which comes dungeon. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#DublinBench">
+      <h3>Dublin bench<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#DublinBench</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit">
+      <h3>Ecclesiastical administrative unit<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument">
+      <h3>Ecclesiastical monument<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation">
+      <h3>Ecclesiastical organisation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Engrossers">
+      <h3>Engrossers<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Engrossers</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#EscheateryOffices">
+      <h3>Escheatery offices<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#EscheateryOffices</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#ExchequerOffices">
+      <h3>Exchequer offices<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#ExchequerOffices</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#EyreCourts">
+      <h3>Eyre courts<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#EyreCourts</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Female">
+      <h3>Female<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Female</p>
+      <div class="comment">
+         <span class="markdown">Of or relating to a woman or girl. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Floruit">
+      <h3>Floruit<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Floruit</p>
+      <div class="comment">
+         <span class="markdown">Term used to denote the period during which a person 'flourished'; the floruit is used where their dates or birth or death are unknown. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Forename">
+      <h3>Forename<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Forename</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#FranciscanFriars">
+      <h3>Franciscan Friars<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#FranciscanFriars</p>
+      <div class="comment">
+         <span class="markdown">A friar of the order founded by St Francis (d.1226) in 1209; also known as the Grey Friars or Friars Minor. It was the least intellectual of the monastic orders, with members taking vows of poverty and preaching in emotional ways on the sufferings of Christ. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 132.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#FranciscanThirdOrderRegular">
+      <h3>Franciscan Third Order Regular<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#FranciscanThirdOrderRegular</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#FratresCruciferi">
+      <h3>Fratres Cruciferi<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#FratresCruciferi</p>
+      <div class="comment">
+         <span class="markdown">Canons regular of the Order of the Holy Cross, a military-religious order founded in 1211.Members of this order might carry a cross in their hands, or have a cross sewn on the chest of their habit. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 93.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#FriarsOfTheSack">
+      <h3>Friars of the Sack<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#FriarsOfTheSack</p>
+      <div class="comment">
+         <span class="markdown">Colloquial name for the Friars of the Penance of Jesus Christ, the largest of the lesser groups of English friars. Their houses were all abandoned by 1314, the members being obliged to join one of the mendicant orders.  Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 244.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Friary">
+      <h3>Friary<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Friary</p>
+      <div class="comment">
+         <span class="markdown">A convent of friars;a fraternity or brotherhood of friars; the insitution or practices of friars. "friary, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/74610</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Gate">
+      <h3>Gate<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Gate</p>
+      <div class="comment">
+         <span class="markdown">An opening in a wall, made for the purpose of entrance and exit, and capable of being closed by a movable barrier, the existence of which is usually implied; said with reference to a city or other enclosure, or the enclosure-wall of a large building, formerly also to the bulding itself, where door or doors is now commonly employed. Source: "gate, n.1." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/77050.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#HalfBarony">
+      <h3>Half-Barony<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#HalfBarony</p>
+      <div class="comment">
+         <span class="markdown">A subdivision of a barony, which held the same status as a fully barony. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Harbour">
+      <h3>Harbour<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Harbour</p>
+      <div class="comment">
+         <span class="markdown">A place of shelter for ships; spec. where they may lie close to and sheltered by the shore or by works extended from it; a haven, a port. Source: "harbour | harbor, n.1." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/84111.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#ItinerantCourts">
+      <h3>Itinerant courts<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#ItinerantCourts</p>
+      <div class="comment">
+         <span class="markdown">Term used to describe collectively the justices in eyre, justices of assize and forest and their courts as they travelled on circuit. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#JudicialCounty">
+      <h3>Judicial county<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#JudicialCounty</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#JudiciaryOffices">
+      <h3>Judiciary offices<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#JudiciaryOffices</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#JusticiarsBench">
+      <h3>Justiciars bench<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#JusticiarsBench</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Keep">
+      <h3>Keep<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Keep</p>
+      <div class="comment">
+         <span class="markdown">The central part of a castle; the donjon, a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105, 168.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#KingsBench">
+      <h3>Kings bench<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#KingsBench</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#KnightsHospitallers">
+      <h3>Knights Hospitallers<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#KnightsHospitallers</p>
+      <div class="comment">
+         <span class="markdown">Members of the Knights Hospitaller, a military order originally founded to tend the sick and injured of the Crusades; their chief house was the Hospital of St John at Jerusalem, prior to their expulsion and move first to Rhodes and then to Malta. Also known as the Knights of Malta. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#KnightsTemplars">
+      <h3>Knights Templars<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#KnightsTemplars</p>
+      <div class="comment">
+         <span class="markdown">Members of the Knights Templar, a military and religious order, whose purpose was to protect pilgrims to the Holy Land. The Knights Templar derived their name from having been occupants of part of the place where Solomon's Temple used to be; they were known first as the Poor Knights of the Temple of Solomon. The order was founded by Hugues de Payns in 1118 after the taking of Jerusalem. Their rule was written by St Bernard. The church recognised the order in 1128;it was supressed in 1312. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170-2. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Liberty">
+      <h3>Liberty<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Liberty</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministration">
+      <h3>Local civil administration<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#LocalCivilAdministration</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit">
+      <h3>Local civil administration unit<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#LocalCivilOrganisation">
+      <h3>Local civil organisation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#LocalCivilOrganisation</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Male">
+      <h3>Male<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Male</p>
+      <div class="comment">
+         <span class="markdown">Of or relating to a man or boy. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Manor">
+      <h3>Manor<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Manor</p>
+      <div class="comment">
+         <span class="markdown">An estate compromising the lord's demesne (including the land of his dependant peasantry) and other tenements let out for rents and services.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Marriage">
+      <h3>Marriage<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Marriage</p>
+      <div class="comment">
+         <span class="markdown">The legally or formally recognized union of two people as partners in a personal relationship; the condition of being married; the relation between two people married to each other, matrimony. Source: "marriage, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/114320.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#MedievalBarony">
+      <h3>Medieval barony<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#MedievalBarony</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#MedievalCounty">
+      <h3>Medieval county<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#MedievalCounty</p>
+      <div class="comment">
+         <span class="markdown">The main unit of local government in the later medieval lordship of Ireland, one imported from England and with a longer prior history there. The county's main administrative official was a the sheriff, who was chosen by the local county court. Source: Paul Brand, 'Local Government', in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 280-1. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Kingdom">
+      <h3>Medieval kingdom<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Kingdom</p>
+      <div class="comment">
+         <span class="markdown">The territory ruled over by a king or queen;the area over which a monarch's rule extends; a realm; the people or inhabitants of such a territory. Source: "kingdom, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/103519.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#MedievalKingdom">
+      <h3>MedievalKingdom<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#MedievalKingdom</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Mendicants">
+      <h3>Mendicants<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Mendicants</p>
+      <div class="comment">
+         <span class="markdown">Those who lived on alms; a mendicant friar belonging to one of three orders, Franciscian, Dominican, Carmelite. Their members lived on alms while travelling in the world beyond their monastery on the look out for and preaching against heresy. a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 189.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Moat">
+      <h3>Moat<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Moat</p>
+      <div class="comment">
+         <span class="markdown">One of the most familiar features of a castle's defences: a ditch filled with water which surrounded the building. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 195.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#ModernCounty">
+      <h3>Modern county<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#ModernCounty</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Monument">
+      <h3>Monument<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Monument</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministration">
+      <h3>Municipal civil administration<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministration</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit">
+      <h3>Municipal civil administration unit<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#MunicipalCorporation">
+      <h3>Municipal corporation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#MunicipalCorporation</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Name">
+      <h3>Name<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Name</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#NameVariant">
+      <h3>Name variant<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#NameVariant</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Occupation">
+      <h3>Occupation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Occupation</p>
+      <div class="comment">
+         <span class="markdown">A particular action or course of action in which a person is engaged, esp. habitually; a particular job or profession; a particular pursuit or activity. Source: "occupation, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/130181. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#ODNB">
+      <h3>ODNB<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#ODNB</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Office">
+      <h3>Office<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Office</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Organisation">
+      <h3>Organisation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Organisation</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Parish">
+      <h3>Parish<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Parish</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CatholicParish">
+      <h3>Parish (Catholic)<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CatholicParish</p>
+      <div class="comment">
+         <span class="markdown">Originally: a relatively large area (resembling a modern diocese) incorporating a township or cluster of townships under the control of a minster (chiefly historical). Subsequently: an area or district having its own priest, parson, or other incumbent under the jurisdiction of a bishop (to whom tithes and ecclesiastical dues were formally paid); a territorial subdivision of a diocese. "parish, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/137918. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#CivilParish">
+      <h3>Parish (Civil)<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#CivilParish</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#EstablishedChurchParish">
+      <h3>Parish (Established Church)<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#EstablishedChurchParish</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#PatronymicsMatronymics">
+      <h3>Patronymics-Matronymics<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#PatronymicsMatronymics</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Place">
+      <h3>Place<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Place</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#PoorLawUnion">
+      <h3>Poor Law Union<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#PoorLawUnion</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Port">
+      <h3>Port<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Port</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#PostReformationDioceseCatholic">
+      <h3>Post-reformation Diocese (Catholic)<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#PostReformationDioceseCatholic</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#PostReformationDioceseEstablishedChurch">
+      <h3>Post-reformation Diocese (Established Church)<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#PostReformationDioceseEstablishedChurch</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#PreReformationDiocese">
+      <h3>Pre-reformation Diocese<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#PreReformationDiocese</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#PremonstratensianCanons">
+      <h3>Premonstratensian Canons<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#PremonstratensianCanons</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Prison">
+      <h3>Prison<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Prison</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#EcclesiasticalProvince">
+      <h3>Province (Ecclesiastical)<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#EcclesiasticalProvince</p>
+      <div class="comment">
+         <span class="markdown">An area falling under the jurisdiction of an archbishop or metropolitan, usually consisting of a number of neighbouring dioceses. Source: "province, n." OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/153460. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Quarter">
+      <h3>Quarter<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Quarter</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Rank">
+      <h3>Rank<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Rank</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#RegionAssignment">
+      <h3>Region assignment<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#RegionAssignment</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#RegnalYear">
+      <h3>Regnal year<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#RegnalYear</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#ReligiousHouse">
+      <h3>Religious house<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#ReligiousHouse</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#ReligiousOrder">
+      <h3>Religious order<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#ReligiousOrder</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#RuralDeanery">
+      <h3>Rural Deanery<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#RuralDeanery</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#SecularClergy">
+      <h3>Secular clergy<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#SecularClergy</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#SecularColleges">
+      <h3>Secular colleges<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#SecularColleges</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#RuralSettlement">
+      <h3>Settlement (Rural)<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#RuralSettlement</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#UrbanSettlement">
+      <h3>Settlement (Urban)<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#UrbanSettlement</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Shire">
+      <h3>Shire<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Shire</p>
+      <div class="comment">
+         <span class="markdown">Originally a sphere of jurisdiction or command; thus the area of which such authority was exercised. The earliest shires were commanded by ealdormen; by the late tenth century, when the ealdorman's powers were more extensive, they were administered by sheriffs. By the same period, the shires were divided into hundreds. From the twelfth century, they were also called 'counties'. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 258. </span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#SoubriquetAlias">
+      <h3>Soubriquet alias<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#SoubriquetAlias</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Surname">
+      <h3>Surname<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Surname</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#TerritorialDivision">
+      <h3>Territorial division<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#TerritorialDivision</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Town">
+      <h3>Town<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Town</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Townland">
+      <h3>Townland<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Townland</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Trinitarians">
+      <h3>Trinitarians<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Trinitarians</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#UnitedDioceses">
+      <h3>United Dioceses<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#UnitedDioceses</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#UrbanOrganisation">
+      <h3>Urban organisation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#UrbanOrganisation</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#Wall">
+      <h3>Wall<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#Wall</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://ont.virtualtreasury.ie/ontology#WaterConduit">
+      <h3>Water conduit<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ont.virtualtreasury.ie/ontology#WaterConduit</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://erlangen-crm.org/current/E55_Type">e55 type</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</div>
 <div id="acknowledgements">
 <h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <p>
 The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
 </div>
+
 
 </div>
 </body>

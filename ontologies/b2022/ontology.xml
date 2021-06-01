@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://ont.beyond2022.ie/ontology#"
-     xml:base="https://ont.beyond2022.ie/ontology"
+<rdf:RDF xmlns="https://ont.virtualtreasury.ie/ontology#"
+     xml:base="https://ont.virtualtreasury.ie/ontology"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -9,7 +9,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:current="http://erlangen-crm.org/current/">
-    <owl:Ontology rdf:about="https://ont.beyond2022.ie/ontology#">
+    <owl:Ontology rdf:about="https://ont.virtualtreasury.ie/ontology#">
         <owl:imports rdf:resource="http://erlangen-crm.org/current/"/>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
     </owl:Ontology>
@@ -61,116 +61,116 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#composed_of -->
+    <!-- https://ont.virtualtreasury.ie/ontology#composed_of -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#composed_of">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#composed_of">
         <rdfs:comment>Property created to provide information about the composition (part) of a aggregation.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#counsellee -->
+    <!-- https://ont.virtualtreasury.ie/ontology#counsellee -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#counsellee">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#counsellee">
         <rdfs:comment>Property created to provide information about the councellee in a hierarchical relationship.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#counselor -->
+    <!-- https://ont.virtualtreasury.ie/ontology#counselor -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#counselor">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#counselor">
         <rdfs:comment>Property created to provide information about the councellor in a hierarchical relationship.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#object -->
+    <!-- https://ont.virtualtreasury.ie/ontology#object -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#object">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#object">
         <rdfs:comment>Generic property to indicate the object in a reified relationship</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#of_husband -->
+    <!-- https://ont.virtualtreasury.ie/ontology#of_husband -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#of_husband">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#of_husband">
         <rdfs:comment>Property created to provide information about the husband in a marriage joining.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#of_wife -->
+    <!-- https://ont.virtualtreasury.ie/ontology#of_wife -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#of_wife">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#of_wife">
         <rdfs:comment>Property created to provide information about the wife in a marriage joining.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#part_of -->
+    <!-- https://ont.virtualtreasury.ie/ontology#part_of -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#part_of">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#part_of">
         <rdfs:comment>Property created to provide information about the composition (whole) of a aggregation.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#reports_to -->
+    <!-- https://ont.virtualtreasury.ie/ontology#reports_to -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#reports_to">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#reports_to">
         <rdfs:comment>Property created to provide information about the superior in a hierarchical relationship.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#represented_by -->
+    <!-- https://ont.virtualtreasury.ie/ontology#represented_by -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#represented_by"/>
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#represented_by"/>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#splits -->
+    <!-- https://ont.virtualtreasury.ie/ontology#splits -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#splits">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#splits">
         <rdfs:comment>Property indicating which places were split in temporal-spatial evolution.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#splittedInto -->
+    <!-- https://ont.virtualtreasury.ie/ontology#splittedInto -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#splittedInto">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#splittedInto">
         <rdfs:comment>Property indicating which places were the result of a split in temporal-spatial evolution.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#subject -->
+    <!-- https://ont.virtualtreasury.ie/ontology#subject -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#subject">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#subject">
         <rdfs:comment>Generic property to indicate the subject in a reified relationship</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#subjects -->
+    <!-- https://ont.virtualtreasury.ie/ontology#subjects -->
 
 
-    <owl:ObjectProperty rdf:about="https://ont.beyond2022.ie/ontology#subjects">
+    <owl:ObjectProperty rdf:about="https://ont.virtualtreasury.ie/ontology#subjects">
         <rdfs:comment>Property created to provide information about the subject in a hierarchical relationship.</rdfs:comment>
     </owl:ObjectProperty>
     
@@ -207,10 +207,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Accountability -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Accountability -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Accountability">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Accountability">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">The concept of being accountable; liability to account for and answer for one&apos;s conduct, performance of duties, etc., to a superior or external authority; liability to provide or present an account of transactions, money given or received, etc. </rdfs:comment>
         <rdfs:comment>The concept of being accountable; liability to account for and answer for one&apos;s conduct, performance of duties, etc., to a superior or external authority; liability to provide or present an account of transactions, money given or received, etc. </rdfs:comment>
@@ -220,10 +220,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#AppellationAssignment -->
+    <!-- https://ont.virtualtreasury.ie/ontology#AppellationAssignment -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#AppellationAssignment">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#AppellationAssignment">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Appellation assignment</rdfs:label>
         <rdfs:label>Appellation assignment</rdfs:label>
@@ -231,12 +231,12 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Archdeaconry -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Archdeaconry -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Archdeaconry">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Archdeaconry">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#Diocese"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#Diocese"/>
         <rdfs:comment xml:lang="en">The jurisdiction or district under the ecclesiastical control of an archdeacon;the rank or office of an archdeacon. Source: &quot;archdeaconry, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/10312.</rdfs:comment>
         <rdfs:comment>The jurisdiction or district under the ecclesiastical control of an archdeacon;the rank or office of an archdeacon. Source: &quot;archdeaconry, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/10312.</rdfs:comment>
         <rdfs:label xml:lang="en">Archdeaconry</rdfs:label>
@@ -245,53 +245,53 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Archdiocese -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Archdiocese -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Archdiocese">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Archdiocese">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Diocese"/>
         <rdfs:comment xml:lang="en">The term for the province over which an archbishop holds jurisdiction, comprised of several dioceses. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 18. </rdfs:comment>
         <rdfs:comment>The term for the province over which an archbishop holds jurisdiction, comprised of several dioceses. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 18. </rdfs:comment>
         <rdfs:label xml:lang="en">Archdiocese</rdfs:label>
         <rdfs:label>Archdiocese</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Diocese"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#AssemblyHouse -->
+    <!-- https://ont.virtualtreasury.ie/ontology#AssemblyHouse -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#AssemblyHouse">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#AssemblyHouse">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#UrbanSettlement"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#UrbanSettlement"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilMonument"/>
         <rdfs:comment xml:lang="en">A house in which assemblies, or gatherings of persons for the purpose of deliberation and decision, were held. Source: &quot;assembly, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/11795. </rdfs:comment>
         <rdfs:comment>A house in which assemblies, or gatherings of persons for the purpose of deliberation and decision, were held. Source: &quot;assembly, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/11795. </rdfs:comment>
         <rdfs:label xml:lang="en">Assembly house</rdfs:label>
         <rdfs:label>Assembly house</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CivilMonument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#AugustinianFriars -->
+    <!-- https://ont.virtualtreasury.ie/ontology#AugustinianFriars -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#AugustinianFriars">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#AugustinianFriars">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Mendicants"/>
         <rdfs:comment xml:lang="en">Full name: Order of the Hermit Friars of St Augustine (OSA). Members of a monastic order named after St Augustine (of Hippo), one of the Fathers of the Church; the order followed the rule of St Augustine and had two branches, Augustinian canons and Augustinian friars. The hermits or friars were separate from the canons until unified by the pope in 1256, after which the friars worked in the world and were active in the universities. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 25.</rdfs:comment>
         <rdfs:comment>Full name: Order of the Hermit Friars of St Augustine (OSA). Members of a monastic order named after St Augustine (of Hippo), one of the Fathers of the Church; the order followed the rule of St Augustine and had two branches, Augustinian canons and Augustinian friars. The hermits or friars were separate from the canons until unified by the pope in 1256, after which the friars worked in the world and were active in the universities. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 25.</rdfs:comment>
         <rdfs:label xml:lang="en">Augustinian Friars</rdfs:label>
         <rdfs:label>Augustinian Friars</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Mendicants"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Authority -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Authority -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Authority">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Authority">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">Power derived from or conferred by another; the right to act in a specified way, delegated from one person or organisation to another; official permission, authorization; an instance of this; power or right to give orders, make decisions, and enforce obedience; moral, legal, or political supremacy. Source: &quot;authority, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/13349. </rdfs:comment>
         <rdfs:comment>Power derived from or conferred by another; the right to act in a specified way, delegated from one person or organisation to another; official permission, authorization; an instance of this; power or right to give orders, make decisions, and enforce obedience; moral, legal, or political supremacy. Source: &quot;authority, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/13349. </rdfs:comment>
@@ -301,24 +301,24 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Ballyboe -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Ballyboe -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Ballyboe">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Ballyboe">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:exactMatch rdf:resource="https://ont.virtualtreasury.ie/ontology#Townland"/>
         <rdfs:comment xml:lang="en">A measure of land in Ireland, which varied in size according to the quality and situtation of the land; typical values were between 60 and 120 Irish acres. Source: &quot;ballyboe, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/269953.</rdfs:comment>
         <rdfs:comment>A measure of land in Ireland, which varied in size according to the quality and situtation of the land; typical values were between 60 and 120 Irish acres. Source: &quot;ballyboe, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/269953.</rdfs:comment>
         <rdfs:label xml:lang="en">Ballyboe</rdfs:label>
         <rdfs:label>Ballyboe</rdfs:label>
-        <skos:exactMatch rdf:resource="https://ont.beyond2022.ie/ontology#Townland"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#BaronsOfTheExchequer -->
+    <!-- https://ont.virtualtreasury.ie/ontology#BaronsOfTheExchequer -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#BaronsOfTheExchequer">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#BaronsOfTheExchequer">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">Assessors; officers of the exchequer. </rdfs:comment>
         <rdfs:comment>Assessors; officers of the exchequer. </rdfs:comment>
@@ -328,81 +328,81 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Barony -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Barony -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Barony">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Barony">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#County"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#County"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"/>
         <rdfs:comment xml:lang="en">A sub-county administrative unit. Before the end of the Middle Ages the term &quot;barony&quot; was coming to be used in place of &quot;cantred&quot; to describe these units. They were significant units for the purposes of taxation, law enforcement and general administration. Source: Paul Brand, &apos;Local Government&apos;, in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. </rdfs:comment>
         <rdfs:comment>A sub-county administrative unit. Before the end of the Middle Ages the term &quot;barony&quot; was coming to be used in place of &quot;cantred&quot; to describe these units. They were significant units for the purposes of taxation, law enforcement and general administration. Source: Paul Brand, &apos;Local Government&apos;, in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. </rdfs:comment>
         <rdfs:label xml:lang="en">Barony</rdfs:label>
         <rdfs:label>Barony</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#BenedictineMonks -->
+    <!-- https://ont.virtualtreasury.ie/ontology#BenedictineMonks -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#BenedictineMonks">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#BenedictineMonks">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:comment xml:lang="en">The monks belonging to the Order of St Benedict.</rdfs:comment>
         <rdfs:comment>The monks belonging to the Order of St Benedict.</rdfs:comment>
         <rdfs:label xml:lang="en">Benedictine Monks</rdfs:label>
         <rdfs:label>Benedictine Monks</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Borough -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Borough -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Borough">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Borough">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit"/>
         <rdfs:comment xml:lang="en">A town possessing a municipal corporation and special privileges conferred by royal charter. Also a town which sends representatives to parliament. Source: &quot;borough, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/21687.</rdfs:comment>
         <rdfs:comment>A town possessing a municipal corporation and special privileges conferred by royal charter. Also a town which sends representatives to parliament. Source: &quot;borough, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/21687.</rdfs:comment>
         <rdfs:label xml:lang="en">Borough</rdfs:label>
         <rdfs:label>Borough</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#BoroughCorporation -->
+    <!-- https://ont.virtualtreasury.ie/ontology#BoroughCorporation -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#BoroughCorporation">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#BoroughCorporation">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit"/>
         <rdfs:comment xml:lang="en">The civic authorities of a borough; the mayor aldermen and councillors. Source: &quot;corporation, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/41833. </rdfs:comment>
         <rdfs:comment>The civic authorities of a borough; the mayor aldermen and councillors. Source: &quot;corporation, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/41833. </rdfs:comment>
         <rdfs:label xml:lang="en">Borough corporation</rdfs:label>
         <rdfs:label>Borough corporation</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Cantred -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Cantred -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Cantred">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Cantred">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#MedievalBarony"/>
         <rdfs:comment xml:lang="en">The main administrative unit below the level of county. The term cantred is related to one used in Wales and is etymologically equivalent to the English term &quot;hundred&quot;, the term used for a similar sub-county administrative unit. Cantreds were often based upon preexisting areas, and generally coincided with the basic area of ecclesiastical administration above the parish and below the archdeaconry, the rural denery. They were significant units for the purposes of taxation, law enforcement and general administration. Before the end of the Middle AGes the term &quot;barony&quot; was coming to be used in place of cantred for these units. Source: Paul Brand, &apos;Local Government&apos;, in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. </rdfs:comment>
         <rdfs:comment>The main administrative unit below the level of county. The term cantred is related to one used in Wales and is etymologically equivalent to the English term &quot;hundred&quot;, the term used for a similar sub-county administrative unit. Cantreds were often based upon preexisting areas, and generally coincided with the basic area of ecclesiastical administration above the parish and below the archdeaconry, the rural denery. They were significant units for the purposes of taxation, law enforcement and general administration. Before the end of the Middle AGes the term &quot;barony&quot; was coming to be used in place of cantred for these units. Source: Paul Brand, &apos;Local Government&apos;, in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 281. </rdfs:comment>
         <rdfs:label xml:lang="en">Cantred</rdfs:label>
         <rdfs:label>Cantred</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#MedievalBarony"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Career -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Career -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Career">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Career">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">A course of professional life or employment. </rdfs:comment>
         <rdfs:comment>A course of professional life or employment. </rdfs:comment>
@@ -412,106 +412,106 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CarmeliteFriars -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CarmeliteFriars -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CarmeliteFriars">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CarmeliteFriars">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Mendicants"/>
         <rdfs:comment xml:lang="en">Members of the order founded at Mount Carmel in Palestine in the early thirteenth century and approved by the pope in 1226. A mendicant order which was known as the White Friars; its first members, however, were mostly hermits. There was also an order of nuns modelled on the White Friars. Although formally instituted in 1452. the sisters had first appeared in the thirteenth century. In 1452, the Carmelite Second Order was organised and adopted the same rule as the Carmelite brothers. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 59.</rdfs:comment>
         <rdfs:comment>Members of the order founded at Mount Carmel in Palestine in the early thirteenth century and approved by the pope in 1226. A mendicant order which was known as the White Friars; its first members, however, were mostly hermits. There was also an order of nuns modelled on the White Friars. Although formally instituted in 1452. the sisters had first appeared in the thirteenth century. In 1452, the Carmelite Second Order was organised and adopted the same rule as the Carmelite brothers. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 59.</rdfs:comment>
         <rdfs:label xml:lang="en">Carmelite Friars</rdfs:label>
         <rdfs:label>Carmelite Friars</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Mendicants"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Castle -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Castle -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Castle">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Castle">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#UrbanSettlement"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#UrbanSettlement"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilMonument"/>
         <rdfs:comment xml:lang="en">A large building or set of buildings fortified for defence against an enemy; a fortress, stronghold. Source: &quot;castle, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/28581.</rdfs:comment>
         <rdfs:comment>A large building or set of buildings fortified for defence against an enemy; a fortress, stronghold. Source: &quot;castle, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/28581.</rdfs:comment>
         <rdfs:label xml:lang="en">Castle</rdfs:label>
         <rdfs:label>Castle</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CivilMonument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Cathedral -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Cathedral -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Cathedral">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Cathedral">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#City"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#City"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument"/>
         <rdfs:comment xml:lang="en">The principal church of a diocese. The crucial distinction of a cathedral church is neither its size nor its splendour but that it has a cathedra, i.e. the bishop&apos;s throne or chair of office. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 62.</rdfs:comment>
         <rdfs:comment>The principal church of a diocese. The crucial distinction of a cathedral church is neither its size nor its splendour but that it has a cathedra, i.e. the bishop&apos;s throne or chair of office. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 62.</rdfs:comment>
         <rdfs:label xml:lang="en">Cathedral</rdfs:label>
         <rdfs:label>Cathedral</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalMonument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CathedralChapter -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CathedralChapter -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CathedralChapter">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CathedralChapter">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation"/>
         <rdfs:comment xml:lang="en">A duly constituted general meeting or assembly or the canons of a cathedral church, for consultation and transaction of the affairs of their chapter. Source: &quot;chapter, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/30613.</rdfs:comment>
         <rdfs:comment>A duly constituted general meeting or assembly or the canons of a cathedral church, for consultation and transaction of the affairs of their chapter. Source: &quot;chapter, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/30613.</rdfs:comment>
         <rdfs:label xml:lang="en">Cathedral Chapter</rdfs:label>
         <rdfs:label>Cathedral Chapter</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CatholicParish -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CatholicParish -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CatholicParish">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CatholicParish">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Parish"/>
         <rdfs:comment xml:lang="en">Originally: a relatively large area (resembling a modern diocese) incorporating a township or cluster of townships under the control of a minster (chiefly historical). Subsequently: an area or district having its own priest, parson, or other incumbent under the jurisdiction of a bishop (to whom tithes and ecclesiastical dues were formally paid); a territorial subdivision of a diocese. &quot;parish, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/137918. </rdfs:comment>
         <rdfs:comment>Originally: a relatively large area (resembling a modern diocese) incorporating a township or cluster of townships under the control of a minster (chiefly historical). Subsequently: an area or district having its own priest, parson, or other incumbent under the jurisdiction of a bishop (to whom tithes and ecclesiastical dues were formally paid); a territorial subdivision of a diocese. &quot;parish, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/137918. </rdfs:comment>
         <rdfs:label xml:lang="en">Parish (Catholic)</rdfs:label>
         <rdfs:label>Parish (Catholic)</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Parish"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CentralCivilAdministration -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CentralCivilAdministration -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CentralCivilAdministration">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CentralCivilAdministration">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilOrganisation"/>
         <rdfs:label xml:lang="en">Central civil administration</rdfs:label>
         <rdfs:label>Central civil administration</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CivilOrganisation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CentralCivilOrganisation -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CentralCivilOrganisation -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CentralCivilOrganisation">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CentralCivilOrganisation">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilOrganisation"/>
         <rdfs:label xml:lang="en">Central civil organisation</rdfs:label>
         <rdfs:label>Central civil organisation</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CivilOrganisation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#ChamberlainsOfTheExchequer -->
+    <!-- https://ont.virtualtreasury.ie/ontology#ChamberlainsOfTheExchequer -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#ChamberlainsOfTheExchequer">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#ChamberlainsOfTheExchequer">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Chamberlains of the exchequer</rdfs:label>
         <rdfs:label>Chamberlains of the exchequer</rdfs:label>
@@ -519,10 +519,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#ChanceryOffices -->
+    <!-- https://ont.virtualtreasury.ie/ontology#ChanceryOffices -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#ChanceryOffices">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#ChanceryOffices">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Chancery offices</rdfs:label>
         <rdfs:label>Chancery offices</rdfs:label>
@@ -530,26 +530,26 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Chapel -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Chapel -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Chapel">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Chapel">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#Castle"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#Cathedral"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#Castle"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#Cathedral"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument"/>
         <rdfs:comment xml:lang="en">Originally the shrine with the cape (chapele) of St Martin of Tours kept by the kings of France. It was in the charge of a cappellani, or chaplain, offering sanctuary. Thus a place for private worship; also the equipment of a portable chapel. Such places were found in private houses or as side chapels in cathedrals. After the thirteenth century such chapels were included in a cathedral&apos;s eastern walls during constructions. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 67.</rdfs:comment>
         <rdfs:comment>Originally the shrine with the cape (chapele) of St Martin of Tours kept by the kings of France. It was in the charge of a cappellani, or chaplain, offering sanctuary. Thus a place for private worship; also the equipment of a portable chapel. Such places were found in private houses or as side chapels in cathedrals. After the thirteenth century such chapels were included in a cathedral&apos;s eastern walls during constructions. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 67.</rdfs:comment>
         <rdfs:label xml:lang="en">Chapel</rdfs:label>
         <rdfs:label>Chapel</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalMonument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#ChiefGovernorsOfIreland -->
+    <!-- https://ont.virtualtreasury.ie/ontology#ChiefGovernorsOfIreland -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#ChiefGovernorsOfIreland">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#ChiefGovernorsOfIreland">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">Chief Governor of Ireland is a general term used to describe the office of the chief representative of the king of England in Ireland. The king of England rarely spent time in Ireland in person, so royal authority was delegated to the chief governor, who was appointed by the king. Persons who served as chief governor held the office under a number of different titles, for example &apos;justiciar&apos;, &apos;lieutenant&apos;, &apos;lord deputy&apos; and &apos;viceroy&apos;.</rdfs:comment>
         <rdfs:comment>Chief Governor of Ireland is a general term used to describe the office of the chief representative of the king of England in Ireland. The king of England rarely spent time in Ireland in person, so royal authority was delegated to the chief governor, who was appointed by the king. Persons who served as chief governor held the office under a number of different titles, for example &apos;justiciar&apos;, &apos;lieutenant&apos;, &apos;lord deputy&apos; and &apos;viceroy&apos;.</rdfs:comment>
@@ -559,49 +559,49 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Church -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Church -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Church">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Church">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument"/>
         <rdfs:label xml:lang="en">Church</rdfs:label>
         <rdfs:label>Church</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalMonument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CistercianMonks -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CistercianMonks -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CistercianMonks">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CistercianMonks">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:comment xml:lang="en">Members of the Cistercian order. The monastic order was founded in 1098 at Citeaux by Robert of Molesme (d. 1110); a Benedictine reform. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 74.  </rdfs:comment>
         <rdfs:comment>Members of the Cistercian order. The monastic order was founded in 1098 at Citeaux by Robert of Molesme (d. 1110); a Benedictine reform. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 74.  </rdfs:comment>
         <rdfs:label xml:lang="en">Cistercian Monks</rdfs:label>
         <rdfs:label>Cistercian Monks</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#City -->
+    <!-- https://ont.virtualtreasury.ie/ontology#City -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#City">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#City">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#UrbanSettlement"/>
         <rdfs:label xml:lang="en">City</rdfs:label>
         <rdfs:label>City</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"/>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#UrbanSettlement"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CivilAdministration -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CivilAdministration -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CivilAdministration">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CivilAdministration">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">Civil Administration is an organization or bureaucratic apparatus responsible for running the day-to-day affairs of &apos;civil&apos; (i.e., secular or temporal) government, as opposed to &apos;ecclesiastical administration&apos; which is responsible for the affairs of the institutional Church. Civil Administration is typically divided into distinct branches of administration, the most important distinction being between Central and Local administration. Different administrative functions are performed by separate departments within the Civil Administration, for instance financial, secretarial and judicial departments, each of which develops its own internal hierarchies. The Civil Administration is ultimately responsible to the highest secular authority, for instance the king or Prime Minister.</rdfs:comment>
         <rdfs:comment>Civil Administration is an organization or bureaucratic apparatus responsible for running the day-to-day affairs of &apos;civil&apos; (i.e., secular or temporal) government, as opposed to &apos;ecclesiastical administration&apos; which is responsible for the affairs of the institutional Church. Civil Administration is typically divided into distinct branches of administration, the most important distinction being between Central and Local administration. Different administrative functions are performed by separate departments within the Civil Administration, for instance financial, secretarial and judicial departments, each of which develops its own internal hierarchies. The Civil Administration is ultimately responsible to the highest secular authority, for instance the king or Prime Minister.</rdfs:comment>
@@ -611,22 +611,22 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CivilAdministrativeDivision -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CivilAdministrativeDivision -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CivilAdministrativeDivision">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CivilAdministrativeDivision">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#JudicialCounty"/>
         <rdfs:label xml:lang="en">Civil administrative division</rdfs:label>
         <rdfs:label>Civil administrative division</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#JudicialCounty"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CivilAdministrativeUnit -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CivilAdministrativeUnit -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CivilAdministrativeUnit">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CivilAdministrativeUnit">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Civil administrative unit</rdfs:label>
         <rdfs:label>Civil administrative unit</rdfs:label>
@@ -634,48 +634,48 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CivilMonument -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CivilMonument -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CivilMonument">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CivilMonument">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Monument"/>
         <rdfs:label xml:lang="en">Civil monument</rdfs:label>
         <rdfs:label>Civil monument</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Monument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CivilOrganisation -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CivilOrganisation -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CivilOrganisation">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CivilOrganisation">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Organisation"/>
         <rdfs:label xml:lang="en">Civil organisation</rdfs:label>
         <rdfs:label>Civil organisation</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Organisation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CivilParish -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CivilParish -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CivilParish">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CivilParish">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#Barony"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#Barony"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Parish"/>
         <rdfs:label xml:lang="en">Parish (Civil)</rdfs:label>
         <rdfs:label>Parish (Civil)</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"/>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Parish"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CommonBench -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CommonBench -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CommonBench">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CommonBench">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Common bench</rdfs:label>
         <rdfs:label>Common bench</rdfs:label>
@@ -683,10 +683,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Composition -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Composition -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Composition">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Composition">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Composition</rdfs:label>
         <rdfs:label>Composition</rdfs:label>
@@ -694,22 +694,22 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#ConventsOfNuns -->
+    <!-- https://ont.virtualtreasury.ie/ontology#ConventsOfNuns -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#ConventsOfNuns">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#ConventsOfNuns">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:label xml:lang="en">Convents of Nuns</rdfs:label>
         <rdfs:label>Convents of Nuns</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Council -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Council -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Council">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Council">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">An advisory or deliberative assembly; a body of persons chosen or designated as advisors on matters of state, especially to advise and assist a sovereign or ruler in the administration of government;the local administrative body of a corporate town, city, county or district; an assembly of ecclesiastics convened for the regulation of doctrine or discipline in the church.</rdfs:comment>
         <rdfs:comment>An advisory or deliberative assembly; a body of persons chosen or designated as advisors on matters of state, especially to advise and assist a sovereign or ruler in the administration of government;the local administrative body of a corporate town, city, county or district; an assembly of ecclesiastics convened for the regulation of doctrine or discipline in the church.</rdfs:comment>
@@ -719,81 +719,81 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#County -->
+    <!-- https://ont.virtualtreasury.ie/ontology#County -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#County">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#County">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CountyCorporate"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"/>
+        <skos:exactMatch rdf:resource="https://ont.virtualtreasury.ie/ontology#Shire"/>
         <rdfs:comment xml:lang="en">A territorial division of Ireland; the chief unit for administrative, justicial and political purposes. </rdfs:comment>
         <rdfs:comment>A territorial division of Ireland; the chief unit for administrative, justicial and political purposes. </rdfs:comment>
         <rdfs:label xml:lang="en">County</rdfs:label>
         <rdfs:label>County</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CountyCorporate"/>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"/>
-        <skos:exactMatch rdf:resource="https://ont.beyond2022.ie/ontology#Shire"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CountyCorporate -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CountyCorporate -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CountyCorporate">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CountyCorporate">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Borough"/>
         <rdfs:comment xml:lang="en">A city or town given the status and powers of a county. Source: &quot;county, n.1 and adj.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/43102.</rdfs:comment>
         <rdfs:comment>A city or town given the status and powers of a county. Source: &quot;county, n.1 and adj.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/43102.</rdfs:comment>
         <rdfs:label xml:lang="en">County corporate</rdfs:label>
         <rdfs:label>County corporate</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Borough"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CountyPalatine -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CountyPalatine -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CountyPalatine">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CountyPalatine">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#County"/>
         <rdfs:comment xml:lang="en">Originally: designating a county of which the earl or lord originally had royal privileges, with the right of exclusive civil and criminal jurisdiction within that territory. Later: designating a modern administrative area corresponding to this. Source: &quot;palatine, adj.1 and n.1.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/136245.</rdfs:comment>
         <rdfs:comment>Originally: designating a county of which the earl or lord originally had royal privileges, with the right of exclusive civil and criminal jurisdiction within that territory. Later: designating a modern administrative area corresponding to this. Source: &quot;palatine, adj.1 and n.1.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/136245.</rdfs:comment>
         <rdfs:label xml:lang="en">County Palatine</rdfs:label>
         <rdfs:label>County Palatine</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#County"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#CromwellianDistrict -->
+    <!-- https://ont.virtualtreasury.ie/ontology#CromwellianDistrict -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#CromwellianDistrict">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#CromwellianDistrict">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"/>
         <rdfs:label xml:lang="en">District (Cromwellian)</rdfs:label>
         <rdfs:label>District (Cromwellian)</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Crossland -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Crossland -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Crossland">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Crossland">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#County"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#County"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit"/>
         <rdfs:comment xml:lang="en">Land in Ireland in the possession of monasteries and churches, or of prelates. This land was subject to intervention by the county sheriff in guarding the crown&apos;s rights, even if within a franchise or liberty. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 92.</rdfs:comment>
         <rdfs:comment>Land in Ireland in the possession of monasteries and churches, or of prelates. This land was subject to intervention by the county sheriff in guarding the crown&apos;s rights, even if within a franchise or liberty. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 92.</rdfs:comment>
         <rdfs:label xml:lang="en">Crossland</rdfs:label>
         <rdfs:label>Crossland</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#DIB -->
+    <!-- https://ont.virtualtreasury.ie/ontology#DIB -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#DIB">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#DIB">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">The Dictionary of Irish Biography. A biographical dictionary of notable Irish people and people who had notable careers in Ireland, containing approximately 9000 entries. It is published by Cambridge University Press in collaboration with the Royal Irish Academy, and is available both in print and online. </rdfs:comment>
         <rdfs:comment>The Dictionary of Irish Biography. A biographical dictionary of notable Irish people and people who had notable careers in Ireland, containing approximately 9000 entries. It is published by Cambridge University Press in collaboration with the Royal Irish Academy, and is available both in print and online. </rdfs:comment>
@@ -803,26 +803,28 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Demense -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Demense -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Demense">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Demense">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#RuralSettlement"/>
         <rdfs:comment xml:lang="en">Property owned freely; land held for the lord&apos;s own use rather than let or leased; land held by the lord of a manor, which could be passed on to descendants. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 100.</rdfs:comment>
         <rdfs:comment>Property owned freely; land held for the lord&apos;s own use rather than let or leased; land held by the lord of a manor, which could be passed on to descendants. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 100.</rdfs:comment>
         <rdfs:label xml:lang="en">Demense</rdfs:label>
         <rdfs:label>Demense</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#RuralSettlement"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Diocese -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Diocese -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Diocese">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Diocese">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalProvince"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalProvince"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation"/>
         <rdfs:comment xml:lang="en">The district over which a bishop has jurisdiction and for which he is responsible to an archbishop. This term is taken from its use during Diocletian’s reign (284–305), when the Roman Empire was divided into 12 dioceses. [&lt; L dioecesis = a governor’s jurisdiction]. 
 
 			 Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 102.  </rdfs:comment>
@@ -831,45 +833,43 @@
 			 Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 102.  </rdfs:comment>
         <rdfs:label xml:lang="en">Diocese</rdfs:label>
         <rdfs:label>Diocese</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"/>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#DistrictElectoralDivision -->
+    <!-- https://ont.virtualtreasury.ie/ontology#DistrictElectoralDivision -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#DistrictElectoralDivision">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#DistrictElectoralDivision">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#Barony"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#Barony"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"/>
         <rdfs:label xml:lang="en">District Electoral Division</rdfs:label>
         <rdfs:label>District Electoral Division</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#DominicanFriars -->
+    <!-- https://ont.virtualtreasury.ie/ontology#DominicanFriars -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#DominicanFriars">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#DominicanFriars">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Mendicants"/>
         <rdfs:comment xml:lang="en">Members of the order founded by St Dominic (1170-1221) in 1215, named the Order of Friars Preachers. They were known as the Black Friars or the preaching friars. Some Dominicans were mendicants, dedicated to evangelical preaching. They were very active in combating heresy. They also placed emphasis upon learning, which they considered necessary to preach intelligently and for rational theological debate, always preferring to convert by persuasion. Their emphasis on education meant the Dominicans were deeply involved in the growth of universities. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105. </rdfs:comment>
         <rdfs:comment>Members of the order founded by St Dominic (1170-1221) in 1215, named the Order of Friars Preachers. They were known as the Black Friars or the preaching friars. Some Dominicans were mendicants, dedicated to evangelical preaching. They were very active in combating heresy. They also placed emphasis upon learning, which they considered necessary to preach intelligently and for rational theological debate, always preferring to convert by persuasion. Their emphasis on education meant the Dominicans were deeply involved in the growth of universities. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105. </rdfs:comment>
         <rdfs:label xml:lang="en">Dominican Friars</rdfs:label>
         <rdfs:label>Dominican Friars</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Mendicants"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Donjon -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Donjon -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Donjon">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Donjon">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#Castle"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#Castle"/>
         <rdfs:comment xml:lang="en">A well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence; the keep of a castle, from which comes dungeon. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105.</rdfs:comment>
         <rdfs:comment>A well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence; the keep of a castle, from which comes dungeon. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105.</rdfs:comment>
         <rdfs:label xml:lang="en">Donjon</rdfs:label>
@@ -878,10 +878,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#DublinBench -->
+    <!-- https://ont.virtualtreasury.ie/ontology#DublinBench -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#DublinBench">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#DublinBench">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Dublin bench</rdfs:label>
         <rdfs:label>Dublin bench</rdfs:label>
@@ -889,60 +889,60 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit -->
+    <!-- https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#TerritorialDivision"/>
         <rdfs:label xml:lang="en">Ecclesiastical administrative unit</rdfs:label>
         <rdfs:label>Ecclesiastical administrative unit</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#TerritorialDivision"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#EcclesiasticalMonument -->
+    <!-- https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#EcclesiasticalMonument">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#EcclesiasticalMonument">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Monument"/>
         <rdfs:label xml:lang="en">Ecclesiastical monument</rdfs:label>
         <rdfs:label>Ecclesiastical monument</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Monument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation -->
+    <!-- https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Organisation"/>
         <rdfs:label xml:lang="en">Ecclesiastical organisation</rdfs:label>
         <rdfs:label>Ecclesiastical organisation</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Organisation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#EcclesiasticalProvince -->
+    <!-- https://ont.virtualtreasury.ie/ontology#EcclesiasticalProvince -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#EcclesiasticalProvince">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#EcclesiasticalProvince">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit"/>
         <rdfs:comment xml:lang="en">An area falling under the jurisdiction of an archbishop or metropolitan, usually consisting of a number of neighbouring dioceses. Source: &quot;province, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/153460. </rdfs:comment>
         <rdfs:comment>An area falling under the jurisdiction of an archbishop or metropolitan, usually consisting of a number of neighbouring dioceses. Source: &quot;province, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/153460. </rdfs:comment>
         <rdfs:label xml:lang="en">Province (Ecclesiastical)</rdfs:label>
         <rdfs:label>Province (Ecclesiastical)</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Engrossers -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Engrossers -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Engrossers">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Engrossers">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Engrossers</rdfs:label>
         <rdfs:label>Engrossers</rdfs:label>
@@ -950,10 +950,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#EscheateryOffices -->
+    <!-- https://ont.virtualtreasury.ie/ontology#EscheateryOffices -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#EscheateryOffices">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#EscheateryOffices">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Escheatery offices</rdfs:label>
         <rdfs:label>Escheatery offices</rdfs:label>
@@ -961,22 +961,22 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#EstablishedChurchParish -->
+    <!-- https://ont.virtualtreasury.ie/ontology#EstablishedChurchParish -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#EstablishedChurchParish">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#EstablishedChurchParish">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Parish"/>
         <rdfs:label xml:lang="en">Parish (Established Church)</rdfs:label>
         <rdfs:label>Parish (Established Church)</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Parish"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#ExchequerOffices -->
+    <!-- https://ont.virtualtreasury.ie/ontology#ExchequerOffices -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#ExchequerOffices">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#ExchequerOffices">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Exchequer offices</rdfs:label>
         <rdfs:label>Exchequer offices</rdfs:label>
@@ -984,10 +984,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#EyreCourts -->
+    <!-- https://ont.virtualtreasury.ie/ontology#EyreCourts -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#EyreCourts">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#EyreCourts">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Eyre courts</rdfs:label>
         <rdfs:label>Eyre courts</rdfs:label>
@@ -995,10 +995,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Female -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Female -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Female">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Female">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">Of or relating to a woman or girl. </rdfs:comment>
         <rdfs:comment>Of or relating to a woman or girl. </rdfs:comment>
@@ -1008,10 +1008,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Floruit -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Floruit -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Floruit">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Floruit">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">Term used to denote the period during which a person &apos;flourished&apos;; the floruit is used where their dates or birth or death are unknown. </rdfs:comment>
         <rdfs:comment>Term used to denote the period during which a person &apos;flourished&apos;; the floruit is used where their dates or birth or death are unknown. </rdfs:comment>
@@ -1021,10 +1021,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Forename -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Forename -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Forename">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Forename">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Forename</rdfs:label>
         <rdfs:label>Forename</rdfs:label>
@@ -1032,122 +1032,122 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#FranciscanFriars -->
+    <!-- https://ont.virtualtreasury.ie/ontology#FranciscanFriars -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#FranciscanFriars">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#FranciscanFriars">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Mendicants"/>
         <rdfs:comment xml:lang="en">A friar of the order founded by St Francis (d.1226) in 1209; also known as the Grey Friars or Friars Minor. It was the least intellectual of the monastic orders, with members taking vows of poverty and preaching in emotional ways on the sufferings of Christ. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 132.</rdfs:comment>
         <rdfs:comment>A friar of the order founded by St Francis (d.1226) in 1209; also known as the Grey Friars or Friars Minor. It was the least intellectual of the monastic orders, with members taking vows of poverty and preaching in emotional ways on the sufferings of Christ. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 132.</rdfs:comment>
         <rdfs:label xml:lang="en">Franciscan Friars</rdfs:label>
         <rdfs:label>Franciscan Friars</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Mendicants"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#FranciscanThirdOrderRegular -->
+    <!-- https://ont.virtualtreasury.ie/ontology#FranciscanThirdOrderRegular -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#FranciscanThirdOrderRegular">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#FranciscanThirdOrderRegular">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Mendicants"/>
         <rdfs:label xml:lang="en">Franciscan Third Order Regular</rdfs:label>
         <rdfs:label>Franciscan Third Order Regular</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Mendicants"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#FratresCruciferi -->
+    <!-- https://ont.virtualtreasury.ie/ontology#FratresCruciferi -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#FratresCruciferi">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#FratresCruciferi">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:comment xml:lang="en">Canons regular of the Order of the Holy Cross, a military-religious order founded in 1211.Members of this order might carry a cross in their hands, or have a cross sewn on the chest of their habit. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 93.</rdfs:comment>
         <rdfs:comment>Canons regular of the Order of the Holy Cross, a military-religious order founded in 1211.Members of this order might carry a cross in their hands, or have a cross sewn on the chest of their habit. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 93.</rdfs:comment>
         <rdfs:label xml:lang="en">Fratres Cruciferi</rdfs:label>
         <rdfs:label>Fratres Cruciferi</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#FriarsOfTheSack -->
+    <!-- https://ont.virtualtreasury.ie/ontology#FriarsOfTheSack -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#FriarsOfTheSack">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#FriarsOfTheSack">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:comment xml:lang="en">Colloquial name for the Friars of the Penance of Jesus Christ, the largest of the lesser groups of English friars. Their houses were all abandoned by 1314, the members being obliged to join one of the mendicant orders.  Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 244.</rdfs:comment>
         <rdfs:comment>Colloquial name for the Friars of the Penance of Jesus Christ, the largest of the lesser groups of English friars. Their houses were all abandoned by 1314, the members being obliged to join one of the mendicant orders.  Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 244.</rdfs:comment>
         <rdfs:label xml:lang="en">Friars of the Sack</rdfs:label>
         <rdfs:label>Friars of the Sack</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Friary -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Friary -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Friary">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Friary">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:comment xml:lang="en">A convent of friars;a fraternity or brotherhood of friars; the insitution or practices of friars. &quot;friary, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/74610</rdfs:comment>
         <rdfs:comment>A convent of friars;a fraternity or brotherhood of friars; the insitution or practices of friars. &quot;friary, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/74610</rdfs:comment>
         <rdfs:label xml:lang="en">Friary</rdfs:label>
         <rdfs:label>Friary</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Gate -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Gate -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Gate">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Gate">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#UrbanSettlement"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#UrbanSettlement"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilMonument"/>
         <rdfs:comment xml:lang="en">An opening in a wall, made for the purpose of entrance and exit, and capable of being closed by a movable barrier, the existence of which is usually implied; said with reference to a city or other enclosure, or the enclosure-wall of a large building, formerly also to the bulding itself, where door or doors is now commonly employed. Source: &quot;gate, n.1.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/77050.</rdfs:comment>
         <rdfs:comment>An opening in a wall, made for the purpose of entrance and exit, and capable of being closed by a movable barrier, the existence of which is usually implied; said with reference to a city or other enclosure, or the enclosure-wall of a large building, formerly also to the bulding itself, where door or doors is now commonly employed. Source: &quot;gate, n.1.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/77050.</rdfs:comment>
         <rdfs:label xml:lang="en">Gate</rdfs:label>
         <rdfs:label>Gate</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CivilMonument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#HalfBarony -->
+    <!-- https://ont.virtualtreasury.ie/ontology#HalfBarony -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#HalfBarony">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#HalfBarony">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Barony"/>
         <rdfs:comment xml:lang="en">A subdivision of a barony, which held the same status as a fully barony. </rdfs:comment>
         <rdfs:comment>A subdivision of a barony, which held the same status as a fully barony. </rdfs:comment>
         <rdfs:label xml:lang="en">Half-Barony</rdfs:label>
         <rdfs:label>Half-Barony</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Barony"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Harbour -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Harbour -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Harbour">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Harbour">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#UrbanSettlement"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#UrbanSettlement"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilMonument"/>
         <rdfs:comment xml:lang="en">A place of shelter for ships; spec. where they may lie close to and sheltered by the shore or by works extended from it; a haven, a port. Source: &quot;harbour | harbor, n.1.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/84111.</rdfs:comment>
         <rdfs:comment>A place of shelter for ships; spec. where they may lie close to and sheltered by the shore or by works extended from it; a haven, a port. Source: &quot;harbour | harbor, n.1.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/84111.</rdfs:comment>
         <rdfs:label xml:lang="en">Harbour</rdfs:label>
         <rdfs:label>Harbour</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CivilMonument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#ItinerantCourts -->
+    <!-- https://ont.virtualtreasury.ie/ontology#ItinerantCourts -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#ItinerantCourts">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#ItinerantCourts">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">Term used to describe collectively the justices in eyre, justices of assize and forest and their courts as they travelled on circuit. </rdfs:comment>
         <rdfs:comment>Term used to describe collectively the justices in eyre, justices of assize and forest and their courts as they travelled on circuit. </rdfs:comment>
@@ -1157,22 +1157,22 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#JudicialCounty -->
+    <!-- https://ont.virtualtreasury.ie/ontology#JudicialCounty -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#JudicialCounty">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#JudicialCounty">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#County"/>
         <rdfs:label xml:lang="en">Judicial county</rdfs:label>
         <rdfs:label>Judicial county</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#County"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#JudiciaryOffices -->
+    <!-- https://ont.virtualtreasury.ie/ontology#JudiciaryOffices -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#JudiciaryOffices">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#JudiciaryOffices">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Judiciary offices</rdfs:label>
         <rdfs:label>Judiciary offices</rdfs:label>
@@ -1180,10 +1180,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#JusticiarsBench -->
+    <!-- https://ont.virtualtreasury.ie/ontology#JusticiarsBench -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#JusticiarsBench">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#JusticiarsBench">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Justiciars bench</rdfs:label>
         <rdfs:label>Justiciars bench</rdfs:label>
@@ -1191,12 +1191,12 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Keep -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Keep -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Keep">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Keep">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#Castle"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#Castle"/>
         <rdfs:comment xml:lang="en">The central part of a castle; the donjon, a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105, 168.</rdfs:comment>
         <rdfs:comment>The central part of a castle; the donjon, a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 105, 168.</rdfs:comment>
         <rdfs:label xml:lang="en">Keep</rdfs:label>
@@ -1205,10 +1205,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Kingdom -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Kingdom -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Kingdom">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Kingdom">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">The territory ruled over by a king or queen;the area over which a monarch&apos;s rule extends; a realm; the people or inhabitants of such a territory. Source: &quot;kingdom, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/103519.</rdfs:comment>
         <rdfs:comment>The territory ruled over by a king or queen;the area over which a monarch&apos;s rule extends; a realm; the people or inhabitants of such a territory. Source: &quot;kingdom, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/103519.</rdfs:comment>
@@ -1218,10 +1218,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#KingsBench -->
+    <!-- https://ont.virtualtreasury.ie/ontology#KingsBench -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#KingsBench">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#KingsBench">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Kings bench</rdfs:label>
         <rdfs:label>Kings bench</rdfs:label>
@@ -1229,75 +1229,75 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#KnightsHospitallers -->
+    <!-- https://ont.virtualtreasury.ie/ontology#KnightsHospitallers -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#KnightsHospitallers">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#KnightsHospitallers">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:comment xml:lang="en">Members of the Knights Hospitaller, a military order originally founded to tend the sick and injured of the Crusades; their chief house was the Hospital of St John at Jerusalem, prior to their expulsion and move first to Rhodes and then to Malta. Also known as the Knights of Malta. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170.</rdfs:comment>
         <rdfs:comment>Members of the Knights Hospitaller, a military order originally founded to tend the sick and injured of the Crusades; their chief house was the Hospital of St John at Jerusalem, prior to their expulsion and move first to Rhodes and then to Malta. Also known as the Knights of Malta. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170.</rdfs:comment>
         <rdfs:label xml:lang="en">Knights Hospitallers</rdfs:label>
         <rdfs:label>Knights Hospitallers</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#KnightsTemplars -->
+    <!-- https://ont.virtualtreasury.ie/ontology#KnightsTemplars -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#KnightsTemplars">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#KnightsTemplars">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:comment xml:lang="en">Members of the Knights Templar, a military and religious order, whose purpose was to protect pilgrims to the Holy Land. The Knights Templar derived their name from having been occupants of part of the place where Solomon&apos;s Temple used to be; they were known first as the Poor Knights of the Temple of Solomon. The order was founded by Hugues de Payns in 1118 after the taking of Jerusalem. Their rule was written by St Bernard. The church recognised the order in 1128;it was supressed in 1312. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170-2. </rdfs:comment>
         <rdfs:comment>Members of the Knights Templar, a military and religious order, whose purpose was to protect pilgrims to the Holy Land. The Knights Templar derived their name from having been occupants of part of the place where Solomon&apos;s Temple used to be; they were known first as the Poor Knights of the Temple of Solomon. The order was founded by Hugues de Payns in 1118 after the taking of Jerusalem. Their rule was written by St Bernard. The church recognised the order in 1128;it was supressed in 1312. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 170-2. </rdfs:comment>
         <rdfs:label xml:lang="en">Knights Templars</rdfs:label>
         <rdfs:label>Knights Templars</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Liberty -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Liberty -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Liberty">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Liberty">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#County"/>
         <rdfs:label xml:lang="en">Liberty</rdfs:label>
         <rdfs:label>Liberty</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#County"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#LocalCivilAdministration -->
+    <!-- https://ont.virtualtreasury.ie/ontology#LocalCivilAdministration -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#LocalCivilAdministration">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministration">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilOrganisation"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"/>
         <rdfs:label xml:lang="en">Local civil administration</rdfs:label>
         <rdfs:label>Local civil administration</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CivilOrganisation"/>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit -->
+    <!-- https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#TerritorialDivision"/>
         <rdfs:label xml:lang="en">Local civil administration unit</rdfs:label>
         <rdfs:label>Local civil administration unit</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#TerritorialDivision"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#LocalCivilOrganisation -->
+    <!-- https://ont.virtualtreasury.ie/ontology#LocalCivilOrganisation -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#LocalCivilOrganisation">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#LocalCivilOrganisation">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Local civil organisation</rdfs:label>
         <rdfs:label>Local civil organisation</rdfs:label>
@@ -1305,10 +1305,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Male -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Male -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Male">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Male">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">Of or relating to a man or boy. </rdfs:comment>
         <rdfs:comment>Of or relating to a man or boy. </rdfs:comment>
@@ -1318,24 +1318,24 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Manor -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Manor -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Manor">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Manor">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#RuralSettlement"/>
         <rdfs:comment xml:lang="en">An estate compromising the lord&apos;s demesne (including the land of his dependant peasantry) and other tenements let out for rents and services.</rdfs:comment>
         <rdfs:comment>An estate compromising the lord&apos;s demesne (including the land of his dependant peasantry) and other tenements let out for rents and services.</rdfs:comment>
         <rdfs:label xml:lang="en">Manor</rdfs:label>
         <rdfs:label>Manor</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#RuralSettlement"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Marriage -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Marriage -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Marriage">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Marriage">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">The legally or formally recognized union of two people as partners in a personal relationship; the condition of being married; the relation between two people married to each other, matrimony. Source: &quot;marriage, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/114320.</rdfs:comment>
         <rdfs:comment>The legally or formally recognized union of two people as partners in a personal relationship; the condition of being married; the relation between two people married to each other, matrimony. Source: &quot;marriage, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/114320.</rdfs:comment>
@@ -1345,36 +1345,36 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#MedievalBarony -->
+    <!-- https://ont.virtualtreasury.ie/ontology#MedievalBarony -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#MedievalBarony">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#MedievalBarony">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Barony"/>
         <rdfs:label xml:lang="en">Medieval barony</rdfs:label>
         <rdfs:label>Medieval barony</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Barony"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#MedievalCounty -->
+    <!-- https://ont.virtualtreasury.ie/ontology#MedievalCounty -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#MedievalCounty">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#MedievalCounty">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#County"/>
         <rdfs:comment xml:lang="en">The main unit of local government in the later medieval lordship of Ireland, one imported from England and with a longer prior history there. The county&apos;s main administrative official was a the sheriff, who was chosen by the local county court. Source: Paul Brand, &apos;Local Government&apos;, in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 280-1. </rdfs:comment>
         <rdfs:comment>The main unit of local government in the later medieval lordship of Ireland, one imported from England and with a longer prior history there. The county&apos;s main administrative official was a the sheriff, who was chosen by the local county court. Source: Paul Brand, &apos;Local Government&apos;, in Seán Duffy (ed.), Medieval Ireland: An Encyclopedia (London, 2005), 280-1. </rdfs:comment>
         <rdfs:label xml:lang="en">Medieval county</rdfs:label>
         <rdfs:label>Medieval county</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#County"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#MedievalKingdom -->
+    <!-- https://ont.virtualtreasury.ie/ontology#MedievalKingdom -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#MedievalKingdom">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#MedievalKingdom">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">MedievalKingdom</rdfs:label>
         <rdfs:label>Medieval Kingdom</rdfs:label>
@@ -1382,26 +1382,26 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Mendicants -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Mendicants -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Mendicants">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Mendicants">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:comment xml:lang="en">Those who lived on alms; a mendicant friar belonging to one of three orders, Franciscian, Dominican, Carmelite. Their members lived on alms while travelling in the world beyond their monastery on the look out for and preaching against heresy. a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 189.</rdfs:comment>
         <rdfs:comment>Those who lived on alms; a mendicant friar belonging to one of three orders, Franciscian, Dominican, Carmelite. Their members lived on alms while travelling in the world beyond their monastery on the look out for and preaching against heresy. a well-defended tower or, tower-like structure placed centrally within a castle, designed for strength in defence. It was built defensively as a position of last resort, the inner stronghold. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 189.</rdfs:comment>
         <rdfs:label xml:lang="en">Mendicants</rdfs:label>
         <rdfs:label>Mendicants</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Moat -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Moat -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Moat">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Moat">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#Castle"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#Castle"/>
         <rdfs:comment xml:lang="en">One of the most familiar features of a castle&apos;s defences: a ditch filled with water which surrounded the building. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 195.</rdfs:comment>
         <rdfs:comment>One of the most familiar features of a castle&apos;s defences: a ditch filled with water which surrounded the building. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 195.</rdfs:comment>
         <rdfs:label xml:lang="en">Moat</rdfs:label>
@@ -1410,22 +1410,22 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#ModernCounty -->
+    <!-- https://ont.virtualtreasury.ie/ontology#ModernCounty -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#ModernCounty">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#ModernCounty">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#County"/>
         <rdfs:label xml:lang="en">Modern county</rdfs:label>
         <rdfs:label>Modern county</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#County"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Monument -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Monument -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Monument">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Monument">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Monument</rdfs:label>
         <rdfs:label>Monument</rdfs:label>
@@ -1433,22 +1433,22 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#MunicipalCivilAdministration -->
+    <!-- https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministration -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#MunicipalCivilAdministration">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministration">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministration"/>
         <rdfs:label xml:lang="en">Municipal civil administration</rdfs:label>
         <rdfs:label>Municipal civil administration</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#LocalCivilAdministration"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit -->
+    <!-- https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Municipal civil administration unit</rdfs:label>
         <rdfs:label>Municipal civil administration unit</rdfs:label>
@@ -1456,22 +1456,22 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#MunicipalCorporation -->
+    <!-- https://ont.virtualtreasury.ie/ontology#MunicipalCorporation -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#MunicipalCorporation">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#MunicipalCorporation">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#MunicipalCivilAdministrationUnit"/>
         <rdfs:label xml:lang="en">Municipal corporation</rdfs:label>
         <rdfs:label>Municipal corporation</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#MunicipalCivilAdministrationUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Name -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Name -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Name">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Name">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Name</rdfs:label>
         <rdfs:label>Name</rdfs:label>
@@ -1479,10 +1479,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#NameVariant -->
+    <!-- https://ont.virtualtreasury.ie/ontology#NameVariant -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#NameVariant">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#NameVariant">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Name variant</rdfs:label>
         <rdfs:label>Name variant</rdfs:label>
@@ -1490,10 +1490,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#ODNB -->
+    <!-- https://ont.virtualtreasury.ie/ontology#ODNB -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#ODNB">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#ODNB">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">ODNB</rdfs:label>
         <rdfs:label>ODNB</rdfs:label>
@@ -1501,10 +1501,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Occupation -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Occupation -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Occupation">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Occupation">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">A particular action or course of action in which a person is engaged, esp. habitually; a particular job or profession; a particular pursuit or activity. Source: &quot;occupation, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/130181. </rdfs:comment>
         <rdfs:comment>A particular action or course of action in which a person is engaged, esp. habitually; a particular job or profession; a particular pursuit or activity. Source: &quot;occupation, n.&quot; OED Online, Oxford University Press, June 2020, www.oed.com/view/Entry/130181. </rdfs:comment>
@@ -1514,10 +1514,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Office -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Office -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Office">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Office">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Office</rdfs:label>
         <rdfs:label>Office</rdfs:label>
@@ -1525,10 +1525,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Organisation -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Organisation -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Organisation">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Organisation">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Organisation</rdfs:label>
         <rdfs:label>Organisation</rdfs:label>
@@ -1536,22 +1536,22 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Parish -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Parish -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Parish">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Parish">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit"/>
         <rdfs:label xml:lang="en">Parish</rdfs:label>
         <rdfs:label>Parish</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#PatronymicsMatronymics -->
+    <!-- https://ont.virtualtreasury.ie/ontology#PatronymicsMatronymics -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#PatronymicsMatronymics">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#PatronymicsMatronymics">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Patronymics-Matronymics</rdfs:label>
         <rdfs:label>Patronymics-Matronymics</rdfs:label>
@@ -1559,10 +1559,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Place -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Place -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Place">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Place">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Place</rdfs:label>
         <rdfs:label>Place</rdfs:label>
@@ -1570,133 +1570,133 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#PoorLawUnion -->
+    <!-- https://ont.virtualtreasury.ie/ontology#PoorLawUnion -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#PoorLawUnion">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#PoorLawUnion">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"/>
         <rdfs:label xml:lang="en">Poor Law Union</rdfs:label>
         <rdfs:label>Poor Law Union</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Port -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Port -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Port">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Port">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#UrbanSettlement"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#UrbanSettlement"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilMonument"/>
         <rdfs:label xml:lang="en">Port</rdfs:label>
         <rdfs:label>Port</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CivilMonument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Post1836Barony -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Post1836Barony -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Post1836Barony">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Post1836Barony">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Barony"/>
         <rdfs:label xml:lang="en">Barony (post-1836)</rdfs:label>
         <rdfs:label>Barony (post-1836)</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Barony"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#PostReformationDioceseCatholic -->
+    <!-- https://ont.virtualtreasury.ie/ontology#PostReformationDioceseCatholic -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#PostReformationDioceseCatholic">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#PostReformationDioceseCatholic">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Diocese"/>
         <rdfs:label xml:lang="en">Post-reformation Diocese (Catholic)</rdfs:label>
         <rdfs:label>Post-reformation Diocese (Catholic)</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Diocese"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#PostReformationDioceseEstablishedChurch -->
+    <!-- https://ont.virtualtreasury.ie/ontology#PostReformationDioceseEstablishedChurch -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#PostReformationDioceseEstablishedChurch">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#PostReformationDioceseEstablishedChurch">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Diocese"/>
         <rdfs:label xml:lang="en">Post-reformation Diocese (Established Church)</rdfs:label>
         <rdfs:label>Post-reformation Diocese (Established Church)</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Diocese"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Pre1836Barony -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Pre1836Barony -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Pre1836Barony">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Pre1836Barony">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Barony"/>
         <rdfs:label xml:lang="en">Barony (pre-1836)</rdfs:label>
         <rdfs:label>Barony (pre-1836)</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Barony"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#PreReformationDiocese -->
+    <!-- https://ont.virtualtreasury.ie/ontology#PreReformationDiocese -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#PreReformationDiocese">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#PreReformationDiocese">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Diocese"/>
         <rdfs:label xml:lang="en">Pre-reformation Diocese</rdfs:label>
         <rdfs:label>Pre-reformation Diocese</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Diocese"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#PremonstratensianCanons -->
+    <!-- https://ont.virtualtreasury.ie/ontology#PremonstratensianCanons -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#PremonstratensianCanons">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#PremonstratensianCanons">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:label xml:lang="en">Premonstratensian Canons</rdfs:label>
         <rdfs:label>Premonstratensian Canons</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Prison -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Prison -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Prison">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Prison">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#Castle"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#UrbanSettlement"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#Castle"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#UrbanSettlement"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilMonument"/>
         <rdfs:label xml:lang="en">Prison</rdfs:label>
         <rdfs:label>Prison</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CivilMonument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Quarter -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Quarter -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Quarter">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Quarter">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#Townland"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#Townland"/>
         <rdfs:label xml:lang="en">Quarter</rdfs:label>
         <rdfs:label>Quarter</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Rank -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Rank -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Rank">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Rank">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Rank</rdfs:label>
         <rdfs:label>Rank</rdfs:label>
@@ -1704,10 +1704,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#RegionAssignment -->
+    <!-- https://ont.virtualtreasury.ie/ontology#RegionAssignment -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#RegionAssignment">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#RegionAssignment">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Region assignment</rdfs:label>
         <rdfs:label>Region assignment</rdfs:label>
@@ -1715,10 +1715,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#RegnalYear -->
+    <!-- https://ont.virtualtreasury.ie/ontology#RegnalYear -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#RegnalYear">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#RegnalYear">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Regnal year</rdfs:label>
         <rdfs:label>Regnal year</rdfs:label>
@@ -1726,46 +1726,46 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#ReligiousHouse -->
+    <!-- https://ont.virtualtreasury.ie/ontology#ReligiousHouse -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#ReligiousHouse">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#ReligiousHouse">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:label xml:lang="en">Religious house</rdfs:label>
         <rdfs:label>Religious house</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#ReligiousOrder -->
+    <!-- https://ont.virtualtreasury.ie/ontology#ReligiousOrder -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#ReligiousOrder">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#ReligiousOrder">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation"/>
         <rdfs:label xml:lang="en">Religious order</rdfs:label>
         <rdfs:label>Religious order</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#RuralDeanery -->
+    <!-- https://ont.virtualtreasury.ie/ontology#RuralDeanery -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#RuralDeanery">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#RuralDeanery">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#Diocese"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#Diocese"/>
         <rdfs:label xml:lang="en">Rural Deanery</rdfs:label>
         <rdfs:label>Rural Deanery</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#RuralSettlement -->
+    <!-- https://ont.virtualtreasury.ie/ontology#RuralSettlement -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#RuralSettlement">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#RuralSettlement">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Settlement (Rural)</rdfs:label>
         <rdfs:label>Settlement (Rural)</rdfs:label>
@@ -1773,35 +1773,35 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#SecularClergy -->
+    <!-- https://ont.virtualtreasury.ie/ontology#SecularClergy -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#SecularClergy">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#SecularClergy">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalAdministrativeUnit"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#EcclesiasticalOrganisation"/>
         <rdfs:label xml:lang="en">Secular clergy</rdfs:label>
         <rdfs:label>Secular clergy</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalAdministrativeUnit"/>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#EcclesiasticalOrganisation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#SecularColleges -->
+    <!-- https://ont.virtualtreasury.ie/ontology#SecularColleges -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#SecularColleges">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#SecularColleges">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#ReligiousOrder"/>
         <rdfs:label xml:lang="en">Secular colleges</rdfs:label>
         <rdfs:label>Secular colleges</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#ReligiousOrder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Shire -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Shire -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Shire">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Shire">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:comment xml:lang="en">Originally a sphere of jurisdiction or command; thus the area of which such authority was exercised. The earliest shires were commanded by ealdormen; by the late tenth century, when the ealdorman&apos;s powers were more extensive, they were administered by sheriffs. By the same period, the shires were divided into hundreds. From the twelfth century, they were also called &apos;counties&apos;. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 258. </rdfs:comment>
         <rdfs:comment>Originally a sphere of jurisdiction or command; thus the area of which such authority was exercised. The earliest shires were commanded by ealdormen; by the late tenth century, when the ealdorman&apos;s powers were more extensive, they were administered by sheriffs. By the same period, the shires were divided into hundreds. From the twelfth century, they were also called &apos;counties&apos;. Source: Christopher Corèdon &amp; Ann Williams, A Dictionary of Medieval Terms and Phrases (Cambridge, 2004), 258. </rdfs:comment>
@@ -1811,10 +1811,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#SoubriquetAlias -->
+    <!-- https://ont.virtualtreasury.ie/ontology#SoubriquetAlias -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#SoubriquetAlias">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#SoubriquetAlias">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Soubriquet alias</rdfs:label>
         <rdfs:label>Soubriquet alias</rdfs:label>
@@ -1822,10 +1822,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Surname -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Surname -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Surname">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Surname">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Surname</rdfs:label>
         <rdfs:label>Surname</rdfs:label>
@@ -1833,10 +1833,10 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#TerritorialDivision -->
+    <!-- https://ont.virtualtreasury.ie/ontology#TerritorialDivision -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#TerritorialDivision">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#TerritorialDivision">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Territorial division</rdfs:label>
         <rdfs:label>Territorial division</rdfs:label>
@@ -1844,71 +1844,71 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Town -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Town -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Town">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Town">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#UrbanSettlement"/>
         <rdfs:label xml:lang="en">Town</rdfs:label>
         <rdfs:label>Town</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#UrbanSettlement"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Townland -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Townland -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Townland">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Townland">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#CivilParish"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilParish"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#LocalCivilAdministrationUnit"/>
         <rdfs:label xml:lang="en">Townland</rdfs:label>
         <rdfs:label>Townland</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#LocalCivilAdministrationUnit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Trinitarians -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Trinitarians -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Trinitarians">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Trinitarians">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Mendicants"/>
         <rdfs:label xml:lang="en">Trinitarians</rdfs:label>
         <rdfs:label>Trinitarians</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Mendicants"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#UnitedDioceses -->
+    <!-- https://ont.virtualtreasury.ie/ontology#UnitedDioceses -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#UnitedDioceses">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#UnitedDioceses">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Diocese"/>
         <rdfs:label xml:lang="en">United Dioceses</rdfs:label>
         <rdfs:label>United Dioceses</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Diocese"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#UrbanOrganisation -->
+    <!-- https://ont.virtualtreasury.ie/ontology#UrbanOrganisation -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#UrbanOrganisation">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#UrbanOrganisation">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#Organisation"/>
         <rdfs:label xml:lang="en">Urban organisation</rdfs:label>
         <rdfs:label>Urban organisation</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#Organisation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#UrbanSettlement -->
+    <!-- https://ont.virtualtreasury.ie/ontology#UrbanSettlement -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#UrbanSettlement">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#UrbanSettlement">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
         <rdfs:label xml:lang="en">Settlement (Urban)</rdfs:label>
         <rdfs:label>Settlement (Urban)</rdfs:label>
@@ -1916,33 +1916,33 @@
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#Wall -->
+    <!-- https://ont.virtualtreasury.ie/ontology#Wall -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#Wall">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#Wall">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#UrbanSettlement"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#UrbanSettlement"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilMonument"/>
         <rdfs:label xml:lang="en">Wall</rdfs:label>
         <rdfs:label>Wall</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CivilMonument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://ont.beyond2022.ie/ontology#WaterConduit -->
+    <!-- https://ont.virtualtreasury.ie/ontology#WaterConduit -->
 
 
-    <owl:NamedIndividual rdf:about="https://ont.beyond2022.ie/ontology#WaterConduit">
+    <owl:NamedIndividual rdf:about="https://ont.virtualtreasury.ie/ontology#WaterConduit">
         <rdf:type rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
-        <current:P89_falls_within rdf:resource="https://ont.beyond2022.ie/ontology#UrbanSettlement"/>
+        <current:P89_falls_within rdf:resource="https://ont.virtualtreasury.ie/ontology#UrbanSettlement"/>
+        <skos:broader rdf:resource="https://ont.virtualtreasury.ie/ontology#CivilMonument"/>
         <rdfs:label xml:lang="en">Water conduit</rdfs:label>
         <rdfs:label>Water conduit</rdfs:label>
-        <skos:broader rdf:resource="https://ont.beyond2022.ie/ontology#CivilMonument"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/ -->
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
 
 
