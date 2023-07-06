@@ -15,6 +15,11 @@ strong {
 	background-size: contain;
 }
 
+.jumbotron h1 {
+	color: white;
+	text-shadow: 4px 4px 15px black;
+}
+
 .page-header{
 	border-radius: 6px;
 	padding: 5px 15px;
