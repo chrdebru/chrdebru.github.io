@@ -38,3 +38,7 @@ h2.page-header {
 h3.page-header {
 	background-color: rgb(238, 238, 238);
 }
+
+.badge-info a {
+	color: orange;
+}
