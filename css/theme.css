@@ -12,7 +12,10 @@ strong {
 .jumbotron {
 	background-image: url('../logo.png');
 	background-repeat: no-repeat;
+	background-blend-mode: color-dodge;
+	background-position: right;
 	background-size: contain;
+	background-color: gainsboro;
 }
 
 .jumbotron h1 {
