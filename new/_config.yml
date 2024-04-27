@@ -39,15 +39,15 @@ minima:
     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/christophedebruyne" }
     - { platform: x,              user_url: "https://x.com/chrdebru" }
     - { platform: youtube,        user_url: "https://www.youtube.com/@chrdebru" }
-
+  skin: solarized-light
 
 header_pages:
-  - index.markdown
-  - research.markdown
-  - publications.markdown
-  - projects.markdown
-  - teaching.markdown
-  - thesistopics.markdown
+  - index.md
+  - publications.md
+  - outreach.md
+  - group.md
+  - teaching.md
+  - thesistopics.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
