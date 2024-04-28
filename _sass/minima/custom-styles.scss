@@ -12,8 +12,11 @@ body {
     text-align: justify ;
 }
 
-.site-title {
+.site-header {
     background-image: url(/images/logo.png) ;
     background-repeat: no-repeat ;
     background-size: contain ;
+    background-blend-mode: color-dodge;
+    background-color: gainsboro;
+    background-position-x: calc(50% - 390px);
 }
