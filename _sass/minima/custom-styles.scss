@@ -1,0 +1,19 @@
+h1 { border-bottom: 3px solid #6C0345 ; }
+h2 { border-bottom: 2px solid #DC6B19 ; }
+h3 { border-bottom: 1px dashed #F7C566 ; }
+
+.wrapper {
+    max-width: calc(1000px - (30px * 2));
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+body {
+    text-align: justify ;
+}
+
+.site-title {
+    background-image: url(/images/logo.png) ;
+    background-repeat: no-repeat ;
+    background-size: contain ;
+}

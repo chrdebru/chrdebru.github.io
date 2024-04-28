@@ -261,7 +261,7 @@ You can find my publications on [Google Scholar](https://scholar.google.com/cita
 
 1. Anne Kearns, **Christophe Debruyne**, Laura Grehan, Mary Colclough and Ciaran O'Neill. Debunked: How to Tell Fact from Fiction. European Science Engagement Association, EUSEA: Pathfinders on a Mission EUSEA2023, Bolzano, Italy, 4 May 2023 [📄](/papers/2023-05-eusea.pdf)
 
-1. **Christophe Debruyne**, Davan Chiem Dao, Paul Stijfhals. Using Knowledge Graphs and SHACL to Validate Declaration Forms: an Experiment in the Social Security Domain to Assess SHACL's Applicability. The European Data Conference on Reference Data and Semantics (ENDORSE) 2023, Online Event, 14-16 March 2023 [📄](/papers/2023-03-endorse-abstract.pdf)</a>
+1. **Christophe Debruyne**, Davan Chiem Dao, Paul Stijfhals. Using Knowledge Graphs and SHACL to Validate Declaration Forms: an Experiment in the Social Security Domain to Assess SHACL's Applicability. The European Data Conference on Reference Data and Semantics (ENDORSE) 2023, Online Event, 14-16 March 2023 [📄](/papers/2023-03-endorse-abstract.pdf)
 
 1. Sara Sepehri, Robim M. Rodrigues, Mona Delagrange, Joery De Kock, Audrey Sanctorum, Jan Maushagen, **Christophe Debruyne**, Olga De Troyer, Tamara Vanhaecke. Development of an easy-to-use, semantic technology-based knowledge base containing toxicological information of cosmetic ingredients to assist animal-free risk assessment. 21st International Congress of the European Society of Toxicology In Vitro (ESTIV) 2022, Sitges, Spain, 21-25 November 2022 [📄](/papers/2022-11-estiv-abstract.pdf) [🖼️](/papers/2022-11-estiv-poster.pdf")	
 
