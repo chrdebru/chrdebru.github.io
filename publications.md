@@ -156,6 +156,9 @@ You can find my publications on [Google Scholar](https://scholar.google.com/cita
 
 ## Workshop Papers
 
+1. Dylan Van Assche and **Christophe Debruyne**. BURPing Through RML Test Cases. [📄](/papers/2024-kgc.pdf)
+> Accepted for KGC Workshop at ESWC 2024
+
 1. **Christophe Debruyne**, Laura Grehan, Mairéad Hurley, Anne Kearns, Ciaran O'Neill. One year of DALIDA Data Literacy Workshops for Adults: a Report. In Companion of The Web Conference 2022, Virtual Event / Lyon, France, April 25 - 29, 2022, pages 403-407. ACM, 2022 [📄](/papers/2022-websci22-dl-accepted.pdf)
 
 1. **Christophe Debruyne**. Supporting relational database joins for generating literals in R2RML. In Proceedings of the 3rd International Workshop on Knowledge Graph Construction (KGCW 2022) co-located with 19th Extended Semantic Web Conference (ESWC 2022), Hersonissos, Greek, May 30, 2022, volume 3141 of CEUR Workshop Proceedings. CEUR-WS.org, 2022 [📄](/papers/2022-kgc.pdf)
