@@ -1,0 +1,1007 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY records "http://purl.org/net/irish-record-linkage/records#" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.org/net/irish-record-linkage/records"
+     xml:base="http://purl.org/net/irish-record-linkage/records"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:records="http://purl.org/net/irish-record-linkage/records#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://purl.org/net/irish-record-linkage/records">
+        <dc:creator rdf:datatype="&xsd;string">Christophe Debruyne (KDEG, Trinity College Dublin)</dc:creator>
+        <dc:contributor rdf:datatype="&xsd;string">Dolores Grant (Digital Repository of Ireland)</dc:contributor>
+        <dc:title rdf:datatype="&xsd;string">Irish Record Linkage Vital Records Ontology</dc:title>
+        <dc:contributor rdf:datatype="&xsd;string">Oya Beyan (Insight @ NUI Galway)</dc:contributor>
+        <dc:contributor rdf:datatype="&xsd;string">PJ Mealy (Insight @ NUI Galway)</dc:contributor>
+        <dc:description rdf:datatype="&xsd;string">The IRL Vital Records Ontology captures all classes and properties to create RDF encodings of the register pages and records.</dc:description>
+        <owl:versionInfo rdf:datatype="&xsd;string">Version 0.3 of the lightweight ontology for describing records. Changes include:
+
+- fixed typos in class names;
+- fixed missing range for page.</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.org/net/irish-record-linkage/records/0.2"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="&dc;contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="&dc;description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="&dc;title"/>    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#recordOf -->
+
+    <owl:ObjectProperty rdf:about="&records;recordOf">
+        <rdfs:label rdf:datatype="&xsd;string">record of</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Relation between register pages and records. Register pages can have records. Records should belong to exactly one register page.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Record"/>
+        <rdfs:range rdf:resource="&records;RegisterPage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#withRecord -->
+
+    <owl:ObjectProperty rdf:about="&records;withRecord">
+        <rdfs:label rdf:datatype="&xsd;string">with record</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Relation between records and register pages. Register pages can have records. Records should belong to exactly one register page.</rdfs:comment>
+        <rdfs:range rdf:resource="&records;Record"/>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <owl:inverseOf rdf:resource="&records;recordOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#address -->
+
+    <owl:DatatypeProperty rdf:about="&records;address">
+        <rdfs:label rdf:datatype="&xsd;string">address</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The address of the subject that is sometimes captures by the registrar.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Certificate"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#ageLastBirthday -->
+
+    <owl:DatatypeProperty rdf:about="&records;ageLastBirthday">
+        <rdfs:label rdf:datatype="&xsd;string">age last birthday</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Age of the person at death.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;DeathRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#ageOfFemale -->
+
+    <owl:DatatypeProperty rdf:about="&records;ageOfFemale">
+        <rdfs:label rdf:datatype="&xsd;string">age of female</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Age of the bride at the time of marriage.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#ageOfMale -->
+
+    <owl:DatatypeProperty rdf:about="&records;ageOfMale">
+        <rdfs:label rdf:datatype="&xsd;string">age of male</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Age of the groom at the time of marriage.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#amendments -->
+
+    <owl:DatatypeProperty rdf:about="&records;amendments">
+        <rdfs:label>amendments</rdfs:label>
+        <rdfs:comment>Property to capture the amendments of a record. Sometimes registrars keep track of, and provide notes on changes in records, which will be transcribed in this field.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Record"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#baptismalName -->
+
+    <owl:DatatypeProperty rdf:about="&records;baptismalName">
+        <rdfs:label rdf:datatype="&xsd;string">baptismal name of child</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The baptismal name of child, which is sometimes added after registration of birth.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;BirthRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#causeOfDeath -->
+
+    <owl:DatatypeProperty rdf:about="&records;causeOfDeath">
+        <rdfs:label rdf:datatype="&xsd;string">cause of death</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The (certified) cause of death in a death record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;DeathRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#causeOfDeathAndDurationOfIllness -->
+
+    <owl:DatatypeProperty rdf:about="&records;causeOfDeathAndDurationOfIllness">
+        <rdfs:label rdf:datatype="&xsd;string">cause of death and duration of illness</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The cause of death and duration of illness.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;DeathRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#condition -->
+
+    <owl:DatatypeProperty rdf:about="&records;condition">
+        <rdfs:label rdf:datatype="&xsd;string">condition</rdfs:label>
+        <rdfs:comment>The condition of the subject in a certificate. Quite often the marital status, but not necessarily so.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;DeathRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#conditionOfFemale -->
+
+    <owl:DatatypeProperty rdf:about="&records;conditionOfFemale">
+        <rdfs:label rdf:datatype="&xsd;string">condition of female</rdfs:label>
+        <rdfs:comment>The condition of the bride in a marriage record. Quite often the marital status, but not necessarily so.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#conditionOfMale -->
+
+    <owl:DatatypeProperty rdf:about="&records;conditionOfMale">
+        <rdfs:label rdf:datatype="&xsd;string">condition of male</rdfs:label>
+        <rdfs:comment>The condition of the groom in a marriage record. Quite often the marital status, but not necessarily so.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#county -->
+
+    <owl:DatatypeProperty rdf:about="&records;county">
+        <rdfs:label rdf:datatype="&xsd;string">county</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The county of the register page.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#dateOfBaptism -->
+
+    <owl:DatatypeProperty rdf:about="&records;dateOfBaptism">
+        <rdfs:label rdf:datatype="&xsd;string">date of baptism</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The date of baptism of a newborn.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;BirthRecord"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#dateOfBirth -->
+
+    <owl:DatatypeProperty rdf:about="&records;dateOfBirth">
+        <rdfs:label rdf:datatype="&xsd;string">date of birth</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The date of birth.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;BirthRecord"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#dateOfDeath -->
+
+    <owl:DatatypeProperty rdf:about="&records;dateOfDeath">
+        <rdfs:label rdf:datatype="&xsd;string">date of death</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The date of death.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;DeathRecord"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#dateOfMarriage -->
+
+    <owl:DatatypeProperty rdf:about="&records;dateOfMarriage">
+        <rdfs:label rdf:datatype="&xsd;string">date of marriage</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The date of marriage.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#dateOfRegistration -->
+
+    <owl:DatatypeProperty rdf:about="&records;dateOfRegistration">
+        <rdfs:label rdf:datatype="&xsd;string">date of registration</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The registration date of a record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Record"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#datePageCertified -->
+
+    <owl:DatatypeProperty rdf:about="&records;datePageCertified">
+        <rdfs:label rdf:datatype="&xsd;string">date page entries certified by registrar</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The date the page entries were certified by a registrar.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#datePageCertifiedAsTrueCopy -->
+
+    <owl:DatatypeProperty rdf:about="&records;datePageCertifiedAsTrueCopy">
+        <rdfs:label rdf:datatype="&xsd;string">date page certified as true copy by superintendent registrar</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The date the register page was certified as a true copy by superintendent registrar.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#deathCertification -->
+
+    <owl:DatatypeProperty rdf:about="&records;deathCertification">
+        <rdfs:label rdf:datatype="&xsd;string">with death certification status</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The death certification status (explicit, unknown, ...).</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;DeathRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#district -->
+
+    <owl:DatatypeProperty rdf:about="&records;district">
+        <rdfs:label rdf:datatype="&xsd;string">district</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The district of the register page.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#districtOfSuperintendentRegistrar -->
+
+    <owl:DatatypeProperty rdf:about="&records;districtOfSuperintendentRegistrar">
+        <rdfs:label rdf:datatype="&xsd;string">superintendent registrar&apos;s district</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The district of the superintendent registrar on a register page.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#durationOfIllness -->
+
+    <owl:DatatypeProperty rdf:about="&records;durationOfIllness">
+        <rdfs:label rdf:datatype="&xsd;string">duration of illness</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The duration of illness.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;DeathRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forename -->
+
+    <owl:DatatypeProperty rdf:about="&records;forename">
+        <rdfs:label rdf:datatype="&xsd;string">forename</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The forename.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Certificate"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forenameOfCelebrant -->
+
+    <owl:DatatypeProperty rdf:about="&records;forenameOfCelebrant">
+        <rdfs:label rdf:datatype="&xsd;string">forename of celebrant</rdfs:label>
+        <rdfs:comment>The forename of the the person conducting the marriage in the marriage record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forenameOfFather -->
+
+    <owl:DatatypeProperty rdf:about="&records;forenameOfFather">
+        <rdfs:label rdf:datatype="&xsd;string">forename of father</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The forename of the father.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;BirthRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forenameOfFemale -->
+
+    <owl:DatatypeProperty rdf:about="&records;forenameOfFemale">
+        <rdfs:label rdf:datatype="&xsd;string">forename of female</rdfs:label>
+        <rdfs:comment>Forename of the bride in a marriage record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forenameOfFirstWitness -->
+
+    <owl:DatatypeProperty rdf:about="&records;forenameOfFirstWitness">
+        <rdfs:label rdf:datatype="&xsd;string">forename of first witness</rdfs:label>
+        <rdfs:comment>Forename of the first witness in a marriage record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forenameOfInformant -->
+
+    <owl:DatatypeProperty rdf:about="&records;forenameOfInformant">
+        <rdfs:label rdf:datatype="&xsd;string">forename of informant</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The forename of the informant. </rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Certificate"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forenameOfMale -->
+
+    <owl:DatatypeProperty rdf:about="&records;forenameOfMale">
+        <rdfs:label rdf:datatype="&xsd;string">forename of male</rdfs:label>
+        <rdfs:comment>Forename of the groom in a marriage record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forenameOfMother -->
+
+    <owl:DatatypeProperty rdf:about="&records;forenameOfMother">
+        <rdfs:label rdf:datatype="&xsd;string">forename of mother</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The forename of the mother.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;BirthRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forenameOfRegistrar -->
+
+    <owl:DatatypeProperty rdf:about="&records;forenameOfRegistrar">
+        <rdfs:label rdf:datatype="&xsd;string">forename of registrar</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The forename of the registrar that signed off a record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Record"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forenameOfRegistrarOnPage -->
+
+    <owl:DatatypeProperty rdf:about="&records;forenameOfRegistrarOnPage">
+        <rdfs:label rdf:datatype="&xsd;string">forename of registrar on page</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The forename of the registrar that signed off the register page.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forenameOfSecondWitness -->
+
+    <owl:DatatypeProperty rdf:about="&records;forenameOfSecondWitness">
+        <rdfs:label rdf:datatype="&xsd;string">forename of second witness</rdfs:label>
+        <rdfs:comment>Forename of the second witness in a marriage record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#forenameOfSuperintendentRegistrar -->
+
+    <owl:DatatypeProperty rdf:about="&records;forenameOfSuperintendentRegistrar">
+        <rdfs:label rdf:datatype="&xsd;string">forename of superintendent registrar</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The forename of the super intendant register that signed off the register page.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#maidenNameOfMother -->
+
+    <owl:DatatypeProperty rdf:about="&records;maidenNameOfMother">
+        <rdfs:label rdf:datatype="&xsd;string">maiden name of mother</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The maiden name of the mother.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;BirthRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#number -->
+
+    <owl:DatatypeProperty rdf:about="&records;number">
+        <rdfs:label rdf:datatype="&xsd;string">number in register</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The number of a record in a register page.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Record"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#pageNumber -->
+
+    <owl:DatatypeProperty rdf:about="&records;pageNumber">
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#placeOfBirth -->
+
+    <owl:DatatypeProperty rdf:about="&records;placeOfBirth">
+        <rdfs:label rdf:datatype="&xsd;string">place of birth</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The place of birth.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;BirthRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#placeOfDeath -->
+
+    <owl:DatatypeProperty rdf:about="&records;placeOfDeath">
+        <rdfs:label rdf:datatype="&xsd;string">place of death</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The place of a death of the deceased person.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;DeathRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#placeOfFather -->
+
+    <owl:DatatypeProperty rdf:about="&records;placeOfFather">
+        <rdfs:label rdf:datatype="&xsd;string">place of father</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The place of the child&apos;s father.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;BirthRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#placeOfResidence -->
+
+    <owl:DatatypeProperty rdf:about="&records;placeOfResidence">
+        <rdfs:label rdf:datatype="&xsd;string">place of residence</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The place of residence of the person related to a death record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;DeathRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#qualificationOfInformant -->
+
+    <owl:DatatypeProperty rdf:about="&records;qualificationOfInformant">
+        <rdfs:label rdf:datatype="&xsd;string">qualification of informant</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The qualification of the informant.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Certificate"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#quarter -->
+
+    <owl:DatatypeProperty rdf:about="&records;quarter">
+        <rdfs:label rdf:datatype="&xsd;string">quarter</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Quarter of the book in which the register page resides.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#rankOrProfessionOfFather -->
+
+    <owl:DatatypeProperty rdf:about="&records;rankOrProfessionOfFather">
+        <rdfs:label rdf:datatype="&xsd;string">rank or profession of the father</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The rank or profession of the father of the child.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;BirthRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#rankOrProfessionOfFemale -->
+
+    <owl:DatatypeProperty rdf:about="&records;rankOrProfessionOfFemale">
+        <rdfs:label rdf:datatype="&xsd;string">rank or profession of the bride</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The rank or profession of the bride.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#rankOrProfessionOfMale -->
+
+    <owl:DatatypeProperty rdf:about="&records;rankOrProfessionOfMale">
+        <rdfs:label rdf:datatype="&xsd;string">rank or profession of the groom</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The rank or profession of the groom.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#rankProfessionOrOccupation -->
+
+    <owl:DatatypeProperty rdf:about="&records;rankProfessionOrOccupation">
+        <rdfs:label rdf:datatype="&xsd;string">rank, profession or occupation</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The rank, profession or occupation of the person related to a death certificate.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;DeathRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#relationshipInformant -->
+
+    <owl:DatatypeProperty rdf:about="&records;relationshipInformant">
+        <rdfs:label>relationship of informant</rdfs:label>
+        <rdfs:comment>The relationship between the informant and the subject of a certeficate. E.g., the father of a newborn, or the mother of a deceased.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Certificate"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#religionOfMarriage -->
+
+    <owl:DatatypeProperty rdf:about="&records;religionOfMarriage">
+        <rdfs:label rdf:datatype="&xsd;string">religion of marriage</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The religion of marriage.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#residenceOfFemale -->
+
+    <owl:DatatypeProperty rdf:about="&records;residenceOfFemale">
+        <rdfs:label rdf:datatype="&xsd;string">residence of the bride at the time of marriage</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The residence of the bride at the time of marriage.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#residenceOfInformant -->
+
+    <owl:DatatypeProperty rdf:about="&records;residenceOfInformant">
+        <rdfs:label rdf:datatype="&xsd;string">residence of informant</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The place of residence of the informant related to certificates.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Certificate"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#residenceOfMale -->
+
+    <owl:DatatypeProperty rdf:about="&records;residenceOfMale">
+        <rdfs:label rdf:datatype="&xsd;string">residence of the groom at the time of marriage</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The residence of the groom at the time of marriage.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#sex -->
+
+    <owl:DatatypeProperty rdf:about="&records;sex">
+        <rdfs:label rdf:datatype="&xsd;string">sex</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The gender of the person related to the certificate.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Certificate"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#solemnisedAt -->
+
+    <owl:DatatypeProperty rdf:about="&records;solemnisedAt">
+        <rdfs:label rdf:datatype="&xsd;string">solemnised at</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The place where the marriage was solemnized.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#stampNumber -->
+
+    <owl:DatatypeProperty rdf:about="&records;stampNumber">
+        <rdfs:label rdf:datatype="&xsd;string">stamp number</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The stamp number of a register page.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surname -->
+
+    <owl:DatatypeProperty rdf:about="&records;surname">
+        <rdfs:label rdf:datatype="&xsd;string">surname</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of the person related to a certificate.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Certificate"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surnameInformant -->
+
+    <owl:DatatypeProperty rdf:about="&records;surnameInformant">
+        <rdfs:label rdf:datatype="&xsd;string">surname of informant</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of the informant in a certificate.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Certificate"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surnameOfCelebrant -->
+
+    <owl:DatatypeProperty rdf:about="&records;surnameOfCelebrant">
+        <rdfs:label rdf:datatype="&xsd;string">surname of celebrant</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of the the person conducting the marriage in the marriage record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surnameOfFather -->
+
+    <owl:DatatypeProperty rdf:about="&records;surnameOfFather">
+        <rdfs:label rdf:datatype="&xsd;string">surname of father</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of a father in a birth record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;BirthRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surnameOfFemale -->
+
+    <owl:DatatypeProperty rdf:about="&records;surnameOfFemale">
+        <rdfs:label rdf:datatype="&xsd;string">surname of female</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of the bride in a marriage record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surnameOfFirstWitness -->
+
+    <owl:DatatypeProperty rdf:about="&records;surnameOfFirstWitness">
+        <rdfs:label rdf:datatype="&xsd;string">surname of first witness</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of the first witness in a marriage record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surnameOfMale -->
+
+    <owl:DatatypeProperty rdf:about="&records;surnameOfMale">
+        <rdfs:label rdf:datatype="&xsd;string">surname of male</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of the groom in a marriage record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surnameOfMother -->
+
+    <owl:DatatypeProperty rdf:about="&records;surnameOfMother">
+        <rdfs:label rdf:datatype="&xsd;string">surname of mother</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of the mother in a birth record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;BirthRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surnameOfRegistrar -->
+
+    <owl:DatatypeProperty rdf:about="&records;surnameOfRegistrar">
+        <rdfs:label rdf:datatype="&xsd;string">surname of registrar</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of the registar that signed off a record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Record"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surnameOfRegistrarOnPage -->
+
+    <owl:DatatypeProperty rdf:about="&records;surnameOfRegistrarOnPage">
+        <rdfs:label rdf:datatype="&xsd;string">surname of registrar on page</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of the registar that signed off a register page.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surnameOfSecondWitness -->
+
+    <owl:DatatypeProperty rdf:about="&records;surnameOfSecondWitness">
+        <rdfs:label rdf:datatype="&xsd;string">surname of second witness</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of the second witness of a marriage record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#surnameOfSuperintendentRegistrar -->
+
+    <owl:DatatypeProperty rdf:about="&records;surnameOfSuperintendentRegistrar">
+        <rdfs:label rdf:datatype="&xsd;string">surname of superintendent registrar</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The surname of the super intendant register that signed off the register page.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#titleOfRegistrar -->
+
+    <owl:DatatypeProperty rdf:about="&records;titleOfRegistrar">
+        <rdfs:label rdf:datatype="&xsd;string">title of registrar</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The title of the registrar that signed off a record.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;Record"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#union -->
+
+    <owl:DatatypeProperty rdf:about="&records;union">
+        <rdfs:label rdf:datatype="&xsd;string">union</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The union of the register page.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#volume -->
+
+    <owl:DatatypeProperty rdf:about="&records;volume">
+        <rdfs:label rdf:datatype="&xsd;string">volume</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Volume of the book in which the register page resides.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#withParish -->
+
+    <owl:DatatypeProperty rdf:about="&records;withParish">
+        <rdfs:label rdf:datatype="&xsd;string">parish of marriage</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The parish of the marriage.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;MarriageRecord"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#yearRegistered -->
+
+    <owl:DatatypeProperty rdf:about="&records;yearRegistered">
+        <rdfs:label rdf:datatype="&xsd;string">year registered</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Year that the page registered.</rdfs:comment>
+        <rdfs:domain rdf:resource="&records;RegisterPage"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#BirthRecord -->
+
+    <owl:Class rdf:about="&records;BirthRecord">
+        <rdfs:label rdf:datatype="&xsd;string">Birth record</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&records;Certificate"/>
+        <owl:disjointWith rdf:resource="&records;DeathRecord"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A birth record.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#Certificate -->
+
+    <owl:Class rdf:about="&records;Certificate">
+        <rdfs:label rdf:datatype="&xsd;string">Certificate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&records;Record"/>
+        <owl:disjointWith rdf:resource="&records;MarriageRecord"/>
+        <rdfs:comment rdf:datatype="&xsd;string">An abstract representation for any kind of certeficate &quot;belonging&quot; to one person.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#DeathRecord -->
+
+    <owl:Class rdf:about="&records;DeathRecord">
+        <rdfs:label rdf:datatype="&xsd;string">Death record</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&records;Certificate"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A death record.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#MarriageRecord -->
+
+    <owl:Class rdf:about="&records;MarriageRecord">
+        <rdfs:label rdf:datatype="&xsd;string">Marriage record</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&records;Record"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A marriage record.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#Record -->
+
+    <owl:Class rdf:about="&records;Record">
+        <rdfs:label rdf:datatype="&xsd;string">Record</rdfs:label>
+        <owl:disjointWith rdf:resource="&records;RegisterPage"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A record in a register page.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/irish-record-linkage/records#RegisterPage -->
+
+    <owl:Class rdf:about="&records;RegisterPage">
+        <rdfs:label rdf:datatype="&xsd;string">Register Page</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">A register page.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&records;pageNumber">
+        <rdfs:label rdf:datatype="&xsd;string">page number</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">The page number of the register page.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
