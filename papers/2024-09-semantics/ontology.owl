@@ -1,0 +1,1043 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cytomine.be/ont#"
+     xml:base="http://www.cytomine.be/ont"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:oa="http://www.w3.org/ns/oa#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/">
+    <owl:Ontology rdf:about="http://www.cytomine.be/ont">
+        <owl:imports rdf:resource="http://www.opengis.net/ont/geosparql"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/oa#"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.cytomine.be/ont#annotationIsOnImage -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#annotationIsOnImage">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#imageHasAnnotation"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:range rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <rdfs:comment xml:lang="fr">Lie une annotation à l&apos;image à laquelle elle est associée, permettant une relation directe qui facilite la récupération et l&apos;analyse des données centrées sur l&apos;image.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Links an annotation to the image it is associated with, allowing for a direct relationship that facilitates image-centric data retrieval and analysis.</rdfs:comment>
+        <rdfs:label xml:lang="en">annotation is on image</rdfs:label>
+        <rdfs:label xml:lang="fr">l&apos;annotation est sur l&apos;image</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#annotationPrecededBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#annotationPrecededBy">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:comment xml:lang="fr">lie une annotation à l&apos;annotation précédente faite par le même utilisateur sur la même image</rdfs:comment>
+        <rdfs:comment xml:lang="en">links an annotation to the previous annotation made by the same user on the same image</rdfs:comment>
+        <rdfs:label xml:lang="en">annotation preceded by</rdfs:label>
+        <rdfs:label xml:lang="fr">annotation précédée de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#annotationTag -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#annotationTag">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:range rdf:resource="http://www.cytomine.be/ont#Tag"/>
+        <rdfs:comment xml:lang="en">Associates a tag with an annotation, enabling the categorization and quick retrieval of annotations based on thematic or descriptive tags.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Associe un tag à une annotation, permettant la catégorisation et la récupération rapide des annotations basées sur des tags thématiques ou descriptifs.</rdfs:comment>
+        <rdfs:label xml:lang="en">annotation tag</rdfs:label>
+        <rdfs:label xml:lang="fr">tag d&apos;annotation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasArea -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasArea">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#isAreaOf"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:range rdf:resource="http://www.cytomine.be/ont#Area"/>
+        <rdfs:comment xml:lang="en">Relates a geometric entity to its area, quantifying the spatial extent within a two-dimensional plane, essential for spatial analysis.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Relie une entité géométrique à sa surface, quantifiant l&apos;étendue spatiale dans un plan bidimensionnel, essentiel pour l&apos;analyse spatiale.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a une surface</rdfs:label>
+        <rdfs:label xml:lang="en">has area</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasCoordinate -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasCoordinate">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#isCoordinateOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Location"/>
+        <rdfs:comment xml:lang="fr">Connecte une annotation à ses coordonnées géographiques ou spatiales spécifiques, facilitant le positionnement précis et la cartographie.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Connects an annotation to its specific geographical or spatial coordinates, facilitating accurate positioning and mapping.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a des coordonnées</rdfs:label>
+        <rdfs:label xml:lang="en">has coordinate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasCreateImage -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasCreateImage">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#isCreatedImageBy"/>
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:range rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <rdfs:comment xml:lang="fr">Identifie l&apos;utilisateur qui a créé ou téléchargé une image, établissant un lien entre le créateur et l&apos;actif numérique.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Identifies the user who created or uploaded an image, establishing a link between the creator and the digital asset.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a créé l&apos;image</rdfs:label>
+        <rdfs:label xml:lang="en">has created image</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasDescription -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasDescription">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#isDescriptionOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:range rdf:resource="http://www.cytomine.be/ont#Description"/>
+        <rdfs:comment xml:lang="fr">Lie une annotation à son texte descriptif, fournissant des informations détaillées ou des insights sur le contenu annoté.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Links an annotation to its descriptive text, providing detailed information or insights about the annotated content.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a une description</rdfs:label>
+        <rdfs:label xml:lang="en">has description</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasDoneAnnotation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasDoneAnnotation">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#isDoneAnnotationBy"/>
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:comment xml:lang="en">Establishes which user has made a specific annotation, connecting user contributions to annotated items.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Établit quel utilisateur a réalisé une annotation spécifique, reliant les contributions des utilisateurs aux éléments annotés.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a réalisé l&apos;annotation</rdfs:label>
+        <rdfs:label xml:lang="en">has done annotation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasDoneTag -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasDoneTag">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#isDoneTagOf"/>
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:range rdf:resource="http://www.cytomine.be/ont#Tag"/>
+        <rdfs:comment xml:lang="en">Relates a user to the tags they have applied, highlighting their contribution to the categorization of annotations or images.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Relie un utilisateur aux tags qu&apos;il a appliqués, mettant en évidence sa contribution à la catégorisation des annotations ou des images.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a appliqué le tag</rdfs:label>
+        <rdfs:label xml:lang="en">has done tag</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasPerimeter -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasPerimeter">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#isPerimeterOf"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:range rdf:resource="http://www.cytomine.be/ont#Perimeter"/>
+        <rdfs:comment xml:lang="en">Associates a geometric shape with its perimeter measurement, important for understanding the boundaries and size of shapes.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Associe une forme géométrique à sa mesure de périmètre, important pour comprendre les limites et la taille des formes.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a un périmètre</rdfs:label>
+        <rdfs:label xml:lang="en">has perimeter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasProperty -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasProperty">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#propertyOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:range rdf:resource="http://www.cytomine.be/ont#Property"/>
+        <rdfs:comment xml:lang="fr">Lie une annotation à ses propriétés</rdfs:comment>
+        <rdfs:comment xml:lang="en">Links an annotation to its properties</rdfs:comment>
+        <rdfs:label xml:lang="fr">a la propriété</rdfs:label>
+        <rdfs:label xml:lang="en">has Property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasRole -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasRole">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#isRoleOf"/>
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Role"/>
+        <rdfs:comment xml:lang="fr">Connecte un utilisateur à son rôle dans le système, définissant ses permissions et responsabilités.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Connects a user to their role within the system, defining their permissions and responsibilities.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a un rôle</rdfs:label>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasShape -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasShape">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#isShapeOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:comment xml:lang="en">Associates an annotation with a geometric shape, enabling spatial analysis of annotated regions.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Associe une annotation à une forme géométrique, permettant l&apos;analyse spatiale des régions annotées.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a une forme</rdfs:label>
+        <rdfs:label xml:lang="en">has shape</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasShapeCoordinate -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasShapeCoordinate">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#isShapeCoordinateOf"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Location"/>
+        <rdfs:comment xml:lang="fr">Connecte une forme géométrique à ses coordonnées spécifiques, fournissant des informations de localisation précises pour l&apos;analyse spatiale.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Connects a geometric shape to its specific coordinates, providing precise location information for spatial analysis.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a des coordonnées de forme</rdfs:label>
+        <rdfs:label xml:lang="en">has shape coordinate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#hasUpdate -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#hasUpdate">
+        <owl:inverseOf rdf:resource="http://www.cytomine.be/ont#isUpdateOf"/>
+        <rdfs:range rdf:resource="http://www.cytomine.be/ont#Update"/>
+        <rdfs:comment xml:lang="fr">Connecte une entité à ses mises à jour, facilitant le suivi des modifications et le contrôle de version.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Connects an entity to its updates, facilitating the tracking of changes and version control.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a une mise à jour</rdfs:label>
+        <rdfs:label xml:lang="en">has update</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#imageHasAnnotation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#imageHasAnnotation">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:comment xml:lang="en">Indicates that an image is associated with one or more annotations, facilitating the retrieval of annotated content.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique qu&apos;une image est associée à une ou plusieurs annotations, facilitant la récupération du contenu annoté.</rdfs:comment>
+        <rdfs:label xml:lang="en">image has annotation</rdfs:label>
+        <rdfs:label xml:lang="fr">l&apos;image a une annotation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isAreaOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#isAreaOf">
+        <rdfs:comment xml:lang="en">Defines the inverse relationship of &apos;hasArea&apos;, linking an area measurement back to the geometric entity it quantifies.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Définit la relation inverse de &apos;hasArea&apos;, reliant une mesure de surface à l&apos;entité géométrique qu&apos;elle quantifie.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est la surface de</rdfs:label>
+        <rdfs:label xml:lang="en">is area of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isCoordinateOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#isCoordinateOf">
+        <rdfs:comment xml:lang="en">Specifies the inverse relationship of &apos;hasCoordinate&apos;, associating spatial coordinates back to the respective annotation or entity.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Spécifie la relation inverse de &apos;hasCoordinate&apos;, associant les coordonnées spatiales à l&apos;annotation ou entité respective.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est la coordonnée de</rdfs:label>
+        <rdfs:label xml:lang="en">is coordinate of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isCreatedImageBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#isCreatedImageBy">
+        <rdfs:comment xml:lang="en">Inversely links an image to the user who created or uploaded it, establishing the creator&apos;s identity.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Lie inversément une image à l&apos;utilisateur qui l&apos;a créée ou téléchargée, établissant l&apos;identité du créateur.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est créée par l&apos;utilisateur</rdfs:label>
+        <rdfs:label xml:lang="en">is created image by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isDescriptionOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#isDescriptionOf">
+        <rdfs:comment xml:lang="en">Defines the inverse relationship of &apos;hasDescription&apos;, linking descriptive text back to the annotation it pertains to.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Définit la relation inverse de &apos;hasDescription&apos;, reliant le texte descriptif à l&apos;annotation à laquelle il se rapporte.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est la description de</rdfs:label>
+        <rdfs:label xml:lang="en">is description of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isDoneAnnotationBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#isDoneAnnotationBy">
+        <rdfs:comment xml:lang="en">Establishes the inverse relation of &apos;hasDoneAnnotation&apos;, associating an annotation back to the user who made it.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Établit la relation inverse de &apos;hasDoneAnnotation&apos;, associant une annotation à l&apos;utilisateur qui l&apos;a réalisée.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est annotée par</rdfs:label>
+        <rdfs:label xml:lang="en">is done annotation by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isDoneTagOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#isDoneTagOf">
+        <rdfs:comment xml:lang="en">Specifies the inverse relationship of &apos;hasDoneTag&apos;, linking a tag back to the user who applied it.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Spécifie la relation inverse de &apos;hasDoneTag&apos;, reliant un tag à l&apos;utilisateur qui l&apos;a appliqué.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est tagué par</rdfs:label>
+        <rdfs:label xml:lang="en">is done tag of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isPerimeterOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#isPerimeterOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:comment xml:lang="fr">Associe inversement une mesure de périmètre à la forme géométrique qu&apos;elle définit, facilitant l&apos;analyse spatiale.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Inversely associates a perimeter measurement with the geometric shape it defines, facilitating spatial analysis.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est le périmètre de</rdfs:label>
+        <rdfs:label xml:lang="en">is perimeter of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isRoleOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#isRoleOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:comment xml:lang="en">Indicates the inverse relationship of &apos;hasRole&apos;, associating a user back to their specific role within the system.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique la relation inverse de &apos;hasRole&apos;, associant un utilisateur à son rôle spécifique dans le système.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est le rôle de</rdfs:label>
+        <rdfs:label xml:lang="en">is role of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isShapeCoordinateOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#isShapeCoordinateOf">
+        <rdfs:comment xml:lang="en">Defines the inverse relationship of &apos;hasShapeCoordinate&apos;, linking coordinates back to the geometric shape they define.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Définit la relation inverse de &apos;hasShapeCoordinate&apos;, reliant les coordonnées à la forme géométrique qu&apos;elles définissent.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est la coordonée de forme de</rdfs:label>
+        <rdfs:label xml:lang="en">is shape coordinate of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isShapeOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#isShapeOf">
+        <rdfs:comment xml:lang="en">Specifies the inverse relationship of &apos;hasShape&apos;, associating a geometric shape back to the annotation it is part of.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Spécifie la relation inverse de &apos;hasShape&apos;, associant une forme géométrique à l&apos;annotation dont elle fait partie.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est la forme de</rdfs:label>
+        <rdfs:label xml:lang="en">is shape of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isUpdateOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#isUpdateOf">
+        <rdfs:comment xml:lang="en">Indicates the inverse relationship of &apos;hasUpdate&apos;, linking an update back to the original entity it modifies.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique la relation inverse de &apos;hasUpdate&apos;, reliant une mise à jour à l&apos;entité originale qu&apos;elle modifie.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est la mise à jour de</rdfs:label>
+        <rdfs:label xml:lang="en">is update of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#projectContainsImage -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#projectContainsImage">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Project"/>
+        <rdfs:range rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <rdfs:comment xml:lang="en">Associates a project with its contained images, organizing images within specific project contexts.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Associe un projet à ses images contenues, organisant les images dans des contextes de projet spécifiques.</rdfs:comment>
+        <rdfs:label xml:lang="fr">le projet contient l&apos;image</rdfs:label>
+        <rdfs:label xml:lang="en">project contains image</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#propertyOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.cytomine.be/ont#propertyOf">
+        <rdfs:comment xml:lang="en">Specifies the inverse relationship of &apos;hasProperty&apos;, linking an annotation to its properties</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Spécifie la relation inverse de &apos;hasProperty&apos;, reliant une annotation à ses propriétés</rdfs:comment>
+        <rdfs:label xml:lang="en">property Of</rdfs:label>
+        <rdfs:label xml:lang="fr">propriété de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.cytomine.be/ont#annotationID -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#annotationID">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="fr">Identifiant unique pour une annotation, facilitant sa récupération et sa gestion.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Unique identifier for an annotation, facilitating its retrieval and management.</rdfs:comment>
+        <rdfs:label xml:lang="fr">ID d&apos;annotation</rdfs:label>
+        <rdfs:label xml:lang="en">annotation ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#creationDate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#creationDate">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="fr">La date et l&apos;heure de création de l&apos;entité, fournissant un contexte temporel.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The date and time when the entity was created, providing temporal context.</rdfs:comment>
+        <rdfs:label xml:lang="en">creation date</rdfs:label>
+        <rdfs:label xml:lang="fr">date de création</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#description -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#description">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Description"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">A detailed textual description of the entity, providing essential information and context.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Une description textuelle détaillée de l&apos;entité, fournissant des informations essentielles et le contexte.</rdfs:comment>
+        <rdfs:label xml:lang="en">description</rdfs:label>
+        <rdfs:label xml:lang="fr">description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#descriptionID -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#descriptionID">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Description"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">A unique identifier for descriptions, enabling distinct referencing and management.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Un identifiant unique pour les descriptions, permettant une référenciation et une gestion distinctes.</rdfs:comment>
+        <rdfs:label xml:lang="fr">ID de description</rdfs:label>
+        <rdfs:label xml:lang="en">description ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#downloadable -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#downloadable">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Indicates if the project&apos;s content is available for download, enabling or restricting access as necessary.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique si le contenu du projet est disponible pour téléchargement, permettant ou restreignant l&apos;accès si nécessaire.</rdfs:comment>
+        <rdfs:label xml:lang="en">downloadable</rdfs:label>
+        <rdfs:label xml:lang="fr">téléchargeable</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#geometryCompression -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#geometryCompression">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="en">Specifies the compression level of geometric data, impacting storage and processing efficiency.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Spécifie le niveau de compression des données géométriques, affectant l&apos;efficacité du stockage et du traitement.</rdfs:comment>
+        <rdfs:label xml:lang="fr">compression géométrique</rdfs:label>
+        <rdfs:label xml:lang="en">geometry compression</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#imageDepth -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#imageDepth">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="fr">Le nombre de bits utilisés par pixel pour représenter la profondeur de couleur de l&apos;image, influençant la qualité de l&apos;image.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The number of bits used per pixel to represent image color depth, influencing image quality.</rdfs:comment>
+        <rdfs:label xml:lang="en">image depth</rdfs:label>
+        <rdfs:label xml:lang="fr">profondeur de l&apos;image</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#imageHeight -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#imageHeight">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="en">The height of the image in pixels, determining its vertical size.</rdfs:comment>
+        <rdfs:comment>La hauteur de l&apos;image en pixels, déterminant sa taille verticale.</rdfs:comment>
+        <rdfs:label xml:lang="fr">hauteur de l&apos;image</rdfs:label>
+        <rdfs:label xml:lang="en">image height</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#imageID -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#imageID">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">A unique identifier for an image, crucial for database management and retrieval operations.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Un identifiant unique pour une image, crucial pour la gestion et les opérations de récupération de la base de données.</rdfs:comment>
+        <rdfs:label xml:lang="fr">ID de l&apos;image</rdfs:label>
+        <rdfs:label xml:lang="en">image ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#imageMagnification -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#imageMagnification">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="en">Specifies the magnification factor used when the image was captured, important for scale and analysis considerations.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Spécifie le facteur de grossissement utilisé lorsque l&apos;image a été capturée, important pour les considérations d&apos;échelle et d&apos;analyse.</rdfs:comment>
+        <rdfs:label xml:lang="fr">grossissement de l&apos;image</rdfs:label>
+        <rdfs:label xml:lang="en">image magnification</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#imageWidth -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#imageWidth">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="fr">La largeur de l&apos;image en pixels, déterminant sa taille horizontale.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The width of the image in pixels, determining its horizontal size.</rdfs:comment>
+        <rdfs:label xml:lang="en">image width</rdfs:label>
+        <rdfs:label xml:lang="fr">largeur de l&apos;image</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#inreview -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#inreview">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Indicates whether the image is currently under review, supporting workflow and quality control processes.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique si l&apos;image est actuellement en cours de révision, soutenant les processus de workflow et de contrôle qualité.</rdfs:comment>
+        <rdfs:label xml:lang="fr">en révision</rdfs:label>
+        <rdfs:label xml:lang="en">in review</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isClosed -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#isClosed">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Specifies whether a project is closed, determining if it&apos;s currently active or completed.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Spécifie si un projet est fermé, déterminant s&apos;il est actuellement actif ou terminé.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est fermé</rdfs:label>
+        <rdfs:label xml:lang="en">is closed</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isReadOnly -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#isReadOnly">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Indicates if the project is in a read-only state, preventing any modifications to its content.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique si le projet est en état de lecture seule, empêchant toute modification de son contenu.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est en lecture seule</rdfs:label>
+        <rdfs:label xml:lang="en">is read-only</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#isRestricted -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#isRestricted">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Determines if access to the project is restricted to certain users or groups, controlling privacy and access levels.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Détermine si l&apos;accès au projet est restreint à certains utilisateurs ou groupes, contrôlant la confidentialité et les niveaux d&apos;accès.</rdfs:comment>
+        <rdfs:label xml:lang="fr">est restreint</rdfs:label>
+        <rdfs:label xml:lang="en">is resticted</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#key -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#key">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#name">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="fr">Le nom de l&apos;entité, fournissant une étiquette claire et identifiable pour celle-ci.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The name of the entity, providing a clear and identifiable label for it.</rdfs:comment>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+        <rdfs:label xml:lang="fr">nom</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#projectID -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#projectID">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">A unique identifier for a project, crucial for distinguishing between various projects within the system.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Un identifiant unique pour un projet, crucial pour distinguer entre les différents projets au sein du système.</rdfs:comment>
+        <rdfs:label xml:lang="fr">ID du projet</rdfs:label>
+        <rdfs:label xml:lang="en">project ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#propertyID -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#propertyID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="fr">L&apos;identifiant unique d&apos;une propriété, essentiel pour la gestion et la récupération des données.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The unique identifier for a property, essential for data management and retrieval.</rdfs:comment>
+        <rdfs:label xml:lang="fr">ID de la propriété</rdfs:label>
+        <rdfs:label xml:lang="en">property ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#propertyValue -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#propertyValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="fr">La valeur associée à une propriété, fournissant des détails ou caractéristiques spécifiques.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The value associated with a property, providing specific details or characteristics.</rdfs:comment>
+        <rdfs:label xml:lang="en">property value</rdfs:label>
+        <rdfs:label xml:lang="fr">valeur de la propriété</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#resolution -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#resolution">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="fr">La résolution d&apos;une image, indiquant le niveau de détail ou la qualité de l&apos;image, généralement mesurée en DPI (points par pouce).</rdfs:comment>
+        <rdfs:comment xml:lang="en">The resolution of an image, indicating the detail level or image quality, typically measured in DPI (dots per inch).</rdfs:comment>
+        <rdfs:label xml:lang="en">resolution</rdfs:label>
+        <rdfs:label xml:lang="fr">résolution</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#reviewed -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#reviewed">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Indicates whether an annotation has been reviewed, marking its verification status.</rdfs:comment>
+        <rdfs:comment>Indique si une annotation a été révisée, marquant son statut de vérification.</rdfs:comment>
+        <rdfs:label xml:lang="en">reviewed</rdfs:label>
+        <rdfs:label xml:lang="fr">révisé</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#tagID -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#tagID">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#Tag"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">A unique identifier for a tag, enabling easy reference and management of tags.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Un identifiant unique pour un tag, permettant une référence et une gestion faciles des tags.</rdfs:comment>
+        <rdfs:label xml:lang="fr">ID du tag</rdfs:label>
+        <rdfs:label xml:lang="en">tag ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#unit -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#unit">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Specifies the measurement unit for a given property value, clarifying the scale or dimension.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Spécifie l&apos;unité de mesure pour une valeur de propriété donnée, clarifiant l&apos;échelle ou la dimension.</rdfs:comment>
+        <rdfs:label xml:lang="en">unit</rdfs:label>
+        <rdfs:label xml:lang="fr">unité</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#userID -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#userID">
+        <rdfs:domain rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">A unique identifier for a user, essential for user management and authentication within the system.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Un identifiant unique pour un utilisateur, essentiel pour la gestion des utilisateurs et l&apos;authentification dans le système.</rdfs:comment>
+        <rdfs:label xml:lang="fr">ID de l&apos;utilisateur</rdfs:label>
+        <rdfs:label xml:lang="en">user ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cytomine.be/ont#value -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.cytomine.be/ont#value">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment xml:lang="en">A general-purpose property for numerical values, applicable to various data types requiring numeric representation.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Une propriété à usage général pour les valeurs numériques, applicable à divers types de données nécessitant une représentation numérique.</rdfs:comment>
+        <rdfs:label xml:lang="fr">valeur</rdfs:label>
+        <rdfs:label xml:lang="en">value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.cytomine.be/ont#AnnotationActivity -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#AnnotationActivity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:comment xml:lang="en">Represent the activity of creating an annotation</rdfs:comment>
+        <rdfs:comment xml:lang="fr">représente l&apos;activité de créer une annotation</rdfs:comment>
+        <rdfs:label xml:lang="fr">Activité d&apos;annotation</rdfs:label>
+        <rdfs:label xml:lang="en">Annotation Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cytomine.be/ont#Area -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#Area">
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Description"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Perimeter"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Project"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Property"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Tag"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Update"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:comment xml:lang="en">Represents a spatial area, potentially within an image or as part of a geometric shape, quantifiable and distinct from other ontology entities.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Représente une zone spatiale, potentiellement au sein d&apos;une image ou comme partie d&apos;une forme géométrique, quantifiable et distincte des autres entités de l&apos;ontologie.</rdfs:comment>
+        <rdfs:label xml:lang="fr">Aire</rdfs:label>
+        <rdfs:label xml:lang="en">Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cytomine.be/ont#Contributor -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#Contributor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Role"/>
+        <rdfs:comment xml:lang="en">A role within the system denoting an individual or entity contributing content or expertise, such as annotations or analysis.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Un rôle dans le système désignant un individu ou une entité contribuant du contenu ou une expertise, tels que des annotations ou des analyses.</rdfs:comment>
+        <rdfs:label xml:lang="fr">Contributeur</rdfs:label>
+        <rdfs:label xml:lang="en">Contributor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cytomine.be/ont#Description -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#Description">
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Image"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Perimeter"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Project"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Property"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Tag"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Update"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:comment xml:lang="en">Encapsulates descriptive information or metadata about an entity, offering contextual or detailed insights.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Encapsule des informations descriptives ou des métadonnées sur une entité, offrant des insights contextuels ou détaillés.</rdfs:comment>
+        <rdfs:label xml:lang="en">Description</rdfs:label>
+        <rdfs:label xml:lang="fr">Description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cytomine.be/ont#Image -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#Image">
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Perimeter"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Project"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Property"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Tag"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Update"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:comment xml:lang="en">Defines a digital image entity, which can be annotated, analyzed, and shared within the system.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Définit une entité d&apos;image numérique, qui peut être annotée, analysée et partagée au sein du système.</rdfs:comment>
+        <rdfs:label xml:lang="en">Image</rdfs:label>
+        <rdfs:label xml:lang="fr">Image</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cytomine.be/ont#Manager -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#Manager">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Role"/>
+        <rdfs:comment xml:lang="en">Defines the role of a manager, responsible for overseeing project development, managing access, and ensuring quality control within the system.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Définit le rôle d&apos;un gestionnaire, responsable de la supervision du développement de projet, de la gestion des accès et de l&apos;assurance de la qualité de contrôle dans le système.</rdfs:comment>
+        <rdfs:label xml:lang="fr">Gestionnaire</rdfs:label>
+        <rdfs:label xml:lang="en">Manager</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cytomine.be/ont#Perimeter -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#Perimeter">
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Project"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Property"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Tag"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Update"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:comment xml:lang="en">Refers to the measurable boundary of a given area or shape, crucial for geometric analyses.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Se réfère à la limite mesurable d&apos;une zone ou forme donnée, cruciale pour les analyses géométriques.</rdfs:comment>
+        <rdfs:label xml:lang="en">Perimeter</rdfs:label>
+        <rdfs:label xml:lang="fr">Périmètre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cytomine.be/ont#Project -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#Project">
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Property"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Tag"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Update"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:comment xml:lang="en">Represents a project within the system, a collaborative space where images and annotations are organized and managed.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Représente un projet au sein du système, un espace collaboratif où les images et les annotations sont organisées et gérées.</rdfs:comment>
+        <rdfs:label xml:lang="en">Project</rdfs:label>
+        <rdfs:label xml:lang="fr">Projet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cytomine.be/ont#Property -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#Property">
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Tag"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Update"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:comment xml:lang="en">Represents a generic property that can be associated with various entities within the system, facilitating customization and extension.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Représente une propriété générique qui peut être associée à diverses entités dans le système, facilitant la personnalisation et l&apos;extension.</rdfs:comment>
+        <rdfs:label xml:lang="en">Property</rdfs:label>
+        <rdfs:label xml:lang="fr">Propriété</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cytomine.be/ont#Tag -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#Tag">
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#Update"/>
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:comment xml:lang="en">Defines a tag for categorization and organization of entities, such as images or annotations, enhancing searchability and grouping.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Définit un tag pour la catégorisation et l&apos;organisation des entités, telles que les images ou les annotations, améliorant la recherche et le regroupement.</rdfs:comment>
+        <rdfs:label xml:lang="en">Tag</rdfs:label>
+        <rdfs:label xml:lang="fr">Tag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cytomine.be/ont#Update -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#Update">
+        <owl:disjointWith rdf:resource="http://www.cytomine.be/ont#User"/>
+        <rdfs:comment xml:lang="en">Defines a tag for categorization and organization of entities, such as images or annotations, enhancing searchability and grouping.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Définit un tag pour la catégorisation et l&apos;organisation des entités, telles que les images ou les annotations, améliorant la recherche et le regroupement.</rdfs:comment>
+        <rdfs:label xml:lang="fr">Mise à jour</rdfs:label>
+        <rdfs:label xml:lang="en">Update</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cytomine.be/ont#User -->
+
+
+    <owl:Class rdf:about="http://www.cytomine.be/ont#User">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Person"/>
+        <rdfs:comment xml:lang="en">Represents a user of the system, encompassing both individual contributors and collaborative groups, defined by roles and permissions.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Représente un utilisateur du système, englobant à la fois les contributeurs individuels et les groupes collaboratifs, définis par des rôles et des permissions.</rdfs:comment>
+        <rdfs:label xml:lang="en">User</rdfs:label>
+        <rdfs:label xml:lang="fr">Utilisateur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Geometry -->
+
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Geometry"/>
+    
+
+
+    <!-- http://www.w3.org/ns/oa#Annotation -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/oa#Annotation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Location -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Location"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Role -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Role"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
