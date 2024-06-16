@@ -47,7 +47,8 @@ You can find my publications on [Google Scholar](https://scholar.google.com/cita
 
 ## Book Chapters
 
-1. Audrey Sanctorum, Jan Maushagen, Sara Sepehrni, Guillaume Vrijens, Joery de Kock, Tamara Vanhaecke, Olga De Troyer and **Christophe Debruyne**. In F. P. Garcia Marquez and R. V. Sanchez Loja, editors, From Theory of Knowledge Management to Practice. IntechOpen, Rijeka, 2023 [📄](/papers/2023-intech-submitted.pdf)
+1. Audrey Sanctorum, Jan Maushagen, Sara Sepehrni, Guillaume Vrijens, Joery de Kock, Tamara Vanhaecke, Olga De Troyer and **Christophe Debruyne**. Knowledge Management in the
+Context of Toxicity Testing. In F. P. Garcia Marquez and R. V. Sanchez Loja, editors, From Theory of Knowledge Management to Practice. IntechOpen, Rijeka, 2023 [📄](/papers/2023-intech-submitted.pdf)
 
 1. Harshvardhan J. Pandit, **Christophe Debruyne**, Declan O'Sullivan, and Dave Lewis. Standardisation, Data interoperability, and GDPR. In K. Jakobs, editor, Shaping the Future Through Standardization, chapter 8, pages 199-225. IGI Global, Hershey, PA, USA, 2020 [📄](/papers/2020-chapter-preprint.pdf)
 
