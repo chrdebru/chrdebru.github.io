@@ -75,6 +75,7 @@ Context of Toxicity Testing. In F. P. Garcia Marquez and R. V. Sanchez Loja, edi
 1. Emma Gustafson, **Christophe Debruyne**, Olga De Troyer, Vera Rogiers, Mathieu Vinken, and Tamara Vanhaecke. Screening of repeated dose toxicity data in safety evaluation reports of cosmetic ingredients issued by the scientific committee on consumer safety between 2009 and 2019. Archives of Toxicology, 2020 [📄](https://link.springer.com/article/10.1007/s00204-020-02868-2)
 
 1. **Christophe Debruyne**, Harshvardhan J. Pandit, Dave Lewis, and Declan O'Sullivan. "just-in-time" generation of datasets by considering structured representations of given consent for GDPR compliance. Knowl. Inf. Syst., 62(9):3615-3640, 2020 [📄](/papers/2020-kais.pdf)
+
 1. Lucy McKenna, **Christophe Debruyne**, and Declan O'Sullivan. NAISC-L: An Authoritative Linked Data Interlinking Approach for the Library Domain. In eLucidate, 16(2), 2020 [📄](/papers/2020-elucidate.pdf)
 
 1. Brian P. Reddy, Brett Houlding, Lucy Hederman, Mark Canney, **Christophe Debruyne**, Ciaran O'Brien, Alan Meehan, Declan O'Sullivan, and Mark A. Little. Data linkage in medical science using the resource description framework: the avert model [version 2; peer review: 2 approved]. HRB Open Research, 1(20), 2019 [📄](https://doi.org/10.12688/hrbopenres.12851.2)
