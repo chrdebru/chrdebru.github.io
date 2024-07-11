@@ -57,8 +57,8 @@ Context of Toxicity Testing. In F. P. Garcia Marquez and R. V. Sanchez Loja, edi
 
 ## Journal Articles
 
-1. Allyson Fries, Marie Pirotte, Laurent Vanhee, Pierre Bonnet, Pascale Quatresooz, **Christophe Debruyne**, Raphael Marée, Valérie Defaweux. Validating Instructional Design and Predicting Student Performance in Histology Education: Using Machine Learning via Virtual Microscopy. 
-> Accepted for publication in Anatomical Sciences Education
+1. Allyson Fries, Marie Pirotte, Laurent Vanhee, Pierre Bonnet, Pascale Quatresooz, **Christophe Debruyne**, Raphael Marée, Valérie Defaweux. Validating Instructional Design and Predicting Student Performance in Histology Education: Using Machine Learning via Virtual Microscopy. Anatomical Sciences
+Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 1. Audrey Sanctorum, Jonathan Riggio, Jan Maushagen, Sara Sepehri, Emma Arnesdotter, Mona Delagrange, Joery De Kock, Tamara Vanhaecke, **Christophe Debruyne**, and Olga De Troyer. End-user engineering of ontology-based knowledge bases. Behav. Inf. Technol., 41(9):1811-1829, 2022 [📄](/papers/2022-bit-accepted-major-revision.pdf)
 
@@ -158,7 +158,10 @@ Context of Toxicity Testing. In F. P. Garcia Marquez and R. V. Sanchez Loja, edi
 
 ## Workshop Papers
 
-1. Dylan Van Assche and **Christophe Debruyne**. BURPing Through RML Test Cases. [📄](/papers/2024-kgc.pdf)
+1. Dylan Van Assche and **Christophe Debruyne**. BURPing Through RML Test Cases. [📄](/papers/2024-kgc-1.pdf)
+> Accepted for KGC Workshop at ESWC 2024
+
+1. **Christophe Debruyne** and Dylan Van Assche. The Conformance of an RML Processor Built from Scratch to Validate RML Specifications and Test Cases.  [📄](/papers/2024-kgc-2.pdf)
 > Accepted for KGC Workshop at ESWC 2024
 
 1. **Christophe Debruyne**, Laura Grehan, Mairéad Hurley, Anne Kearns, Ciaran O'Neill. One year of DALIDA Data Literacy Workshops for Adults: a Report. In Companion of The Web Conference 2022, Virtual Event / Lyon, France, April 25 - 29, 2022, pages 403-407. ACM, 2022 [📄](/papers/2022-websci22-dl-accepted.pdf)

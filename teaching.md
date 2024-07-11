@@ -4,6 +4,13 @@ permalink: /teaching/
 ---
 ## Courses (past 5 years)
 
+2024-2025 | ULiège | Lecturer "Programmation Fonctionnelle" (BSc, MSc)
+ | ULiège | Lecturer "Bases de données" (BSc, MSc)
+ | ULiège | Lecturer "Knowledge Representation and Reasoning" (MSc)
+ | ULiège | Lecturer "Advanced Databases" (MSc)
+ | ULiège | Co-lecturer "Data Science Project" (MSc)
+ | ULiège | Coordinator "Master Thesis" in the Data Science programs (MSc)
+ | ULiège | Coordinator "Internship (independent of Master thesis)" in the Data Science programs (MSc)
 2023-2024 | ULiège | Lecturer "Programmation Fonctionnelle" (BSc, MSc)
  | ULiège | Lecturer "Bases de données" (BSc, MSc)
  | ULiège | Lecturer "Knowledge Representation and Reasoning" (MSc)
