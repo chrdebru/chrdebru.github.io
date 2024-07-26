@@ -157,12 +157,9 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 1. Robert Meersman and **Christophe Debruyne**. Hybrid Ontologies and Social Semantics. In 4th IEEE International Conference on Digital Ecosystems and Technologies: Conference Proceedings of IEEE - DEST 2010, Dubai, United Arab Emirates, 13-16 April 2010, pages 92-97. IEEE, 2010 [📄](/papers/2010-dest-preprint.pdf)
 
 ## Workshop Papers
+1. Dylan Van Assche and **Christophe Debruyne**. Burping through RML test cases. In David Chaves-Fraga, Anastasia Dimou, Ana Iglesias-Molina, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 5th International Workshop on Knowledge Graph Construction co-located with 21th Extended Semantic Web Conference (ESWC 2024), Hersonissos, Greece, May 27, 2024, volume 3718 of CEUR Workshop Proceedings. CEUR-WS.org, 2024 [📄](/papers/2024-kgc-1.pdf)
 
-1. Dylan Van Assche and **Christophe Debruyne**. BURPing Through RML Test Cases. [📄](/papers/2024-kgc-1.pdf)
-> Accepted for KGC Workshop at ESWC 2024
-
-1. **Christophe Debruyne** and Dylan Van Assche. The Conformance of an RML Processor Built from Scratch to Validate RML Specifications and Test Cases.  [📄](/papers/2024-kgc-2.pdf)
-> Accepted for KGC Workshop at ESWC 2024
+1. **Christophe Debruyne** and Dylan Van Assche. The conformance of an RML processor built from scratch to validate RML specifications and test cases. In David Chaves-Fraga, Anastasia Dimou, Ana Iglesias-Molina, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 5th International Workshop on Knowledge Graph Construction co-located with 21th Extended Semantic Web Conference (ESWC 2024), Hersonissos, Greece, May 27, 2024, volume 3718 of CEUR Workshop Proceedings. CEUR-WS.org, 2024  [📄](/papers/2024-kgc-2.pdf)
 
 1. **Christophe Debruyne**, Laura Grehan, Mairéad Hurley, Anne Kearns, Ciaran O'Neill. One year of DALIDA Data Literacy Workshops for Adults: a Report. In Companion of The Web Conference 2022, Virtual Event / Lyon, France, April 25 - 29, 2022, pages 403-407. ACM, 2022 [📄](/papers/2022-websci22-dl-accepted.pdf)
 
