@@ -22,4 +22,6 @@ Key to our research are:
 
 [Chiem Dao, Davan](https://www.fsa.uliege.be/cms/c_3141277/fr/fsa-repertoire?uid=u242835) | PhD Student | (09/2023-present)
 [Duchateau, Jakub](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u190657) | PhD Student | (09/2024-present)
+
+# Former memberss
 [Jaadari, Souail](https://www.linkedin.com/in/souail-jaadari-309774213) | Research Internship (Polytech Orléans) | (05/2024-07/2024)
