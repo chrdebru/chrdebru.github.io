@@ -52,8 +52,8 @@ I started creating *online material (including videos)*. You can find the materi
 
 1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. *TBD*. MSc Thesis, University of Liège, 2024 (expected)
 1. **Saulas, Adrien**. *TBD*. MEng Thesis, University of Liège, 2024 (expected)
-1. **Birtles, Alixia**. Representing Jupyter Notebooks with Knowledge Graphs to Address Data Lineage Problems. MEng Thesis, University of Liège, 2024
    > Company-based thesis
+1. **Birtles, Alixia**. Representing Jupyter Notebooks with Knowledge Graphs to Address Data Lineage Problems. MEng Thesis, University of Liège, 2024
 1. **Azouy, Elie Junior**. Use of Flink Hybrid sources to initialise transformations. MSc Thesis, University of Liège, 2024
    > Company-based thesis
 1. **Gómez Herrera, Maria Andrea Liliana**. Multi-cloud observability with AI, MSc Thesis, University of Liège, 2023
