@@ -41,7 +41,8 @@ I started creating *online material (including videos)*. You can find the materi
 
 ### PhD Thesis Supervision
 
-1. **Chiem Dao, Davan**. Mind the Knowledge Gap: Identifying, Assessing, and Mitigating Security Issues in Knowledge Graphs. PhD Thesis, University of Liège 2023-... (ongoing)
+1. **Duchateau, Jakub**. *TBD* PhD Thesis, University of Liège 2024-... (ongoing)
+1. **Chiem Dao, Davan**. *TBD* PhD Thesis, University of Liège 2023-... (ongoing)
 
 ### PhD Thesis Co-supervision
 

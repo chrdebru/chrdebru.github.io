@@ -49,6 +49,7 @@ figure figcaption {
 * Tech Week Showcase, presenting and explaining Linked Data to primary and secondary school children using examples from the OSi project (28 Apr 2016, Dublin, Ireland
 
 ## Presentations and Invited Talks
+* **Christophe Debruyne**. Grounding KGs in Natural Language. Dagstuhl Seminar 24061: Are Knowledge Graphs Ready for the Real World? Challenges and Perspective (7 February 2024, Dagstuhl, Germany) [📄](/papers/2024-02-daghstuhl-postprint.pdf)
 
 * **Christophe Debruyne**. Just-In-Time Integration and Generation of Datasets. Knowledge Graphs For Data Integration (KG4DI) FWO Scientific Research Network Kick-Off (30 November 2022, Leuven, Belgium)
 
