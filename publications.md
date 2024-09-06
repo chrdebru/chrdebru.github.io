@@ -230,10 +230,10 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Posters and Demos
 
-1. Jimmy Walraff, Adreas Coco, Guillaume Delporte, Merlin Michel, Allyson Fries, Valérie Defaweux and **Christophe Debruyne**. Facilitating Learning Analytics in Histology Courses with Knowledge Graphs.
+1. Jimmy Walraff, Adreas Coco, Guillaume Delporte, Merlin Michel, Allyson Fries, Valérie Defaweux and **Christophe Debruyne**. Facilitating Learning Analytics in Histology Courses with Knowledge Graphs. [🖼️](/papers/2024-09-semantics-poster-cytomine.pdf)
 > Accepted for publication at SEMANTiCS 2024
 
-1. Jan Maushagen, Sara Sepehri, Audrey Sanctorum, Tamara Vanhaecke, Olga De Troyer and **Christophe Debruyne**. Populating CSV Files from Unstructured Text with LLMs for KG Generation with RML.
+1. Jan Maushagen, Sara Sepehri, Audrey Sanctorum, Tamara Vanhaecke, Olga De Troyer and **Christophe Debruyne**. Populating CSV Files from Unstructured Text with LLMs for KG Generation with RML. [🖼️](/papers/2024-09-semantics-poster-toxin.pdf)
 > Accepted for publication at SEMANTiCS 2024
 
 1. Davan Chiem Dao and **Christophe Debruyne**. Unveiling SHACL Security Issues: Data Leakage and Validation Bypass.
