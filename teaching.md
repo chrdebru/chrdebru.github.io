@@ -9,6 +9,7 @@ permalink: /teaching/
  | ULiège | Lecturer "Knowledge Representation and Reasoning" (MSc)
  | ULiège | Lecturer "Advanced Databases" (MSc)
  | ULiège | Co-lecturer "Data Science Project" (MSc)
+ | ULiège | Co-lecturer "Topics in Distributed Systems" (MSc)
  | ULiège | Coordinator "Master Thesis" in the Data Science programs (MSc)
  | ULiège | Coordinator "Internship (independent of Master thesis)" in the Data Science programs (MSc)
 2023-2024 | ULiège | Lecturer "Programmation Fonctionnelle" (BSc, MSc)
