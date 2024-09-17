@@ -52,8 +52,8 @@ I started creating *online material (including videos)*. You can find the materi
 
 ### MSc Thesis Supervision (past 5 years)
 
-1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. *TBD*. MSc Thesis, University of Liège, 2024 (expected)
-1. **Saulas, Adrien**. *TBD*. MEng Thesis, University of Liège, 2024 (expected)
+1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. JSON-LD Representations of CityJSON. MSc Thesis, University of Liège, 2024 (expected)
+1. **Saulas, Adrien**. Balancing Durability, Performance, and Interpretability in Unbalanced Data as Fraud Detection. MEng Thesis, University of Liège, 2024 (expected)
    > Company-based thesis
 1. **Birtles, Alixia**. Representing Jupyter Notebooks with Knowledge Graphs to Address Data Lineage Problems. MEng Thesis, University of Liège, 2024
 1. **Azouy, Elie Junior**. Use of Flink Hybrid sources to initialise transformations. MSc Thesis, University of Liège, 2024

@@ -230,6 +230,15 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Posters and Demos
 
+1. Jimmy Walraff, Adreas Coco, Guillaume Delporte, Merlin Michel, Allyson Fries, Valérie Defaweux and **Christophe Debruyne**. Facilitating Learning Analytics in Histology Courses with Knowledge Graphs. [🖼️](/papers/2024-09-semantics-poster-cytomine.pdf)
+> Accepted for publication at SEMANTiCS 2024
+
+1. Jan Maushagen, Sara Sepehri, Audrey Sanctorum, Tamara Vanhaecke, Olga De Troyer and **Christophe Debruyne**. Populating CSV Files from Unstructured Text with LLMs for KG Generation with RML. [🖼️](/papers/2024-09-semantics-poster-toxin.pdf)
+> Accepted for publication at SEMANTiCS 2024
+
+1. Davan Chiem Dao and **Christophe Debruyne**. Unveiling SHACL Security Issues: Data Leakage and Validation Bypass.
+> Accepted for publication at SEMANTiCS 2024
+
 1. **Christophe Debruyne**, Katy Fokou, and Paul Stijfhals. Do you need a knowledge graph? helping organi- zations determine whether a knowledge graph is needed for their problems with the smals KG checklist. In Joint Proceedings of the Semantics co-located events: Poster&Demo track and Workshop on Ontology-Driven Conceptual Modelling of Digital Twins co-located with Semantics 2021, Amsterdam and Online, September 6-9, 2021, volume 2941 of CEUR Workshop Proceedings. CEUR-WS.org, 2021 [📄](/papers/2021-semantics-preprint.pdf) [🖼️](/papers/2021-semantics-poster.pdf)
 
 1. **Christophe Debruyne** and Declan O'Sullivan. Visually exploring SPARQL endpoints with murmuration. In Proceedings of the EKAW 2020 Posters and Demonstrations Session, volume 2751 of CEUR Workshop Proceedings, pages 17-21. CEUR-WS.org, 2020 [📄](/papers/2020-ekaw-preprint.pdf) [📺](https://www.youtube.com/watch?v=17rYSCJGGVk)

@@ -87,6 +87,8 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 
 ### Program Committees (past five years)
 
+* International Conference on Business Information Systems (BIS) 2025
+* ACM/IEEE Joint Conference on Digital Libraries in (JCDL) 2024
 * 23nd International Semantic Web Conference (ISWC) 2024--Research Track
 * 5th International Workshop on Knowledge Graph Construction (KGCW) 2024
 * Technical Symposium on Computer Science Education (SIGCSE TS) 2024--Lightning Talks
