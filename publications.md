@@ -230,14 +230,12 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Posters and Demos
 
-1. Jimmy Walraff, Adreas Coco, Guillaume Delporte, Merlin Michel, Allyson Fries, Valérie Defaweux and **Christophe Debruyne**. Facilitating Learning Analytics in Histology Courses with Knowledge Graphs. [🖼️](/papers/2024-09-semantics-poster-cytomine.pdf)
-> Accepted for publication at SEMANTiCS 2024
+1. Jimmy Walraff, Adreas Coco, Guillaume Delporte, Merlin Michel, Allyson Fries, Valérie Defaweux and **Christophe Debruyne**. Facilitating Learning Analytics in Histology Courses with Knowledge Graphs. In Joint Proceedings of Posters, Demos, Workshops, and Tutorials of the 20th International Conference on Semantic Systems co-located with 20th International Conference on Semantic Systems (SEMANTiCS 2024), Amsterdam, The Netherlands, September 17-19, 2024, volume 3759 of CEUR Workshop Proceedings. CEUR-WS.org, 2024 [📄](/papers/2024-semantics-paper2.pdf) [🖼️](/papers/2024-09-semantics-poster-cytomine.pdf)
 
-1. Jan Maushagen, Sara Sepehri, Audrey Sanctorum, Tamara Vanhaecke, Olga De Troyer and **Christophe Debruyne**. Populating CSV Files from Unstructured Text with LLMs for KG Generation with RML. [🖼️](/papers/2024-09-semantics-poster-toxin.pdf)
-> Accepted for publication at SEMANTiCS 2024
+1. Jan Maushagen, Sara Sepehri, Audrey Sanctorum, Tamara Vanhaecke, Olga De Troyer and **Christophe Debruyne**. Populating CSV Files from Unstructured Text with LLMs for KG Generation with RML. In Joint Proceedings of Posters, Demos, Workshops, and Tutorials of the 20th International Conference on Semantic Systems co-located with 20th International Conference on Semantic Systems (SEMANTiCS 2024), Amsterdam, The Netherlands, September 17-19, 2024, volume 3759 of CEUR Workshop Proceedings. CEUR-WS.org, 2024 [📄](/papers/2024-semantics-paper6.pdf) [🖼️](/papers/2024-09-semantics-poster-toxin.pdf)
+> Won best poster award
 
-1. Davan Chiem Dao and **Christophe Debruyne**. Unveiling SHACL Security Issues: Data Leakage and Validation Bypass.
-> Accepted for publication at SEMANTiCS 2024
+1. Davan Chiem Dao and **Christophe Debruyne**. Unveiling SHACL Security Issues: Data Leakage and Validation Bypass. In Joint Proceedings of Posters, Demos, Workshops, and Tutorials of the 20th International Conference on Semantic Systems co-located with 20th International Conference on Semantic Systems (SEMANTiCS 2024), Amsterdam, The Netherlands, September 17-19, 2024, volume 3759 of CEUR Workshop Proceedings. CEUR-WS.org, 2024 [📄](/papers/2024-semantics-paper16.pdf)
 
 1. **Christophe Debruyne**, Katy Fokou, and Paul Stijfhals. Do you need a knowledge graph? helping organi- zations determine whether a knowledge graph is needed for their problems with the smals KG checklist. In Joint Proceedings of the Semantics co-located events: Poster&Demo track and Workshop on Ontology-Driven Conceptual Modelling of Digital Twins co-located with Semantics 2021, Amsterdam and Online, September 6-9, 2021, volume 2941 of CEUR Workshop Proceedings. CEUR-WS.org, 2021 [📄](/papers/2021-semantics-preprint.pdf) [🖼️](/papers/2021-semantics-poster.pdf)
 
