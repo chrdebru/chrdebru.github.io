@@ -42,8 +42,8 @@ I started creating *online material (including videos)*. You can find the materi
 
 ### PhD Thesis Supervision
 
-1. **Duchateau, Jakub**. *TBD* PhD Thesis, University of Liège 2024-... (ongoing)
-1. **Chiem Dao, Davan**. *TBD* PhD Thesis, University of Liège 2023-... (ongoing)
+1. **Duchateau, Jakub**. *TBD*. PhD Thesis, University of Liège 2024-... (ongoing)
+1. **Chiem Dao, Davan**. *TBD*. PhD Thesis, University of Liège 2023-... (ongoing)
 
 ### PhD Thesis Co-supervision
 
@@ -52,8 +52,9 @@ I started creating *online material (including videos)*. You can find the materi
 
 ### MSc Thesis Supervision (past 5 years)
 
-1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. JSON-LD Representations of CityJSON. MSc Thesis, University of Liège, 2024 (expected)
-1. **Saulas, Adrien**. Balancing Durability, Performance, and Interpretability in Unbalanced Data as Fraud Detection. MEng Thesis, University of Liège, 2024 (expected)
+1. **Walraff, Jimmy**. *TBD*. MEng Thesis, University of Liège, 2025 (expected)
+1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. JSON-LD Representations of CityJSON. MSc Thesis, University of Liège, 2024
+1. **Saulas, Adrien**. Balancing Durability, Performance, and Interpretability in Unbalanced Data as Fraud Detection. MEng Thesis, University of Liège, 2024
    > Company-based thesis
 1. **Birtles, Alixia**. Representing Jupyter Notebooks with Knowledge Graphs to Address Data Lineage Problems. MEng Thesis, University of Liège, 2024
 1. **Azouy, Elie Junior**. Use of Flink Hybrid sources to initialise transformations. MSc Thesis, University of Liège, 2024
@@ -69,8 +70,6 @@ I started creating *online material (including videos)*. You can find the materi
    > Company-based thesis
 1. **Vrijens, Guillaume**. Knowledge Graph Construction to Facilitate Chemical Compound Hazard Assessment in the TOXIN Project, MEng Thesis, University of Liège, 2023
    > Company-based thesis
-   > Resulted in a peer-reviewed publication
-1. **Roosens, Dieter**. Using Maps to Interlink Geospatial Information on the Linked Data Web, MSc Thesis, Vrije Universiteit Brussel, 2019
    > Resulted in a peer-reviewed publication
 
 ### MSc Thesis Co-supervision (past 5 years)
