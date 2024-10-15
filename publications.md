@@ -1,5 +1,5 @@
 ---
-title: Dessimination
+title: Publications
 permalink: /publications/
 ---
 

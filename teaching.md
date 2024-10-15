@@ -52,7 +52,6 @@ I started creating *online material (including videos)*. You can find the materi
 
 ### MSc Thesis Supervision (past 5 years)
 
-1. **Walraff, Jimmy**. *TBD*. MEng Thesis, University of Liège, 2025 (expected)
 1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. JSON-LD Representations of CityJSON. MSc Thesis, University of Liège, 2024
 1. **Saulas, Adrien**. Balancing Durability, Performance, and Interpretability in Unbalanced Data as Fraud Detection. MEng Thesis, University of Liège, 2024
    > Company-based thesis
