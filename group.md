@@ -29,6 +29,6 @@ Key to our research are:
 
 [Crotti Junior, Ademar](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u245867) | PhD, Collaborator | (07/2024-present)
 
-# Former members
+### Former members
 
 [Jaadari, Souail](https://www.linkedin.com/in/souail-jaadari-309774213) | Research Internship (Polytech Orléans) | (05/2024-07/2024)
