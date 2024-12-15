@@ -26,6 +26,10 @@ figure figcaption {
     <img src="/images/2017-05-10-OSi-seminar.png" alt="Presenting at the OSi Seminars.">
     <figcaption class="figure-caption">Presenting at the OSi Seminars in 2017.</figcaption>
 </figure>
+
+* Co-organization of the Knowledge Graphs For Data Integration (KG4DI) seminar (10 December 2024, Ghent, Belgium)
+
+* Co-organization (local host) of the Knowledge Graphs For Data Integration (KG4DI) seminar (13 March 2024, Liège, Belgium)
                     
 * Knowledge Graph Construction Tutorial at the Knowledge Graphs For Data Integration (KG4DI) FWO Scientific Research Network Kick-Off (30 November 2022, Leuven, Belgium)
 

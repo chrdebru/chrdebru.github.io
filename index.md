@@ -52,6 +52,7 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 
 ### Chairs and Organizing Committees
 
+* Sixth International Workshop on Knowledge Graph Construction Co-located with the ESWC 2025
 * <span style="text-decoration:line-through;">On the Move to Meaningful Internet Systems: OTM 2020 Conferences/Workshops - Publication chair</span>
 > Cancelled due to COVID19)		
 * On the Move to Meaningful Internet Systems: OTM 2019 Conferences/Workshops - Publication chair				
@@ -70,6 +71,7 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 ### Reviewer
 
 * ACM Transactions on the Web
+* Cambridge Forum on AI: Law and Governance
 * Computing
 * Data Technologies and Applications
 * IEEE Access
