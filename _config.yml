@@ -27,6 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: chrdebru
 #github_username:  chrdebru
 #google_scholar_username: nx2KW_IAAAAJ
+copyright: ©️ 2025 
 
 # Build settings
 plugins:
@@ -37,6 +38,7 @@ minima:
     - { platform: github,         user_url: "https://github.com/chrdebru" }
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=nx2KW_IAAAAJ" }
     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/christophedebruyne" }
+    - { platform: bluesky,        user_url: "https://bsky.app/profile/chrdebru.bsky.social" }
     - { platform: bluesky,        user_url: "https://bsky.app/profile/chrdebru.bsky.social" }
     - { platform: youtube,        user_url: "https://www.youtube.com/@chrdebru" }
 #  skin: solarized-light

@@ -12,6 +12,11 @@
               </svg><span>Subscribe</span>
             </a>
           </p-->
+        {%- if site.copyright %}
+          <p class="feed-subscribe">
+            {{ site.copyright | escape }}
+          </p>
+        {%- endif %}
         {%- if site.author %}
           <ul class="contact-list">
             {% if site.author.name -%}
