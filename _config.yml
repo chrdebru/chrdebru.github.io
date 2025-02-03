@@ -39,7 +39,6 @@ minima:
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=nx2KW_IAAAAJ" }
     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/christophedebruyne" }
     - { platform: bluesky,        user_url: "https://bsky.app/profile/chrdebru.bsky.social" }
-    - { platform: bluesky,        user_url: "https://bsky.app/profile/chrdebru.bsky.social" }
     - { platform: youtube,        user_url: "https://www.youtube.com/@chrdebru" }
 #  skin: solarized-light
 
@@ -50,6 +49,7 @@ header_pages:
   - group.md
   - teaching.md
   - thesistopics.md
+  - blog.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -59,14 +59,13 @@ header_pages:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+

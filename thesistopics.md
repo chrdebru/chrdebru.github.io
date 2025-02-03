@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Thesis Topics and Student Projects
+title: Thesis Topics & Projects
 permalink: /thesistopics/
 ---
 
