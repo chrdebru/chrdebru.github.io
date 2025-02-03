@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Als kasseien konden spreken: Negen eeuwen Vlaamsesteenweg in Brussel
+title: "Als kasseien konden spreken: Negen eeuwen Vlaamsesteenweg in Brussel"
 tag: book-review
 ---
 

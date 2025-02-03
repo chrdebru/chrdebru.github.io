@@ -1,6 +1,6 @@
 ---
 layout: post
-title: La Machine à détruire: Pourquoi il faut en finir avec la finance Age
+title: "La Machine à détruire: Pourquoi il faut en finir avec la finance Age"
 tag: book-review
 ---
 
