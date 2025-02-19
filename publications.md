@@ -57,6 +57,9 @@ Context of Toxicity Testing. In F. P. Garcia Marquez and R. V. Sanchez Loja, edi
 
 ## Journal Articles
 
+1. Sara Sepehri, Anja Heymans, Dinja De Win, Jan Maushagen, Audrey Sanctorum, **Christophe Debruyne**, Robim M. Rodrigues, Joery De Kock, Vera Rogiers, Olga De Troyer, and Tamara Vanhaecke. The TOXIN knowledge graph: supporting animal-free risk assessment of cosmetics. Database J. Biol. Databases Curation, 2025, 2025
+> Published online
+
 1. Allyson Fries, Marie Pirotte, Laurent Vanhee, Pierre Bonnet, Pascale Quatresooz, **Christophe Debruyne**, Raphael Marée, Valérie Defaweux. Validating Instructional Design and Predicting Student Performance in Histology Education: Using Machine Learning via Virtual Microscopy. Anatomical Sciences
 Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
