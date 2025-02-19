@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Thesis Topics & Projects
+title: MSc Theses & Projects
 permalink: /thesistopics/
 ---
 
