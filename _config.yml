@@ -29,17 +29,23 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #google_scholar_username: nx2KW_IAAAAJ
 copyright: ©️ 2025 
 
-# Build settings
+# Use the following plug-ins
 plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-remote-theme
+
+# set up remote_theme
 remote_theme: jekyll/minima
+
+# Build settings
 minima:
   social_links:
-    - { platform: github,         user_url: "https://github.com/chrdebru" }
-    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=nx2KW_IAAAAJ" }
-    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/christophedebruyne" }
-    - { platform: bluesky,        user_url: "https://bsky.app/profile/chrdebru.bsky.social" }
-    - { platform: youtube,        user_url: "https://www.youtube.com/@chrdebru" }
+    - { icon: github,         url: "https://github.com/chrdebru" }
+    - { icon: google-scholar,  url: "https://scholar.google.com/citations?user=nx2KW_IAAAAJ" }
+    - { icon: linkedin,       url: "https://www.linkedin.com/in/christophedebruyne" }
+    - { icon: bluesky,        url: "https://bsky.app/profile/chrdebru.bsky.social" }
+    - { icon: youtube,        url: "https://www.youtube.com/@chrdebru" }
 #  skin: solarized-light
 
 header_pages:
@@ -63,9 +69,3 @@ header_pages:
 exclude:
   - Gemfile
   - Gemfile.lock
-
-# Use the following plug-ins
-plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
