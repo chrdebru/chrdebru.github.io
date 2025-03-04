@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Review -- The Days of Anna Madrigal"
+title: "Book Review: The Days of Anna Madrigal"
 tag: book-review
 ---
 

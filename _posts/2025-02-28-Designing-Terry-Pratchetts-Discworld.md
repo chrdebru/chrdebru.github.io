@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Review -- Designing Terry Pratchett's Discworld"
+title: "Book Review: Designing Terry Pratchett's Discworld"
 tag: book-review
 ---
 

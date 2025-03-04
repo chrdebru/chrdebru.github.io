@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Concert Review -- K's Choice concert at the Ancienne Belgique"
+title: "Concert Review: K's Choice concert at the Ancienne Belgique"
 tag: concert-review
 ---
 

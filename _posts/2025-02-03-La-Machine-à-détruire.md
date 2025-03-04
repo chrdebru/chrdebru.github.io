@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Review -- La Machine à détruire: Pourquoi il faut en finir avec la finance"
+title: "Book Review: La Machine à détruire: Pourquoi il faut en finir avec la finance"
 tag: book-review
 ---
 
