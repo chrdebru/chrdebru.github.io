@@ -46,7 +46,6 @@ minima:
     - { icon: linkedin,       url: "https://www.linkedin.com/in/christophedebruyne" }
     - { icon: bluesky,        url: "https://bsky.app/profile/chrdebru.bsky.social" }
     - { icon: youtube,        url: "https://www.youtube.com/@chrdebru" }
-#  skin: solarized-light
 
 header_pages:
   - index.md
@@ -69,3 +68,10 @@ header_pages:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - ontologies/
+  - toxin/
+  - cats/
+  - IRL/
+  - 404.md
+  - courses/
+  - cats.html

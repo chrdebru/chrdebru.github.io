@@ -5,18 +5,20 @@ layout: page
 
 <style>
 figure {
- padding: 15px ;
+ padding: 0px 0px 0px 40px;
  margin: auto ;
  float: right ;
 }
 
-figure img {
+figure .round {
  border-radius: 50% ;
  margin: auto ;
 }
+
 </style>
 <figure>
- <img src="/images/yours-truly.jpg" width="250" alt="A picture of my face.">
+  <img src="/images/logo.png" width="250" alt="Logo.">
+  <img class="round" src="/images/yours-truly.jpg" width="250" alt="A picture of my face.">
 </figure>
 
 Christophe Debruyne (he/him) is an Assistant Professor (chargé de cours) at the [Montefiore Institute](https://www.montefiore.uliege.be/) of [Liège University](https://www.uliege.be/). Christophe conducts research in ontology and knowledge engineering, data modeling, Linked Data, and declarative approaches to data integration. He applies (and has applied) his research in various domains ranging from digital humanities and the cultural sector to e-commerce and geospatial data management.
