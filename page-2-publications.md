@@ -160,6 +160,12 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 1. Robert Meersman and **Christophe Debruyne**. Hybrid Ontologies and Social Semantics. In 4th IEEE International Conference on Digital Ecosystems and Technologies: Conference Proceedings of IEEE - DEST 2010, Dubai, United Arab Emirates, 13-16 April 2010, pages 92-97. IEEE, 2010 [📄](/papers/2010-dest-preprint.pdf)
 
 ## Workshop Papers
+1. **Christophe Debruyne** and Ademar Crotti Junior. A Protocol for KG Generation Tasks Involving Users.
+> Accepted at KGC 2025 collocated with ESWC 2025
+
+1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: Guiding RML Authoring with a Projectional Editor.
+> Accepted at KGC 2025 collocated with ESWC 2025
+
 1. Dylan Van Assche and **Christophe Debruyne**. Burping through RML test cases. In David Chaves-Fraga, Anastasia Dimou, Ana Iglesias-Molina, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 5th International Workshop on Knowledge Graph Construction co-located with 21th Extended Semantic Web Conference (ESWC 2024), Hersonissos, Greece, May 27, 2024, volume 3718 of CEUR Workshop Proceedings. CEUR-WS.org, 2024 [📄](/papers/2024-kgc-1.pdf)
 
 1. **Christophe Debruyne** and Dylan Van Assche. The conformance of an RML processor built from scratch to validate RML specifications and test cases. In David Chaves-Fraga, Anastasia Dimou, Ana Iglesias-Molina, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 5th International Workshop on Knowledge Graph Construction co-located with 21th Extended Semantic Web Conference (ESWC 2024), Hersonissos, Greece, May 27, 2024, volume 3718 of CEUR Workshop Proceedings. CEUR-WS.org, 2024  [📄](/papers/2024-kgc-2.pdf)
@@ -270,9 +276,11 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Abstracts, Posters, and Demonstrations (peer-reviewed, unpublished)
 
-1. Sara Sepehri, Jan Maushagen, Guillaume Vrijens, **Christophe Debruyne**, Robim M. Rodrigues, Audrey Sanctorum, Olga De Troyer, Tamara Vanhaecke. Development of the TOXIN Knowledge Graph for Assisting Animal-free Risk Assessment of Cosmetic Ingredients. EUROTOX 2023, Ljubljana, Slovenia, 11 September 2023 [📄](/papers/2023-09-eurotox-abstract.pdf)
+1. Allyson Fries, **Christophe Debruyne** and Valérie Defaweux. Graphe de connaissances et microscopie virtuelle en histologie : quel impact sur les Learning Analytics ? Congrès International Francophone de Pédagogie en Sciences de la Santé (SIFEM) 2025, Orléans, France, 26-28 May 2025 [📄](/papers/2025-05-sifem-abstract.pdf)
 
-1. Sara Sepehri, Jan Maushagen, Guillaume Vrijens, **Christophe Debruyne**, Robim M. Rodrigues, Audrey Sanctorum, Olga De Troyer, Tamara Vanhaecke. Development of the TOXIN Knowledge Graph for Assisting Animal-free Risk Assessment of Cosmetic Ingredients. Knowledge Graphs for Data Integration (KG4DI) Workshop 2023, Diepenbeek, Belgium, 09 June 2023 [📄](/papers/2023-06-kg4di-workshop.pdf)
+1. Sara Sepehri, Jan Maushagen, Guillaume Vrijens, **Christophe Debruyne**, Robim M. Rodrigues, Audrey Sanctorum, Olga De Troyer and Tamara Vanhaecke. Development of the TOXIN Knowledge Graph for Assisting Animal-free Risk Assessment of Cosmetic Ingredients. EUROTOX 2023, Ljubljana, Slovenia, 11 September 2023 [📄](/papers/2023-09-eurotox-abstract.pdf)
+
+1. Sara Sepehri, Jan Maushagen, Guillaume Vrijens, **Christophe Debruyne**, Robim M. Rodrigues, Audrey Sanctorum, Olga De Troyer and Tamara Vanhaecke. Development of the TOXIN Knowledge Graph for Assisting Animal-free Risk Assessment of Cosmetic Ingredients. Knowledge Graphs for Data Integration (KG4DI) Workshop 2023, Diepenbeek, Belgium, 09 June 2023 [📄](/papers/2023-06-kg4di-workshop.pdf)
 
 1. Anne Kearns, **Christophe Debruyne**, Laura Grehan, Mary Colclough and Ciaran O'Neill. Debunked: How to Tell Fact from Fiction. European Science Engagement Association, EUSEA: Pathfinders on a Mission EUSEA2023, Bolzano, Italy, 4 May 2023 [📄](/papers/2023-05-eusea.pdf)
 
