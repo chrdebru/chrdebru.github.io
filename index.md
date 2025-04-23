@@ -92,6 +92,7 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 
 ### Program Committees (past five years)
 
+* 31st International Conference on Cooperative Information Systems (CoopIS) 2025
 * 1st Workshop on Generation of Synthetic Datasets for Information Systems (GenSyn) 2025
 * 24th International Semantic Web Conference (ISWC) 2025--Research Track
 * International Conference on Business Information Systems (BIS) 2025
