@@ -302,7 +302,7 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Theses
 
-1. **Christophe Debruyne**. Portfolio Professionel: Concevoir, éevaluer, améeliorer, et innover mon enseignement en sciences infor- matiques. MA thesis, Université de Li8ege, 2024
+1. **Christophe Debruyne**. Portfolio Professionel: Concevoir, éevaluer, améeliorer, et innover mon enseignement en sciences informatiques. MA thesis, Université de Li8ege, 2024
 
 1. **Christophe Debruyne**. Grounding Ontologies with Social Processes and Natural Language. PhD thesis, Vrije Universiteit Brussel, 2013 [📄](/papers/2013-christophe-debruyne-phd.pdf)
 
