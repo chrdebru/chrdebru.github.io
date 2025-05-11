@@ -74,6 +74,7 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 ### Reviewer
 
 * ACM Transactions on the Web
+* ARRAY
 * Cambridge Forum on AI: Law and Governance
 * Computing
 * Data Technologies and Applications
