@@ -160,10 +160,10 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 1. Robert Meersman and **Christophe Debruyne**. Hybrid Ontologies and Social Semantics. In 4th IEEE International Conference on Digital Ecosystems and Technologies: Conference Proceedings of IEEE - DEST 2010, Dubai, United Arab Emirates, 13-16 April 2010, pages 92-97. IEEE, 2010 [📄](/papers/2010-dest-preprint.pdf)
 
 ## Workshop Papers
-1. **Christophe Debruyne** and Ademar Crotti Junior. A Protocol for KG Generation Tasks Involving Users.
+1. **Christophe Debruyne** and Ademar Crotti Junior. A Protocol for KG Generation Tasks Involving Users. [📄](papers/2025-06-kgc-protocol.pdf)
 > Accepted at KGC 2025 collocated with ESWC 2025
 
-1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: Guiding RML Authoring with a Projectional Editor.
+1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: Guiding RML Authoring with a Projectional Editor. [📄](papers/2025-06-kgc-grape.pdf)
 > Accepted at KGC 2025 collocated with ESWC 2025
 
 1. Dylan Van Assche and **Christophe Debruyne**. Burping through RML test cases. In David Chaves-Fraga, Anastasia Dimou, Ana Iglesias-Molina, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 5th International Workshop on Knowledge Graph Construction co-located with 21th Extended Semantic Web Conference (ESWC 2024), Hersonissos, Greece, May 27, 2024, volume 3718 of CEUR Workshop Proceedings. CEUR-WS.org, 2024 [📄](/papers/2024-kgc-1.pdf)
