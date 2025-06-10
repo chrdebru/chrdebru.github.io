@@ -8,6 +8,7 @@ permalink: /thesistopics/
 
 The following thesis topics have been published (on JobTeaser):
 
+* 🆕 [Towards a Database of Syntactic Diagrams](https://facsa.jobteaser.com/fr/job-offers/bbacc0a7-b707-4939-a58e-946aa27e89c6-university-of-liege-towards-a-database-of-syntactic-diagrams)
 * 🆕 [Integrating GIGA equipment information into ULiège's registry](https://facsa.jobteaser.com/fr/job-offers/b93f76dc-127a-4936-8ead-d7b75f2031e1-university-of-liege-integrating-giga-equipment-information-into-uliege-s-registry)
 * [The Role of Generative AI in the SemTab Challenge](https://facsa.jobteaser.com/fr/job-offers/a70f96d3-f8d8-41d3-8c4c-49a85f380aff-university-of-liege-the-role-of-generative-ai-in-the-semtab-challenge-c-debruyne)
 * [Extending RML with Theta-joins](https://facsa.jobteaser.com/fr/job-offers/9a54a98a-3437-403f-99ba-cfdd13190508-university-of-liege-extending-rml-with-theta-joins-c-debruyne)
