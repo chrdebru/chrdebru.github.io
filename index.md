@@ -52,19 +52,12 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 * Member of the Interoperability WG in the EU eHealth initiative or electronic vaccination certificates (2020-2021)
 * Member and secretary of [IFIP WG 12.7 Social Networking Semantics and Collective Intelligence](http://www.ifip.org/bulletin/bulltcs/tc12_aim.htm#wg127) (2010-...)
 
-### Chairs and Organizing Committees
+### Chairs and Organizing Committees (past five years)
 
 * First International Workshop on Users and Knowledge Graphs Co-located with SEMANTiCS 2025
 * Sixth International Workshop on Knowledge Graph Construction Co-located with ESWC 2025
 * <span style="text-decoration:line-through;">On the Move to Meaningful Internet Systems: OTM 2020 Conferences/Workshops - Publication chair</span>
-> Cancelled due to COVID19		
-* On the Move to Meaningful Internet Systems: OTM 2019 Conferences/Workshops - Publication chair				
-* On the Move to Meaningful Internet Systems: OTM 2018 Conferences/Workshops - Publication chair
-* On the Move to Meaningful Internet Systems: OTM 2017 Conferences/Workshops - Publication chair
-* On the Move to Meaningful Internet Systems: OTM 2016 Conferences/Workshops - Publication chair
-* International Workshop on Computational History and Data-Driven Humanities 2016
-* International Workshop on Methods, Evaluation, Tools and Applications for the Creation and Consumption of Structured Data for the e-Society (META4eS) 2015
-* International Workshop on Computational History and Data-Driven Humanities 2014
+> Cancelled due to COVID19
 
 ### Editorial Board
 
@@ -121,8 +114,3 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 * 6th Workshop on Managing the Evolution and Preservation of the Data Web (MEPDaW) 2020
 * ACM/IEEE Joint Conference on Digital Libraries in (JCDL) 2020
 * International Conference on Business Information Systems (BIS) 2020
-* International Conference on Ontologies, DataBases, and Applications of Semantics (ODBASE) 2019
-* IFIP 2.6 International Symposium on Data-Driven Process Discovery and Analysis (SIMPDA) 2019
-* 1st International Workshop on Semantic Web for Historical and Legacy Linguistic and Lexicographic Data (SWH3L) 2019
-* 5th Workshop on Managing the Evolution and Preservation of the Data Web (MEPDaW) 2019
-* International Conference on Business Information Systems (BIS) 2019
