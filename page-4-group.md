@@ -11,7 +11,7 @@ The Data Representation and Engineering (DRE) group conducts research on:
 
 Key to our research are:
 - Knowledge graphs
-- Knowledge representation ("Symbolic AI")
+- Knowledge representation ("Symbolic AI")
 - Mappings between formalisms
 - Data provenance
 - Application domains (applied science)
@@ -32,4 +32,4 @@ Key to our research are:
 
 ### Former members
 
-[Jaadari, Souail](https://www.linkedin.com/in/souail-jaadari-309774213) | Research Internship (Polytech Orléans) | (05/2024-07/2024)
+[Jaadari, Souail](https://www.linkedin.com/in/souail-jaadari-309774213) | Research Internship (from Polytech Orléans) | (05/2024-07/2024)
