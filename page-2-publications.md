@@ -97,6 +97,9 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Conference Papers
 
+1. **Christophe Debruyne**, Souail Jaadari, David Chaves-Fraga. Declarative Generation of RDF Collections and Containers from Heterogeneous Data. 
+> Accepted at SEMANTiCS 2025 collocated.
+
 1. Ana Iglesias-Molina, Dylan Van Assche, Julián Arenas-Guerrero, Ben De Meester, **Christophe Debruyne**, Samaneh Jozashoori, Pano Maria, Franck Michel, David Chaves-Fraga, and Anastasia Dimou. The RML ontology: A community-driven modular redesign after a decade of experience in mapping heterogeneous data to RDF. In The Semantic Web - ISWC 2023 - 22nd International Semantic Web Conference, Athens, Greece, November 6-10, 2023, Proceedings, Part II, volume 14266 of LNCS, pages 152-175. Springer, 2023 [📄](/papers/2023-iswc-preprint.pdf)
 > Nominated for best paper award in the resources track
 
