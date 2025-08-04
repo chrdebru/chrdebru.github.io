@@ -17,6 +17,8 @@ You can find my publications on [Google Scholar](https://scholar.google.com/cita
 * [Theses](#theses)
 
 ## Edited Proceedings
+1. David Chaves-Fraga, Ioannis Dasoulas, **Christophe Debruyne**, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors. Proceedings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended Semantic Web Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025
+
 1. **Christophe Debruyne**, Hervé Panetto, Wided Guédria, Peter Bollen, Ioana Ciuciu, George Karabatis, and Robert Meersman, editors. On the Move to Meaningful Internet Systems: OTM 2019 Workshops - Confederated International Workshops: EI2N, FBM, ICSP, Meta4eS and SIAnA 2019, Rhodes, Greece, October 21-25, 2019, Revised Selected Papers, volume 11878 of LNCS. Springer, 2020
 
 1. Hervé Panetto, **Christophe Debruyne**, Martin Hepp, Dave Lewis, Claudio Agostino Ardagna, and Robert Meersman, editors. On the Move to Meaningful Internet Systems: OTM 2019 Conferences - Confederated International Conferences: CoopIS, ODBASE, C&TC 2019, Rhodes, Greece, October 21-25, 2019, Proceedings, volume 11877 of LNCS. Springer, 2019
@@ -163,11 +165,9 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 1. Robert Meersman and **Christophe Debruyne**. Hybrid Ontologies and Social Semantics. In 4th IEEE International Conference on Digital Ecosystems and Technologies: Conference Proceedings of IEEE - DEST 2010, Dubai, United Arab Emirates, 13-16 April 2010, pages 92-97. IEEE, 2010 [📄](/papers/2010-dest-preprint.pdf)
 
 ## Workshop Papers
-1. **Christophe Debruyne** and Ademar Crotti Junior. A Protocol for KG Generation Tasks Involving Users. [📄](papers/2025-06-kgc-protocol.pdf)
-> Accepted at KGC 2025 collocated with ESWC 2025
+1. Ademar Crotti Junior and **Christophe Debruyne**. A protocol for KG construction tasks involving users. In David Chaves-Fraga, Ioannis Dasoulas, Christophe Debruyne, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended SemanticWeb Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025 [📄](papers/2025-06-kgc-protocol.pdf)
 
-1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: Guiding RML Authoring with a Projectional Editor. [📄](papers/2025-06-kgc-grape.pdf)
-> Accepted at KGC 2025 collocated with ESWC 2025
+1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: guiding RML authoring with a projectional editor. In David Chaves- Fraga, Ioannis Dasoulas, Christophe Debruyne, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors, Proceed- ings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended Semantic Web Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025 [📄](papers/2025-06-kgc-grape.pdf)
 
 1. Dylan Van Assche and **Christophe Debruyne**. Burping through RML test cases. In David Chaves-Fraga, Anastasia Dimou, Ana Iglesias-Molina, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 5th International Workshop on Knowledge Graph Construction co-located with 21th Extended Semantic Web Conference (ESWC 2024), Hersonissos, Greece, May 27, 2024, volume 3718 of CEUR Workshop Proceedings. CEUR-WS.org, 2024 [📄](/papers/2024-kgc-1.pdf)
 
