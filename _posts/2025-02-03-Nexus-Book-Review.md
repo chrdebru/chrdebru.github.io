@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Review: Nexus: A Brief History of Information Networks from the Stone Age"
+title: "Book Review: Nexus: A Brief History of Information Networks from the Stone Age to AI"
 tag: book-review
 ---
 
