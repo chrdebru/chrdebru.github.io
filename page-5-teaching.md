@@ -4,6 +4,15 @@ permalink: /teaching/
 ---
 ## Courses (past 5 years)
 
+2025-2026 | ULiège | Lecturer [Programmation Fonctionnelle](https://www.programmes.uliege.be/cocoon/cours/INFO0054-1.html) (BSc, MSc)
+ | ULiège | Lecturer [Bases de données](https://www.programmes.uliege.be/cocoon/cours/INFO0009-2.html) (BSc, MSc)
+ | ULiège | Lecturer [Knowledge Representation and Reasoning](https://www.programmes.uliege.be/cocoon/cours/INFO9014-1.html) (MSc)
+ | ULiège | Lecturer [Advanced Databases](https://www.programmes.uliege.be/cocoon/cours/INFO9016-1.html) (MSc)
+ | ULiège | Lecturer [Introduction aux bases de données et leurs applications](https://www.programmes.uliege.be/cocoon/cours/INFO3003-1.html) (BA)
+ | ULiège | Co-lecturer [Data Science Project](https://www.programmes.uliege.be/cocoon/cours/PROJ0021-1.html) (MSc)
+ | ULiège | Co-lecturer [Topics in Distributed Systems](https://www.programmes.uliege.be/cocoon/cours/INFO8002-1.html) (MSc)
+ | ULiège | Coordinator [Master Thesis](https://www.programmes.uliege.be/cocoon/cours/ATFE9009-1.html) in the Data Science programs (MSc)
+ | ULiège | Coordinator [Internship (independent of Master thesis)](https://www.programmes.uliege.be/cocoon/cours/ASTG9009-1.html) in the Data Science programs (MSc)
 2024-2025 | ULiège | Lecturer [Programmation Fonctionnelle](https://www.programmes.uliege.be/cocoon/cours/INFO0054-1.html) (BSc, MSc)
  | ULiège | Lecturer [Bases de données](https://www.programmes.uliege.be/cocoon/cours/INFO0009-2.html) (BSc, MSc)
  | ULiège | Lecturer [Knowledge Representation and Reasoning](https://www.programmes.uliege.be/cocoon/cours/INFO9014-1.html) (MSc)
