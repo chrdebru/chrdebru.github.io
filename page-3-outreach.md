@@ -27,6 +27,8 @@ figure figcaption {
     <figcaption class="figure-caption">Presenting at the OSi Seminars in 2017.</figcaption>
 </figure>
 
+* Introduction to Knowledge Graphs and Knowledge Graph technologies at the Institute of Technology of Cambodia, Phnom Penh, Cambodia from July 7 to July 11, 2025.
+
 * Co-organization of the Knowledge Graphs For Data Integration (KG4DI) seminar (10 December 2024, Ghent, Belgium)
 
 * Co-organization (local host) of the Knowledge Graphs For Data Integration (KG4DI) seminar (13 March 2024, Liège, Belgium)
