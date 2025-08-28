@@ -9,10 +9,13 @@ permalink: /thesistopics/
 The following thesis topics have been published (on JobTeaser):
 
 * 🆕 [Towards a Database of Syntactic Diagrams](https://facsa.jobteaser.com/fr/job-offers/bbacc0a7-b707-4939-a58e-946aa27e89c6-university-of-liege-towards-a-database-of-syntactic-diagrams)
-* 🆕 [Integrating GIGA equipment information into ULiège's registry](https://facsa.jobteaser.com/fr/job-offers/b93f76dc-127a-4936-8ead-d7b75f2031e1-university-of-liege-integrating-giga-equipment-information-into-uliege-s-registry)
-* [The Role of Generative AI in the SemTab Challenge](https://facsa.jobteaser.com/fr/job-offers/a70f96d3-f8d8-41d3-8c4c-49a85f380aff-university-of-liege-the-role-of-generative-ai-in-the-semtab-challenge-c-debruyne)
+* ~~[Integrating GIGA equipment information into ULiège's registry](https://facsa.jobteaser.com/fr/job-offers/b93f76dc-127a-4936-8ead-d7b75f2031e1-university-of-liege-integrating-giga-equipment-information-into-uliege-s-registry)~~
+  > Taken
+* ~~[The Role of Generative AI in the SemTab Challenge](https://facsa.jobteaser.com/fr/job-offers/a70f96d3-f8d8-41d3-8c4c-49a85f380aff-university-of-liege-the-role-of-generative-ai-in-the-semtab-challenge-c-debruyne)~~
+  > Taken x 2
 * [Extending RML with Theta-joins](https://facsa.jobteaser.com/fr/job-offers/9a54a98a-3437-403f-99ba-cfdd13190508-university-of-liege-extending-rml-with-theta-joins-c-debruyne)
-* [A Functional Approach to Generating RDF with RML](https://facsa.jobteaser.com/fr/job-offers/5700f129-7904-49b4-9461-19d2937afdd8-university-of-liege-a-functional-approach-to-generating-rdf-with-rml-c-debruyne)
+* ~~[A Functional Approach to Generating RDF with RML](https://facsa.jobteaser.com/fr/job-offers/5700f129-7904-49b4-9461-19d2937afdd8-university-of-liege-a-functional-approach-to-generating-rdf-with-rml-c-debruyne)~~
+  > Taken
 * ~~[A interactive environment for (extended) relational algebra exercises](https://facsa.jobteaser.com/fr/job-offers/b029055e-3228-4ed8-8e98-54efb1a417e8-university-of-liege-a-interactive-environment-for-extended-relational-algebra-exercises-c-debruyne)~~
   > Taken
 * ~~Integrating [SMART](http://smart.uliege.be/) Data into a Knowledge Graph for Learning Analytics~~
