@@ -35,7 +35,6 @@ permalink: /teaching/
 2021-2022 | ULiège | Lecturer "Programmation Fonctionnelle" (BSc, MSc)
  | ULiège | Lecturer "Bases de données" (BSc, MSc)
  | ULiège | Lecturer "Knowledge Representation and Reasoning" (MSc)
-2019-2020| VUB | Lecturer "Open Information Systems" (MSc)
 
 ## Tutorials and Online Material
 
@@ -43,7 +42,6 @@ Over the years, I have developed course material and tutorials which have been w
 
 * [R2RML](https://github.com/chrdebru/r2rml-tutorial)
 * [Setting up a Linked Data Frontend](https://github.com/chrdebru/linked-data-frontend-tutorial)								
-
 
 I started creating *online material (including videos)*. You can find the material [here](https://chrdebru.github.io/courses/ois/). The YouTube videos are currenlty unlisted, but you can find links on that page.
 
@@ -61,6 +59,7 @@ I started creating *online material (including videos)*. You can find the materi
 
 ### MSc Thesis Supervision (past 5 years)
 
+1. **Bouzendaga, Zakaria**. Integrating SMART Data into a Knowledge Graph for Learning Analytics. MEng Thesis, University of Liège, 2025
 1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. JSON-LD Representations of CityJSON. MSc Thesis, University of Liège, 2024
 1. **Saulas, Adrien**. Balancing Durability, Performance, and Interpretability in Unbalanced Data as Fraud Detection. MEng Thesis, University of Liège, 2024
    > Company-based thesis
