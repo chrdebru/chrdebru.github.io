@@ -17,6 +17,8 @@ You can find my publications on [Google Scholar](https://scholar.google.com/cita
 * [Theses](#theses)
 
 ## Edited Proceedings
+1. **Christophe Debruyne**, Enayat Rajabi, and Somayeh Kafaie. First international workshop on users and knowledge graphs. In David Chaves-Fraga, Ivan Heibi, Daniel Garijo, Diego Collarana, Angelo A. Salatino, and Sahar Vahdati, editors, Joint Proceedings of Posters, Demos, Workshops, and Tutorials of the 21st International Conference on Semantic Systems co-located with 21st International Conference on Semantic Systems (SEMANTiCS 2025), Vienna, Austria, September 3-5, 2025, volume 4064 of CEUR Workshop Proceedings. CEUR-WS.org, 2025
+
 1. David Chaves-Fraga, Ioannis Dasoulas, **Christophe Debruyne**, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors. Proceedings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended Semantic Web Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025
 
 1. **Christophe Debruyne**, Hervé Panetto, Wided Guédria, Peter Bollen, Ioana Ciuciu, George Karabatis, and Robert Meersman, editors. On the Move to Meaningful Internet Systems: OTM 2019 Workshops - Confederated International Workshops: EI2N, FBM, ICSP, Meta4eS and SIAnA 2019, Rhodes, Greece, October 21-25, 2019, Revised Selected Papers, volume 11878 of LNCS. Springer, 2020
@@ -99,8 +101,7 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Conference Papers
 
-1. **Christophe Debruyne**, Souail Jaadari, David Chaves-Fraga. Declarative Generation of RDF Collections and Containers from Heterogeneous Data. 
-> Accepted at SEMANTiCS 2025 collocated.
+1. **Christophe Debruyne**, Souail Jaadari, and David Chaves-Fraga. Declarative generation of rdf collections and containers from heterogeneous data. In Blerina Spahiu, Sahar Vahdati, Angelo Salatino, Tassilo Pellegrini, and Giray Havur, editors, Linking Meaning: Semantic Technologies Shaping the Future of AI - Proceedings of the 21st International Conference on Semantic Systems, 3-5 September 2025, Vienna, Austria, volume 62 of Studies on the Semantic Web, pages 28-43. IOS Press, 2025 [📄](/papers/2025-09-semantics.pdf)
 > Won best paper award
 
 1. Ana Iglesias-Molina, Dylan Van Assche, Julián Arenas-Guerrero, Ben De Meester, **Christophe Debruyne**, Samaneh Jozashoori, Pano Maria, Franck Michel, David Chaves-Fraga, and Anastasia Dimou. The RML ontology: A community-driven modular redesign after a decade of experience in mapping heterogeneous data to RDF. In The Semantic Web - ISWC 2023 - 22nd International Semantic Web Conference, Athens, Greece, November 6-10, 2023, Proceedings, Part II, volume 14266 of LNCS, pages 152-175. Springer, 2023 [📄](/papers/2023-iswc-preprint.pdf)
