@@ -27,8 +27,8 @@ Key to our research are:
 
 ### (Postdoctoral) Researchers and Collaborators
 
-[Mugumya, Kevin Luwemba](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u247126) | PhD, Postdoctoral Researcher | (04/2025-present)
-[Crotti Junior, Ademar](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u245867) | PhD, Collaborator | (07/2024-present)
+[Mugumya, Kevin Luwemba, PhD](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u247126) | Postdoctoral Researcher | (04/2025-present)
+[Crotti Junior, Ademar, PhD](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u245867) | Scientific Collaborator | (07/2024-present)
 
 ### Former members
 
