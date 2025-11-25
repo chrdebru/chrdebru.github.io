@@ -9,17 +9,7 @@ permalink: /thesistopics/
 The following thesis topics have been published (on JobTeaser):
 
 * 🆕 [Towards a Database of Syntactic Diagrams](https://facsa.jobteaser.com/fr/job-offers/bbacc0a7-b707-4939-a58e-946aa27e89c6-university-of-liege-towards-a-database-of-syntactic-diagrams)
-* ~~[Integrating GIGA equipment information into ULiège's registry](https://facsa.jobteaser.com/fr/job-offers/b93f76dc-127a-4936-8ead-d7b75f2031e1-university-of-liege-integrating-giga-equipment-information-into-uliege-s-registry)~~
-  > Taken
-* ~~[The Role of Generative AI in the SemTab Challenge](https://facsa.jobteaser.com/fr/job-offers/a70f96d3-f8d8-41d3-8c4c-49a85f380aff-university-of-liege-the-role-of-generative-ai-in-the-semtab-challenge-c-debruyne)~~
-  > Taken
 * [Extending RML with Theta-joins](https://facsa.jobteaser.com/fr/job-offers/9a54a98a-3437-403f-99ba-cfdd13190508-university-of-liege-extending-rml-with-theta-joins-c-debruyne)
-* ~~[A Functional Approach to Generating RDF with RML](https://facsa.jobteaser.com/fr/job-offers/5700f129-7904-49b4-9461-19d2937afdd8-university-of-liege-a-functional-approach-to-generating-rdf-with-rml-c-debruyne)~~
-  > Taken
-* ~~[A interactive environment for (extended) relational algebra exercises](https://facsa.jobteaser.com/fr/job-offers/b029055e-3228-4ed8-8e98-54efb1a417e8-university-of-liege-a-interactive-environment-for-extended-relational-algebra-exercises-c-debruyne)~~
-  > Taken
-* ~~Integrating [SMART](http://smart.uliege.be/) Data into a Knowledge Graph for Learning Analytics~~
-  > Taken
 * [Evaluating the Overhead of Query Rewriting for Authorization of Linked Data Endpoints](https://facsa.jobteaser.com/fr/job-offers/8474679e-9392-4019-a3e5-dd91376cb5e7-university-of-liege-evaluating-the-overhead-of-query-rewriting-for-authorization-of-linked-data-endpoints-c-debruyne) <br> A research-oriented (applied) and company-based thesis in [redpencil.io](https://redpencil.io/) based in Brussels, Belgium (office located at Brussel's Central Station) 
 * [Measuring the Impact of Semantic Graph Databases on a Linked Data Microservice Framework](https://facsa.jobteaser.com/fr/job-offers/63859f9d-11ed-4e5f-b714-83ef93da2537-university-of-liege-measuring-the-impact-of-semantic-graph-databases-on-a-linked-data-microservice-framework-c-debruyne) <br> A research-oriented (applied) and company-based thesis in [redpencil.io](https://redpencil.io/) based in Brussels, Belgium (office located at Brussel's Central Station) 
 * [A tool to support the relational database design process](https://facsa.jobteaser.com/fr/job-offers/ff17d73d-dae7-40b9-8463-a72990b19b2c-university-of-liege-a-tool-to-support-the-relational-database-design-process-for-info0009-c-debruyne). <br>
