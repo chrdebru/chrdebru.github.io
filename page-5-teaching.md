@@ -59,6 +59,11 @@ I started creating *online material (including videos)*. You can find the materi
 
 ### MSc Thesis Supervision (past 5 years)
 
+1. **Donati, Alexia**. _TBD_. MSc Thesis, University of Liège, 2026 (expected)
+1. **Michaux, Corentin**. _TBD_. MSc Thesis, University of Liège, 2026 (expected)
+1. **Yang, Lei**. _TBD_. MSc Thesis, University of Liège, 2026 (expected)
+1. **Liu, Eléna**. _TBD_. MEng Thesis, University of Liège, 2026 (expected)
+1. **Mangolopa, Christal**. _TBD_. MEng Thesis, University of Liège, 2026 (expected)
 1. **Bouzendaga, Zakaria**. Integrating SMART Data into a Knowledge Graph for Learning Analytics. MEng Thesis, University of Liège, 2025
 1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. JSON-LD Representations of CityJSON. MSc Thesis, University of Liège, 2024
 1. **Saulas, Adrien**. Balancing Durability, Performance, and Interpretability in Unbalanced Data as Fraud Detection. MEng Thesis, University of Liège, 2024
