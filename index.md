@@ -54,10 +54,9 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 
 ### Chairs and Organizing Committees (past five years)
 
-* First International Workshop on Users and Knowledge Graphs Co-located with SEMANTiCS 2025
-* Sixth International Workshop on Knowledge Graph Construction Co-located with ESWC 2025
-* <span style="text-decoration:line-through;">On the Move to Meaningful Internet Systems: OTM 2020 Conferences/Workshops - Publication chair</span>
-> Cancelled due to COVID19
+* 7th International Workshop on Knowledge Graph Construction Co-located with ESWC 2026
+* 1st International Workshop on Users and Knowledge Graphs Co-located with SEMANTiCS 2025
+* 6th International Workshop on Knowledge Graph Construction Co-located with ESWC 2025
 
 ### Editorial Board
 
