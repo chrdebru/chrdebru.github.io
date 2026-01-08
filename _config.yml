@@ -68,8 +68,6 @@ header_pages:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - ontologies/
-  - toxin/
   - cats/
   - IRL/
   - 404.md
