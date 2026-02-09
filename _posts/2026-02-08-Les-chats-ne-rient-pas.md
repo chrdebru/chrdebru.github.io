@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Review: Wings"
+title: "Book Review: Les chats ne rient pas"
 tag: book-review
 ---
 
