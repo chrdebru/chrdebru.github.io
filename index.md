@@ -85,7 +85,8 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 
 ### Program Committees (past five years)
 
-* 22nd International Conference on Semantic Systems(SEMANTiCS) 2026, Posters and Demos Track
+* 25th International Semantic Web Conference (ISWC) 2026--Research Track
+* 22nd International Conference on Semantic Systems (SEMANTiCS) 2026, Research, Posters and Demos Track
 * 23rd Extended Semantic Web Conference (ESWC) 2026--Resources Track, In-Use Track
 * 31st International Conference on Cooperative Information Systems (CoopIS) 2025
 * 12th International Conference on Information Management and Big Data (SIMBig) 2025
@@ -111,8 +112,3 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 * ACM/IEEE Joint Conference on Digital Libraries in (JCDL) 2021
 * 20th International Semantic Web Conference (ISWC) 2021--In-Use Track
 * International Conference on Business Information Systems (BIS) 2021
-* IEEE International Conference on Tools with Artificial Intelligence (ICTAI) 2020
-* 19th International Semantic Web Conference (ISWC) 2020--In-Use Track
-* 6th Workshop on Managing the Evolution and Preservation of the Data Web (MEPDaW) 2020
-* ACM/IEEE Joint Conference on Digital Libraries in (JCDL) 2020
-* International Conference on Business Information Systems (BIS) 2020
