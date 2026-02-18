@@ -102,7 +102,7 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 * ACM/IEEE Joint Conference on Digital Libraries in (JCDL) 2023
 * 22nd International Semantic Web Conference (ISWC) 2023--In-Use Track
 * 8th Workshop on Managing the Evolution and Preservation of the Data Web (MEPDaW) 2022
-* SEMANTicS Conference 2022
+* 18th International Conference on Semantic Systems (SEMANTiCS) 2022, Research Track
 * 6th International Workshop on Visualization and Interaction for Ontologies and Linked Data (Voila) 2022
 * 21st International Semantic Web Conference (ISWC) 2022--In-Use Track
 * 3rd International Workshop on Knowledge Graph Construction (KGCW) 2022
