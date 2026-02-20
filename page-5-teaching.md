@@ -47,6 +47,8 @@ I started creating *online material (including videos)*. You can find the materi
 
 ## Supervision and Guidance
 
+For MSc, MEng, BSc, and BEng theses, I include only details from the past five years.
+
 ### PhD Thesis Supervision
 
 1. **Duchateau, Jakub**. *TBD*. PhD Thesis, University of Liège 2024-... (ongoing)
@@ -64,13 +66,16 @@ I started creating *online material (including videos)*. You can find the materi
 1. **Yang, Lei**. _TBD_. MSc Thesis, University of Liège, 2026 (expected)
 1. **Liu, Eléna**. _TBD_. MEng Thesis, University of Liège, 2026 (expected)
 1. **Mangolopa, Christal**. _TBD_. MEng Thesis, University of Liège, 2026 (expected)
+
 1. **Bouzendaga, Zakaria**. Integrating SMART Data into a Knowledge Graph for Learning Analytics. MEng Thesis, University of Liège, 2025
+
 1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. JSON-LD Representations of CityJSON. MSc Thesis, University of Liège, 2024
 1. **Saulas, Adrien**. Balancing Durability, Performance, and Interpretability in Unbalanced Data as Fraud Detection. MEng Thesis, University of Liège, 2024
    > Company-based thesis
 1. **Birtles, Alixia**. Representing Jupyter Notebooks with Knowledge Graphs to Address Data Lineage Problems. MEng Thesis, University of Liège, 2024
 1. **Azouy, Elie Junior**. Use of Flink Hybrid sources to initialise transformations. MSc Thesis, University of Liège, 2024
    > Company-based thesis
+
 1. **Gómez Herrera, Maria Andrea Liliana**. Multi-cloud observability with AI, MSc Thesis, University of Liège, 2023
    > Company-based thesis
 1. **Saillez, Brieuc**. Toward functional and distributed R2RML processor, MSc Thesis, University of Liège, 2023
@@ -83,15 +88,3 @@ I started creating *online material (including videos)*. You can find the materi
 1. **Vrijens, Guillaume**. Knowledge Graph Construction to Facilitate Chemical Compound Hazard Assessment in the TOXIN Project, MEng Thesis, University of Liège, 2023
    > Company-based thesis
    > Resulted in a peer-reviewed publication
-
-### MSc Thesis Co-supervision (past 5 years)
-
-1. **Peng, Xueying**. A Web-based Graphical Editor for Modelling BPMN in a GDPR-aware Manner, Trinity College Dublin, 2020
-
-### BSc Thesis Supervision (past 5 years)
-			
-1. **Vyfeyken, Louis**. Analyzing Semantic Business Process Models for the Correct Use of Personal Data, BSc Thesis, Vrije Universiteit Brussel, 2020
-
-### Final Year Project Co-supervision (past 5 years)
-
-1. **Fitzpatrick, Seán**. Data Flow Diagram Editor with GDPR support using Linked Data,Trinity College Dublin, 2020
