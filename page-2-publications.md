@@ -51,8 +51,7 @@ You can find my publications on [Google Scholar](https://scholar.google.com/cita
 
 ## Book Chapters
 
-1. Audrey Sanctorum, Jan Maushagen, Sara Sepehrni, Guillaume Vrijens, Joery de Kock, Tamara Vanhaecke, Olga De Troyer and **Christophe Debruyne**. Knowledge Management in the
-Context of Toxicity Testing. In F. P. Garcia Marquez and R. V. Sanchez Loja, editors, From Theory of Knowledge Management to Practice. IntechOpen, Rijeka, 2023 [📄](/papers/2023-intech-submitted.pdf)
+1. Audrey Sanctorum, Jan Maushagen, Sara Sepehrni, Guillaume Vrijens, Joery de Kock, Tamara Vanhaecke, Olga De Troyer and **Christophe Debruyne**. Knowledge Management in the Context of Toxicity Testing. In F. P. Garcia Marquez and R. V. Sanchez Loja, editors, From Theory of Knowledge Management to Practice. IntechOpen, Rijeka, 2023 [📄](/papers/2023-intech-submitted.pdf)
 
 1. Harshvardhan J. Pandit, **Christophe Debruyne**, Declan O'Sullivan, and Dave Lewis. Standardisation, Data interoperability, and GDPR. In K. Jakobs, editor, Shaping the Future Through Standardization, chapter 8, pages 199-225. IGI Global, Hershey, PA, USA, 2020 [📄](/papers/2020-chapter-preprint.pdf)
 
@@ -100,6 +99,11 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 1. **Christophe Debruyne**, Trung-Kien Tran, and Robert Meersman. Grounding Ontologies with Social Processes and Natural Language. Journal on Data Semantics, 2(2-3):89-118, 2013 [📄](/papers/2013-jods-preprint.pdf)
 
 ## Conference Papers
+
+1. Davan Chiem Dao and **Christophe Debruyne**. From RDF Graph Validation to RDF Dataset Validation with SHACL-DS. 
+ [📄](/papers/2026-05-eswc.pdf)
+ > Accepted at the ESWC 2026 Research Track
+
 
 1. **Christophe Debruyne**, Souail Jaadari, and David Chaves-Fraga. Declarative generation of rdf collections and containers from heterogeneous data. In Blerina Spahiu, Sahar Vahdati, Angelo Salatino, Tassilo Pellegrini, and Giray Havur, editors, Linking Meaning: Semantic Technologies Shaping the Future of AI - Proceedings of the 21st International Conference on Semantic Systems, 3-5 September 2025, Vienna, Austria, volume 62 of Studies on the Semantic Web, pages 28-43. IOS Press, 2025 [📄](/papers/2025-09-semantics.pdf)
 > Won best paper award
@@ -240,9 +244,12 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 ## Invited Papers
 
 1. Davan Chiem Dao, **Christophe Debruyne**, and Paul Stijfhals. Using knowledge graphs and SHACL to validate declaration forms: An experiment in the social security domain to assess SHACL's applicability. In European Commission, Directorate-General for Informatics, and Publications Office of the European Union, editors, ENDORSE, 2nd EuropeaN Data conference On Reference data and SEmantics ENDORSE 2023 - Virtual event, 14-16 March 2023 - Proceedings, pages 85-96. Publications Office of the European Union, 2023 [📄](/papers/2023-03-endorse-paper.pdf)
-> Invited non peer-reviewed post-proceedings paper based on an ENDORSE 2023 bastract
+> Invited non peer-reviewed post-proceedings paper based on an ENDORSE 2023 abstract
 
 ## Posters and Demos
+
+1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: A Guiding RML Authoring Projectional Editor in Action and User's First Impressions. [📄](/papers/2025-10-coopis.pdf)
+> Accepted at the Demo Track of CoopIS 2025-CoopIS-DT 2025 within the 31st International Conference on Cooperative Information Systems-CoopIS 2025
 
 1. Jimmy Walraff, Andreas Coco, Guillaume Delporte, Merlin Michel, Allyson Fries, Valérie Defaweux and **Christophe Debruyne**. Facilitating Learning Analytics in Histology Courses with Knowledge Graphs. In Joint Proceedings of Posters, Demos, Workshops, and Tutorials of the 20th International Conference on Semantic Systems co-located with 20th International Conference on Semantic Systems (SEMANTiCS 2024), Amsterdam, The Netherlands, September 17-19, 2024, volume 3759 of CEUR Workshop Proceedings. CEUR-WS.org, 2024 [📄](/papers/2024-semantics-paper2.pdf) [🖼️](/papers/2024-09-semantics-poster-cytomine.pdf)
 
