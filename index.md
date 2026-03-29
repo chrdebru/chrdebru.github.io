@@ -54,6 +54,7 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 
 ### Chairs and Organizing Committees (past five years)
 
+* 2nd International Workshop on Users and Knowledge Graphs Co-located with SEMANTiCS 2026
 * 7th International Workshop on Knowledge Graph Construction Co-located with ESWC 2026
 * 1st International Workshop on Users and Knowledge Graphs Co-located with SEMANTiCS 2025
 * 6th International Workshop on Knowledge Graph Construction Co-located with ESWC 2025
@@ -85,6 +86,7 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 
 ### Program Committees (past five years)
 
+* International Workshop on KG4Health: Integrating Knowledge Graphs and Generative AI for Robust Healthcare Solutions
 * 25th International Semantic Web Conference (ISWC) 2026--Research Track
 * 22nd International Conference on Semantic Systems (SEMANTiCS) 2026, Research, Posters and Demos Track
 * 23rd Extended Semantic Web Conference (ESWC) 2026--Resources Track, In-Use Track
