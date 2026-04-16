@@ -104,7 +104,6 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
  [📄](/papers/2026-05-eswc.pdf)
  > Accepted at the ESWC 2026 Research Track
 
-
 1. **Christophe Debruyne**, Souail Jaadari, and David Chaves-Fraga. Declarative generation of rdf collections and containers from heterogeneous data. In Blerina Spahiu, Sahar Vahdati, Angelo Salatino, Tassilo Pellegrini, and Giray Havur, editors, Linking Meaning: Semantic Technologies Shaping the Future of AI - Proceedings of the 21st International Conference on Semantic Systems, 3-5 September 2025, Vienna, Austria, volume 62 of Studies on the Semantic Web, pages 28-43. IOS Press, 2025 [📄](/papers/2025-09-semantics.pdf)
 > Won best paper award
 
@@ -171,6 +170,9 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 1. Robert Meersman and **Christophe Debruyne**. Hybrid Ontologies and Social Semantics. In 4th IEEE International Conference on Digital Ecosystems and Technologies: Conference Proceedings of IEEE - DEST 2010, Dubai, United Arab Emirates, 13-16 April 2010, pages 92-97. IEEE, 2010 [📄](/papers/2010-dest-preprint.pdf)
 
 ## Workshop Papers
+1. Jakub Duchateau and **Christophe Debruyne**. Beyond Exit Code 1: Execution Report of RML Processors. 
+ > Accepted at the Seventh International Workshop on Knowledge Graph Construction @ ESWC2026
+
 1. Ademar Crotti Junior and **Christophe Debruyne**. A protocol for KG construction tasks involving users. In David Chaves-Fraga, Ioannis Dasoulas, Christophe Debruyne, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended SemanticWeb Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025 [📄](papers/2025-06-kgc-protocol.pdf)
 
 1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: guiding RML authoring with a projectional editor. In David Chaves- Fraga, Ioannis Dasoulas, Christophe Debruyne, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors, Proceed- ings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended Semantic Web Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025 [📄](papers/2025-06-kgc-grape.pdf)
@@ -247,6 +249,8 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 > Invited non peer-reviewed post-proceedings paper based on an ENDORSE 2023 abstract
 
 ## Posters and Demos
+1. Jakub Duchateau and **Christophe Debruyne**. OWL2Graffoo: Import Ontology in diagrams.net with Graffoo
+ > Accepted at ESWC2026 Posters and Demos
 
 1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: A Guiding RML Authoring Projectional Editor in Action and User's First Impressions. [📄](/papers/2025-10-coopis.pdf)
 > Accepted at the Demo Track of CoopIS 2025-CoopIS-DT 2025 within the 31st International Conference on Cooperative Information Systems-CoopIS 2025
