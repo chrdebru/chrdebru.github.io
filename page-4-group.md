@@ -28,6 +28,7 @@ Key to our research are:
 ### (Postdoctoral) Researchers and Collaborators
 [Kerre, Deperias, PhD](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u249097) | Postdoctoral Researcher | (03/2026-present)
 [Crotti Junior, Ademar, PhD](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u245867) | Scientific Collaborator | (07/2024-present)
+[Ol, Phearun](https://www.linkedin.com/in/ol-phearun-a226751b2/) | Research Internship (from Institute of Technology of Cambodia) | (04/2026-06/2026)
 
 ### Former members
 
