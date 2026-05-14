@@ -252,8 +252,7 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 1. Jakub Duchateau and **Christophe Debruyne**. OWL2Graffoo: Import Ontology in diagrams.net with Graffoo
  > Accepted at ESWC2026 Posters and Demos
 
-1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: A Guiding RML Authoring Projectional Editor in Action and User's First Impressions. [📄](/papers/2025-10-coopis.pdf)
-> Accepted at the Demo Track of CoopIS 2025-CoopIS-DT 2025 within the 31st International Conference on Cooperative Information Systems-CoopIS 2025
+1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: A guiding RML authoring projectional editor in action and user's first impressions. In Slim Kallel, Mohamed Wiem Mkaouer, Jeremy Mechouche, Moataz Chouchen, Mohamed Sellami, and Ali Ouni, editors, Proceedings of the Early Research Achievement and Demo Tracks at CoopIS 2025 co-located with the 31st International Conference on Cooperative Information Systems (CoopIS 2025), Marbella, Spain, October 20, 2025, CEUR Workshop Proceedings, pages 57–62. CEUR-WS.org, 2025 [📄](/papers/2025-10-coopis.pdf)
 
 1. Jimmy Walraff, Andreas Coco, Guillaume Delporte, Merlin Michel, Allyson Fries, Valérie Defaweux and **Christophe Debruyne**. Facilitating Learning Analytics in Histology Courses with Knowledge Graphs. In Joint Proceedings of Posters, Demos, Workshops, and Tutorials of the 20th International Conference on Semantic Systems co-located with 20th International Conference on Semantic Systems (SEMANTiCS 2024), Amsterdam, The Netherlands, September 17-19, 2024, volume 3759 of CEUR Workshop Proceedings. CEUR-WS.org, 2024 [📄](/papers/2024-semantics-paper2.pdf) [🖼️](/papers/2024-09-semantics-poster-cytomine.pdf)
 
