@@ -171,6 +171,7 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Workshop Papers
 1. Jakub Duchateau and **Christophe Debruyne**. Beyond Exit Code 1: Execution Report of RML Processors. 
+[📄](/papers/2026-05-kgc.pdf)
  > Accepted at the Seventh International Workshop on Knowledge Graph Construction @ ESWC2026
 
 1. Ademar Crotti Junior and **Christophe Debruyne**. A protocol for KG construction tasks involving users. In David Chaves-Fraga, Ioannis Dasoulas, Christophe Debruyne, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended SemanticWeb Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025 [📄](papers/2025-06-kgc-protocol.pdf)
@@ -250,6 +251,7 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Posters and Demos
 1. Jakub Duchateau and **Christophe Debruyne**. OWL2Graffoo: Import Ontology in diagrams.net with Graffoo
+[📄](/papers/2026-05-eswc-poster.pdf)
  > Accepted at ESWC2026 Posters and Demos
 
 1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: A guiding RML authoring projectional editor in action and user's first impressions. In Slim Kallel, Mohamed Wiem Mkaouer, Jeremy Mechouche, Moataz Chouchen, Mohamed Sellami, and Ali Ouni, editors, Proceedings of the Early Research Achievement and Demo Tracks at CoopIS 2025 co-located with the 31st International Conference on Cooperative Information Systems (CoopIS 2025), Marbella, Spain, October 20, 2025, CEUR Workshop Proceedings, pages 57–62. CEUR-WS.org, 2025 [📄](/papers/2025-10-coopis.pdf)
