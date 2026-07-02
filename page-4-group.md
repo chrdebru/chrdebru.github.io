@@ -29,9 +29,9 @@ Key to our research are:
 
 [Kerre, Deperias, PhD](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u249097) | Postdoctoral Researcher | (03/2026-present)
 [Crotti Junior, Ademar, PhD](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u245867) | Scientific Collaborator | (07/2024-present)
-[Ol, Phearun](https://www.linkedin.com/in/ol-phearun-a226751b2/) | Research Internship (from Institute of Technology of Cambodia) | (04/2026-06/2026)
 
 ### Former members
 
+[Ol, Phearun](https://www.linkedin.com/in/ol-phearun-a226751b2/) | Research Internship (from Institute of Technology of Cambodia) | (04/2026-06/2026)
 [Mugumya, Kevin Luwemba, PhD](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u247126) | Postdoctoral Researcher | (04/2025-12/2025)
 [Jaadari, Souail](https://www.linkedin.com/in/souail-jaadari-309774213) | Research Internship (from Polytech Orléans) | (05/2024-07/2024)

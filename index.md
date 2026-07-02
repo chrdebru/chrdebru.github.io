@@ -86,7 +86,7 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 
 ### Program Committees (past five years)
 
-* International Workshop on KG4Health: Integrating Knowledge Graphs and Generative AI for Robust Healthcare Solutions
+* 1st International Workshop on Knowledge Graphs for Health (KG4Health)
 * 25th International Semantic Web Conference (ISWC) 2026--Research Track
 * 22nd International Conference on Semantic Systems (SEMANTiCS) 2026, Research, Posters and Demos Track
 * 23rd Extended Semantic Web Conference (ESWC) 2026--Resources Track, In-Use Track
@@ -109,8 +109,3 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 * 21st International Semantic Web Conference (ISWC) 2022--In-Use Track
 * 3rd International Workshop on Knowledge Graph Construction (KGCW) 2022
 * ACM/IEEE Joint Conference on Digital Libraries in (JCDL) 2022
-* 7th Workshop on Managing the Evolution and Preservation of the Data Web (MEPDaW) 2021
-* IEEE International Conference on Tools with Artificial Intelligence (ICTAI) 2021
-* ACM/IEEE Joint Conference on Digital Libraries in (JCDL) 2021
-* 20th International Semantic Web Conference (ISWC) 2021--In-Use Track
-* International Conference on Business Information Systems (BIS) 2021

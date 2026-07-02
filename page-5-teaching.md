@@ -64,16 +64,13 @@ For MSc, MEng, BSc, and BEng theses, I include only details from the past five y
 1. **Michaux, Corentin**. A Functional Approach to Generating RDF with RML. MSc Thesis, Université de Liège, 2026
 1. **Liu, Eléna**. Declarative Generation of Wikibase Statements. MEng Thesis, Université de Liège, 2026
    > Resulted in a peer-reviewed publication
-
 1. **Bouzendaga, Zakaria**. Integrating SMART Data into a Knowledge Graph for Learning Analytics. MEng Thesis, Université de Liège, 2025
-
 1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. JSON-LD Representations of CityJSON. MSc Thesis, Université de Liège, 2024
 1. **Saulas, Adrien**. Balancing Durability, Performance, and Interpretability in Unbalanced Data as Fraud Detection. MEng Thesis, Université de Liège, 2024
    > Company-based thesis
 1. **Birtles, Alixia**. Representing Jupyter Notebooks with Knowledge Graphs to Address Data Lineage Problems. MEng Thesis, Université de Liège, 2024
 1. **Azouy, Elie Junior**. Use of Flink Hybrid sources to initialise transformations. MSc Thesis, Université de Liège, 2024
    > Company-based thesis
-
 1. **Gómez Herrera, Maria Andrea Liliana**. Multi-cloud observability with AI, MSc Thesis, Université de Liège, 2023
    > Company-based thesis
 1. **Saillez, Brieuc**. Toward functional and distributed R2RML processor, MSc Thesis, Université de Liège, 2023
