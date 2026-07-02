@@ -32,9 +32,6 @@ permalink: /teaching/
  | ULiège | Lecturer "Knowledge Representation and Reasoning" (MSc)
  | ULiège | Lecturer "Advanced Databases" (MSc)
  | ULiège | Co-lecturer "Data Science Project" (MSc)
-2021-2022 | ULiège | Lecturer "Programmation Fonctionnelle" (BSc, MSc)
- | ULiège | Lecturer "Bases de données" (BSc, MSc)
- | ULiège | Lecturer "Knowledge Representation and Reasoning" (MSc)
 
 ## Tutorials and Online Material
 
@@ -51,8 +48,8 @@ For MSc, MEng, BSc, and BEng theses, I include only details from the past five y
 
 ### PhD Thesis Supervision
 
-1. **Duchateau, Jakub**. *TBD*. PhD Thesis, University of Liège 2024-... (ongoing)
-1. **Chiem Dao, Davan**. *TBD*. PhD Thesis, University of Liège 2023-... (ongoing)
+1. **Duchateau, Jakub**. *TBD*. PhD Thesis, Université de Liège 2024-... (ongoing)
+1. **Chiem Dao, Davan**. *TBD*. PhD Thesis, Université de Liège 2023-... (ongoing)
 
 ### PhD Thesis Co-supervision
 
@@ -61,30 +58,31 @@ For MSc, MEng, BSc, and BEng theses, I include only details from the past five y
 
 ### MSc Thesis Supervision (past 5 years)
 
-1. **Donati, Alexia**. _TBD_. MSc Thesis, University of Liège, 2026 (expected)
-1. **Michaux, Corentin**. _TBD_. MSc Thesis, University of Liège, 2026 (expected)
-1. **Yang, Lei**. _TBD_. MSc Thesis, University of Liège, 2026 (expected)
-1. **Liu, Eléna**. _TBD_. MEng Thesis, University of Liège, 2026 (expected)
-1. **Mangolopa, Christal**. _TBD_. MEng Thesis, University of Liège, 2026 (expected)
-
-1. **Bouzendaga, Zakaria**. Integrating SMART Data into a Knowledge Graph for Learning Analytics. MEng Thesis, University of Liège, 2025
-
-1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. JSON-LD Representations of CityJSON. MSc Thesis, University of Liège, 2024
-1. **Saulas, Adrien**. Balancing Durability, Performance, and Interpretability in Unbalanced Data as Fraud Detection. MEng Thesis, University of Liège, 2024
-   > Company-based thesis
-1. **Birtles, Alixia**. Representing Jupyter Notebooks with Knowledge Graphs to Address Data Lineage Problems. MEng Thesis, University of Liège, 2024
-1. **Azouy, Elie Junior**. Use of Flink Hybrid sources to initialise transformations. MSc Thesis, University of Liège, 2024
-   > Company-based thesis
-
-1. **Gómez Herrera, Maria Andrea Liliana**. Multi-cloud observability with AI, MSc Thesis, University of Liège, 2023
-   > Company-based thesis
-1. **Saillez, Brieuc**. Toward functional and distributed R2RML processor, MSc Thesis, University of Liège, 2023
-1. **Chiem Dao, Davan**. Using Knowledge Graph Technologies to Contextualize and Validate Declarations in the Social Security Domain, MEng Thesis, University of Liège, 2023
+1. **Mangolopa, Christal**. _TBD_. MEng Thesis, Université de Liège, 2026 (expected)
+1. **Yang, Lei**. _TBD_. MSc Thesis, Université de Liège, 2026 (expected)
+1. **Donati, Alexia**. An Interactive Environment for Relational Algebra Exercises. MSc Thesis, Université de Liège, 2026
+1. **Michaux, Corentin**. A Functional Approach to Generating RDF with RML. MSc Thesis, Université de Liège, 2026
+1. **Liu, Eléna**. Declarative Generation of Wikibase Statements. MEng Thesis, Université de Liège, 2026
    > Resulted in a peer-reviewed publication
-1. **Adil, Ayman**. A Domain Specific Language for a Code-Based Dashboard: DashLang with Code Editor Integration, MSc Thesis, University of Liège, 2023
+
+1. **Bouzendaga, Zakaria**. Integrating SMART Data into a Knowledge Graph for Learning Analytics. MEng Thesis, Université de Liège, 2025
+
+1. **Abdelmoniem Abdelaleem, Aly Mahmoud**. JSON-LD Representations of CityJSON. MSc Thesis, Université de Liège, 2024
+1. **Saulas, Adrien**. Balancing Durability, Performance, and Interpretability in Unbalanced Data as Fraud Detection. MEng Thesis, Université de Liège, 2024
    > Company-based thesis
-1. **Duchateau, Jakub**. On the Design and Implementation of an ETL Configuration DSL for Non-programming Experts, MSc Thesis, University of Liège, 2023
+1. **Birtles, Alixia**. Representing Jupyter Notebooks with Knowledge Graphs to Address Data Lineage Problems. MEng Thesis, Université de Liège, 2024
+1. **Azouy, Elie Junior**. Use of Flink Hybrid sources to initialise transformations. MSc Thesis, Université de Liège, 2024
    > Company-based thesis
-1. **Vrijens, Guillaume**. Knowledge Graph Construction to Facilitate Chemical Compound Hazard Assessment in the TOXIN Project, MEng Thesis, University of Liège, 2023
+
+1. **Gómez Herrera, Maria Andrea Liliana**. Multi-cloud observability with AI, MSc Thesis, Université de Liège, 2023
+   > Company-based thesis
+1. **Saillez, Brieuc**. Toward functional and distributed R2RML processor, MSc Thesis, Université de Liège, 2023
+1. **Chiem Dao, Davan**. Using Knowledge Graph Technologies to Contextualize and Validate Declarations in the Social Security Domain, MEng Thesis, Université de Liège, 2023
+   > Resulted in a peer-reviewed publication
+1. **Adil, Ayman**. A Domain Specific Language for a Code-Based Dashboard: DashLang with Code Editor Integration, MSc Thesis, Université de Liège, 2023
+   > Company-based thesis
+1. **Duchateau, Jakub**. On the Design and Implementation of an ETL Configuration DSL for Non-programming Experts, MSc Thesis, Université de Liège, 2023
+   > Company-based thesis
+1. **Vrijens, Guillaume**. Knowledge Graph Construction to Facilitate Chemical Compound Hazard Assessment in the TOXIN Project, MEng Thesis, Université de Liège, 2023
    > Company-based thesis
    > Resulted in a peer-reviewed publication
