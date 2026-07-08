@@ -100,7 +100,7 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Conference Papers
 
-1. Élena Liu, Jakub Duchateau, and **Christophe Debruyne**. Declaratively Populating Wikibases with WBML.
+1. Élena Liu, Jakub Duchateau, and **Christophe Debruyne**. Declaratively Populating Wikibases with WBML. [📄](/papers/2026-09-semantics-preprint.pdf)
 > Accepted at SEMANTiCS 2026
 
 1. Davan Chiem Dao and **Christophe Debruyne**. From RDF graph validation to RDF dataset validation with SHACL-DS. In Maribel Acosta, Marieke van Erp, Sebastian Rudolph, Olaf Hartig, Blerina Spahiu, Anisa Rula, Daniel Garijo, and Francesco Osborne, editors, The Semantic Web - 23rd European Semantic Web Conference, ESWC 2026, Dubrovnik, Croatia, May 10-14, 2026, Proceedings, Part I, Lecture Notes in Computer Science, pages 217–233. Springer, 2026 [📄](/papers/2026-05-eswc.pdf)
