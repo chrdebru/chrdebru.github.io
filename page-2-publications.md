@@ -294,6 +294,8 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Abstracts, Posters, and Demonstrations (peer-reviewed, unpublished)
 
+1. Allyson Fries, **Christophe Debruyne**, Jakub Duchateau, and Valérie Defaweux. Comprendre, prédire, agir : intelligence artificielle et modélisation sémantique au service de la réussite académique. Congrès de l'Acfas 2026, Trois-Rivières, Québec, Canada, May 11–15 2026 [📄](https://orbi.uliege.be/handle/2268/346774)
+
 1. Allyson Fries, **Christophe Debruyne** and Valérie Defaweux. Graphe de connaissances et microscopie virtuelle en histologie : quel impact sur les Learning Analytics ? Congrès International Francophone de Pédagogie en Sciences de la Santé (SIFEM) 2025, Orléans, France, 26-28 May 2025 [📄](/papers/2025-05-sifem-abstract.pdf)
 
 1. Sara Sepehri, Jan Maushagen, Guillaume Vrijens, **Christophe Debruyne**, Robim M. Rodrigues, Audrey Sanctorum, Olga De Troyer and Tamara Vanhaecke. Development of the TOXIN Knowledge Graph for Assisting Animal-free Risk Assessment of Cosmetic Ingredients. EUROTOX 2023, Ljubljana, Slovenia, 11 September 2023 [📄](/papers/2023-09-eurotox-abstract.pdf)
