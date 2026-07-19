@@ -62,6 +62,7 @@ For MSc, MEng, BSc, and BEng theses, I include only details from the past five y
 1. **Yang, Lei**. _TBD_. MSc Thesis, Université de Liège, 2026 (expected)
 1. **Donati, Alexia**. An Interactive Environment for Relational Algebra Exercises. MSc Thesis, Université de Liège, 2026
 1. **Michaux, Corentin**. A Functional Approach to Generating RDF with RML. MSc Thesis, Université de Liège, 2026
+   > Resulted in a peer-reviewed publication
 1. **Liu, Eléna**. Declarative Generation of Wikibase Statements. MEng Thesis, Université de Liège, 2026
    > Resulted in a peer-reviewed publication
 1. **Bouzendaga, Zakaria**. Integrating SMART Data into a Knowledge Graph for Learning Analytics. MEng Thesis, Université de Liège, 2025

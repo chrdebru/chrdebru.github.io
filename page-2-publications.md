@@ -251,6 +251,12 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 > Invited non peer-reviewed post-proceedings paper based on an ENDORSE 2023 abstract
 
 ## Posters and Demos
+1. Corentin Michaux and **Christophe Debruyne**. A Functional and Distributed RML Processor
+>  Accepted at SEMANTiCS 2026 Posters and Demos
+
+1. Phearun Ol, Deperias Kerre, **Christophe Debruyne**, Dona Valy, and Sotheany Nou. Assessing the Viability of an OBDA Approach to Integrating Databases into a Virtual Knowledge Graph for Research Management at ITC
+>  Accepted at SEMANTiCS 2026 Posters and Demos
+
 1. Jakub Duchateau and **Christophe Debruyne**. OWL2Graffoo: Import Ontology in diagrams.net with Graffoo
 [📄](/papers/2026-05-eswc-poster.pdf)
  > Accepted at ESWC2026 Posters and Demos
