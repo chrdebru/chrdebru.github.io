@@ -87,25 +87,25 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 ### Program Committees (past five years)
 
 * 1st International Workshop on Knowledge Graphs for Health (KG4Health)
-* 25th International Semantic Web Conference (ISWC) 2026--Research Track
+* 25th International Semantic Web Conference (ISWC) 2026--Research Track, Poster & Demo Track
 * 22nd International Conference on Semantic Systems (SEMANTiCS) 2026, Research, Posters and Demos Track
 * 23rd Extended Semantic Web Conference (ESWC) 2026--Resources Track, In-Use Track
 * 31st International Conference on Cooperative Information Systems (CoopIS) 2025
 * 12th International Conference on Information Management and Big Data (SIMBig) 2025
 * 1st Workshop on Generation of Synthetic Datasets for Information Systems (GenSyn) 2025
-* 24th International Semantic Web Conference (ISWC) 2025--Research Track
+* 24th International Semantic Web Conference (ISWC) 2025--Research Track, Resources Track, Poster & Demo Track
 * International Conference on Business Information Systems (BIS) 2025
 * ACM/IEEE Joint Conference on Digital Libraries in (JCDL) 2024
-* 23nd International Semantic Web Conference (ISWC) 2024--Research Track
+* 23nd International Semantic Web Conference (ISWC) 2024--Research Track, Poster & Demo Track
 * 5th International Workshop on Knowledge Graph Construction (KGCW) 2024
 * Technical Symposium on Computer Science Education (SIGCSE TS) 2024--Lightning Talks
 * 7th International Workshop on Visualization and Interaction for Ontologies and Linked Data (Voila) 2023
 * 9th Workshop on Managing the Evolution and Preservation of the Data Web (MEPDaW) 2023
 * ACM/IEEE Joint Conference on Digital Libraries in (JCDL) 2023
-* 22nd International Semantic Web Conference (ISWC) 2023--In-Use Track
+* 22nd International Semantic Web Conference (ISWC) 2023--In-Use Track, Poster & Demo Track
 * 8th Workshop on Managing the Evolution and Preservation of the Data Web (MEPDaW) 2022
 * 18th International Conference on Semantic Systems (SEMANTiCS) 2022, Research Track
 * 6th International Workshop on Visualization and Interaction for Ontologies and Linked Data (Voila) 2022
-* 21st International Semantic Web Conference (ISWC) 2022--In-Use Track
+* 21st International Semantic Web Conference (ISWC) 2022--In-Use Track, Poster & Demo Track
 * 3rd International Workshop on Knowledge Graph Construction (KGCW) 2022
 * ACM/IEEE Joint Conference on Digital Libraries in (JCDL) 2022
