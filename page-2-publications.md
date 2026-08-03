@@ -251,10 +251,10 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 > Invited non peer-reviewed post-proceedings paper based on an ENDORSE 2023 abstract
 
 ## Posters and Demos
-1. Corentin Michaux and **Christophe Debruyne**. A Functional and Distributed RML Processor
+1. Corentin Michaux and **Christophe Debruyne**. A Functional and Distributed RML Processor [📄](/papers/2026-09-semantics-poster-1-preprint.pdf) [🖼️](/papers/2026-09-semantics-poster-1-poster.pdf)
 >  Accepted at SEMANTiCS 2026 Posters and Demos
 
-1. Phearun Ol, Deperias Kerre, **Christophe Debruyne**, Dona Valy, and Sotheany Nou. Assessing the Viability of an OBDA Approach to Integrating Databases into a Virtual Knowledge Graph for Research Management at ITC
+1. Phearun Ol, Deperias Kerre, **Christophe Debruyne**, Dona Valy, and Sotheany Nou. Assessing the Viability of an OBDA Approach to Integrating Databases into a Virtual Knowledge Graph for Research Management at ITC  [📄](/papers/2026-09-semantics-poster-2-preprint.pdf) [🖼️](/papers/2026-09-semantics-poster-2-poster.pdf)
 >  Accepted at SEMANTiCS 2026 Posters and Demos
 
 1. Jakub Duchateau and **Christophe Debruyne**. OWL2Graffoo: Import Ontology in diagrams.net with Graffoo
@@ -312,7 +312,7 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 1. **Christophe Debruyne**, Davan Chiem Dao, Paul Stijfhals. Using Knowledge Graphs and SHACL to Validate Declaration Forms: an Experiment in the Social Security Domain to Assess SHACL's Applicability. The European Data Conference on Reference Data and Semantics (ENDORSE) 2023, Online Event, 14-16 March 2023 [📄](/papers/2023-03-endorse-abstract.pdf)
 
-1. Sara Sepehri, Robim M. Rodrigues, Mona Delagrange, Joery De Kock, Audrey Sanctorum, Jan Maushagen, **Christophe Debruyne**, Olga De Troyer, Tamara Vanhaecke. Development of an easy-to-use, semantic technology-based knowledge base containing toxicological information of cosmetic ingredients to assist animal-free risk assessment. 21st International Congress of the European Society of Toxicology In Vitro (ESTIV) 2022, Sitges, Spain, 21-25 November 2022 [📄](/papers/2022-11-estiv-abstract.pdf) [🖼️](/papers/2022-11-estiv-poster.pdf")	
+1. Sara Sepehri, Robim M. Rodrigues, Mona Delagrange, Joery De Kock, Audrey Sanctorum, Jan Maushagen, **Christophe Debruyne**, Olga De Troyer, Tamara Vanhaecke. Development of an easy-to-use, semantic technology-based knowledge base containing toxicological information of cosmetic ingredients to assist animal-free risk assessment. 21st International Congress of the European Society of Toxicology In Vitro (ESTIV) 2022, Sitges, Spain, 21-25 November 2022 [📄](/papers/2022-11-estiv-abstract.pdf) [🖼️](/papers/2022-11-estiv-poster.pdf)
 
 1. Lucy McKenna, **Christophe Debruyne**, Declan O'Sullivan. NAISC: an authoritative Linked Data interlinking approach for the library domain. Semantic Web in Libraries (SWIB) 2019, 25-27 November 2019 [📄](/papers/2019-swib.pdf)
 
