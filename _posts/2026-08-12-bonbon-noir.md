@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bonbon noir"
+title: "Book Review: Bonbon noir"
 tag: book-review
 ---
 
