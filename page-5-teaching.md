@@ -4,6 +4,15 @@ permalink: /teaching/
 ---
 ## Courses (past 5 years)
 
+2026-2027 | ULiège | Lecturer [Programmation Fonctionnelle](https://www.programmes.uliege.be/cocoon/cours/INFO0054-1.html) (BSc, MSc)
+ | ULiège | Lecturer [Bases de données](https://www.programmes.uliege.be/cocoon/cours/INFO0009-2.html) (BSc, MSc)
+ | ULiège | Lecturer [Knowledge Representation and Reasoning](https://www.programmes.uliege.be/cocoon/cours/INFO9014-1.html) (MSc)
+ | ULiège | Lecturer [Advanced Databases](https://www.programmes.uliege.be/cocoon/cours/INFO9016-1.html) (MSc)
+ | ULiège | Lecturer [Introduction aux bases de données et leurs applications](https://www.programmes.uliege.be/cocoon/cours/INFO3003-1.html) (BA)
+ | ULiège | Co-lecturer [Data Science Project](https://www.programmes.uliege.be/cocoon/cours/PROJ0021-1.html) (MSc)
+ | ULiège | Co-lecturer [Topics in Distributed Systems](https://www.programmes.uliege.be/cocoon/cours/INFO8002-1.html) (MSc)
+ | ULiège | Coordinator [Master Thesis](https://www.programmes.uliege.be/cocoon/cours/ATFE9009-1.html) in the Data Science programs (MSc)
+ | ULiège | Coordinator [Internship (independent of Master thesis)](https://www.programmes.uliege.be/cocoon/cours/ASTG9009-1.html) in the Data Science programs (MSc)
 2025-2026 | ULiège | Lecturer [Programmation Fonctionnelle](https://www.programmes.uliege.be/cocoon/cours/INFO0054-1.html) (BSc, MSc)
  | ULiège | Lecturer [Bases de données](https://www.programmes.uliege.be/cocoon/cours/INFO0009-2.html) (BSc, MSc)
  | ULiège | Lecturer [Knowledge Representation and Reasoning](https://www.programmes.uliege.be/cocoon/cours/INFO9014-1.html) (MSc)
@@ -48,6 +57,7 @@ For MSc, MEng, BSc, and BEng theses, I include only details from the past five y
 
 ### PhD Thesis Supervision
 
+1. **Liu, Eléna**. *TBD*. PhD Thesis, Université de Liège 2026-... (ongoing)
 1. **Duchateau, Jakub**. *TBD*. PhD Thesis, Université de Liège 2024-... (ongoing)
 1. **Chiem Dao, Davan**. *TBD*. PhD Thesis, Université de Liège 2023-... (ongoing)
 
@@ -58,8 +68,8 @@ For MSc, MEng, BSc, and BEng theses, I include only details from the past five y
 
 ### MSc Thesis Supervision (past 5 years)
 
-1. **Mangolopa, Christal**. _TBD_. MEng Thesis, Université de Liège, 2026 (expected)
-1. **Yang, Lei**. _TBD_. MSc Thesis, Université de Liège, 2026 (expected)
+1. **Mangolopa, Christal**. _TBD_. MEng Thesis, Université de Liège, 2027 (expected)
+1. **Yang, Lei**. The Role of Small Language Models in Web Table Interpretation. MSc Thesis, Université de Liège, 2026
 1. **Donati, Alexia**. An Interactive Environment for Relational Algebra Exercises. MSc Thesis, Université de Liège, 2026
 1. **Michaux, Corentin**. A Functional Approach to Generating RDF with RML. MSc Thesis, Université de Liège, 2026
    > Resulted in a peer-reviewed publication
