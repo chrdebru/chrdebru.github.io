@@ -17,7 +17,9 @@ You can find my publications on [Google Scholar](https://scholar.google.com/cita
 * [Theses](#theses)
 
 ## Edited Proceedings
-1. **Christophe Debruyne**, Enayat Rajabi, and Somayeh Kafaie. First international workshop on users and knowledge graphs. In David Chaves-Fraga, Ivan Heibi, Daniel Garijo, Diego Collarana, Angelo A. Salatino, and Sahar Vahdati, editors, Joint Proceedings of Posters, Demos, Workshops, and Tutorials of the 21st International Conference on Semantic Systems co-located with 21st International Conference on Semantic Systems (SEMANTiCS 2025), Vienna, Austria, September 3-5, 2025, volume 4064 of CEUR Workshop Proceedings. CEUR-WS.org, 2025
+1. David Chaves-Fraga, Anastasia Dimou, **Christophe Debruyne**, Enrique Iglesias, Adrián Martínez, and Sitt Min Oo, editors. Proceedings of the 7th International Workshop on Knowledge Graph Construction (KGCW 2026) co-located with the Extended Semantic Web Conference 2026 (ESWC 2026), Dubrovnik, Croatia, May 10, 2026, volume 4245 of CEUR Workshop Proceedings. CEUR-WS.org, 2026
+
+1. **Christophe Debruyne**, Enayat Rajabi, and Somayeh Kafaie, editors. First international workshop on users and knowledge graphs. In David Chaves-Fraga, Ivan Heibi, Daniel Garijo, Diego Collarana, Angelo A. Salatino, and Sahar Vahdati, editors, Joint Proceedings of Posters, Demos, Workshops, and Tutorials of the 21st International Conference on Semantic Systems co-located with 21st International Conference on Semantic Systems (SEMANTiCS 2025), Vienna, Austria, September 3-5, 2025, volume 4064 of CEUR Workshop Proceedings. CEUR-WS.org, 2025
 
 1. David Chaves-Fraga, Ioannis Dasoulas, **Christophe Debruyne**, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors. Proceedings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended Semantic Web Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025
 
@@ -171,9 +173,7 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 1. Robert Meersman and **Christophe Debruyne**. Hybrid Ontologies and Social Semantics. In 4th IEEE International Conference on Digital Ecosystems and Technologies: Conference Proceedings of IEEE - DEST 2010, Dubai, United Arab Emirates, 13-16 April 2010, pages 92-97. IEEE, 2010 [📄](/papers/2010-dest-preprint.pdf)
 
 ## Workshop Papers
-1. Jakub Duchateau and **Christophe Debruyne**. Beyond Exit Code 1: Execution Report of RML Processors. 
-[📄](/papers/2026-05-kgc.pdf)
- > Accepted at the Seventh International Workshop on Knowledge Graph Construction @ ESWC2026
+1. Jakub Duchateau, Dylan Van Assche, and **Christophe Debruyne**. Beyond exit code 1: Execution report of RML processors. In David Chaves-Fraga, Anastasia Dimou, Christophe Debruyne, Enrique Iglesias, Adrián Martínez, and Sitt Min Oo, editors, Proceedings of the 7th International Workshop on Knowledge Graph Construction (KGCW 2026) co-located with the Extended Semantic Web Conference 2026 (ESWC 2026), Dubrovnik, Croatia, May 10, 2026, volume 4245 of CEUR Workshop Proceedings, pages 8–20. CEUR-WS.org, 2026 [📄](/papers/2026-05-kgc.pdf)
 
 1. Ademar Crotti Junior and **Christophe Debruyne**. A protocol for KG construction tasks involving users. In David Chaves-Fraga, Ioannis Dasoulas, Christophe Debruyne, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended SemanticWeb Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025 [📄](papers/2025-06-kgc-protocol.pdf)
 
