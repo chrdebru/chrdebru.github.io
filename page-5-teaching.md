@@ -69,6 +69,10 @@ For MSc, MEng, BSc, and BEng theses, I include only details from the past five y
 ### MSc Thesis Supervision (past 5 years)
 
 1. **Mangolopa, Christal**. _TBD_. MEng Thesis, Université de Liège, 2027 (expected)
+1. **Ol, Phearun**. Design and Evaluation of a Virtual Knowledge Graph for Research Management at ITC. MSc Thesis, Institute of Technology of Cambodia, 2026
+   > In co-supervision with Prof. Dona Valy and Prof. Sotheany Nou
+   
+   > Resulted in a peer-reviewed publication
 1. **Yang, Lei**. The Role of Small Language Models in Web Table Interpretation. MSc Thesis, Université de Liège, 2026
 1. **Donati, Alexia**. An Interactive Environment for Relational Algebra Exercises. MSc Thesis, Université de Liège, 2026
 1. **Michaux, Corentin**. A Functional Approach to Generating RDF with RML. MSc Thesis, Université de Liège, 2026
@@ -93,4 +97,5 @@ For MSc, MEng, BSc, and BEng theses, I include only details from the past five y
    > Company-based thesis
 1. **Vrijens, Guillaume**. Knowledge Graph Construction to Facilitate Chemical Compound Hazard Assessment in the TOXIN Project, MEng Thesis, Université de Liège, 2023
    > Company-based thesis
+
    > Resulted in a peer-reviewed publication
