@@ -68,7 +68,11 @@ For MSc, MEng, BSc, and BEng theses, I include only details from the past five y
 
 ### MSc Thesis Supervision (past 5 years)
 
+1. **Dosquet, Pierre**. _TBD_. MSc Thesis, Université de Liège, 2027 (expected)
+1. **Eichten, Luka**. _TBD_. MSc Thesis, Université de Liège, 2027 (expected)
+1. **Ferraro, Federico**. _TBD_. MEng Thesis, Université de Liège, 2027 (expected)
 1. **Mangolopa, Christal**. _TBD_. MEng Thesis, Université de Liège, 2027 (expected)
+
 1. **Ol, Phearun**. Design and Evaluation of a Virtual Knowledge Graph for Research Management at ITC. MSc Thesis, Institute of Technology of Cambodia, 2026
    > In co-supervision with Prof. Dona Valy and Prof. Sotheany Nou <br/>
    > Resulted in a peer-reviewed publication
