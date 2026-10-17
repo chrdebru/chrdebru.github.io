@@ -103,8 +103,10 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 ## Conference Papers
 
 1. Eléna Liu, Jakub Duchateau, and **Christophe Debruyne**. Declaratively populating wikibases with WBML. In Cogan Shimizu, Annette ten Teije, Heiko Paulheim, Marta Sabou, Tassilo Pellegrini, Giray Havur, Blerina Spahiu, Sahar Vahdati, and Angelo A. Salatino, editors, Bridging the Gap Between Curated and Induced Semantics - Proceedings of the 22nd International Conference on Semantic Systems, SEMANTiCS 2026, 15-17 September 2026, Ghent, Belgium, volume 63 of Studies on the Semantic Web, pages 53–69. IOS Press, 2026 [📄](/papers/2026-09-semantics-preprint.pdf)
-    > Accepted at SEMANTiCS 2026
     > Won Best ORKG Comparison
+
+1. Deperias Kerre and **Christophe Debruyne**. Are the provided keywords on open data portals semantically complete and relevant? An exploratory study. In 3rd NeXt-generation Data Governance Workshop (NXDG 2026), co-located with the 22nd International Conference on Semantic Systems (SEMANTiCS 2026), Ghent, Belgium, September 15, 2026. [📄](/papers/2026-09-nxdg-preprint.pdf)
+    > Accepted at NXDG 2026
 
 1. Davan Chiem Dao and **Christophe Debruyne**. From RDF graph validation to RDF dataset validation with SHACL-DS. In Maribel Acosta, Marieke van Erp, Sebastian Rudolph, Olaf Hartig, Blerina Spahiu, Anisa Rula, Daniel Garijo, and Francesco Osborne, editors, The Semantic Web - 23rd European Semantic Web Conference, ESWC 2026, Dubrovnik, Croatia, May 10-14, 2026, Proceedings, Part I, Lecture Notes in Computer Science, pages 217–233. Springer, 2026 [📄](/papers/2026-05-eswc.pdf)
 
