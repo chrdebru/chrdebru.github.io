@@ -102,7 +102,7 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 ## Conference Papers
 
-1. Éléna Liu, Jakub Duchateau, and **Christophe Debruyne**. Declaratively Populating Wikibases with WBML. [📄](/papers/2026-09-semantics-preprint.pdf)
+1. Eléna Liu, Jakub Duchateau, and **Christophe Debruyne**. Declaratively populating wikibases with WBML. In Cogan Shimizu, Annette ten Teije, Heiko Paulheim, Marta Sabou, Tassilo Pellegrini, Giray Havur, Blerina Spahiu, Sahar Vahdati, and Angelo A. Salatino, editors, Bridging the Gap Between Curated and Induced Semantics - Proceedings of the 22nd International Conference on Semantic Systems, SEMANTiCS 2026, 15-17 September 2026, Ghent, Belgium, volume 63 of Studies on the Semantic Web, pages 53–69. IOS Press, 2026 [📄](/papers/2026-09-semantics-preprint.pdf)
     > Accepted at SEMANTiCS 2026
     > Won Best ORKG Comparison
 
@@ -142,7 +142,7 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 1. Kris McGlinn, **Christophe Debruyne**, Lorraine McNerney, and Declan O'Sullivan. Integrating Ireland's geospatial information to provide authoritative building information models. In SEMANTICS, pages 57-64. ACM, 2017 [📄](/papers/2017-semantics-preprint.pdf)
 
-1. **Christophe Debruyne**, Lucy McKenna, and Declan O'Sullivan. Extending R2RML with support for RDF collections and containers to generate MADS-RDF datasets. In Research and Advanced Technology for Digital Libraries - 21st International Conference on Theory and Practice of Digital Libraries, TPDL 2017, Thessaloniki, Greece, September 18- 21, 2017, Proceedings, volume 10450 of LNCS, pages 531-536. Springer, 2017 [📄](/papers/2017-tpdl-preprint.pdf)
+1. **Christophe Debruyne**, Lucy McKenna, and Declan O'Sullivan. Extending R2RML with support for RDF collections and containers to generate MADS-RDF datasets. In Research and Advanced Technology for Digital Libraries - 21st International Conference on Theory and Practice of Digital Libraries, TPDL 2017, Thessaloniki, Greece, September 18-21, 2017, Proceedings, volume 10450 of LNCS, pages 531-536. Springer, 2017 [📄](/papers/2017-tpdl-preprint.pdf)
 
 1. Olga De Troyer, Anas Helalouch, and **Christophe Debruyne**. Towards computer-supported self-debriefing of a serious game against cyber bullying. In Games and Learning Alliance - 5th International Conference, GALA 2016, Utrecht, The Netherlands, December 5-7, 2016, Proceedings, volume 10056 of LNCS, pages 374-384. Springer, 2016 [📄](/papers/2016-gala-preprint.pdf)
 
@@ -178,13 +178,13 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 1. Ademar Crotti Junior and **Christophe Debruyne**. A protocol for KG construction tasks involving users. In David Chaves-Fraga, Ioannis Dasoulas, Christophe Debruyne, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended SemanticWeb Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025 [📄](papers/2025-06-kgc-protocol.pdf)
 
-1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: guiding RML authoring with a projectional editor. In David Chaves- Fraga, Ioannis Dasoulas, Christophe Debruyne, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors, Proceed- ings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended Semantic Web Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025 [📄](papers/2025-06-kgc-grape.pdf)
+1. Jakub Duchateau and **Christophe Debruyne**. GRAPE: guiding RML authoring with a projectional editor. In David Chaves-Fraga, Ioannis Dasoulas, Christophe Debruyne, Anastasia Dimou, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 6th International Workshop on Knowledge Graph Construction co-located with 22nd Extended Semantic Web Conference (ESWC 2025), Portoroz, Slovenia, June 1, 2025, volume 3999 of CEUR Workshop Proceedings. CEUR-WS.org, 2025 [📄](papers/2025-06-kgc-grape.pdf)
 
 1. Dylan Van Assche and **Christophe Debruyne**. Burping through RML test cases. In David Chaves-Fraga, Anastasia Dimou, Ana Iglesias-Molina, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 5th International Workshop on Knowledge Graph Construction co-located with 21th Extended Semantic Web Conference (ESWC 2024), Hersonissos, Greece, May 27, 2024, volume 3718 of CEUR Workshop Proceedings. CEUR-WS.org, 2024 [📄](/papers/2024-kgc-1.pdf)
 
 1. **Christophe Debruyne** and Dylan Van Assche. The conformance of an RML processor built from scratch to validate RML specifications and test cases. In David Chaves-Fraga, Anastasia Dimou, Ana Iglesias-Molina, Umutcan Serles, and Dylan Van Assche, editors, Proceedings of the 5th International Workshop on Knowledge Graph Construction co-located with 21th Extended Semantic Web Conference (ESWC 2024), Hersonissos, Greece, May 27, 2024, volume 3718 of CEUR Workshop Proceedings. CEUR-WS.org, 2024  [📄](/papers/2024-kgc-2.pdf)
 
-1. **Christophe Debruyne**, Laura Grehan, Mairéad Hurley, Anne Kearns, Ciaran O'Neill. One year of DALIDA Data Literacy Workshops for Adults: a Report. In Companion of The Web Conference 2022, Virtual Event / Lyon, France, April 25 - 29, 2022, pages 403-407. ACM, 2022 [📄](/papers/2022-websci22-dl-accepted.pdf)
+1. **Christophe Debruyne**, Laura Grehan, Mairéad Hurley, Anne Kearns, Ciaran O'Neill. One year of DALIDA Data Literacy Workshops for Adults: a Report. In Companion of The Web Conference 2022, Virtual Event / Lyon, France, April 25-29, 2022, pages 403-407. ACM, 2022 [📄](/papers/2022-websci22-dl-accepted.pdf)
 
 1. **Christophe Debruyne**. Supporting relational database joins for generating literals in R2RML. In Proceedings of the 3rd International Workshop on Knowledge Graph Construction (KGCW 2022) co-located with 19th Extended Semantic Web Conference (ESWC 2022), Hersonissos, Greek, May 30, 2022, volume 3141 of CEUR Workshop Proceedings. CEUR-WS.org, 2022 [📄](/papers/2022-kgc.pdf)
 
@@ -272,7 +272,7 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 1. Davan Chiem Dao and **Christophe Debruyne**. Unveiling SHACL Security Issues: Data Leakage and Validation Bypass. In Joint Proceedings of Posters, Demos, Workshops, and Tutorials of the 20th International Conference on Semantic Systems co-located with 20th International Conference on Semantic Systems (SEMANTiCS 2024), Amsterdam, The Netherlands, September 17-19, 2024, volume 3759 of CEUR Workshop Proceedings. CEUR-WS.org, 2024 [📄](/papers/2024-semantics-paper16.pdf)
 
-1. **Christophe Debruyne**, Katy Fokou, and Paul Stijfhals. Do you need a knowledge graph? helping organi- zations determine whether a knowledge graph is needed for their problems with the smals KG checklist. In Joint Proceedings of the Semantics co-located events: Poster&Demo track and Workshop on Ontology-Driven Conceptual Modelling of Digital Twins co-located with Semantics 2021, Amsterdam and Online, September 6-9, 2021, volume 2941 of CEUR Workshop Proceedings. CEUR-WS.org, 2021 [📄](/papers/2021-semantics-preprint.pdf) [🖼️](/papers/2021-semantics-poster.pdf)
+1. **Christophe Debruyne**, Katy Fokou, and Paul Stijfhals. Do you need a knowledge graph? helping organizations determine whether a knowledge graph is needed for their problems with the smals KG checklist. In Joint Proceedings of the Semantics co-located events: Poster&Demo track and Workshop on Ontology-Driven Conceptual Modelling of Digital Twins co-located with Semantics 2021, Amsterdam and Online, September 6-9, 2021, volume 2941 of CEUR Workshop Proceedings. CEUR-WS.org, 2021 [📄](/papers/2021-semantics-preprint.pdf) [🖼️](/papers/2021-semantics-poster.pdf)
 
 1. **Christophe Debruyne** and Declan O'Sullivan. Visually exploring SPARQL endpoints with murmuration. In Proceedings of the EKAW 2020 Posters and Demonstrations Session, volume 2751 of CEUR Workshop Proceedings, pages 17-21. CEUR-WS.org, 2020 [📄](/papers/2020-ekaw-preprint.pdf) [📺](https://www.youtube.com/watch?v=17rYSCJGGVk)
 
@@ -280,9 +280,9 @@ Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
 
 1. Ademar Crotti Junior, **Christophe Debruyne**, and Declan O'Sullivan. An editor that uses a block metaphor for representing semantic mappings in linked data. In The Semantic Web: ESWC 2018 Satellite Events - ESWC 2018 Satellite Events, Heraklion, Crete, Greece, June 3-7, 2018, Revised Selected Papers, volume 11155 of LNCS, pages 28-33. Springer, 2018 [📄](/papers/2018-eswc-preprint.pdf)
 
-1. Kris McGlinn, **Christophe Debruyne**, Lorraine McNerney, and Declan O'Sullivan. Integrating building information models with authoritative irish geospatial information. In Proceedings of the ISWC 2017 Posters & Demonstrations and Industry Tracks co-located with 16th International Semantic Web Conference (ISWC 2017), Vienna, Austria, October 23rd - to - 25th, 2017, volume 1963 of CEUR Workshop Proceedings. CEUR-WS.org, 2017 [📄](/papers/2017-iswc-poster-preprint.pdf)
+1. Kris McGlinn, **Christophe Debruyne**, Lorraine McNerney, and Declan O'Sullivan. Integrating building information models with authoritative irish geospatial information. In Proceedings of the ISWC 2017 Posters & Demonstrations and Industry Tracks co-located with 16th International Semantic Web Conference (ISWC 2017), Vienna, Austria, October 23rd - 25th, 2017, volume 1963 of CEUR Workshop Proceedings. CEUR-WS.org, 2017 [📄](/papers/2017-iswc-poster-preprint.pdf)
 
-1. Lucy McKenna, Marta Bustillo, Tim Keefe, **Christophe Debruyne**, and Declan O'Sullivan. Development of an RDF-Enabled Cataloguing Tool. In Research and Advanced Technology for Digital Libraries - 21st International Conference on Theory and Practice of Digital Libraries, TPDL 2017, Thessaloniki, Greece, September 18- 21, 2017, Proceedings, volume 10450 of LNCS, pages 612-615. Springer, 2017 [📄](/papers/2017-tpdl-lucy-preprint.pdf) [🖼️](/papers/2017-tpdl-lucy-poster.pdf)
+1. Lucy McKenna, Marta Bustillo, Tim Keefe, **Christophe Debruyne**, and Declan O'Sullivan. Development of an RDF-Enabled Cataloguing Tool. In Research and Advanced Technology for Digital Libraries - 21st International Conference on Theory and Practice of Digital Libraries, TPDL 2017, Thessaloniki, Greece, September 18-21, 2017, Proceedings, volume 10450 of LNCS, pages 612-615. Springer, 2017 [📄](/papers/2017-tpdl-lucy-preprint.pdf) [🖼️](/papers/2017-tpdl-lucy-poster.pdf)
 
 1. Ademar Crotti Junior, **Christophe Debruyne**, and Declan O'Sullivan. Juma: An editor that uses a block metaphor to facilitate the creation and editing of R2RML mappings. In ESWC (Satellite Events), volume 10577 of LNCS, pages 87-92. Springer, 2017 [📄](/papers/2017-eswc-preprint.pdf)
 
