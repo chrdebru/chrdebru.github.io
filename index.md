@@ -88,6 +88,7 @@ Open Semantic Cloud for Brussels (OSCB, 2011-2014): INNOViris Call for Strategic
 
 * 1st International Workshop on Knowledge Graphs for Health (KG4Health)
 * 25th International Semantic Web Conference (ISWC) 2026--Research Track, Poster & Demo Track
+* 32nd International Conference on Cooperative Information Systems (CoopIS) 2026
 * 22nd International Conference on Semantic Systems (SEMANTiCS) 2026, Research, Posters and Demos Track
 * 23rd Extended Semantic Web Conference (ESWC) 2026--Resources Track, In-Use Track
 * 31st International Conference on Cooperative Information Systems (CoopIS) 2025
