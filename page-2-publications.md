@@ -61,9 +61,10 @@ You can find my publications on [Google Scholar](https://scholar.google.com/cita
 > Presented in 2012, published in 2013.
 
 ## Journal Articles
+1. Phearun Ol, **Christophe Debruyne**, Dona Valy, Sotheany Nou. Evaluating a Virtual Knowledge Graph for Federating Research Information Systems at the Institute of Technology of Cambodia. Techno-Science Research Journal. [📄](/papers/2026-10-techno-srj-preprint.pdf)
+> Accepted for publication
 
-1. Sara Sepehri, Anja Heymans, Dinja De Win, Jan Maushagen, Audrey Sanctorum, **Christophe Debruyne**, Robim M. Rodrigues, Joery De Kock, Vera Rogiers, Olga De Troyer, and Tamara Vanhaecke. The TOXIN knowledge graph: supporting animal-free risk assessment of cosmetics. Database J. Biol. Databases Curation, 2025, 2025 [📄](/papers/2025-database.pdf)
-> Published online
+1. Sara Sepehri, Anja Heymans, Dinja De Win, Jan Maushagen, Audrey Sanctorum, **Christophe Debruyne**, Robim M. Rodrigues, Joery De Kock, Vera Rogiers, Olga De Troyer, and Tamara Vanhaecke. The TOXIN knowledge graph: supporting animal-free risk assessment of cosmetics. Database J. Biol. Databases Curation, 2025:baae121, 2025 [📄](/papers/2025-database.pdf)
 
 1. Allyson Fries, Marie Pirotte, Laurent Vanhee, Pierre Bonnet, Pascale Quatresooz, **Christophe Debruyne**, Raphael Marée, Valérie Defaweux. Validating Instructional Design and Predicting Student Performance in Histology Education: Using Machine Learning via Virtual Microscopy. Anatomical Sciences
 Education, 17(5):984-997, 2024 [📄](/papers/2024-ase-accepted.pdf)
