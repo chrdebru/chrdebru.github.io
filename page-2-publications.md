@@ -51,8 +51,10 @@ You can find my publications on [Google Scholar](https://scholar.google.com/cita
 
 1. Declan O'Sullivan, Rob Brennan, Kevin Feeney, Sandra Collins, Natalie Harrower, Peter Turchin, and **Christophe Debruyne**, editors. Proceedings 1st International Workshop on Computational History 2014, Dublin, Ireland, June 27th, 2014. 2014 (Available [here](https://web.archive.org/web/20140618162735/http://kdeg.scss.tcd.ie/1st-international-workshop-computational-history) and [📄](/papers/2014-iwch-proc.pdf))
 
-## Book Chapters
+## Editorial Service
+1. David Chaves-Fraga, **Christophe Debruyne**, Anastasia Dimou, and Maria-Esther Vidal. Editorial of special issue on knowledge graph construction. Semantic Web, 17(3), 2026 [📄](/papers/2026-05-sw-postprint.pdf)
 
+## Book Chapters
 1. Audrey Sanctorum, Jan Maushagen, Sara Sepehrni, Guillaume Vrijens, Joery de Kock, Tamara Vanhaecke, Olga De Troyer and **Christophe Debruyne**. Knowledge Management in the Context of Toxicity Testing. In F. P. Garcia Marquez and R. V. Sanchez Loja, editors, From Theory of Knowledge Management to Practice. IntechOpen, Rijeka, 2023 [📄](/papers/2023-intech-submitted.pdf)
 
 1. Harshvardhan J. Pandit, **Christophe Debruyne**, Declan O'Sullivan, and Dave Lewis. Standardisation, Data interoperability, and GDPR. In K. Jakobs, editor, Shaping the Future Through Standardization, chapter 8, pages 199-225. IGI Global, Hershey, PA, USA, 2020 [📄](/papers/2020-chapter-preprint.pdf)
