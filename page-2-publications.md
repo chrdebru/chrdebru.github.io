@@ -6,6 +6,7 @@ permalink: /publications/
 You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=nx2KW_IAAAAJ), [ORBi](https://orbi.uliege.be/profile?uid=p241885), and [ORCID](https://orcid.org/0000-0003-4734-3847).
 
 * [Edited Proceedings](#edited-proceedings)
+* [Editorial Service](#editorial-service)
 * [Book Chapters](#book-chapters)
 * [Journal Articles](#journal-articles)
 * [Conference Papers](#conference-papers)
