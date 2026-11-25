@@ -18,8 +18,6 @@ Key to our research are:
 
 ## Team
 
-> 📣 If you are a talented MSc, MEng, or PhD student with a strong interest in knowledge graphs, data integration, and data engineering, then do not hesitate to contact to explore international, national and regional funding opportunities.
-
 ### PhD Students
 
 [Liu, Élena](https://www.uliege.be/cms/c_9054334/fr/repertoire?uid=u249925) | PhD Student | (07/2026-present)
